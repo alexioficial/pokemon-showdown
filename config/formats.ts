@@ -31,27 +31,32 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		debug: true,
 		// battle: { trunc: Math.trunc },
 		ruleset: ['Team Preview', 'Cancel Mod', 'Max Team Size = 6', 'Max Move Count = 4', 'Max Level = 100', 'Default Level = 100'],
-		// onBegin() {
-		// 	const p2 = this.sides[1];
-		// 	// @ts-ignore
-		// 	const Teams = require('../sim/teams').Teams;
-		// 	// @ts-ignore
-		// 	const Pokemon = require('../sim/pokemon').Pokemon;
+		onBegin() {
+			const p2 = this.sides[1];
+			// @ts-ignore
+			const Teams = require('../sim/teams').Teams;
+			// @ts-ignore
+			const Pokemon = require('../sim/pokemon').Pokemon;
 
-		// 	// Generate random team for P2
-		// 	const generator = Teams.getGenerator('gen9randombattle', this.prngSeed);
-		// 	const newTeam = generator.getTeam();
+			// Generate random team for P2
+			const generator = Teams.getGenerator('gen9randombattle', this.prng.seed);
+			const newTeam = generator.getTeam();
 
-		// 	p2.pokemon = [];
-		// 	for (let i = 0; i < newTeam.length; i++) {
-		// 		const pokemon = new Pokemon(newTeam[i], p2);
-		// 		pokemon.position = i;
-		// 		p2.pokemon.push(pokemon);
-		// 	}
-		// 	p2.pokemonLeft = p2.pokemon.length;
-		// 	p2.team = newTeam;
-		// 	this.add('message', `${p2.name}'s team was randomized!`);
-		// },
+			p2.pokemon = [];
+			for (let i = 0; i < newTeam.length; i++) {
+				const pokemon = new Pokemon(newTeam[i], p2);
+				pokemon.position = i;
+				p2.pokemon.push(pokemon);
+			}
+			p2.pokemonLeft = p2.pokemon.length;
+			p2.team = newTeam;
+			this.add('message', `${p2.name}'s team was randomized!`);
+		},
+		onValidateSet(set) {
+			// Force the validator to accept custom Pokemon
+			const species = this.dex.species.get(set.species);
+			if (species.exists) return null;
+		},
 	},
 
 	// S/V Singles
