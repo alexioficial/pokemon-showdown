@@ -53,4 +53,82 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 			},
 		}
 	},
+
+	unlimitedvoid: {
+		num: 901,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: 'Unlimited Void',
+		pp: 5,
+		priority: 4,
+		flags: { metronome: 1 },
+		weather: 'unlimitedvoid',
+		secondary: null,
+		target: "all",
+		type: "Dark",
+	},
+
+	// === MOVIMIENTOS DE GOJO ===
+	// Blue - Psíquico - Poder 100 - Baja 1 nivel de Defensa Especial
+	blue: {
+		num: 902,
+		accuracy: 100,
+		basePower: 100,
+		category: "Special",
+		name: "Blue",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1 },
+		secondary: {
+			chance: 100,
+			boosts: {
+				spd: -1,
+			},
+		},
+		target: "normal",
+		type: "Psychic",
+	},
+
+	// Red - Psíquico - Poder 110 - Baja 1 nivel de Defensa
+	red: {
+		num: 903,
+		accuracy: 100,
+		basePower: 110,
+		category: "Special",
+		name: "Red",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1 },
+		secondary: {
+			chance: 100,
+			boosts: {
+				def: -1,
+			},
+		},
+		target: "normal",
+		type: "Psychic",
+	},
+
+	// Hollow Purple - Hada - Poder 130 - +30% si se usó Blue o Red antes
+	hollowpurple: {
+		num: 904,
+		accuracy: 100,
+		basePower: 130,
+		category: "Special",
+		name: "Hollow Purple",
+		pp: 5,
+		priority: 0,
+		flags: { protect: 1, mirror: 1 },
+		onBasePower(basePower, pokemon) {
+			// Si el último movimiento usado fue Blue o Red, aumenta el poder en 30%
+			if (pokemon.lastMove?.id === 'blue' || pokemon.lastMove?.id === 'red') {
+				this.debug('Hollow Purple boost from Blue/Red');
+				return this.chainModify(1.3);
+			}
+		},
+		secondary: null,
+		target: "normal",
+		type: "Fairy",
+	},
 };
