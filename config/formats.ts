@@ -18,6 +18,41 @@ The column value will be ignored for repeat sections.
 */
 
 export const Formats: import('../sim/dex-formats').FormatList = [
+	// Mios
+	///////////////////////////////////////////////////////////////////
+
+	{
+		section: "Mios",
+	},
+	{
+		name: "[Gen 9] Experimentos",
+		desc: `Weno, aqui hago mis experimentos`,
+		mod: 'experimentos',
+		debug: true,
+		// battle: { trunc: Math.trunc },
+		ruleset: ['Team Preview', 'Cancel Mod', 'Max Team Size = 6', 'Max Move Count = 4', 'Max Level = 100', 'Default Level = 100'],
+		// onBegin() {
+		// 	const p2 = this.sides[1];
+		// 	// @ts-ignore
+		// 	const Teams = require('../sim/teams').Teams;
+		// 	// @ts-ignore
+		// 	const Pokemon = require('../sim/pokemon').Pokemon;
+
+		// 	// Generate random team for P2
+		// 	const generator = Teams.getGenerator('gen9randombattle', this.prngSeed);
+		// 	const newTeam = generator.getTeam();
+
+		// 	p2.pokemon = [];
+		// 	for (let i = 0; i < newTeam.length; i++) {
+		// 		const pokemon = new Pokemon(newTeam[i], p2);
+		// 		pokemon.position = i;
+		// 		p2.pokemon.push(pokemon);
+		// 	}
+		// 	p2.pokemonLeft = p2.pokemon.length;
+		// 	p2.team = newTeam;
+		// 	this.add('message', `${p2.name}'s team was randomized!`);
+		// },
+	},
 
 	// S/V Singles
 	///////////////////////////////////////////////////////////////////
@@ -1426,7 +1461,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		onValidateTeam(team, f, teamHas) {
 			if (this.ruleTable.has('abilityclause')) {
 				const abilityTable = new this.dex.Multiset<string>();
-				const base: { [k: string]: string } = {
+				const base: { [k: string]: string; } = {
 					airlock: 'cloudnine',
 					armortail: 'queenlymajesty',
 					battlearmor: 'shellarmor',
@@ -1821,8 +1856,8 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 				move.flags['protect'] = 1;
 				move.category = species.baseStats['spa'] > species.baseStats['atk'] ? 'Special' :
 					species.baseStats['spa'] < species.baseStats['atk'] ? 'Physical' :
-					pokemon.getStat('atk', false, true) > pokemon.getStat('spa', false, true) ? 'Physical' :
-					'Special';
+						pokemon.getStat('atk', false, true) > pokemon.getStat('spa', false, true) ? 'Physical' :
+							'Special';
 				move.onAfterHit = function (t, s, m) {
 					if (s.getAbility().name === species.abilities['0']) return;
 					const effect = 'ability:' + this.toID(species.abilities['0']);

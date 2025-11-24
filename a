@@ -1,0 +1,36 @@
+workup: {
+		num: 526,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Work Up",
+		pp: 30,
+		priority: 6,
+		flags: { snatch: 1, metronome: 1 },
+		self: {
+            boosts: {
+				atk: 4,
+                spa: 4,
+                spd: 4,
+                def: 4,
+                spe: 4,
+				accuracy: 3,
+				evasion: 3
+            },
+        },
+        secondary: {
+            chance: 100,
+            boosts: {
+				atk: -4,
+                spa: -4,
+                spd: -4,
+                def: -4,
+                spe: -4,
+				accuracy: -3,
+				evasion: -3
+            },
+        },
+		target: "normal",
+		type: "Water",
+		contestType: "Tough",
+	},

@@ -122,15 +122,15 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			worryseed: ["9L30", "8L30", "7T", "7L31", "6T", "6L31", "5T", "5L31", "4T", "4L31"],
 		},
 		eventData: [
-			{generation: 3, level: 70, moves: ["sweetscent", "growth", "solarbeam", "synthesis"], pokeball: "pokeball"},
-			{generation: 3, level: 10, gender: "M", moves: ["tackle", "growl", "leechseed", "vinewhip"], pokeball: "pokeball"},
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["tackle", "growl", "leechseed", "vinewhip"]},
-			{generation: 5, level: 1, shiny: 1, ivs: {def: 31}, moves: ["falseswipe", "block", "frenzyplant", "weatherball"], pokeball: "pokeball"},
-			{generation: 6, level: 5, moves: ["growl", "leechseed", "vinewhip", "poisonpowder"], pokeball: "cherishball"},
-			{generation: 6, level: 5, isHidden: true, moves: ["tackle", "growl", "celebrate"], pokeball: "cherishball"},
+			{ generation: 3, level: 70, moves: ["sweetscent", "growth", "solarbeam", "synthesis"], pokeball: "pokeball" },
+			{ generation: 3, level: 10, gender: "M", moves: ["tackle", "growl", "leechseed", "vinewhip"], pokeball: "pokeball" },
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["tackle", "growl", "leechseed", "vinewhip"] },
+			{ generation: 5, level: 1, shiny: 1, ivs: { def: 31 }, moves: ["falseswipe", "block", "frenzyplant", "weatherball"], pokeball: "pokeball" },
+			{ generation: 6, level: 5, moves: ["growl", "leechseed", "vinewhip", "poisonpowder"], pokeball: "cherishball" },
+			{ generation: 6, level: 5, isHidden: true, moves: ["tackle", "growl", "celebrate"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 1, level: 5},
+			{ generation: 1, level: 5 },
 		],
 	},
 	ivysaur: {
@@ -317,7 +317,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			worryseed: ["9L44", "8L44", "7T", "7L39", "6T", "6L39", "5T", "5L39", "4T", "4L39"],
 		},
 		eventData: [
-			{generation: 6, level: 100, isHidden: true, moves: ["solarbeam", "frenzyplant", "synthesis", "grasspledge"], pokeball: "cherishball"},
+			{ generation: 6, level: 100, isHidden: true, moves: ["solarbeam", "frenzyplant", "synthesis", "grasspledge"], pokeball: "cherishball" },
 		],
 	},
 	charmander: {
@@ -434,18 +434,18 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", moves: ["scratch", "growl", "ember"], pokeball: "pokeball"},
-			{generation: 4, level: 40, gender: "M", nature: "Mild", moves: ["return", "hiddenpower", "quickattack", "howl"], pokeball: "cherishball"},
-			{generation: 4, level: 40, gender: "M", nature: "Naive", moves: ["return", "hiddenpower", "quickattack", "howl"], pokeball: "cherishball"},
-			{generation: 4, level: 40, gender: "M", nature: "Naughty", moves: ["return", "hiddenpower", "quickattack", "howl"], pokeball: "cherishball"},
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["scratch", "growl", "ember", "smokescreen"]},
-			{generation: 4, level: 40, gender: "M", nature: "Hardy", moves: ["return", "hiddenpower", "quickattack", "howl"], pokeball: "cherishball"},
-			{generation: 5, level: 1, shiny: 1, ivs: {spe: 31}, moves: ["falseswipe", "block", "blastburn", "acrobatics"], pokeball: "pokeball"},
-			{generation: 6, level: 5, moves: ["growl", "ember", "smokescreen", "dragonrage"], pokeball: "cherishball"},
-			{generation: 6, level: 5, isHidden: true, moves: ["scratch", "growl", "celebrate"], pokeball: "cherishball"},
+			{ generation: 3, level: 10, gender: "M", moves: ["scratch", "growl", "ember"], pokeball: "pokeball" },
+			{ generation: 4, level: 40, gender: "M", nature: "Mild", moves: ["return", "hiddenpower", "quickattack", "howl"], pokeball: "cherishball" },
+			{ generation: 4, level: 40, gender: "M", nature: "Naive", moves: ["return", "hiddenpower", "quickattack", "howl"], pokeball: "cherishball" },
+			{ generation: 4, level: 40, gender: "M", nature: "Naughty", moves: ["return", "hiddenpower", "quickattack", "howl"], pokeball: "cherishball" },
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["scratch", "growl", "ember", "smokescreen"] },
+			{ generation: 4, level: 40, gender: "M", nature: "Hardy", moves: ["return", "hiddenpower", "quickattack", "howl"], pokeball: "cherishball" },
+			{ generation: 5, level: 1, shiny: 1, ivs: { spe: 31 }, moves: ["falseswipe", "block", "blastburn", "acrobatics"], pokeball: "pokeball" },
+			{ generation: 6, level: 5, moves: ["growl", "ember", "smokescreen", "dragonrage"], pokeball: "cherishball" },
+			{ generation: 6, level: 5, isHidden: true, moves: ["scratch", "growl", "celebrate"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 1, level: 5},
+			{ generation: 1, level: 5 },
 		],
 	},
 	charmeleon: {
@@ -684,18 +684,18 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M"],
 		},
 		eventData: [
-			{generation: 3, level: 70, moves: ["wingattack", "slash", "dragonrage", "firespin"], pokeball: "pokeball"},
-			{generation: 6, level: 36, gender: "M", moves: ["firefang", "flameburst", "airslash", "inferno"], pokeball: "cherishball"},
-			{generation: 6, level: 36, gender: "M", moves: ["firefang", "airslash", "dragonclaw", "dragonrage"], pokeball: "cherishball"},
-			{generation: 6, level: 36, shiny: true, gender: "M", moves: ["overheat", "solarbeam", "focusblast", "holdhands"], pokeball: "cherishball"},
-			{generation: 6, level: 100, isHidden: true, moves: ["flareblitz", "blastburn", "scaryface", "firepledge"], pokeball: "cherishball"},
-			{generation: 6, level: 36, gender: "M", nature: "Serious", moves: ["flamethrower", "ember", "firespin", "flameburst"], pokeball: "cherishball"},
-			{generation: 7, level: 40, nature: "Jolly", moves: ["dragonclaw", "dragonrage", "fly", "flareblitz"], pokeball: "cherishball"},
-			{generation: 7, level: 40, gender: "M", nature: "Jolly", moves: ["flareblitz", "dragonclaw", "fly", "dragonrage"], pokeball: "cherishball"},
-			{generation: 7, level: 40, gender: "M", nature: "Adamant", moves: ["flamethrower", "dragonrage", "slash", "seismictoss"], pokeball: "pokeball"},
-			{generation: 7, level: 50, moves: ["dragondance", "flareblitz", "fly", "earthquake"], pokeball: "cherishball"},
-			{generation: 8, level: 50, gender: "M", nature: "Adamant", moves: ["flamethrower", "dragontail", "slash", "seismictoss"], pokeball: "pokeball"},
-			{generation: 9, level: 50, nature: "Adamant", ivs: {hp: 20, atk: 31, def: 20, spa: 20, spd: 20, spe: 31}, moves: ["crunch", "flareblitz", "acrobatics", "bellydrum"], pokeball: "pokeball"},
+			{ generation: 3, level: 70, moves: ["wingattack", "slash", "dragonrage", "firespin"], pokeball: "pokeball" },
+			{ generation: 6, level: 36, gender: "M", moves: ["firefang", "flameburst", "airslash", "inferno"], pokeball: "cherishball" },
+			{ generation: 6, level: 36, gender: "M", moves: ["firefang", "airslash", "dragonclaw", "dragonrage"], pokeball: "cherishball" },
+			{ generation: 6, level: 36, shiny: true, gender: "M", moves: ["overheat", "solarbeam", "focusblast", "holdhands"], pokeball: "cherishball" },
+			{ generation: 6, level: 100, isHidden: true, moves: ["flareblitz", "blastburn", "scaryface", "firepledge"], pokeball: "cherishball" },
+			{ generation: 6, level: 36, gender: "M", nature: "Serious", moves: ["flamethrower", "ember", "firespin", "flameburst"], pokeball: "cherishball" },
+			{ generation: 7, level: 40, nature: "Jolly", moves: ["dragonclaw", "dragonrage", "fly", "flareblitz"], pokeball: "cherishball" },
+			{ generation: 7, level: 40, gender: "M", nature: "Jolly", moves: ["flareblitz", "dragonclaw", "fly", "dragonrage"], pokeball: "cherishball" },
+			{ generation: 7, level: 40, gender: "M", nature: "Adamant", moves: ["flamethrower", "dragonrage", "slash", "seismictoss"], pokeball: "pokeball" },
+			{ generation: 7, level: 50, moves: ["dragondance", "flareblitz", "fly", "earthquake"], pokeball: "cherishball" },
+			{ generation: 8, level: 50, gender: "M", nature: "Adamant", moves: ["flamethrower", "dragontail", "slash", "seismictoss"], pokeball: "pokeball" },
+			{ generation: 9, level: 50, nature: "Adamant", ivs: { hp: 20, atk: 31, def: 20, spa: 20, spd: 20, spe: 31 }, moves: ["crunch", "flareblitz", "acrobatics", "bellydrum"], pokeball: "pokeball" },
 		],
 	},
 	squirtle: {
@@ -811,14 +811,14 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", moves: ["tackle", "tailwhip", "bubble", "withdraw"], pokeball: "pokeball"},
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["tackle", "tailwhip", "bubble", "withdraw"]},
-			{generation: 5, level: 1, shiny: 1, ivs: {hp: 31}, moves: ["falseswipe", "block", "hydrocannon", "followme"], pokeball: "pokeball"},
-			{generation: 6, level: 5, moves: ["tailwhip", "watergun", "withdraw", "bubble"], pokeball: "cherishball"},
-			{generation: 6, level: 5, isHidden: true, moves: ["tackle", "tailwhip", "celebrate"], pokeball: "cherishball"},
+			{ generation: 3, level: 10, gender: "M", moves: ["tackle", "tailwhip", "bubble", "withdraw"], pokeball: "pokeball" },
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["tackle", "tailwhip", "bubble", "withdraw"] },
+			{ generation: 5, level: 1, shiny: 1, ivs: { hp: 31 }, moves: ["falseswipe", "block", "hydrocannon", "followme"], pokeball: "pokeball" },
+			{ generation: 6, level: 5, moves: ["tailwhip", "watergun", "withdraw", "bubble"], pokeball: "cherishball" },
+			{ generation: 6, level: 5, isHidden: true, moves: ["tackle", "tailwhip", "celebrate"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 1, level: 5},
+			{ generation: 1, level: 5 },
 		],
 	},
 	wartortle: {
@@ -1034,8 +1034,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 70, moves: ["protect", "raindance", "skullbash", "hydropump"], pokeball: "pokeball"},
-			{generation: 6, level: 100, isHidden: true, moves: ["hydropump", "hydrocannon", "irondefense", "waterpledge"], pokeball: "cherishball"},
+			{ generation: 3, level: 70, moves: ["protect", "raindance", "skullbash", "hydropump"], pokeball: "pokeball" },
+			{ generation: 6, level: 100, isHidden: true, moves: ["hydropump", "hydrocannon", "irondefense", "waterpledge"], pokeball: "cherishball" },
 		],
 	},
 	caterpie: {
@@ -1047,9 +1047,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			tackle: ["8L1", "8V", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
 		},
 		encounters: [
-			{generation: 1, level: 3},
-			{generation: 2, level: 3},
-			{generation: 3, level: 3},
+			{ generation: 1, level: 3 },
+			{ generation: 2, level: 3 },
+			{ generation: 3, level: 3 },
 		],
 	},
 	metapod: {
@@ -1061,12 +1061,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			stringshot: ["4T"],
 		},
 		encounters: [
-			{generation: 1, level: 4},
-			{generation: 2, level: 4},
-			{generation: 3, level: 4},
-			{generation: 4, level: 3},
-			{generation: 6, level: 4},
-			{generation: 7, level: 3},
+			{ generation: 1, level: 4 },
+			{ generation: 2, level: 4 },
+			{ generation: 3, level: 4 },
+			{ generation: 4, level: 3 },
+			{ generation: 6, level: 4 },
+			{ generation: 7, level: 3 },
 		],
 	},
 	butterfree: {
@@ -1160,12 +1160,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlwind: ["8L20", "8V", "7L29", "7V", "6L22", "5L22", "4L22", "3L23"],
 		},
 		eventData: [
-			{generation: 3, level: 30, moves: ["morningsun", "psychic", "sleeppowder", "aerialace"]},
+			{ generation: 3, level: 30, moves: ["morningsun", "psychic", "sleeppowder", "aerialace"] },
 		],
 		encounters: [
-			{generation: 2, level: 7},
-			{generation: 4, level: 6},
-			{generation: 7, level: 9},
+			{ generation: 2, level: 7 },
+			{ generation: 4, level: 6 },
+			{ generation: 7, level: 9 },
 		],
 	},
 	weedle: {
@@ -1176,9 +1176,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			stringshot: ["8V", "7L1", "7V", "6L1", "5L1", "4T", "4L1", "3L1"],
 		},
 		encounters: [
-			{generation: 1, level: 3},
-			{generation: 2, level: 3},
-			{generation: 3, level: 3},
+			{ generation: 1, level: 3 },
+			{ generation: 2, level: 3 },
+			{ generation: 3, level: 3 },
 		],
 	},
 	kakuna: {
@@ -1190,12 +1190,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			stringshot: ["4T"],
 		},
 		encounters: [
-			{generation: 1, level: 4},
-			{generation: 2, level: 4},
-			{generation: 3, level: 4},
-			{generation: 4, level: 3},
-			{generation: 6, level: 4},
-			{generation: 7, level: 3},
+			{ generation: 1, level: 4 },
+			{ generation: 2, level: 4 },
+			{ generation: 3, level: 4 },
+			{ generation: 4, level: 3 },
+			{ generation: 6, level: 4 },
+			{ generation: 7, level: 3 },
 		],
 	},
 	beedrill: {
@@ -1283,11 +1283,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["8V", "7M", "6M", "5M", "4M"],
 		},
 		eventData: [
-			{generation: 3, level: 30, moves: ["batonpass", "sludgebomb", "twineedle", "swordsdance"]},
+			{ generation: 3, level: 30, moves: ["batonpass", "sludgebomb", "twineedle", "swordsdance"] },
 		],
 		encounters: [
-			{generation: 2, level: 7},
-			{generation: 4, level: 6},
+			{ generation: 2, level: 7 },
+			{ generation: 4, level: 6 },
 		],
 	},
 	pidgey: {
@@ -1358,9 +1358,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["7M", "5M"],
 		},
 		encounters: [
-			{generation: 1, level: 2},
-			{generation: 2, level: 2},
-			{generation: 3, level: 2},
+			{ generation: 1, level: 2 },
+			{ generation: 2, level: 2 },
+			{ generation: 3, level: 2 },
 		],
 	},
 	pidgeotto: {
@@ -1428,13 +1428,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["7M", "5M"],
 		},
 		eventData: [
-			{generation: 3, level: 30, abilities: ["keeneye"], moves: ["refresh", "wingattack", "steelwing", "featherdance"]},
+			{ generation: 3, level: 30, abilities: ["keeneye"], moves: ["refresh", "wingattack", "steelwing", "featherdance"] },
 		],
 		encounters: [
-			{generation: 1, level: 9},
-			{generation: 2, level: 7},
-			{generation: 3, level: 7},
-			{generation: 4, level: 7},
+			{ generation: 1, level: 9 },
+			{ generation: 2, level: 7 },
+			{ generation: 3, level: 7 },
+			{ generation: 4, level: 7 },
 		],
 	},
 	pidgeot: {
@@ -1504,10 +1504,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["7M", "5M"],
 		},
 		eventData: [
-			{generation: 5, level: 61, gender: "M", nature: "Naughty", ivs: {hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30}, abilities: ["keeneye"], moves: ["whirlwind", "wingattack", "skyattack", "mirrormove"], pokeball: "cherishball"},
+			{ generation: 5, level: 61, gender: "M", nature: "Naughty", ivs: { hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30 }, abilities: ["keeneye"], moves: ["whirlwind", "wingattack", "skyattack", "mirrormove"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 7, level: 29},
+			{ generation: 7, level: 29 },
 		],
 	},
 	rattata: {
@@ -1594,9 +1594,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["7T", "6T", "5T", "4T"],
 		},
 		encounters: [
-			{generation: 1, level: 2},
-			{generation: 2, level: 2},
-			{generation: 3, level: 2},
+			{ generation: 1, level: 2 },
+			{ generation: 2, level: 2 },
+			{ generation: 3, level: 2 },
 		],
 	},
 	rattataalola: {
@@ -1753,12 +1753,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 34, moves: ["refresh", "superfang", "scaryface", "hyperfang"]},
+			{ generation: 3, level: 34, moves: ["refresh", "superfang", "scaryface", "hyperfang"] },
 		],
 		encounters: [
-			{generation: 1, level: 15},
-			{generation: 2, level: 6},
-			{generation: 4, level: 13},
+			{ generation: 1, level: 15 },
+			{ generation: 2, level: 6 },
+			{ generation: 4, level: 13 },
 		],
 	},
 	raticatealola: {
@@ -1832,7 +1832,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["7T"],
 		},
 		encounters: [
-			{generation: 7, level: 17},
+			{ generation: 7, level: 17 },
 		],
 	},
 	raticatealolatotem: {
@@ -1902,7 +1902,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["7T"],
 		},
 		eventData: [
-			{generation: 7, level: 20, perfectIVs: 3, moves: ["bite", "pursuit", "hyperfang", "assurance"], pokeball: "pokeball"},
+			{ generation: 7, level: 20, perfectIVs: 3, moves: ["bite", "pursuit", "hyperfang", "assurance"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -1979,12 +1979,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["7M", "5M"],
 		},
 		eventData: [
-			{generation: 3, level: 22, moves: ["batonpass", "falseswipe", "leer", "aerialace"]},
+			{ generation: 3, level: 22, moves: ["batonpass", "falseswipe", "leer", "aerialace"] },
 		],
 		encounters: [
-			{generation: 1, level: 3},
-			{generation: 2, level: 2},
-			{generation: 3, level: 3},
+			{ generation: 1, level: 3 },
+			{ generation: 2, level: 2 },
+			{ generation: 3, level: 3 },
 		],
 	},
 	fearow: {
@@ -2059,9 +2059,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["7M", "5M"],
 		},
 		encounters: [
-			{generation: 1, level: 19},
-			{generation: 2, level: 7},
-			{generation: 4, level: 7},
+			{ generation: 1, level: 19 },
+			{ generation: 2, level: 7 },
+			{ generation: 4, level: 7 },
 		],
 	},
 	ekans: {
@@ -2163,12 +2163,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wrap: ["9L1", "8V", "7L1", "7V", "6L1", "5L1", "4L1", "3L1", "3S0", "3S1"],
 		},
 		eventData: [
-			{generation: 3, level: 14, gender: "F", nature: "Docile", ivs: {hp: 26, atk: 28, def: 6, spa: 14, spd: 30, spe: 11}, abilities: ["shedskin"], moves: ["leer", "wrap", "poisonsting", "bite"], pokeball: "pokeball"},
-			{generation: 3, level: 10, gender: "M", moves: ["wrap", "leer", "poisonsting"], pokeball: "pokeball"},
+			{ generation: 3, level: 14, gender: "F", nature: "Docile", ivs: { hp: 26, atk: 28, def: 6, spa: 14, spd: 30, spe: 11 }, abilities: ["shedskin"], moves: ["leer", "wrap", "poisonsting", "bite"], pokeball: "pokeball" },
+			{ generation: 3, level: 10, gender: "M", moves: ["wrap", "leer", "poisonsting"], pokeball: "pokeball" },
 		],
 		encounters: [
-			{generation: 1, level: 6},
-			{generation: 2, level: 4},
+			{ generation: 1, level: 6 },
+			{ generation: 2, level: 4 },
 		],
 	},
 	arbok: {
@@ -2275,11 +2275,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wrap: ["9L1", "8V", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
 		},
 		eventData: [
-			{generation: 3, level: 33, moves: ["refresh", "sludgebomb", "glare", "bite"]},
+			{ generation: 3, level: 33, moves: ["refresh", "sludgebomb", "glare", "bite"] },
 		],
 		encounters: [
-			{generation: 2, level: 10},
-			{generation: 4, level: 10},
+			{ generation: 2, level: 10 },
+			{ generation: 4, level: 10 },
 		],
 	},
 	pichu: {
@@ -2373,13 +2373,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: 1, moves: ["thundershock", "charm", "surf"], pokeball: "pokeball", emeraldEventEgg: true},
-			{generation: 3, level: 5, shiny: 1, moves: ["thundershock", "charm", "wish"], pokeball: "pokeball"},
-			{generation: 3, level: 5, shiny: 1, moves: ["thundershock", "charm", "teeterdance"], pokeball: "pokeball"},
-			{generation: 3, level: 5, shiny: 1, moves: ["thundershock", "charm", "followme"], pokeball: "pokeball", emeraldEventEgg: true},
-			{generation: 4, level: 1, moves: ["volttackle", "thunderbolt", "grassknot", "return"], pokeball: "pokeball"},
-			{generation: 4, level: 30, shiny: true, gender: "M", nature: "Jolly", moves: ["charge", "volttackle", "endeavor", "endure"], pokeball: "cherishball"},
-			{generation: 9, level: 30, shiny: true, gender: "M", nature: "Jolly", moves: ["charge", "volttackle", "endure", "helpinghand"], pokeball: "cherishball"},
+			{ generation: 3, level: 5, shiny: 1, moves: ["thundershock", "charm", "surf"], pokeball: "pokeball", emeraldEventEgg: true },
+			{ generation: 3, level: 5, shiny: 1, moves: ["thundershock", "charm", "wish"], pokeball: "pokeball" },
+			{ generation: 3, level: 5, shiny: 1, moves: ["thundershock", "charm", "teeterdance"], pokeball: "pokeball" },
+			{ generation: 3, level: 5, shiny: 1, moves: ["thundershock", "charm", "followme"], pokeball: "pokeball", emeraldEventEgg: true },
+			{ generation: 4, level: 1, moves: ["volttackle", "thunderbolt", "grassknot", "return"], pokeball: "pokeball" },
+			{ generation: 4, level: 30, shiny: true, gender: "M", nature: "Jolly", moves: ["charge", "volttackle", "endeavor", "endure"], pokeball: "cherishball" },
+			{ generation: 9, level: 30, shiny: true, gender: "M", nature: "Jolly", moves: ["charge", "volttackle", "endure", "helpinghand"], pokeball: "cherishball" },
 		],
 	},
 	pichuspikyeared: {
@@ -2429,7 +2429,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			volttackle: ["4S0"],
 		},
 		eventData: [
-			{generation: 4, level: 30, gender: "F", nature: "Naughty", moves: ["helpinghand", "volttackle", "swagger", "painsplit"], pokeball: "pokeball"},
+			{ generation: 4, level: 30, gender: "F", nature: "Naughty", moves: ["helpinghand", "volttackle", "swagger", "painsplit"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -2558,67 +2558,67 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		eventData: [
-			{generation: 3, level: 50, moves: ["thunderbolt", "agility", "thunder", "lightscreen"], pokeball: "pokeball"},
-			{generation: 3, level: 10, moves: ["thundershock", "growl", "tailwhip", "thunderwave"], pokeball: "pokeball"},
-			{generation: 3, level: 10, moves: ["fly", "tailwhip", "growl", "thunderwave"], pokeball: "pokeball"},
-			{generation: 3, level: 5, moves: ["surf", "growl", "tailwhip", "thunderwave"], pokeball: "pokeball"},
-			{generation: 3, level: 10, moves: ["fly", "growl", "tailwhip", "thunderwave"], pokeball: "pokeball"},
-			{generation: 3, level: 10, moves: ["thundershock", "growl", "thunderwave", "surf"], pokeball: "pokeball"},
-			{generation: 3, level: 70, moves: ["thunderbolt", "thunder", "lightscreen", "fly"], pokeball: "pokeball"},
-			{generation: 3, level: 70, moves: ["thunderbolt", "thunder", "lightscreen", "surf"], pokeball: "pokeball"},
-			{generation: 3, level: 70, moves: ["thunderbolt", "thunder", "lightscreen", "agility"], pokeball: "pokeball"},
-			{generation: 4, level: 10, gender: "F", nature: "Hardy", moves: ["surf", "volttackle", "tailwhip", "thunderwave"], pokeball: "pokeball"},
-			{generation: 3, level: 10, gender: "M", moves: ["thundershock", "growl", "tailwhip", "thunderwave"], pokeball: "pokeball"},
-			{generation: 4, level: 50, gender: "M", nature: "Hardy", moves: ["surf", "thunderbolt", "lightscreen", "quickattack"], pokeball: "cherishball"},
-			{generation: 4, level: 20, gender: "F", nature: "Bashful", moves: ["present", "quickattack", "thundershock", "tailwhip"], pokeball: "cherishball"},
-			{generation: 4, level: 20, gender: "M", nature: "Jolly", moves: ["grassknot", "thunderbolt", "flash", "doubleteam"], pokeball: "pokeball"},
-			{generation: 4, level: 40, gender: "M", nature: "Modest", moves: ["surf", "thunder", "protect"], pokeball: "cherishball"},
-			{generation: 4, level: 20, gender: "F", nature: "Bashful", moves: ["quickattack", "thundershock", "tailwhip", "present"], pokeball: "cherishball"},
-			{generation: 4, level: 40, gender: "M", nature: "Mild", moves: ["surf", "thunder", "protect"], pokeball: "cherishball"},
-			{generation: 4, level: 20, gender: "F", nature: "Bashful", moves: ["present", "quickattack", "thunderwave", "tailwhip"], pokeball: "cherishball"},
-			{generation: 4, level: 30, gender: "M", nature: "Naughty", moves: ["lastresort", "present", "thunderbolt", "quickattack"], pokeball: "cherishball"},
-			{generation: 4, level: 50, gender: "M", nature: "Relaxed", moves: ["rest", "sleeptalk", "yawn", "snore"], pokeball: "cherishball"},
-			{generation: 4, level: 20, gender: "M", nature: "Docile", moves: ["present", "quickattack", "thundershock", "tailwhip"], pokeball: "cherishball"},
-			{generation: 4, level: 50, gender: "M", nature: "Naughty", moves: ["volttackle", "irontail", "quickattack", "thunderbolt"], pokeball: "cherishball"},
-			{generation: 4, level: 20, gender: "M", nature: "Bashful", moves: ["present", "quickattack", "thundershock", "tailwhip"], pokeball: "cherishball"},
-			{generation: 5, level: 30, gender: "F", isHidden: true, moves: ["sing", "teeterdance", "encore", "electroball"], pokeball: "cherishball"},
-			{generation: 5, level: 50, moves: ["fly", "irontail", "electroball", "quickattack"], pokeball: "cherishball"},
-			{generation: 5, level: 100, shiny: 1, gender: "F", moves: ["thunder", "volttackle", "grassknot", "quickattack"], pokeball: "cherishball"},
-			{generation: 5, level: 50, shiny: 1, gender: "F", moves: ["extremespeed", "thunderbolt", "grassknot", "brickbreak"], pokeball: "cherishball"},
-			{generation: 5, level: 50, gender: "F", nature: "Timid", isHidden: true, moves: ["fly", "thunderbolt", "grassknot", "protect"], pokeball: "cherishball"},
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["thundershock", "tailwhip", "thunderwave", "headbutt"]},
-			{generation: 5, level: 100, gender: "M", isHidden: true, moves: ["volttackle", "quickattack", "feint", "voltswitch"], pokeball: "cherishball"},
-			{generation: 5, level: 50, gender: "M", nature: "Brave", moves: ["thunderbolt", "quickattack", "irontail", "electroball"], pokeball: "cherishball"},
-			{generation: 6, level: 10, moves: ["celebrate", "growl", "playnice", "quickattack"], pokeball: "cherishball"},
-			{generation: 6, level: 22, moves: ["quickattack", "electroball", "doubleteam", "megakick"], pokeball: "cherishball"},
-			{generation: 6, level: 10, moves: ["thunderbolt", "quickattack", "surf", "holdhands"], pokeball: "cherishball"},
-			{generation: 6, level: 10, gender: "F", moves: ["thunderbolt", "quickattack", "heartstamp", "holdhands"], pokeball: "healball"},
-			{generation: 6, level: 36, shiny: true, isHidden: true, moves: ["thunder", "substitute", "playnice", "holdhands"], pokeball: "cherishball"},
-			{generation: 6, level: 10, gender: "F", moves: ["playnice", "charm", "nuzzle", "sweetkiss"], pokeball: "cherishball"},
-			{generation: 6, level: 50, gender: "M", nature: "Naughty", moves: ["thunderbolt", "quickattack", "irontail", "electroball"], pokeball: "cherishball"},
-			{generation: 6, level: 10, shiny: true, moves: ["teeterdance", "playnice", "tailwhip", "nuzzle"], pokeball: "cherishball"},
-			{generation: 6, level: 10, perfectIVs: 2, isHidden: true, moves: ["fakeout", "encore", "volttackle", "endeavor"], pokeball: "cherishball"},
-			{generation: 6, level: 99, moves: ["happyhour", "playnice", "holdhands", "flash"], pokeball: "cherishball"},
-			{generation: 6, level: 10, moves: ["fly", "surf", "agility", "celebrate"], pokeball: "cherishball"},
-			{generation: 6, level: 10, moves: ["bestow", "holdhands", "return", "playnice"], pokeball: "healball"},
-			{generation: 7, level: 10, nature: "Jolly", moves: ["celebrate", "growl", "playnice", "quickattack"], pokeball: "cherishball"},
-			{generation: 7, level: 10, moves: ["bestow", "holdhands", "return", "playnice"], pokeball: "cherishball"},
-			{generation: 7, level: 10, moves: ["holdhands", "playnice", "teeterdance", "happyhour"], pokeball: "cherishball"},
-			{generation: 7, level: 10, moves: ["growl", "quickattack", "thundershock", "happyhour"], pokeball: "cherishball"},
-			{generation: 7, level: 40, shiny: 1, perfectIVs: 3, moves: ["nuzzle", "discharge", "slam", "surf"], pokeball: "pokeball"},
-			{generation: 7, level: 5, moves: ["celebrate", "sweetscent", "counter", "refresh"], pokeball: "cherishball"},
-			{generation: 7, level: 10, moves: ["fly", "surf", "thunderbolt", "quickattack"], pokeball: "cherishball"},
-			{generation: 8, level: 5, gender: "M", nature: "Serious", moves: ["celebrate", "playnice", "thundershock", "quickattack"], pokeball: "cherishball"},
-			{generation: 8, level: 21, gender: "M", nature: "Brave", moves: ["thunderbolt", "swift", "wish", "celebrate"], pokeball: "cherishball"},
-			{generation: 8, level: 25, isHidden: true, moves: ["sing", "encore", "celebrate", "electroball"], pokeball: "cherishball"},
-			{generation: 9, level: 5, moves: ["fly", "tailwhip", "thundershock", "quickattack"], pokeball: "pokeball"},
-			{generation: 9, level: 100, gender: "M", nature: "Quiet", perfectIVs: 6, isHidden: true, moves: ["thunder", "surf", "playrough", "irontail"], pokeball: "pokeball"},
-			{generation: 9, level: 25, gender: "M", ivs: {hp: 25, atk: 25, def: 25, spa: 25, spd: 25, spe: 25}, moves: ["celebrate", "playnice", "present", "thunderbolt"], pokeball: "cherishball"},
+			{ generation: 3, level: 50, moves: ["thunderbolt", "agility", "thunder", "lightscreen"], pokeball: "pokeball" },
+			{ generation: 3, level: 10, moves: ["thundershock", "growl", "tailwhip", "thunderwave"], pokeball: "pokeball" },
+			{ generation: 3, level: 10, moves: ["fly", "tailwhip", "growl", "thunderwave"], pokeball: "pokeball" },
+			{ generation: 3, level: 5, moves: ["surf", "growl", "tailwhip", "thunderwave"], pokeball: "pokeball" },
+			{ generation: 3, level: 10, moves: ["fly", "growl", "tailwhip", "thunderwave"], pokeball: "pokeball" },
+			{ generation: 3, level: 10, moves: ["thundershock", "growl", "thunderwave", "surf"], pokeball: "pokeball" },
+			{ generation: 3, level: 70, moves: ["thunderbolt", "thunder", "lightscreen", "fly"], pokeball: "pokeball" },
+			{ generation: 3, level: 70, moves: ["thunderbolt", "thunder", "lightscreen", "surf"], pokeball: "pokeball" },
+			{ generation: 3, level: 70, moves: ["thunderbolt", "thunder", "lightscreen", "agility"], pokeball: "pokeball" },
+			{ generation: 4, level: 10, gender: "F", nature: "Hardy", moves: ["surf", "volttackle", "tailwhip", "thunderwave"], pokeball: "pokeball" },
+			{ generation: 3, level: 10, gender: "M", moves: ["thundershock", "growl", "tailwhip", "thunderwave"], pokeball: "pokeball" },
+			{ generation: 4, level: 50, gender: "M", nature: "Hardy", moves: ["surf", "thunderbolt", "lightscreen", "quickattack"], pokeball: "cherishball" },
+			{ generation: 4, level: 20, gender: "F", nature: "Bashful", moves: ["present", "quickattack", "thundershock", "tailwhip"], pokeball: "cherishball" },
+			{ generation: 4, level: 20, gender: "M", nature: "Jolly", moves: ["grassknot", "thunderbolt", "flash", "doubleteam"], pokeball: "pokeball" },
+			{ generation: 4, level: 40, gender: "M", nature: "Modest", moves: ["surf", "thunder", "protect"], pokeball: "cherishball" },
+			{ generation: 4, level: 20, gender: "F", nature: "Bashful", moves: ["quickattack", "thundershock", "tailwhip", "present"], pokeball: "cherishball" },
+			{ generation: 4, level: 40, gender: "M", nature: "Mild", moves: ["surf", "thunder", "protect"], pokeball: "cherishball" },
+			{ generation: 4, level: 20, gender: "F", nature: "Bashful", moves: ["present", "quickattack", "thunderwave", "tailwhip"], pokeball: "cherishball" },
+			{ generation: 4, level: 30, gender: "M", nature: "Naughty", moves: ["lastresort", "present", "thunderbolt", "quickattack"], pokeball: "cherishball" },
+			{ generation: 4, level: 50, gender: "M", nature: "Relaxed", moves: ["rest", "sleeptalk", "yawn", "snore"], pokeball: "cherishball" },
+			{ generation: 4, level: 20, gender: "M", nature: "Docile", moves: ["present", "quickattack", "thundershock", "tailwhip"], pokeball: "cherishball" },
+			{ generation: 4, level: 50, gender: "M", nature: "Naughty", moves: ["volttackle", "irontail", "quickattack", "thunderbolt"], pokeball: "cherishball" },
+			{ generation: 4, level: 20, gender: "M", nature: "Bashful", moves: ["present", "quickattack", "thundershock", "tailwhip"], pokeball: "cherishball" },
+			{ generation: 5, level: 30, gender: "F", isHidden: true, moves: ["sing", "teeterdance", "encore", "electroball"], pokeball: "cherishball" },
+			{ generation: 5, level: 50, moves: ["fly", "irontail", "electroball", "quickattack"], pokeball: "cherishball" },
+			{ generation: 5, level: 100, shiny: 1, gender: "F", moves: ["thunder", "volttackle", "grassknot", "quickattack"], pokeball: "cherishball" },
+			{ generation: 5, level: 50, shiny: 1, gender: "F", moves: ["extremespeed", "thunderbolt", "grassknot", "brickbreak"], pokeball: "cherishball" },
+			{ generation: 5, level: 50, gender: "F", nature: "Timid", isHidden: true, moves: ["fly", "thunderbolt", "grassknot", "protect"], pokeball: "cherishball" },
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["thundershock", "tailwhip", "thunderwave", "headbutt"] },
+			{ generation: 5, level: 100, gender: "M", isHidden: true, moves: ["volttackle", "quickattack", "feint", "voltswitch"], pokeball: "cherishball" },
+			{ generation: 5, level: 50, gender: "M", nature: "Brave", moves: ["thunderbolt", "quickattack", "irontail", "electroball"], pokeball: "cherishball" },
+			{ generation: 6, level: 10, moves: ["celebrate", "growl", "playnice", "quickattack"], pokeball: "cherishball" },
+			{ generation: 6, level: 22, moves: ["quickattack", "electroball", "doubleteam", "megakick"], pokeball: "cherishball" },
+			{ generation: 6, level: 10, moves: ["thunderbolt", "quickattack", "surf", "holdhands"], pokeball: "cherishball" },
+			{ generation: 6, level: 10, gender: "F", moves: ["thunderbolt", "quickattack", "heartstamp", "holdhands"], pokeball: "healball" },
+			{ generation: 6, level: 36, shiny: true, isHidden: true, moves: ["thunder", "substitute", "playnice", "holdhands"], pokeball: "cherishball" },
+			{ generation: 6, level: 10, gender: "F", moves: ["playnice", "charm", "nuzzle", "sweetkiss"], pokeball: "cherishball" },
+			{ generation: 6, level: 50, gender: "M", nature: "Naughty", moves: ["thunderbolt", "quickattack", "irontail", "electroball"], pokeball: "cherishball" },
+			{ generation: 6, level: 10, shiny: true, moves: ["teeterdance", "playnice", "tailwhip", "nuzzle"], pokeball: "cherishball" },
+			{ generation: 6, level: 10, perfectIVs: 2, isHidden: true, moves: ["fakeout", "encore", "volttackle", "endeavor"], pokeball: "cherishball" },
+			{ generation: 6, level: 99, moves: ["happyhour", "playnice", "holdhands", "flash"], pokeball: "cherishball" },
+			{ generation: 6, level: 10, moves: ["fly", "surf", "agility", "celebrate"], pokeball: "cherishball" },
+			{ generation: 6, level: 10, moves: ["bestow", "holdhands", "return", "playnice"], pokeball: "healball" },
+			{ generation: 7, level: 10, nature: "Jolly", moves: ["celebrate", "growl", "playnice", "quickattack"], pokeball: "cherishball" },
+			{ generation: 7, level: 10, moves: ["bestow", "holdhands", "return", "playnice"], pokeball: "cherishball" },
+			{ generation: 7, level: 10, moves: ["holdhands", "playnice", "teeterdance", "happyhour"], pokeball: "cherishball" },
+			{ generation: 7, level: 10, moves: ["growl", "quickattack", "thundershock", "happyhour"], pokeball: "cherishball" },
+			{ generation: 7, level: 40, shiny: 1, perfectIVs: 3, moves: ["nuzzle", "discharge", "slam", "surf"], pokeball: "pokeball" },
+			{ generation: 7, level: 5, moves: ["celebrate", "sweetscent", "counter", "refresh"], pokeball: "cherishball" },
+			{ generation: 7, level: 10, moves: ["fly", "surf", "thunderbolt", "quickattack"], pokeball: "cherishball" },
+			{ generation: 8, level: 5, gender: "M", nature: "Serious", moves: ["celebrate", "playnice", "thundershock", "quickattack"], pokeball: "cherishball" },
+			{ generation: 8, level: 21, gender: "M", nature: "Brave", moves: ["thunderbolt", "swift", "wish", "celebrate"], pokeball: "cherishball" },
+			{ generation: 8, level: 25, isHidden: true, moves: ["sing", "encore", "celebrate", "electroball"], pokeball: "cherishball" },
+			{ generation: 9, level: 5, moves: ["fly", "tailwhip", "thundershock", "quickattack"], pokeball: "pokeball" },
+			{ generation: 9, level: 100, gender: "M", nature: "Quiet", perfectIVs: 6, isHidden: true, moves: ["thunder", "surf", "playrough", "irontail"], pokeball: "pokeball" },
+			{ generation: 9, level: 25, gender: "M", ivs: { hp: 25, atk: 25, def: 25, spa: 25, spd: 25, spe: 25 }, moves: ["celebrate", "playnice", "present", "thunderbolt"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 1, level: 3},
-			{generation: 2, level: 4},
-			{generation: 3, level: 3},
+			{ generation: 1, level: 3 },
+			{ generation: 2, level: 4 },
+			{ generation: 3, level: 3 },
 		],
 	},
 	pikachucosplay: {
@@ -2679,7 +2679,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wildcharge: ["6M", "6L50"],
 		},
 		eventData: [
-			{generation: 6, level: 20, perfectIVs: 3, moves: ["quickattack", "electroball", "thunderwave", "thundershock"], pokeball: "pokeball"},
+			{ generation: 6, level: 20, perfectIVs: 3, moves: ["quickattack", "electroball", "thunderwave", "thundershock"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -2803,8 +2803,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wish: ["8E"],
 		},
 		eventData: [
-			{generation: 7, level: 1, nature: "Hardy", moves: ["thunderbolt", "quickattack", "thunder", "agility"], pokeball: "pokeball"},
-			{generation: 8, level: 25, nature: "Hardy", isHidden: true, moves: ["thunderbolt", "quickattack", "irontail", "electroweb", "volttackle"], pokeball: "pokeball"},
+			{ generation: 7, level: 1, nature: "Hardy", moves: ["thunderbolt", "quickattack", "thunder", "agility"], pokeball: "pokeball" },
+			{ generation: 8, level: 25, nature: "Hardy", isHidden: true, moves: ["thunderbolt", "quickattack", "irontail", "electroweb", "volttackle"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -2898,8 +2898,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wish: ["8E"],
 		},
 		eventData: [
-			{generation: 7, level: 6, nature: "Hardy", moves: ["thunderbolt", "quickattack", "thunder", "irontail"], pokeball: "pokeball"},
-			{generation: 8, level: 25, nature: "Hardy", isHidden: true, moves: ["thunderbolt", "quickattack", "irontail", "electroweb", "volttackle"], pokeball: "pokeball"},
+			{ generation: 7, level: 6, nature: "Hardy", moves: ["thunderbolt", "quickattack", "thunder", "irontail"], pokeball: "pokeball" },
+			{ generation: 8, level: 25, nature: "Hardy", isHidden: true, moves: ["thunderbolt", "quickattack", "irontail", "electroweb", "volttackle"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -2993,8 +2993,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wish: ["8E"],
 		},
 		eventData: [
-			{generation: 7, level: 10, nature: "Hardy", moves: ["thunderbolt", "quickattack", "irontail", "volttackle"], pokeball: "pokeball"},
-			{generation: 8, level: 25, nature: "Hardy", isHidden: true, moves: ["thunderbolt", "quickattack", "irontail", "electroweb", "volttackle"], pokeball: "pokeball"},
+			{ generation: 7, level: 10, nature: "Hardy", moves: ["thunderbolt", "quickattack", "irontail", "volttackle"], pokeball: "pokeball" },
+			{ generation: 8, level: 25, nature: "Hardy", isHidden: true, moves: ["thunderbolt", "quickattack", "irontail", "electroweb", "volttackle"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -3088,8 +3088,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wish: ["8E"],
 		},
 		eventData: [
-			{generation: 7, level: 14, nature: "Hardy", moves: ["thunderbolt", "quickattack", "irontail", "volttackle"], pokeball: "pokeball"},
-			{generation: 8, level: 25, nature: "Hardy", isHidden: true, moves: ["thunderbolt", "quickattack", "irontail", "electroweb", "volttackle"], pokeball: "pokeball"},
+			{ generation: 7, level: 14, nature: "Hardy", moves: ["thunderbolt", "quickattack", "irontail", "volttackle"], pokeball: "pokeball" },
+			{ generation: 8, level: 25, nature: "Hardy", isHidden: true, moves: ["thunderbolt", "quickattack", "irontail", "electroweb", "volttackle"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -3183,8 +3183,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wish: ["8E"],
 		},
 		eventData: [
-			{generation: 7, level: 17, nature: "Hardy", moves: ["thunderbolt", "quickattack", "irontail", "electroball"], pokeball: "pokeball"},
-			{generation: 8, level: 25, nature: "Hardy", isHidden: true, moves: ["thunderbolt", "quickattack", "irontail", "electroweb", "volttackle"], pokeball: "pokeball"},
+			{ generation: 7, level: 17, nature: "Hardy", moves: ["thunderbolt", "quickattack", "irontail", "electroball"], pokeball: "pokeball" },
+			{ generation: 8, level: 25, nature: "Hardy", isHidden: true, moves: ["thunderbolt", "quickattack", "irontail", "electroweb", "volttackle"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -3278,8 +3278,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wish: ["8E"],
 		},
 		eventData: [
-			{generation: 7, level: 20, nature: "Hardy", moves: ["thunderbolt", "quickattack", "irontail", "electroball"], pokeball: "pokeball"},
-			{generation: 8, level: 25, nature: "Hardy", isHidden: true, moves: ["thunderbolt", "quickattack", "irontail", "electroweb", "volttackle"], pokeball: "pokeball"},
+			{ generation: 7, level: 20, nature: "Hardy", moves: ["thunderbolt", "quickattack", "irontail", "electroball"], pokeball: "pokeball" },
+			{ generation: 8, level: 25, nature: "Hardy", isHidden: true, moves: ["thunderbolt", "quickattack", "irontail", "electroweb", "volttackle"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -3373,8 +3373,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wish: ["8E"],
 		},
 		eventData: [
-			{generation: 7, level: 21, shiny: 1, nature: "Hardy", moves: ["thunderbolt", "quickattack", "thunder", "irontail"], pokeball: "pokeball"},
-			{generation: 8, level: 25, nature: "Hardy", isHidden: true, moves: ["thunderbolt", "quickattack", "irontail", "electroweb", "volttackle"], pokeball: "pokeball"},
+			{ generation: 7, level: 21, shiny: 1, nature: "Hardy", moves: ["thunderbolt", "quickattack", "thunder", "irontail"], pokeball: "pokeball" },
+			{ generation: 8, level: 25, nature: "Hardy", isHidden: true, moves: ["thunderbolt", "quickattack", "irontail", "electroweb", "volttackle"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -3444,7 +3444,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zippyzap: ["8V", "7T"],
 		},
 		eventData: [
-			{generation: 7, level: 5, perfectIVs: 6, moves: ["thundershock", "tailwhip", "growl"], pokeball: "pokeball"},
+			{ generation: 7, level: 5, perfectIVs: 6, moves: ["thundershock", "tailwhip", "growl"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -3521,8 +3521,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wish: ["8E"],
 		},
 		eventData: [
-			{generation: 8, level: 25, nature: "Hardy", moves: ["thunderbolt", "quickattack", "irontail", "electroweb", "volttackle"], pokeball: "pokeball"},
-			{generation: 8, level: 80, nature: "Hardy", ivs: {hp: 31, atk: 30, def: 30, spa: 31, spd: 30, spe: 31}, moves: ["thunderbolt", "quickattack", "irontail", "electroweb"], pokeball: "pokeball"},
+			{ generation: 8, level: 25, nature: "Hardy", moves: ["thunderbolt", "quickattack", "irontail", "electroweb", "volttackle"], pokeball: "pokeball" },
+			{ generation: 8, level: 80, nature: "Hardy", ivs: { hp: 31, atk: 30, def: 30, spa: 31, spd: 30, spe: 31 }, moves: ["thunderbolt", "quickattack", "irontail", "electroweb"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -3849,10 +3849,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "8M", "8V", "7M", "6M", "5M", "4M"],
 		},
 		eventData: [
-			{generation: 3, level: 12, gender: "M", nature: "Docile", ivs: {hp: 4, atk: 23, def: 8, spa: 31, spd: 1, spe: 25}, moves: ["scratch", "defensecurl", "sandattack", "poisonsting"], pokeball: "pokeball"},
+			{ generation: 3, level: 12, gender: "M", nature: "Docile", ivs: { hp: 4, atk: 23, def: 8, spa: 31, spd: 1, spe: 25 }, moves: ["scratch", "defensecurl", "sandattack", "poisonsting"], pokeball: "pokeball" },
 		],
 		encounters: [
-			{generation: 1, level: 6},
+			{ generation: 1, level: 6 },
 		],
 	},
 	sandshrewalola: {
@@ -3950,7 +3950,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "8M", "8V", "7M"],
 		},
 		eventData: [
-			{generation: 7, level: 10, moves: ["rapidspin", "iceball", "powdersnow", "bide"], pokeball: "cherishball"},
+			{ generation: 7, level: 10, moves: ["rapidspin", "iceball", "powdersnow", "bide"], pokeball: "cherishball" },
 		],
 	},
 	sandslash: {
@@ -4058,8 +4058,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "8M", "8V", "7M", "6M", "5M", "4M"],
 		},
 		encounters: [
-			{generation: 2, level: 10},
-			{generation: 4, level: 10},
+			{ generation: 2, level: 10 },
+			{ generation: 4, level: 10 },
 		],
 	},
 	sandslashalola: {
@@ -4243,7 +4243,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			waterpulse: ["7T", "6T", "4M", "3M"],
 		},
 		encounters: [
-			{generation: 1, level: 2},
+			{ generation: 1, level: 2 },
 		],
 	},
 	nidorina: {
@@ -4327,7 +4327,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			waterpulse: ["7T", "6T", "4M", "3M"],
 		},
 		encounters: [
-			{generation: 4, level: 15, pokeball: "safariball"},
+			{ generation: 4, level: 15, pokeball: "safariball" },
 		],
 	},
 	nidoqueen: {
@@ -4467,7 +4467,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["8M", "4M"],
 		},
 		eventData: [
-			{generation: 6, level: 41, perfectIVs: 2, abilities: ["poisonpoint"], moves: ["tailwhip", "doublekick", "poisonsting", "bodyslam"], pokeball: "cherishball"},
+			{ generation: 6, level: 41, perfectIVs: 2, abilities: ["poisonpoint"], moves: ["tailwhip", "doublekick", "poisonsting", "bodyslam"], pokeball: "cherishball" },
 		],
 	},
 	nidoranm: {
@@ -4554,7 +4554,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			waterpulse: ["7T", "6T", "4M", "3M"],
 		},
 		encounters: [
-			{generation: 1, level: 2},
+			{ generation: 1, level: 2 },
 		],
 	},
 	nidorino: {
@@ -4637,7 +4637,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			waterpulse: ["7T", "6T", "4M", "3M"],
 		},
 		encounters: [
-			{generation: 4, level: 15, pokeball: "safariball"},
+			{ generation: 4, level: 15, pokeball: "safariball" },
 		],
 	},
 	nidoking: {
@@ -4778,7 +4778,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["8M", "4M"],
 		},
 		eventData: [
-			{generation: 7, level: 68, abilities: ["poisonpoint"], moves: ["earthquake", "poisonjab", "throatchop", "aquatail"], pokeball: "cherishball"},
+			{ generation: 7, level: 68, abilities: ["poisonpoint"], moves: ["earthquake", "poisonjab", "throatchop", "aquatail"], pokeball: "cherishball" },
 		],
 	},
 	cleffa: {
@@ -5048,11 +5048,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "8S1", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 8, level: 50, gender: "F", shiny: true, nature: "Bold", isHidden: true, ivs: {hp: 31, atk: 0, def: 31, spa: 31, spd: 31, spe: 31}, moves: ["followme", "icywind", "helpinghand", "protect"], pokeball: "cherishball"},
-			{generation: 8, level: 15, gender: "M", nature: "Modest", abilities: ["cutecharm"], moves: ["metronome", "moonblast", "zenheadbutt", "moonlight"], pokeball: "moonball"},
+			{ generation: 8, level: 50, gender: "F", shiny: true, nature: "Bold", isHidden: true, ivs: { hp: 31, atk: 0, def: 31, spa: 31, spd: 31, spe: 31 }, moves: ["followme", "icywind", "helpinghand", "protect"], pokeball: "cherishball" },
+			{ generation: 8, level: 15, gender: "M", nature: "Modest", abilities: ["cutecharm"], moves: ["metronome", "moonblast", "zenheadbutt", "moonlight"], pokeball: "moonball" },
 		],
 		encounters: [
-			{generation: 1, level: 8},
+			{ generation: 1, level: 8 },
 		],
 	},
 	clefable: {
@@ -5306,11 +5306,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 18, gender: "F", nature: "Quirky", ivs: {hp: 15, atk: 6, def: 3, spa: 25, spd: 13, spe: 22}, moves: ["tailwhip", "roar", "quickattack", "willowisp"], pokeball: "pokeball"},
-			{generation: 3, level: 18, moves: ["charm", "heatwave", "ember", "dig"]},
+			{ generation: 3, level: 18, gender: "F", nature: "Quirky", ivs: { hp: 15, atk: 6, def: 3, spa: 25, spd: 13, spe: 22 }, moves: ["tailwhip", "roar", "quickattack", "willowisp"], pokeball: "pokeball" },
+			{ generation: 3, level: 18, moves: ["charm", "heatwave", "ember", "dig"] },
 		],
 		encounters: [
-			{generation: 1, level: 18},
+			{ generation: 1, level: 18 },
 		],
 	},
 	vulpixalola: {
@@ -5404,8 +5404,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T"],
 		},
 		eventData: [
-			{generation: 7, level: 10, moves: ["celebrate", "tailwhip", "babydolleyes", "iceshard"], pokeball: "cherishball"},
-			{generation: 7, level: 10, gender: "F", nature: "Modest", moves: ["powdersnow"], pokeball: "cherishball"},
+			{ generation: 7, level: 10, moves: ["celebrate", "tailwhip", "babydolleyes", "iceshard"], pokeball: "cherishball" },
+			{ generation: 7, level: 10, gender: "F", nature: "Modest", moves: ["powdersnow"], pokeball: "cherishball" },
 		],
 	},
 	ninetales: {
@@ -5504,7 +5504,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 5, level: 50, gender: "M", nature: "Bold", ivs: {def: 31}, isHidden: true, moves: ["heatwave", "solarbeam", "psyshock", "willowisp"], pokeball: "cherishball"},
+			{ generation: 5, level: 50, gender: "M", nature: "Bold", ivs: { def: 31 }, isHidden: true, moves: ["heatwave", "solarbeam", "psyshock", "willowisp"], pokeball: "cherishball" },
 		],
 	},
 	ninetalesalola: {
@@ -5701,7 +5701,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: 1, abilities: ["cutecharm"], moves: ["sing", "charm", "defensecurl", "tickle"], pokeball: "pokeball", emeraldEventEgg: true},
+			{ generation: 3, level: 5, shiny: 1, abilities: ["cutecharm"], moves: ["sing", "charm", "defensecurl", "tickle"], pokeball: "pokeball", emeraldEventEgg: true },
 		],
 	},
 	jigglypuff: {
@@ -5856,9 +5856,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		encounters: [
-			{generation: 1, level: 3},
-			{generation: 2, level: 3},
-			{generation: 3, level: 3},
+			{ generation: 1, level: 3 },
+			{ generation: 2, level: 3 },
+			{ generation: 3, level: 3 },
 		],
 	},
 	wigglytuff: {
@@ -6018,7 +6018,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		encounters: [
-			{generation: 1, level: 22},
+			{ generation: 1, level: 22 },
 		],
 	},
 	zubat: {
@@ -6107,8 +6107,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "7E", "6T", "6E", "5T", "5E", "4T", "4E"],
 		},
 		encounters: [
-			{generation: 1, level: 6},
-			{generation: 2, level: 2},
+			{ generation: 1, level: 6 },
+			{ generation: 2, level: 2 },
 		],
 	},
 	golbat: {
@@ -6196,11 +6196,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T", "5T", "4T"],
 		},
 		encounters: [
-			{generation: 2, level: 13},
-			{generation: 3, level: 5},
-			{generation: 4, level: 10},
-			{generation: 6, level: 19, maxEggMoves: 1},
-			{generation: 7, level: 20},
+			{ generation: 2, level: 13 },
+			{ generation: 3, level: 5 },
+			{ generation: 4, level: 10 },
+			{ generation: 6, level: 19, maxEggMoves: 1 },
+			{ generation: 7, level: 20 },
 		],
 	},
 	crobat: {
@@ -6286,8 +6286,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 4, level: 30, gender: "M", nature: "Timid", moves: ["heatwave", "airslash", "sludgebomb", "superfang"], pokeball: "cherishball"},
-			{generation: 7, level: 64, gender: "M", moves: ["airslash", "toxic", "darkpulse", "sludgebomb"], pokeball: "cherishball"},
+			{ generation: 4, level: 30, gender: "M", nature: "Timid", moves: ["heatwave", "airslash", "sludgebomb", "superfang"], pokeball: "cherishball" },
+			{ generation: 7, level: 64, gender: "M", moves: ["airslash", "toxic", "darkpulse", "sludgebomb"], pokeball: "cherishball" },
 		],
 	},
 	oddish: {
@@ -6368,11 +6368,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			worryseed: ["7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 26, gender: "M", nature: "Quirky", ivs: {hp: 23, atk: 24, def: 20, spa: 21, spd: 9, spe: 16}, moves: ["poisonpowder", "stunspore", "sleeppowder", "acid"], pokeball: "pokeball"},
-			{generation: 3, level: 5, shiny: 1, moves: ["absorb", "leechseed"], pokeball: "pokeball"},
+			{ generation: 3, level: 26, gender: "M", nature: "Quirky", ivs: { hp: 23, atk: 24, def: 20, spa: 21, spd: 9, spe: 16 }, moves: ["poisonpowder", "stunspore", "sleeppowder", "acid"], pokeball: "pokeball" },
+			{ generation: 3, level: 5, shiny: 1, moves: ["absorb", "leechseed"], pokeball: "pokeball" },
 		],
 		encounters: [
-			{generation: 1, level: 12},
+			{ generation: 1, level: 12 },
 		],
 	},
 	gloom: {
@@ -6451,12 +6451,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			worryseed: ["7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 50, moves: ["sleeppowder", "acid", "moonlight", "petaldance"], pokeball: "pokeball"},
+			{ generation: 3, level: 50, moves: ["sleeppowder", "acid", "moonlight", "petaldance"], pokeball: "pokeball" },
 		],
 		encounters: [
-			{generation: 2, level: 14},
-			{generation: 4, level: 14},
-			{generation: 6, level: 18, maxEggMoves: 1},
+			{ generation: 2, level: 14 },
+			{ generation: 4, level: 14 },
+			{ generation: 6, level: 18, maxEggMoves: 1 },
 		],
 	},
 	vileplume: {
@@ -6716,10 +6716,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["8V", "7M", "7L54", "6M", "6L54", "5M", "5L54", "4M", "4L43"],
 		},
 		eventData: [
-			{generation: 3, level: 28, abilities: ["effectspore"], moves: ["refresh", "spore", "slash", "falseswipe"]},
+			{ generation: 3, level: 28, abilities: ["effectspore"], moves: ["refresh", "spore", "slash", "falseswipe"] },
 		],
 		encounters: [
-			{generation: 1, level: 8},
+			{ generation: 1, level: 8 },
 		],
 	},
 	parasect: {
@@ -6806,8 +6806,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["8V", "7M", "7L66", "6M", "6L66", "5M", "5L66", "4M", "4L55"],
 		},
 		encounters: [
-			{generation: 1, level: 13},
-			{generation: 2, level: 5},
+			{ generation: 1, level: 13 },
+			{ generation: 2, level: 5 },
 		],
 	},
 	venonat: {
@@ -6888,7 +6888,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L37", "7T", "7L37", "6T", "6L37", "5T", "5L37", "4T", "4L37"],
 		},
 		encounters: [
-			{generation: 1, level: 13},
+			{ generation: 1, level: 13 },
 		],
 	},
 	venomoth: {
@@ -6988,13 +6988,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L41", "7T", "7L41", "6T", "6L41", "5T", "5L41", "4T", "4L41"],
 		},
 		eventData: [
-			{generation: 3, level: 32, abilities: ["shielddust"], moves: ["refresh", "silverwind", "substitute", "psychic"]},
+			{ generation: 3, level: 32, abilities: ["shielddust"], moves: ["refresh", "silverwind", "substitute", "psychic"] },
 		],
 		encounters: [
-			{generation: 1, level: 30},
-			{generation: 2, level: 10},
-			{generation: 4, level: 8},
-			{generation: 6, level: 30},
+			{ generation: 1, level: 30 },
+			{ generation: 2, level: 10 },
+			{ generation: 4, level: 8 },
+			{ generation: 6, level: 30 },
 		],
 	},
 	diglett: {
@@ -7083,8 +7083,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M"],
 		},
 		encounters: [
-			{generation: 1, level: 15},
-			{generation: 2, level: 2},
+			{ generation: 1, level: 15 },
+			{ generation: 2, level: 2 },
 		],
 	},
 	diglettalola: {
@@ -7169,7 +7169,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M"],
 		},
 		eventData: [
-			{generation: 7, level: 10, abilities: ["tanglinghair"], moves: ["mudslap", "astonish", "growl", "metalclaw"], pokeball: "cherishball"},
+			{ generation: 7, level: 10, abilities: ["tanglinghair"], moves: ["mudslap", "astonish", "growl", "metalclaw"], pokeball: "cherishball" },
 		],
 	},
 	dugtrio: {
@@ -7261,12 +7261,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M"],
 		},
 		eventData: [
-			{generation: 3, level: 40, moves: ["charm", "earthquake", "sandstorm", "triattack"]},
+			{ generation: 3, level: 40, moves: ["charm", "earthquake", "sandstorm", "triattack"] },
 		],
 		encounters: [
-			{generation: 1, level: 15},
-			{generation: 2, level: 5},
-			{generation: 4, level: 19},
+			{ generation: 1, level: 15 },
+			{ generation: 2, level: 5 },
+			{ generation: 4, level: 19 },
 		],
 	},
 	dugtrioalola: {
@@ -7471,18 +7471,18 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: 1, moves: ["scratch", "growl", "petaldance"], pokeball: "pokeball"},
-			{generation: 3, level: 5, moves: ["scratch", "growl"], pokeball: "pokeball"},
-			{generation: 3, level: 10, gender: "M", moves: ["scratch", "growl", "bite"], pokeball: "pokeball"},
-			{generation: 3, level: 22, moves: ["sing", "slash", "payday", "bite"]},
-			{generation: 4, level: 21, gender: "F", nature: "Jolly", abilities: ["pickup"], moves: ["bite", "fakeout", "furyswipes", "screech"], pokeball: "cherishball"},
-			{generation: 4, level: 10, gender: "M", nature: "Jolly", abilities: ["pickup"], moves: ["fakeout", "payday", "assist", "scratch"], pokeball: "cherishball"},
-			{generation: 5, level: 15, gender: "M", abilities: ["pickup"], moves: ["furyswipes", "sing", "nastyplot", "snatch"], pokeball: "cherishball"},
-			{generation: 6, level: 20, abilities: ["pickup"], moves: ["happyhour", "screech", "bite", "fakeout"], pokeball: "cherishball"},
+			{ generation: 3, level: 5, shiny: 1, moves: ["scratch", "growl", "petaldance"], pokeball: "pokeball" },
+			{ generation: 3, level: 5, moves: ["scratch", "growl"], pokeball: "pokeball" },
+			{ generation: 3, level: 10, gender: "M", moves: ["scratch", "growl", "bite"], pokeball: "pokeball" },
+			{ generation: 3, level: 22, moves: ["sing", "slash", "payday", "bite"] },
+			{ generation: 4, level: 21, gender: "F", nature: "Jolly", abilities: ["pickup"], moves: ["bite", "fakeout", "furyswipes", "screech"], pokeball: "cherishball" },
+			{ generation: 4, level: 10, gender: "M", nature: "Jolly", abilities: ["pickup"], moves: ["fakeout", "payday", "assist", "scratch"], pokeball: "cherishball" },
+			{ generation: 5, level: 15, gender: "M", abilities: ["pickup"], moves: ["furyswipes", "sing", "nastyplot", "snatch"], pokeball: "cherishball" },
+			{ generation: 6, level: 20, abilities: ["pickup"], moves: ["happyhour", "screech", "bite", "fakeout"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 1, level: 10},
-			{generation: 3, level: 3, gender: "M", nature: "Naive", ivs: {hp: 4, atk: 5, def: 4, spa: 5, spd: 4, spe: 4}, abilities: ["pickup"], pokeball: "pokeball"},
+			{ generation: 1, level: 10 },
+			{ generation: 3, level: 3, gender: "M", nature: "Naive", ivs: { hp: 4, atk: 5, def: 4, spa: 5, spd: 4, spe: 4 }, abilities: ["pickup"], pokeball: "pokeball" },
 		],
 	},
 	meowthalola: {
@@ -7663,7 +7663,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M"],
 		},
 		eventData: [
-			{generation: 8, level: 15, isHidden: true, moves: ["fakeout", "growl", "honeclaws", "payday"], pokeball: "cherishball"},
+			{ generation: 8, level: 15, isHidden: true, moves: ["fakeout", "growl", "honeclaws", "payday"], pokeball: "cherishball" },
 		],
 	},
 	persian: {
@@ -7780,8 +7780,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		encounters: [
-			{generation: 2, level: 18},
-			{generation: 4, level: 19},
+			{ generation: 2, level: 18 },
+			{ generation: 4, level: 19 },
 		],
 	},
 	persianalola: {
@@ -8093,11 +8093,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L18", "8M", "8L18", "7T", "7L25", "6T", "6L29", "5T", "5L29", "4T", "4L40"],
 		},
 		eventData: [
-			{generation: 3, level: 27, gender: "M", nature: "Lax", ivs: {hp: 31, atk: 16, def: 12, spa: 29, spd: 31, spe: 14}, abilities: ["damp"], moves: ["tailwhip", "confusion", "disable", "screech"], pokeball: "pokeball"},
-			{generation: 3, level: 5, shiny: 1, moves: ["watersport", "scratch", "tailwhip", "mudsport"], pokeball: "pokeball", emeraldEventEgg: true},
+			{ generation: 3, level: 27, gender: "M", nature: "Lax", ivs: { hp: 31, atk: 16, def: 12, spa: 29, spd: 31, spe: 14 }, abilities: ["damp"], moves: ["tailwhip", "confusion", "disable", "screech"], pokeball: "pokeball" },
+			{ generation: 3, level: 5, shiny: 1, moves: ["watersport", "scratch", "tailwhip", "mudsport"], pokeball: "pokeball", emeraldEventEgg: true },
 		],
 		encounters: [
-			{generation: 1, level: 15},
+			{ generation: 1, level: 15 },
 		],
 	},
 	golduck: {
@@ -8226,14 +8226,14 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L18", "8M", "8L18", "7T", "7L25", "6T", "6L25", "5T", "5L29", "4T", "4L44"],
 		},
 		eventData: [
-			{generation: 3, level: 33, moves: ["charm", "waterfall", "psychup", "brickbreak"]},
-			{generation: 7, level: 50, gender: "M", nature: "Timid", ivs: {hp: 31, atk: 30, def: 31, spa: 31, spd: 31, spe: 31}, isHidden: true, moves: ["hydropump", "scald", "encore", "protect"], pokeball: "cherishball"},
+			{ generation: 3, level: 33, moves: ["charm", "waterfall", "psychup", "brickbreak"] },
+			{ generation: 7, level: 50, gender: "M", nature: "Timid", ivs: { hp: 31, atk: 30, def: 31, spa: 31, spd: 31, spe: 31 }, isHidden: true, moves: ["hydropump", "scald", "encore", "protect"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 1, level: 15},
-			{generation: 2, level: 10},
-			{generation: 3, level: 25, pokeball: "safariball"},
-			{generation: 4, level: 10},
+			{ generation: 1, level: 15 },
+			{ generation: 2, level: 10 },
+			{ generation: 3, level: 25, pokeball: "safariball" },
+			{ generation: 4, level: 10 },
 		],
 	},
 	mankey: {
@@ -8358,8 +8358,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["7M", "5M"],
 		},
 		encounters: [
-			{generation: 1, level: 3},
-			{generation: 3, level: 2},
+			{ generation: 1, level: 3 },
+			{ generation: 3, level: 2 },
 		],
 	},
 	primeape: {
@@ -8481,11 +8481,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["7M", "5M"],
 		},
 		eventData: [
-			{generation: 3, level: 34, abilities: ["vitalspirit"], moves: ["helpinghand", "crosschop", "focusenergy", "reversal"]},
+			{ generation: 3, level: 34, abilities: ["vitalspirit"], moves: ["helpinghand", "crosschop", "focusenergy", "reversal"] },
 		],
 		encounters: [
-			{generation: 2, level: 15},
-			{generation: 4, level: 15},
+			{ generation: 2, level: 15 },
+			{ generation: 4, level: 15 },
 		],
 	},
 	annihilape: {
@@ -8655,12 +8655,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["9M", "8M", "8V", "7M", "6M", "5M", "4M"],
 		},
 		eventData: [
-			{generation: 3, level: 32, gender: "F", nature: "Quiet", ivs: {hp: 11, atk: 24, def: 28, spa: 1, spd: 20, spe: 2}, abilities: ["intimidate"], moves: ["leer", "odorsleuth", "takedown", "flamewheel"], pokeball: "pokeball"},
-			{generation: 3, level: 10, gender: "M", moves: ["bite", "roar", "ember"], pokeball: "pokeball"},
-			{generation: 3, level: 28, moves: ["charm", "flamethrower", "bite", "takedown"]},
+			{ generation: 3, level: 32, gender: "F", nature: "Quiet", ivs: { hp: 11, atk: 24, def: 28, spa: 1, spd: 20, spe: 2 }, abilities: ["intimidate"], moves: ["leer", "odorsleuth", "takedown", "flamewheel"], pokeball: "pokeball" },
+			{ generation: 3, level: 10, gender: "M", moves: ["bite", "roar", "ember"], pokeball: "pokeball" },
+			{ generation: 3, level: 28, moves: ["charm", "flamethrower", "bite", "takedown"] },
 		],
 		encounters: [
-			{generation: 1, level: 15},
+			{ generation: 1, level: 15 },
 		],
 	},
 	growlithehisui: {
@@ -8721,7 +8721,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 15, isHidden: true, nature: "Jolly", ivs: {hp: 31, atk: 31, def: 20, spa: 20, spd: 20, spe: 31}, moves: ["flamewheel", "bite", "howl", "ember"], pokeball: "pokeball"},
+			{ generation: 9, level: 15, isHidden: true, nature: "Jolly", ivs: { hp: 31, atk: 31, def: 20, spa: 20, spd: 20, spe: 31 }, moves: ["flamewheel", "bite", "howl", "ember"], pokeball: "pokeball" },
 		],
 	},
 	arcanine: {
@@ -8818,9 +8818,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["9M", "9S2", "8M", "8V", "7M", "7S1", "6M", "5M", "4M"],
 		},
 		eventData: [
-			{generation: 4, level: 50, abilities: ["intimidate"], moves: ["flareblitz", "thunderfang", "crunch", "extremespeed"], pokeball: "cherishball"},
-			{generation: 7, level: 50, abilities: ["intimidate"], moves: ["flareblitz", "extremespeed", "willowisp", "protect"], pokeball: "cherishball"},
-			{generation: 9, level: 50, shiny: true, gender: "F", nature: "Adamant", abilities: ["intimidate"], ivs: {hp: 31, atk: 31, def: 31, spa: 8, spd: 31, spe: 31}, moves: ["flareblitz", "extremespeed", "willowisp", "protect"], pokeball: "cherishball"},
+			{ generation: 4, level: 50, abilities: ["intimidate"], moves: ["flareblitz", "thunderfang", "crunch", "extremespeed"], pokeball: "cherishball" },
+			{ generation: 7, level: 50, abilities: ["intimidate"], moves: ["flareblitz", "extremespeed", "willowisp", "protect"], pokeball: "cherishball" },
+			{ generation: 9, level: 50, shiny: true, gender: "F", nature: "Adamant", abilities: ["intimidate"], ivs: { hp: 31, atk: 31, def: 31, spa: 8, spd: 31, spe: 31 }, moves: ["flareblitz", "extremespeed", "willowisp", "protect"], pokeball: "cherishball" },
 		],
 	},
 	arcaninehisui: {
@@ -8972,11 +8972,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["9M", "8M", "7V", "4M"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: 1, moves: ["bubble", "sweetkiss"], pokeball: "pokeball"},
+			{ generation: 3, level: 5, shiny: 1, moves: ["bubble", "sweetkiss"], pokeball: "pokeball" },
 		],
 		encounters: [
-			{generation: 1, level: 5},
-			{generation: 2, level: 3},
+			{ generation: 1, level: 5 },
+			{ generation: 2, level: 3 },
 		],
 	},
 	poliwhirl: {
@@ -9072,12 +9072,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["9M", "8M", "7V", "4M"],
 		},
 		encounters: [
-			{generation: 1, level: 15},
-			{generation: 2, level: 10},
-			{generation: 3, level: 20},
-			{generation: 4, level: 10},
-			{generation: 7, level: 24},
-			{generation: 7, level: 22, gender: "F", nature: "Naughty", abilities: ["damp"], pokeball: "pokeball"},
+			{ generation: 1, level: 15 },
+			{ generation: 2, level: 10 },
+			{ generation: 3, level: 20 },
+			{ generation: 4, level: 10 },
+			{ generation: 7, level: 24 },
+			{ generation: 7, level: 22, gender: "F", nature: "Naughty", abilities: ["damp"], pokeball: "pokeball" },
 		],
 	},
 	poliwrath: {
@@ -9199,7 +9199,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M", "5M"],
 		},
 		eventData: [
-			{generation: 3, level: 42, moves: ["helpinghand", "hydropump", "raindance", "brickbreak"]},
+			{ generation: 3, level: 42, moves: ["helpinghand", "hydropump", "raindance", "brickbreak"] },
 		],
 	},
 	politoed: {
@@ -9296,7 +9296,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["9M", "8M", "7V", "4M"],
 		},
 		eventData: [
-			{generation: 5, level: 50, gender: "M", nature: "Calm", ivs: {hp: 31, atk: 13, def: 31, spa: 5, spd: 31, spe: 5}, isHidden: true, moves: ["scald", "icebeam", "perishsong", "protect"], pokeball: "cherishball"},
+			{ generation: 5, level: 50, gender: "M", nature: "Calm", ivs: { hp: 31, atk: 13, def: 31, spa: 5, spd: 31, spe: 5 }, isHidden: true, moves: ["scald", "icebeam", "perishsong", "protect"], pokeball: "cherishball" },
 		],
 	},
 	abra: {
@@ -9399,7 +9399,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T", "5T", "4T"],
 		},
 		encounters: [
-			{generation: 1, level: 6},
+			{ generation: 1, level: 6 },
 		],
 	},
 	kadabra: {
@@ -9508,9 +9508,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T", "5T", "4T"],
 		},
 		encounters: [
-			{generation: 2, level: 15},
-			{generation: 4, level: 15},
-			{generation: 7, level: 11, pokeball: "pokeball"},
+			{ generation: 2, level: 15 },
+			{ generation: 4, level: 15 },
+			{ generation: 7, level: 11, pokeball: "pokeball" },
 		],
 	},
 	alakazam: {
@@ -9627,7 +9627,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 70, moves: ["futuresight", "calmmind", "psychic", "trick"], pokeball: "pokeball"},
+			{ generation: 3, level: 70, moves: ["futuresight", "calmmind", "psychic", "trick"], pokeball: "pokeball" },
 		],
 	},
 	machop: {
@@ -9730,7 +9730,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M", "5M"],
 		},
 		encounters: [
-			{generation: 1, level: 15},
+			{ generation: 1, level: 15 },
 		],
 	},
 	machoke: {
@@ -9827,11 +9827,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M", "5M"],
 		},
 		eventData: [
-			{generation: 5, level: 30, moves: ["lowsweep", "foresight", "seismictoss", "revenge"], pokeball: "cherishball"},
+			{ generation: 5, level: 30, moves: ["lowsweep", "foresight", "seismictoss", "revenge"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 2, level: 14},
-			{generation: 4, level: 14},
+			{ generation: 2, level: 14 },
+			{ generation: 4, level: 14 },
 		],
 	},
 	machamp: {
@@ -9939,14 +9939,14 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M", "5M"],
 		},
 		eventData: [
-			{generation: 3, level: 38, gender: "M", nature: "Quiet", ivs: {hp: 9, atk: 23, def: 25, spa: 20, spd: 15, spe: 10}, abilities: ["guts"], moves: ["seismictoss", "foresight", "revenge", "vitalthrow"], pokeball: "pokeball"},
-			{generation: 6, level: 50, shiny: true, gender: "M", nature: "Adamant", ivs: {hp: 31, atk: 31, def: 31, spa: 31, spd: 31, spe: 31}, abilities: ["noguard"], moves: ["dynamicpunch", "stoneedge", "wideguard", "knockoff"], pokeball: "cherishball"},
-			{generation: 6, level: 39, gender: "M", nature: "Hardy", abilities: ["noguard"], moves: ["seismictoss", "dynamicpunch", "dig", "focusenergy"], pokeball: "cherishball"},
-			{generation: 7, level: 34, gender: "F", nature: "Brave", ivs: {atk: 31}, abilities: ["guts"], moves: ["strength", "bulkup", "quickguard", "doubleedge"], pokeball: "cherishball"},
+			{ generation: 3, level: 38, gender: "M", nature: "Quiet", ivs: { hp: 9, atk: 23, def: 25, spa: 20, spd: 15, spe: 10 }, abilities: ["guts"], moves: ["seismictoss", "foresight", "revenge", "vitalthrow"], pokeball: "pokeball" },
+			{ generation: 6, level: 50, shiny: true, gender: "M", nature: "Adamant", ivs: { hp: 31, atk: 31, def: 31, spa: 31, spd: 31, spe: 31 }, abilities: ["noguard"], moves: ["dynamicpunch", "stoneedge", "wideguard", "knockoff"], pokeball: "cherishball" },
+			{ generation: 6, level: 39, gender: "M", nature: "Hardy", abilities: ["noguard"], moves: ["seismictoss", "dynamicpunch", "dig", "focusenergy"], pokeball: "cherishball" },
+			{ generation: 7, level: 34, gender: "F", nature: "Brave", ivs: { atk: 31 }, abilities: ["guts"], moves: ["strength", "bulkup", "quickguard", "doubleedge"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 1, level: 16},
-			{generation: 2, level: 5},
+			{ generation: 1, level: 16 },
+			{ generation: 2, level: 5 },
 		],
 	},
 	bellsprout: {
@@ -10034,12 +10034,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wringout: ["7L50", "6L47", "5L47", "4L47"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: 1, moves: ["vinewhip", "teeterdance"], pokeball: "pokeball"},
-			{generation: 3, level: 10, gender: "M", moves: ["vinewhip", "growth"], pokeball: "pokeball"},
+			{ generation: 3, level: 5, shiny: 1, moves: ["vinewhip", "teeterdance"], pokeball: "pokeball" },
+			{ generation: 3, level: 10, gender: "M", moves: ["vinewhip", "growth"], pokeball: "pokeball" },
 		],
 		encounters: [
-			{generation: 1, level: 12},
-			{generation: 2, level: 3},
+			{ generation: 1, level: 12 },
+			{ generation: 2, level: 3 },
 		],
 	},
 	weepinbell: {
@@ -10125,11 +10125,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wringout: ["7L58", "6L47", "5L47", "4L47"],
 		},
 		eventData: [
-			{generation: 3, level: 32, moves: ["morningsun", "magicalleaf", "sludgebomb", "sweetscent"]},
+			{ generation: 3, level: 32, moves: ["morningsun", "magicalleaf", "sludgebomb", "sweetscent"] },
 		],
 		encounters: [
-			{generation: 2, level: 12},
-			{generation: 4, level: 10},
+			{ generation: 2, level: 12 },
+			{ generation: 4, level: 10 },
 		],
 	},
 	victreebel: {
@@ -10317,7 +10317,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wringout: ["7L49", "6L49", "5L54", "4L43"],
 		},
 		encounters: [
-			{generation: 1, level: 5},
+			{ generation: 1, level: 5 },
 		],
 	},
 	tentacruel: {
@@ -10418,11 +10418,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wringout: ["7L1", "6L1", "5L61", "4L55"],
 		},
 		encounters: [
-			{generation: 1, level: 20},
-			{generation: 2, level: 20},
-			{generation: 3, level: 20},
-			{generation: 4, level: 15},
-			{generation: 6, level: 21, maxEggMoves: 1},
+			{ generation: 1, level: 20 },
+			{ generation: 2, level: 20 },
+			{ generation: 3, level: 20 },
+			{ generation: 4, level: 15 },
+			{ generation: 6, level: 21, maxEggMoves: 1 },
 		],
 	},
 	geodude: {
@@ -10515,8 +10515,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wideguard: ["9E", "7E", "6E"],
 		},
 		encounters: [
-			{generation: 1, level: 7},
-			{generation: 2, level: 2},
+			{ generation: 1, level: 7 },
+			{ generation: 2, level: 2 },
 		],
 	},
 	geodudealola: {
@@ -10693,9 +10693,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			toxic: ["8V", "7M", "7V", "6M", "5M", "4M", "3M"],
 		},
 		encounters: [
-			{generation: 2, level: 23},
-			{generation: 4, level: 16, pokeball: "safariball"},
-			{generation: 6, level: 24},
+			{ generation: 2, level: 23 },
+			{ generation: 4, level: 16, pokeball: "safariball" },
+			{ generation: 6, level: 24 },
 		],
 	},
 	graveleralola: {
@@ -11042,7 +11042,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["8M", "8V", "7M", "6M", "5M", "4M"],
 		},
 		encounters: [
-			{generation: 1, level: 28},
+			{ generation: 1, level: 28 },
 		],
 	},
 	ponytagalar: {
@@ -11094,7 +11094,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M"],
 		},
 		eventData: [
-			{generation: 8, level: 15, isHidden: true, moves: ["tackle", "growl", "confusion", "fairywind"], pokeball: "cherishball"},
+			{ generation: 8, level: 15, isHidden: true, moves: ["tackle", "growl", "confusion", "fairywind"], pokeball: "cherishball" },
 		],
 	},
 	rapidash: {
@@ -11178,11 +11178,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["8M", "8V", "7M", "6M", "5M", "4M"],
 		},
 		eventData: [
-			{generation: 3, level: 40, moves: ["batonpass", "solarbeam", "sunnyday", "flamethrower"]},
+			{ generation: 3, level: 40, moves: ["batonpass", "solarbeam", "sunnyday", "flamethrower"] },
 		],
 		encounters: [
-			{generation: 2, level: 14, gender: "M"},
-			{generation: 3, level: 37},
+			{ generation: 2, level: 14, gender: "M" },
+			{ generation: 3, level: 37 },
 		],
 	},
 	rapidashgalar: {
@@ -11362,12 +11362,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L24", "8M", "8L24", "7T", "7L32", "7E", "6T", "6L32", "6E", "5T", "5L32", "5E", "4T", "4L34", "4E"],
 		},
 		eventData: [
-			{generation: 3, level: 31, gender: "F", nature: "Naive", ivs: {hp: 17, atk: 11, def: 19, spa: 20, spd: 5, spe: 10}, abilities: ["oblivious"], moves: ["watergun", "confusion", "disable", "headbutt"], pokeball: "pokeball"},
-			{generation: 3, level: 10, gender: "M", moves: ["curse", "yawn", "tackle", "growl"], pokeball: "pokeball"},
-			{generation: 5, level: 30, moves: ["confusion", "disable", "headbutt", "waterpulse"], pokeball: "cherishball"},
+			{ generation: 3, level: 31, gender: "F", nature: "Naive", ivs: { hp: 17, atk: 11, def: 19, spa: 20, spd: 5, spe: 10 }, abilities: ["oblivious"], moves: ["watergun", "confusion", "disable", "headbutt"], pokeball: "pokeball" },
+			{ generation: 3, level: 10, gender: "M", moves: ["curse", "yawn", "tackle", "growl"], pokeball: "pokeball" },
+			{ generation: 5, level: 30, moves: ["confusion", "disable", "headbutt", "waterpulse"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 1, level: 15},
+			{ generation: 1, level: 15 },
 		],
 	},
 	slowpokegalar: {
@@ -11591,16 +11591,16 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L24", "8M", "8L24", "7T", "7L32", "6T", "6L32", "5T", "5L32", "4T", "4L34"],
 		},
 		eventData: [
-			{generation: 6, level: 100, nature: "Quiet", abilities: ["oblivious"], moves: ["scald", "trickroom", "slackoff", "irontail"], pokeball: "cherishball"},
+			{ generation: 6, level: 100, nature: "Quiet", abilities: ["oblivious"], moves: ["scald", "trickroom", "slackoff", "irontail"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 1, level: 15},
-			{generation: 1, level: 23},
-			{generation: 2, level: 20},
-			{generation: 3, level: 32},
-			{generation: 4, level: 15},
-			{generation: 5, level: 35},
-			{generation: 7, level: 15},
+			{ generation: 1, level: 15 },
+			{ generation: 1, level: 23 },
+			{ generation: 2, level: 20 },
+			{ generation: 3, level: 32 },
+			{ generation: 4, level: 15 },
+			{ generation: 5, level: 35 },
+			{ generation: 7, level: 15 },
 		],
 	},
 	slowbrogalar: {
@@ -12046,7 +12046,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["9L52", "8L52", "7L49", "7V", "6L49", "5L57", "4L54", "3L50"],
 		},
 		encounters: [
-			{generation: 1, level: 16},
+			{ generation: 1, level: 16 },
 		],
 	},
 	magneton: {
@@ -12131,12 +12131,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["9L64", "8L64", "7L1", "7V", "6L1", "5L66", "4L60", "3L62"],
 		},
 		eventData: [
-			{generation: 3, level: 30, moves: ["refresh", "doubleedge", "raindance", "thunder"]},
+			{ generation: 3, level: 30, moves: ["refresh", "doubleedge", "raindance", "thunder"] },
 		],
 		encounters: [
-			{generation: 2, level: 5},
-			{generation: 3, level: 26},
-			{generation: 4, level: 17, pokeball: "safariball"},
+			{ generation: 2, level: 5 },
+			{ generation: 3, level: 26 },
+			{ generation: 4, level: 17, pokeball: "safariball" },
 		],
 	},
 	magnezone: {
@@ -12325,12 +12325,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			yawn: ["3S0"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: 1, moves: ["yawn", "wish"], pokeball: "pokeball"},
-			{generation: 3, level: 36, moves: ["batonpass", "slash", "swordsdance", "aerialace"]},
+			{ generation: 3, level: 5, shiny: 1, moves: ["yawn", "wish"], pokeball: "pokeball" },
+			{ generation: 3, level: 36, moves: ["batonpass", "slash", "swordsdance", "aerialace"] },
 		],
 		encounters: [
-			{generation: 1, level: 3},
-			{generation: 3, level: 3, gender: "M", nature: "Adamant", ivs: {hp: 20, atk: 25, def: 21, spa: 24, spd: 15, spe: 20}, abilities: ["keeneye"], pokeball: "pokeball"},
+			{ generation: 1, level: 3 },
+			{ generation: 3, level: 3, gender: "M", nature: "Adamant", ivs: { hp: 20, atk: 25, def: 21, spa: 24, spd: 15, spe: 20 }, abilities: ["keeneye"], pokeball: "pokeball" },
 		],
 	},
 	farfetchdgalar: {
@@ -12435,7 +12435,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M"],
 		},
 		eventData: [
-			{generation: 8, level: 80, gender: "M", nature: "Brave", abilities: ["steadfast"], ivs: {hp: 30, atk: 31, def: 31, spa: 30, spd: 30, spe: 31}, moves: ["meteorassault", "brutalswing", "furycutter", "detect"], pokeball: "pokeball"},
+			{ generation: 8, level: 80, gender: "M", nature: "Brave", abilities: ["steadfast"], ivs: { hp: 30, atk: 31, def: 31, spa: 30, spd: 30, spe: 31 }, moves: ["meteorassault", "brutalswing", "furycutter", "detect"], pokeball: "pokeball" },
 		],
 	},
 	doduo: {
@@ -12518,8 +12518,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["7M", "5M"],
 		},
 		encounters: [
-			{generation: 1, level: 18},
-			{generation: 2, level: 4},
+			{ generation: 1, level: 18 },
+			{ generation: 2, level: 4 },
 		],
 	},
 	dodrio: {
@@ -12608,14 +12608,14 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["7M", "5M"],
 		},
 		eventData: [
-			{generation: 3, level: 34, moves: ["batonpass", "drillpeck", "agility", "triattack"]},
+			{ generation: 3, level: 34, moves: ["batonpass", "drillpeck", "agility", "triattack"] },
 		],
 		encounters: [
-			{generation: 1, level: 29},
-			{generation: 2, level: 10, gender: "F"},
-			{generation: 2, level: 30},
-			{generation: 3, level: 29, pokeball: "safariball"},
-			{generation: 4, level: 15, gender: "F", nature: "Impish", ivs: {hp: 20, atk: 20, def: 20, spa: 15, spd: 15, spe: 15}, abilities: ["runaway"], pokeball: "pokeball"},
+			{ generation: 1, level: 29 },
+			{ generation: 2, level: 10, gender: "F" },
+			{ generation: 2, level: 30 },
+			{ generation: 3, level: 29, pokeball: "safariball" },
+			{ generation: 4, level: 15, gender: "F", nature: "Impish", ivs: { hp: 20, atk: 20, def: 20, spa: 15, spd: 15, spe: 15 }, abilities: ["runaway"], pokeball: "pokeball" },
 		],
 	},
 	seel: {
@@ -12709,10 +12709,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["9M", "7V", "4M"],
 		},
 		eventData: [
-			{generation: 3, level: 23, abilities: ["thickfat"], moves: ["helpinghand", "surf", "safeguard", "icebeam"]},
+			{ generation: 3, level: 23, abilities: ["thickfat"], moves: ["helpinghand", "surf", "safeguard", "icebeam"] },
 		],
 		encounters: [
-			{generation: 1, level: 22},
+			{ generation: 1, level: 22 },
 		],
 	},
 	dewgong: {
@@ -12804,11 +12804,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["9M", "7V", "4M"],
 		},
 		encounters: [
-			{generation: 1, level: 15},
-			{generation: 2, level: 5},
-			{generation: 3, level: 32},
-			{generation: 5, level: 30},
-			{generation: 6, level: 30, maxEggMoves: 1},
+			{ generation: 1, level: 15 },
+			{ generation: 2, level: 5 },
+			{ generation: 3, level: 32 },
+			{ generation: 5, level: 30 },
+			{ generation: 6, level: 30, maxEggMoves: 1 },
 		],
 	},
 	grimer: {
@@ -12908,10 +12908,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 3, level: 23, moves: ["helpinghand", "sludgebomb", "shadowpunch", "minimize"]},
+			{ generation: 3, level: 23, moves: ["helpinghand", "sludgebomb", "shadowpunch", "minimize"] },
 		],
 		encounters: [
-			{generation: 1, level: 23},
+			{ generation: 1, level: 23 },
 		],
 	},
 	grimeralola: {
@@ -13016,7 +13016,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 7, level: 10, abilities: ["poisontouch"], moves: ["bite", "harden", "poisongas", "pound"], pokeball: "cherishball"},
+			{ generation: 7, level: 10, abilities: ["poisontouch"], moves: ["bite", "harden", "poisongas", "pound"], pokeball: "cherishball" },
 		],
 	},
 	muk: {
@@ -13125,13 +13125,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		encounters: [
-			{generation: 1, level: 25},
-			{generation: 2, level: 5},
-			{generation: 3, level: 32},
-			{generation: 4, level: 15},
-			{generation: 5, level: 5},
-			{generation: 5, level: 35, isHidden: true},
-			{generation: 6, level: 30},
+			{ generation: 1, level: 25 },
+			{ generation: 2, level: 5 },
+			{ generation: 3, level: 32 },
+			{ generation: 4, level: 15 },
+			{ generation: 5, level: 5 },
+			{ generation: 5, level: 35, isHidden: true },
+			{ generation: 6, level: 30 },
 		],
 	},
 	mukalola: {
@@ -13315,12 +13315,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			withdraw: ["9L4", "8L4", "8V", "7L4", "7V", "6L4", "5L4", "5D", "4L4", "3L1", "3S0", "3S1"],
 		},
 		eventData: [
-			{generation: 3, level: 24, gender: "F", nature: "Brave", ivs: {hp: 5, atk: 19, def: 18, spa: 5, spd: 11, spe: 13}, abilities: ["shellarmor"], moves: ["withdraw", "iciclespear", "supersonic", "aurorabeam"], pokeball: "pokeball"},
-			{generation: 3, level: 10, gender: "M", abilities: ["shellarmor"], moves: ["tackle", "withdraw", "iciclespear"], pokeball: "pokeball"},
-			{generation: 3, level: 29, abilities: ["shellarmor"], moves: ["refresh", "takedown", "surf", "aurorabeam"]},
+			{ generation: 3, level: 24, gender: "F", nature: "Brave", ivs: { hp: 5, atk: 19, def: 18, spa: 5, spd: 11, spe: 13 }, abilities: ["shellarmor"], moves: ["withdraw", "iciclespear", "supersonic", "aurorabeam"], pokeball: "pokeball" },
+			{ generation: 3, level: 10, gender: "M", abilities: ["shellarmor"], moves: ["tackle", "withdraw", "iciclespear"], pokeball: "pokeball" },
+			{ generation: 3, level: 29, abilities: ["shellarmor"], moves: ["refresh", "takedown", "surf", "aurorabeam"] },
 		],
 		encounters: [
-			{generation: 1, level: 10},
+			{ generation: 1, level: 10 },
 		],
 	},
 	cloyster: {
@@ -13415,7 +13415,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			withdraw: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
 		},
 		eventData: [
-			{generation: 5, level: 30, gender: "M", nature: "Naughty", abilities: ["skilllink"], moves: ["iciclespear", "rockblast", "hiddenpower", "razorshell"], pokeball: "pokeball"},
+			{ generation: 5, level: 30, gender: "M", nature: "Naughty", abilities: ["skilllink"], moves: ["iciclespear", "rockblast", "hiddenpower", "razorshell"], pokeball: "pokeball" },
 		],
 	},
 	gastly: {
@@ -13518,7 +13518,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		encounters: [
-			{generation: 1, level: 18},
+			{ generation: 1, level: 18 },
 		],
 	},
 	haunter: {
@@ -13623,13 +13623,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		eventData: [
-			{generation: 5, level: 30, moves: ["confuseray", "suckerpunch", "shadowpunch", "payback"], pokeball: "cherishball"},
+			{ generation: 5, level: 30, moves: ["confuseray", "suckerpunch", "shadowpunch", "payback"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 1, level: 20},
-			{generation: 2, level: 15},
-			{generation: 3, level: 20},
-			{generation: 4, level: 16},
+			{ generation: 1, level: 20 },
+			{ generation: 2, level: 15 },
+			{ generation: 3, level: 20 },
+			{ generation: 4, level: 16 },
 		],
 	},
 	gengar: {
@@ -13760,14 +13760,14 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		eventData: [
-			{generation: 3, level: 23, gender: "F", nature: "Hardy", ivs: {hp: 19, atk: 14, def: 0, spa: 14, spd: 17, spe: 27}, moves: ["spite", "curse", "nightshade", "confuseray"], pokeball: "pokeball"},
-			{generation: 6, level: 25, nature: "Timid", moves: ["psychic", "confuseray", "suckerpunch", "shadowpunch"], pokeball: "cherishball"},
-			{generation: 6, level: 25, moves: ["nightshade", "confuseray", "suckerpunch", "shadowpunch"], pokeball: "cherishball"},
-			{generation: 6, level: 50, moves: ["shadowball", "sludgebomb", "willowisp", "destinybond"], pokeball: "cherishball"},
-			{generation: 6, level: 25, shiny: true, moves: ["shadowball", "sludgewave", "confuseray", "astonish"], pokeball: "duskball"},
-			{generation: 6, level: 50, shiny: true, gender: "M", moves: ["meanlook", "hypnosis", "psychic", "hyperbeam"], pokeball: "cherishball"},
-			{generation: 6, level: 100, moves: ["meanlook", "hypnosis", "psychic", "hyperbeam"], pokeball: "cherishball"},
-			{generation: 8, level: 80, gender: "M", nature: "Naughty", abilities: ["cursedbody"], ivs: {hp: 30, atk: 30, def: 30, spa: 31, spd: 31, spe: 31}, moves: ["shadowball", "sludgebomb", "dazzlinggleam", "willowisp"], pokeball: "pokeball"},
+			{ generation: 3, level: 23, gender: "F", nature: "Hardy", ivs: { hp: 19, atk: 14, def: 0, spa: 14, spd: 17, spe: 27 }, moves: ["spite", "curse", "nightshade", "confuseray"], pokeball: "pokeball" },
+			{ generation: 6, level: 25, nature: "Timid", moves: ["psychic", "confuseray", "suckerpunch", "shadowpunch"], pokeball: "cherishball" },
+			{ generation: 6, level: 25, moves: ["nightshade", "confuseray", "suckerpunch", "shadowpunch"], pokeball: "cherishball" },
+			{ generation: 6, level: 50, moves: ["shadowball", "sludgebomb", "willowisp", "destinybond"], pokeball: "cherishball" },
+			{ generation: 6, level: 25, shiny: true, moves: ["shadowball", "sludgewave", "confuseray", "astonish"], pokeball: "duskball" },
+			{ generation: 6, level: 50, shiny: true, gender: "M", moves: ["meanlook", "hypnosis", "psychic", "hyperbeam"], pokeball: "cherishball" },
+			{ generation: 6, level: 100, moves: ["meanlook", "hypnosis", "psychic", "hyperbeam"], pokeball: "cherishball" },
+			{ generation: 8, level: 80, gender: "M", nature: "Naughty", abilities: ["cursedbody"], ivs: { hp: 30, atk: 30, def: 30, spa: 31, spd: 31, spe: 31 }, moves: ["shadowball", "sludgebomb", "dazzlinggleam", "willowisp"], pokeball: "pokeball" },
 		],
 	},
 	onix: {
@@ -13863,7 +13863,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wideguard: ["8E", "7E"],
 		},
 		encounters: [
-			{generation: 1, level: 13},
+			{ generation: 1, level: 13 },
 		],
 	},
 	steelix: {
@@ -14086,10 +14086,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L29", "7T", "7L41", "6T", "6L41", "5T", "5L41", "4T", "4L50"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: 1, abilities: ["insomnia"], moves: ["bellydrum", "wish"], pokeball: "pokeball"},
+			{ generation: 3, level: 5, shiny: 1, abilities: ["insomnia"], moves: ["bellydrum", "wish"], pokeball: "pokeball" },
 		],
 		encounters: [
-			{generation: 1, level: 9},
+			{ generation: 1, level: 9 },
 		],
 	},
 	hypno: {
@@ -14213,11 +14213,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L32", "7T", "7L41", "6T", "6L41", "5T", "5L41", "4T", "4L64"],
 		},
 		eventData: [
-			{generation: 3, level: 34, abilities: ["insomnia"], moves: ["batonpass", "psychic", "meditate", "shadowball"]},
+			{ generation: 3, level: 34, abilities: ["insomnia"], moves: ["batonpass", "psychic", "meditate", "shadowball"] },
 		],
 		encounters: [
-			{generation: 2, level: 16},
-			{generation: 4, level: 16},
+			{ generation: 2, level: 16 },
+			{ generation: 4, level: 16 },
 		],
 	},
 	krabby: {
@@ -14306,7 +14306,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["8M", "8V", "7M", "6M", "5M", "4M"],
 		},
 		encounters: [
-			{generation: 1, level: 10},
+			{ generation: 1, level: 10 },
 		],
 	},
 	kingler: {
@@ -14398,9 +14398,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["8M", "8V", "7M", "6M", "5M", "4M"],
 		},
 		encounters: [
-			{generation: 1, level: 15},
-			{generation: 3, level: 25},
-			{generation: 4, level: 22},
+			{ generation: 1, level: 15 },
+			{ generation: 3, level: 25 },
+			{ generation: 4, level: 22 },
 		],
 	},
 	voltorb: {
@@ -14475,11 +14475,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		eventData: [
-			{generation: 3, level: 19, moves: ["refresh", "mirrorcoat", "spark", "swift"]},
+			{ generation: 3, level: 19, moves: ["refresh", "mirrorcoat", "spark", "swift"] },
 		],
 		encounters: [
-			{generation: 1, level: 14},
-			{generation: 1, level: 40},
+			{ generation: 1, level: 14 },
+			{ generation: 1, level: 40 },
 		],
 	},
 	voltorbhisui: {
@@ -14610,10 +14610,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		encounters: [
-			{generation: 1, level: 3},
-			{generation: 2, level: 23},
-			{generation: 3, level: 3, nature: "Hasty", ivs: {hp: 19, atk: 16, def: 18, spa: 25, spd: 25, spe: 19}, abilities: ["static"], pokeball: "pokeball"},
-			{generation: 4, level: 23},
+			{ generation: 1, level: 3 },
+			{ generation: 2, level: 23 },
+			{ generation: 3, level: 3, nature: "Hasty", ivs: { hp: 19, atk: 16, def: 18, spa: 25, spd: 25, spe: 19 }, abilities: ["static"], pokeball: "pokeball" },
+			{ generation: 4, level: 23 },
 		],
 	},
 	electrodehisui: {
@@ -14764,10 +14764,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: 1, moves: ["sweetscent", "wish"], pokeball: "pokeball"},
+			{ generation: 3, level: 5, shiny: 1, moves: ["sweetscent", "wish"], pokeball: "pokeball" },
 		],
 		encounters: [
-			{generation: 1, level: 20},
+			{ generation: 1, level: 20 },
 		],
 	},
 	exeggutor: {
@@ -14875,7 +14875,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 46, moves: ["refresh", "psychic", "hypnosis", "ancientpower"]},
+			{ generation: 3, level: 46, moves: ["refresh", "psychic", "hypnosis", "ancientpower"] },
 		],
 	},
 	exeggutoralola: {
@@ -14982,7 +14982,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T"],
 		},
 		eventData: [
-			{generation: 7, level: 50, gender: "M", nature: "Modest", isHidden: true, moves: ["powerswap", "celebrate", "leafstorm", "dracometeor"], pokeball: "cherishball"},
+			{ generation: 7, level: 50, gender: "M", nature: "Modest", isHidden: true, moves: ["powerswap", "celebrate", "leafstorm", "dracometeor"], pokeball: "cherishball" },
 		],
 	},
 	cubone: {
@@ -15085,7 +15085,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			watergun: ["7V"],
 		},
 		encounters: [
-			{generation: 1, level: 16},
+			{ generation: 1, level: 16 },
 		],
 	},
 	marowak: {
@@ -15191,12 +15191,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			watergun: ["7V"],
 		},
 		eventData: [
-			{generation: 3, level: 44, moves: ["sing", "earthquake", "swordsdance", "rockslide"]},
+			{ generation: 3, level: 44, moves: ["sing", "earthquake", "swordsdance", "rockslide"] },
 		],
 		encounters: [
-			{generation: 1, level: 24},
-			{generation: 2, level: 12},
-			{generation: 4, level: 14},
+			{ generation: 1, level: 24 },
+			{ generation: 2, level: 12 },
+			{ generation: 4, level: 14 },
 		],
 	},
 	marowakalola: {
@@ -15383,7 +15383,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["7M", "7L23", "7S0"],
 		},
 		eventData: [
-			{generation: 7, level: 25, perfectIVs: 3, moves: ["leer", "hex", "bonemerang", "willowisp"], pokeball: "pokeball"},
+			{ generation: 7, level: 25, perfectIVs: 3, moves: ["leer", "hex", "bonemerang", "willowisp"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -15561,10 +15561,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M", "5M"],
 		},
 		eventData: [
-			{generation: 3, level: 38, abilities: ["limber"], moves: ["refresh", "highjumpkick", "mindreader", "megakick"]},
+			{ generation: 3, level: 38, abilities: ["limber"], moves: ["refresh", "highjumpkick", "mindreader", "megakick"] },
 		],
 		encounters: [
-			{generation: 1, level: 30},
+			{ generation: 1, level: 30 },
 		],
 	},
 	hitmonchan: {
@@ -15672,10 +15672,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M", "5M"],
 		},
 		eventData: [
-			{generation: 3, level: 38, abilities: ["keeneye"], moves: ["helpinghand", "skyuppercut", "mindreader", "megapunch"]},
+			{ generation: 3, level: 38, abilities: ["keeneye"], moves: ["helpinghand", "skyuppercut", "mindreader", "megapunch"] },
 		],
 		encounters: [
-			{generation: 1, level: 30},
+			{ generation: 1, level: 30 },
 		],
 	},
 	hitmontop: {
@@ -15768,7 +15768,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M", "5M"],
 		},
 		eventData: [
-			{generation: 5, level: 55, gender: "M", nature: "Adamant", abilities: ["intimidate"], moves: ["fakeout", "closecombat", "suckerpunch", "helpinghand"]},
+			{ generation: 5, level: 55, gender: "M", nature: "Adamant", abilities: ["intimidate"], moves: ["fakeout", "closecombat", "suckerpunch", "helpinghand"] },
 		],
 	},
 	lickitung: {
@@ -15893,11 +15893,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "7E", "6T", "6E", "5T", "5E", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: 1, moves: ["healbell", "wish"], pokeball: "pokeball"},
-			{generation: 3, level: 38, moves: ["helpinghand", "doubleedge", "defensecurl", "rollout"]},
+			{ generation: 3, level: 5, shiny: 1, moves: ["healbell", "wish"], pokeball: "pokeball" },
+			{ generation: 3, level: 38, moves: ["helpinghand", "doubleedge", "defensecurl", "rollout"] },
 		],
 		encounters: [
-			{generation: 1, level: 15},
+			{ generation: 1, level: 15 },
 		],
 	},
 	lickilicky: {
@@ -16087,7 +16087,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		encounters: [
-			{generation: 1, level: 30},
+			{ generation: 1, level: 30 },
 		],
 	},
 	weezing: {
@@ -16172,9 +16172,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		encounters: [
-			{generation: 2, level: 16},
-			{generation: 3, level: 32},
-			{generation: 4, level: 15, pokeball: "safariball"},
+			{ generation: 2, level: 16 },
+			{ generation: 3, level: 32 },
+			{ generation: 4, level: 15, pokeball: "safariball" },
 		],
 	},
 	weezinggalar: {
@@ -16363,7 +16363,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		encounters: [
-			{generation: 1, level: 20},
+			{ generation: 1, level: 20 },
 		],
 	},
 	rhydon: {
@@ -16504,13 +16504,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		eventData: [
-			{generation: 3, level: 46, moves: ["helpinghand", "megahorn", "scaryface", "earthquake"]},
+			{ generation: 3, level: 46, moves: ["helpinghand", "megahorn", "scaryface", "earthquake"] },
 		],
 		encounters: [
-			{generation: 1, level: 15},
-			{generation: 2, level: 10},
-			{generation: 4, level: 41},
-			{generation: 6, level: 30},
+			{ generation: 1, level: 15 },
+			{ generation: 2, level: 10 },
+			{ generation: 4, level: 41 },
+			{ generation: 6, level: 30 },
 		],
 	},
 	rhyperior: {
@@ -16865,13 +16865,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: 1, moves: ["sweetscent", "wish"], pokeball: "pokeball"},
-			{generation: 3, level: 10, moves: ["pound", "growl", "tailwhip", "refresh"], pokeball: "pokeball"},
-			{generation: 3, level: 39, moves: ["sweetkiss", "thunderbolt", "softboiled", "skillswap"]},
-			{generation: 8, level: 7, moves: ["present", "sweetkiss", "charm", "softboiled"], pokeball: "cherishball"},
+			{ generation: 3, level: 5, shiny: 1, moves: ["sweetscent", "wish"], pokeball: "pokeball" },
+			{ generation: 3, level: 10, moves: ["pound", "growl", "tailwhip", "refresh"], pokeball: "pokeball" },
+			{ generation: 3, level: 39, moves: ["sweetkiss", "thunderbolt", "softboiled", "skillswap"] },
+			{ generation: 8, level: 7, moves: ["present", "sweetkiss", "charm", "softboiled"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 1, level: 7},
+			{ generation: 1, level: 7 },
 		],
 	},
 	blissey: {
@@ -17010,7 +17010,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 5, level: 10, isHidden: true, moves: ["pound", "growl", "tailwhip", "refresh"]},
+			{ generation: 5, level: 10, isHidden: true, moves: ["pound", "growl", "tailwhip", "refresh"] },
 		],
 	},
 	tangela: {
@@ -17097,10 +17097,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wringout: ["7L46", "6L46", "5L49", "4L50"],
 		},
 		eventData: [
-			{generation: 3, level: 30, abilities: ["chlorophyll"], moves: ["morningsun", "solarbeam", "sunnyday", "ingrain"]},
+			{ generation: 3, level: 30, abilities: ["chlorophyll"], moves: ["morningsun", "solarbeam", "sunnyday", "ingrain"] },
 		],
 		encounters: [
-			{generation: 1, level: 13},
+			{ generation: 1, level: 13 },
 		],
 	},
 	tangrowth: {
@@ -17190,7 +17190,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wringout: ["7L49", "6L49", "5L49", "4L50"],
 		},
 		eventData: [
-			{generation: 4, level: 50, gender: "M", nature: "Brave", moves: ["sunnyday", "morningsun", "ancientpower", "naturalgift"], pokeball: "cherishball"},
+			{ generation: 4, level: 50, gender: "M", nature: "Brave", moves: ["sunnyday", "morningsun", "ancientpower", "naturalgift"], pokeball: "cherishball" },
 		],
 	},
 	kangaskhan: {
@@ -17321,13 +17321,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: 1, abilities: ["earlybird"], moves: ["yawn", "wish"], pokeball: "pokeball"},
-			{generation: 3, level: 10, abilities: ["earlybird"], moves: ["cometpunch", "leer", "bite"], pokeball: "pokeball"},
-			{generation: 3, level: 35, abilities: ["earlybird"], moves: ["sing", "earthquake", "tailwhip", "dizzypunch"]},
-			{generation: 6, level: 50, abilities: ["scrappy"], moves: ["fakeout", "return", "earthquake", "suckerpunch"], pokeball: "cherishball"},
+			{ generation: 3, level: 5, shiny: 1, abilities: ["earlybird"], moves: ["yawn", "wish"], pokeball: "pokeball" },
+			{ generation: 3, level: 10, abilities: ["earlybird"], moves: ["cometpunch", "leer", "bite"], pokeball: "pokeball" },
+			{ generation: 3, level: 35, abilities: ["earlybird"], moves: ["sing", "earthquake", "tailwhip", "dizzypunch"] },
+			{ generation: 6, level: 50, abilities: ["scrappy"], moves: ["fakeout", "return", "earthquake", "suckerpunch"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 1, level: 25},
+			{ generation: 1, level: 25 },
 		],
 	},
 	horsea: {
@@ -17406,10 +17406,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["9M", "8M", "7V", "4M"],
 		},
 		eventData: [
-			{generation: 5, level: 1, shiny: true, moves: ["bubble"], pokeball: "pokeball"},
+			{ generation: 5, level: 1, shiny: true, moves: ["bubble"], pokeball: "pokeball" },
 		],
 		encounters: [
-			{generation: 1, level: 5},
+			{ generation: 1, level: 5 },
 		],
 	},
 	seadra: {
@@ -17486,13 +17486,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["9M", "8M", "7V", "4M"],
 		},
 		eventData: [
-			{generation: 3, level: 45, abilities: ["poisonpoint"], moves: ["leer", "watergun", "twister", "agility"], pokeball: "pokeball"},
+			{ generation: 3, level: 45, abilities: ["poisonpoint"], moves: ["leer", "watergun", "twister", "agility"], pokeball: "pokeball" },
 		],
 		encounters: [
-			{generation: 1, level: 20},
-			{generation: 2, level: 20},
-			{generation: 3, level: 25},
-			{generation: 4, level: 15},
+			{ generation: 1, level: 20 },
+			{ generation: 2, level: 20 },
+			{ generation: 3, level: 25 },
+			{ generation: 4, level: 15 },
 		],
 	},
 	kingdra: {
@@ -17572,8 +17572,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			yawn: ["9L1", "8L1", "7L1", "6L1", "5L1", "4L1"],
 		},
 		eventData: [
-			{generation: 3, level: 50, abilities: ["swiftswim"], moves: ["leer", "watergun", "twister", "agility"], pokeball: "pokeball"},
-			{generation: 5, level: 50, gender: "M", nature: "Timid", ivs: {hp: 31, atk: 17, def: 8, spa: 31, spd: 11, spe: 31}, abilities: ["swiftswim"], moves: ["dracometeor", "muddywater", "dragonpulse", "protect"], pokeball: "cherishball"},
+			{ generation: 3, level: 50, abilities: ["swiftswim"], moves: ["leer", "watergun", "twister", "agility"], pokeball: "pokeball" },
+			{ generation: 5, level: 50, gender: "M", nature: "Timid", ivs: { hp: 31, atk: 17, def: 8, spa: 31, spd: 11, spe: 31 }, abilities: ["swiftswim"], moves: ["dracometeor", "muddywater", "dragonpulse", "protect"], pokeball: "cherishball" },
 		],
 	},
 	goldeen: {
@@ -17655,7 +17655,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["8M", "4M"],
 		},
 		encounters: [
-			{generation: 1, level: 5},
+			{ generation: 1, level: 5 },
 		],
 	},
 	seaking: {
@@ -17736,12 +17736,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["8M", "4M"],
 		},
 		encounters: [
-			{generation: 1, level: 23},
-			{generation: 2, level: 10},
-			{generation: 3, level: 20},
-			{generation: 4, level: 10},
-			{generation: 6, level: 26, maxEggMoves: 1},
-			{generation: 7, level: 10},
+			{ generation: 1, level: 23 },
+			{ generation: 2, level: 10 },
+			{ generation: 3, level: 20 },
+			{ generation: 4, level: 10 },
+			{ generation: 6, level: 26, maxEggMoves: 1 },
+			{ generation: 7, level: 10 },
 		],
 	},
 	staryu: {
@@ -17824,11 +17824,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		eventData: [
-			{generation: 3, level: 50, moves: ["minimize", "lightscreen", "cosmicpower", "hydropump"], pokeball: "pokeball"},
-			{generation: 3, level: 18, nature: "Timid", ivs: {hp: 10, atk: 3, def: 22, spa: 24, spd: 3, spe: 18}, abilities: ["illuminate"], moves: ["harden", "watergun", "rapidspin", "recover"], pokeball: "pokeball"},
+			{ generation: 3, level: 50, moves: ["minimize", "lightscreen", "cosmicpower", "hydropump"], pokeball: "pokeball" },
+			{ generation: 3, level: 18, nature: "Timid", ivs: { hp: 10, atk: 3, def: 22, spa: 24, spd: 3, spe: 18 }, abilities: ["illuminate"], moves: ["harden", "watergun", "rapidspin", "recover"], pokeball: "pokeball" },
 		],
 		encounters: [
-			{generation: 1, level: 5},
+			{ generation: 1, level: 5 },
 		],
 	},
 	starmie: {
@@ -17928,7 +17928,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		eventData: [
-			{generation: 3, level: 41, moves: ["refresh", "waterfall", "icebeam", "recover"]},
+			{ generation: 3, level: 41, moves: ["refresh", "waterfall", "icebeam", "recover"] },
 		],
 	},
 	mimejr: {
@@ -18157,10 +18157,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 42, abilities: ["soundproof"], moves: ["followme", "psychic", "encore", "thunderpunch"]},
+			{ generation: 3, level: 42, abilities: ["soundproof"], moves: ["followme", "psychic", "encore", "thunderpunch"] },
 		],
 		encounters: [
-			{generation: 1, level: 6},
+			{ generation: 1, level: 6 },
 		],
 	},
 	mrmimegalar: {
@@ -18256,7 +18256,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M"],
 		},
 		eventData: [
-			{generation: 8, level: 15, isHidden: true, moves: ["copycat", "encore", "iceshard", "confusion"], pokeball: "cherishball"},
+			{ generation: 8, level: 15, isHidden: true, moves: ["copycat", "encore", "iceshard", "confusion"], pokeball: "cherishball" },
 		],
 	},
 	mrrime: {
@@ -18445,13 +18445,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "9L40", "8M", "8L40", "8V", "7M", "7L41", "6M", "6L41", "5M", "5L41", "4M", "4L41"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", abilities: ["swarm"], moves: ["quickattack", "leer", "focusenergy"], pokeball: "pokeball"},
-			{generation: 3, level: 40, abilities: ["swarm"], moves: ["morningsun", "razorwind", "silverwind", "slash"]},
-			{generation: 5, level: 30, moves: ["agility", "wingattack", "furycutter", "slash"], pokeball: "cherishball"},
+			{ generation: 3, level: 10, gender: "M", abilities: ["swarm"], moves: ["quickattack", "leer", "focusenergy"], pokeball: "pokeball" },
+			{ generation: 3, level: 40, abilities: ["swarm"], moves: ["morningsun", "razorwind", "silverwind", "slash"] },
+			{ generation: 5, level: 30, moves: ["agility", "wingattack", "furycutter", "slash"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 1, level: 15},
-			{generation: 1, level: 25},
+			{ generation: 1, level: 15 },
+			{ generation: 1, level: 25 },
 		],
 	},
 	scizor: {
@@ -18555,14 +18555,14 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "9L40", "8M", "8L40", "7M", "7L41", "6M", "6L41", "6S4", "5M", "5L41", "4M", "4L41", "4S1"],
 		},
 		eventData: [
-			{generation: 3, level: 50, gender: "M", abilities: ["swarm"], moves: ["furycutter", "metalclaw", "swordsdance", "slash"], pokeball: "pokeball"},
-			{generation: 4, level: 50, gender: "M", nature: "Adamant", abilities: ["swarm"], moves: ["xscissor", "swordsdance", "irondefense", "agility"], pokeball: "cherishball"},
-			{generation: 5, level: 100, gender: "M", abilities: ["technician"], moves: ["bulletpunch", "bugbite", "roost", "swordsdance"], pokeball: "cherishball"},
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["leer", "focusenergy", "pursuit", "steelwing"]},
-			{generation: 6, level: 50, gender: "M", moves: ["xscissor", "nightslash", "doublehit", "ironhead"], pokeball: "cherishball"},
-			{generation: 6, level: 25, nature: "Adamant", abilities: ["technician"], moves: ["aerialace", "falseswipe", "agility", "furycutter"], pokeball: "cherishball"},
-			{generation: 6, level: 25, moves: ["metalclaw", "falseswipe", "agility", "furycutter"], pokeball: "cherishball"},
-			{generation: 6, level: 50, abilities: ["technician"], moves: ["bulletpunch", "swordsdance", "roost", "uturn"], pokeball: "cherishball"},
+			{ generation: 3, level: 50, gender: "M", abilities: ["swarm"], moves: ["furycutter", "metalclaw", "swordsdance", "slash"], pokeball: "pokeball" },
+			{ generation: 4, level: 50, gender: "M", nature: "Adamant", abilities: ["swarm"], moves: ["xscissor", "swordsdance", "irondefense", "agility"], pokeball: "cherishball" },
+			{ generation: 5, level: 100, gender: "M", abilities: ["technician"], moves: ["bulletpunch", "bugbite", "roost", "swordsdance"], pokeball: "cherishball" },
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["leer", "focusenergy", "pursuit", "steelwing"] },
+			{ generation: 6, level: 50, gender: "M", moves: ["xscissor", "nightslash", "doublehit", "ironhead"], pokeball: "cherishball" },
+			{ generation: 6, level: 25, nature: "Adamant", abilities: ["technician"], moves: ["aerialace", "falseswipe", "agility", "furycutter"], pokeball: "cherishball" },
+			{ generation: 6, level: 25, moves: ["metalclaw", "falseswipe", "agility", "furycutter"], pokeball: "cherishball" },
+			{ generation: 6, level: 50, abilities: ["technician"], moves: ["bulletpunch", "swordsdance", "roost", "uturn"], pokeball: "cherishball" },
 		],
 	},
 	kleavor: {
@@ -18846,11 +18846,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T", "5T", "4T"],
 		},
 		encounters: [
-			{generation: 1, level: 15},
-			{generation: 2, level: 10},
-			{generation: 3, level: 20, nature: "Mild", ivs: {hp: 18, atk: 17, def: 18, spa: 22, spd: 25, spe: 21}, abilities: ["oblivious"], pokeball: "pokeball"},
-			{generation: 4, level: 22},
-			{generation: 7, level: 9},
+			{ generation: 1, level: 15 },
+			{ generation: 2, level: 10 },
+			{ generation: 3, level: 20, nature: "Mild", ivs: { hp: 18, atk: 17, def: 18, spa: 22, spd: 25, spe: 21 }, abilities: ["oblivious"], pokeball: "pokeball" },
+			{ generation: 4, level: 22 },
+			{ generation: 7, level: 9 },
 		],
 	},
 	elekid: {
@@ -18943,7 +18943,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		eventData: [
-			{generation: 3, level: 20, moves: ["icepunch", "firepunch", "thunderpunch", "crosschop"], pokeball: "pokeball"},
+			{ generation: 3, level: 20, moves: ["icepunch", "firepunch", "thunderpunch", "crosschop"], pokeball: "pokeball" },
 		],
 	},
 	electabuzz: {
@@ -19046,17 +19046,17 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", moves: ["quickattack", "leer", "thunderpunch"], pokeball: "pokeball"},
-			{generation: 3, level: 43, moves: ["followme", "crosschop", "thunderwave", "thunderbolt"]},
-			{generation: 4, level: 30, gender: "M", nature: "Naughty", moves: ["lowkick", "shockwave", "lightscreen", "thunderpunch"], pokeball: "pokeball"},
-			{generation: 5, level: 30, moves: ["lowkick", "swift", "shockwave", "lightscreen"], pokeball: "cherishball"},
-			{generation: 6, level: 30, gender: "M", isHidden: true, moves: ["lowkick", "shockwave", "lightscreen", "thunderpunch"], pokeball: "cherishball"},
+			{ generation: 3, level: 10, gender: "M", moves: ["quickattack", "leer", "thunderpunch"], pokeball: "pokeball" },
+			{ generation: 3, level: 43, moves: ["followme", "crosschop", "thunderwave", "thunderbolt"] },
+			{ generation: 4, level: 30, gender: "M", nature: "Naughty", moves: ["lowkick", "shockwave", "lightscreen", "thunderpunch"], pokeball: "pokeball" },
+			{ generation: 5, level: 30, moves: ["lowkick", "swift", "shockwave", "lightscreen"], pokeball: "cherishball" },
+			{ generation: 6, level: 30, gender: "M", isHidden: true, moves: ["lowkick", "shockwave", "lightscreen", "thunderpunch"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 1, level: 33},
-			{generation: 2, level: 15},
-			{generation: 4, level: 15},
-			{generation: 7, level: 25},
+			{ generation: 1, level: 33 },
+			{ generation: 2, level: 15 },
+			{ generation: 4, level: 15 },
+			{ generation: 7, level: 25 },
 		],
 	},
 	electivire: {
@@ -19156,8 +19156,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wildcharge: ["9M", "8M", "7M", "6M", "5M"],
 		},
 		eventData: [
-			{generation: 4, level: 50, gender: "M", nature: "Adamant", moves: ["thunderpunch", "icepunch", "crosschop", "earthquake"], pokeball: "pokeball"},
-			{generation: 4, level: 50, gender: "M", nature: "Serious", moves: ["lightscreen", "thunderpunch", "discharge", "thunderbolt"], pokeball: "cherishball"},
+			{ generation: 4, level: 50, gender: "M", nature: "Adamant", moves: ["thunderpunch", "icepunch", "crosschop", "earthquake"], pokeball: "pokeball" },
+			{ generation: 4, level: 50, gender: "M", nature: "Serious", moves: ["lightscreen", "thunderpunch", "discharge", "thunderbolt"], pokeball: "cherishball" },
 		],
 	},
 	magby: {
@@ -19347,17 +19347,17 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["9M", "8M", "8V", "7M", "6M", "5M", "4M"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", moves: ["leer", "smog", "firepunch", "ember"], pokeball: "pokeball"},
-			{generation: 3, level: 36, moves: ["followme", "fireblast", "crosschop", "thunderpunch"]},
-			{generation: 4, level: 30, gender: "M", nature: "Quiet", moves: ["smokescreen", "firespin", "confuseray", "firepunch"], pokeball: "pokeball"},
-			{generation: 5, level: 30, moves: ["smokescreen", "feintattack", "firespin", "confuseray"], pokeball: "cherishball"},
-			{generation: 6, level: 30, gender: "M", isHidden: true, moves: ["smokescreen", "firespin", "confuseray", "firepunch"], pokeball: "cherishball"},
+			{ generation: 3, level: 10, gender: "M", moves: ["leer", "smog", "firepunch", "ember"], pokeball: "pokeball" },
+			{ generation: 3, level: 36, moves: ["followme", "fireblast", "crosschop", "thunderpunch"] },
+			{ generation: 4, level: 30, gender: "M", nature: "Quiet", moves: ["smokescreen", "firespin", "confuseray", "firepunch"], pokeball: "pokeball" },
+			{ generation: 5, level: 30, moves: ["smokescreen", "feintattack", "firespin", "confuseray"], pokeball: "cherishball" },
+			{ generation: 6, level: 30, gender: "M", isHidden: true, moves: ["smokescreen", "firespin", "confuseray", "firepunch"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 1, level: 34},
-			{generation: 2, level: 14},
-			{generation: 4, level: 14},
-			{generation: 7, level: 16},
+			{ generation: 1, level: 34 },
+			{ generation: 2, level: 14 },
+			{ generation: 4, level: 14 },
+			{ generation: 7, level: 16 },
 		],
 	},
 	magmortar: {
@@ -19458,8 +19458,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["9M", "8M", "7M", "6M", "5M", "4M"],
 		},
 		eventData: [
-			{generation: 4, level: 50, gender: "F", nature: "Modest", moves: ["flamethrower", "psychic", "hyperbeam", "solarbeam"], pokeball: "pokeball"},
-			{generation: 4, level: 50, gender: "M", nature: "Hardy", moves: ["confuseray", "firepunch", "lavaplume", "flamethrower"], pokeball: "cherishball"},
+			{ generation: 4, level: 50, gender: "F", nature: "Modest", moves: ["flamethrower", "psychic", "hyperbeam", "solarbeam"], pokeball: "pokeball" },
+			{ generation: 4, level: 50, gender: "M", nature: "Hardy", moves: ["confuseray", "firepunch", "lavaplume", "flamethrower"], pokeball: "cherishball" },
 		],
 	},
 	pinsir: {
@@ -19551,13 +19551,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["8M", "8L32", "8V", "7M", "7L29", "6M", "6L29", "6S1", "5M", "5L29", "4M", "4L30"],
 		},
 		eventData: [
-			{generation: 3, level: 35, abilities: ["hypercutter"], moves: ["helpinghand", "guillotine", "falseswipe", "submission"]},
-			{generation: 6, level: 50, gender: "F", nature: "Adamant", moves: ["xscissor", "earthquake", "stoneedge", "return"], pokeball: "cherishball"},
-			{generation: 6, level: 50, nature: "Jolly", isHidden: true, moves: ["earthquake", "swordsdance", "feint", "quickattack"], pokeball: "cherishball"},
+			{ generation: 3, level: 35, abilities: ["hypercutter"], moves: ["helpinghand", "guillotine", "falseswipe", "submission"] },
+			{ generation: 6, level: 50, gender: "F", nature: "Adamant", moves: ["xscissor", "earthquake", "stoneedge", "return"], pokeball: "cherishball" },
+			{ generation: 6, level: 50, nature: "Jolly", isHidden: true, moves: ["earthquake", "swordsdance", "feint", "quickattack"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 1, level: 15},
-			{generation: 1, level: 20},
+			{ generation: 1, level: 15 },
+			{ generation: 1, level: 20 },
 		],
 	},
 	tauros: {
@@ -19660,12 +19660,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L30", "8M", "8L30", "7T", "7L35", "6T", "6L35", "5T", "5L35", "4T", "4L29"],
 		},
 		eventData: [
-			{generation: 3, level: 25, nature: "Docile", ivs: {hp: 14, atk: 19, def: 12, spa: 17, spd: 5, spe: 26}, abilities: ["intimidate"], moves: ["rage", "hornattack", "scaryface", "pursuit"], pokeball: "safariball"},
-			{generation: 3, level: 10, abilities: ["intimidate"], moves: ["tackle", "tailwhip", "rage", "hornattack"], pokeball: "pokeball"},
-			{generation: 3, level: 46, abilities: ["intimidate"], moves: ["refresh", "earthquake", "tailwhip", "bodyslam"]},
+			{ generation: 3, level: 25, nature: "Docile", ivs: { hp: 14, atk: 19, def: 12, spa: 17, spd: 5, spe: 26 }, abilities: ["intimidate"], moves: ["rage", "hornattack", "scaryface", "pursuit"], pokeball: "safariball" },
+			{ generation: 3, level: 10, abilities: ["intimidate"], moves: ["tackle", "tailwhip", "rage", "hornattack"], pokeball: "pokeball" },
+			{ generation: 3, level: 46, abilities: ["intimidate"], moves: ["refresh", "earthquake", "tailwhip", "bodyslam"] },
 		],
 		encounters: [
-			{generation: 1, level: 21},
+			{ generation: 1, level: 21 },
 		],
 	},
 	taurospaldeacombat: {
@@ -19850,17 +19850,17 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			tackle: ["9L15", "8L15", "8V", "7L15", "7V", "6L15", "5L15", "4L15", "3L15"],
 		},
 		eventData: [
-			{generation: 4, level: 5, gender: "M", nature: "Relaxed", moves: ["splash"], pokeball: "pokeball"},
-			{generation: 4, level: 6, gender: "F", nature: "Rash", moves: ["splash"], pokeball: "pokeball"},
-			{generation: 4, level: 7, gender: "F", nature: "Hardy", moves: ["splash"], pokeball: "pokeball"},
-			{generation: 4, level: 5, gender: "F", nature: "Lonely", moves: ["splash"], pokeball: "pokeball"},
-			{generation: 4, level: 4, gender: "M", nature: "Modest", moves: ["splash"], pokeball: "pokeball"},
-			{generation: 5, level: 99, shiny: true, gender: "M", moves: ["flail", "hydropump", "bounce", "splash"], pokeball: "cherishball"},
-			{generation: 6, level: 1, shiny: 1, moves: ["splash", "celebrate", "happyhour"], pokeball: "cherishball"},
-			{generation: 7, level: 19, shiny: true, moves: ["splash", "bounce"], pokeball: "cherishball"},
+			{ generation: 4, level: 5, gender: "M", nature: "Relaxed", moves: ["splash"], pokeball: "pokeball" },
+			{ generation: 4, level: 6, gender: "F", nature: "Rash", moves: ["splash"], pokeball: "pokeball" },
+			{ generation: 4, level: 7, gender: "F", nature: "Hardy", moves: ["splash"], pokeball: "pokeball" },
+			{ generation: 4, level: 5, gender: "F", nature: "Lonely", moves: ["splash"], pokeball: "pokeball" },
+			{ generation: 4, level: 4, gender: "M", nature: "Modest", moves: ["splash"], pokeball: "pokeball" },
+			{ generation: 5, level: 99, shiny: true, gender: "M", moves: ["flail", "hydropump", "bounce", "splash"], pokeball: "cherishball" },
+			{ generation: 6, level: 1, shiny: 1, moves: ["splash", "celebrate", "happyhour"], pokeball: "cherishball" },
+			{ generation: 7, level: 19, shiny: true, moves: ["splash", "bounce"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 1, level: 5},
+			{ generation: 1, level: 5 },
 		],
 	},
 	gyarados: {
@@ -19968,17 +19968,17 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		eventData: [
-			{generation: 6, level: 50, moves: ["waterfall", "earthquake", "icefang", "dragondance"], pokeball: "cherishball"},
-			{generation: 6, level: 20, shiny: true, moves: ["waterfall", "bite", "icefang", "ironhead"], pokeball: "cherishball"},
-			{generation: 9, level: 50, gender: "M", nature: "Careful", perfectIVs: 6, moves: ["waterfall", "thunderwave", "taunt", "protect"], pokeball: "cherishball"},
+			{ generation: 6, level: 50, moves: ["waterfall", "earthquake", "icefang", "dragondance"], pokeball: "cherishball" },
+			{ generation: 6, level: 20, shiny: true, moves: ["waterfall", "bite", "icefang", "ironhead"], pokeball: "cherishball" },
+			{ generation: 9, level: 50, gender: "M", nature: "Careful", perfectIVs: 6, moves: ["waterfall", "thunderwave", "taunt", "protect"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 1, level: 15},
-			{generation: 2, level: 15},
-			{generation: 3, level: 5},
-			{generation: 4, level: 10},
-			{generation: 5, level: 1},
-			{generation: 7, level: 10},
+			{ generation: 1, level: 15 },
+			{ generation: 2, level: 15 },
+			{ generation: 3, level: 5 },
+			{ generation: 4, level: 10 },
+			{ generation: 5, level: 1 },
+			{ generation: 7, level: 10 },
 		],
 	},
 	lapras: {
@@ -20097,10 +20097,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 44, moves: ["hydropump", "raindance", "blizzard", "healbell"]},
+			{ generation: 3, level: 44, moves: ["hydropump", "raindance", "blizzard", "healbell"] },
 		],
 		encounters: [
-			{generation: 1, level: 15},
+			{ generation: 1, level: 15 },
 		],
 	},
 	ditto: {
@@ -20108,16 +20108,16 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			transform: ["9L1", "8L1", "8V", "7L1", "7V", "7S0", "6L1", "5L1", "4L1", "3L1"],
 		},
 		eventData: [
-			{generation: 7, level: 10, moves: ["transform"], pokeball: "cherishball"},
+			{ generation: 7, level: 10, moves: ["transform"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 1, level: 12},
-			{generation: 2, level: 10},
-			{generation: 3, level: 23},
-			{generation: 4, level: 10},
-			{generation: 5, level: 45},
-			{generation: 6, level: 30},
-			{generation: 7, level: 25},
+			{ generation: 1, level: 12 },
+			{ generation: 2, level: 10 },
+			{ generation: 3, level: 23 },
+			{ generation: 4, level: 10 },
+			{ generation: 5, level: 45 },
+			{ generation: 6, level: 30 },
+			{ generation: 7, level: 25 },
 		],
 	},
 	eevee: {
@@ -20200,16 +20200,16 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			yawn: ["9E", "8E", "7E", "6E", "5E", "4E"],
 		},
 		eventData: [
-			{generation: 4, level: 10, gender: "F", nature: "Lonely", abilities: ["adaptability"], moves: ["covet", "bite", "helpinghand", "attract"], pokeball: "cherishball"},
-			{generation: 4, level: 50, shiny: true, gender: "M", nature: "Hardy", abilities: ["adaptability"], moves: ["irontail", "trumpcard", "flail", "quickattack"], pokeball: "cherishball"},
-			{generation: 5, level: 50, gender: "F", nature: "Hardy", abilities: ["adaptability"], moves: ["sing", "return", "echoedvoice", "attract"], pokeball: "cherishball"},
-			{generation: 6, level: 10, moves: ["celebrate", "sandattack", "babydolleyes", "swift"], pokeball: "cherishball"},
-			{generation: 6, level: 15, shiny: true, isHidden: true, moves: ["swift", "quickattack", "babydolleyes", "helpinghand"], pokeball: "cherishball"},
-			{generation: 7, level: 10, nature: "Jolly", moves: ["celebrate", "sandattack", "babydolleyes"], pokeball: "cherishball"},
-			{generation: 8, level: 5, gender: "M", nature: "Docile", abilities: ["runaway"], moves: ["celebrate", "covet", "helpinghand", "tackle"], pokeball: "cherishball"},
+			{ generation: 4, level: 10, gender: "F", nature: "Lonely", abilities: ["adaptability"], moves: ["covet", "bite", "helpinghand", "attract"], pokeball: "cherishball" },
+			{ generation: 4, level: 50, shiny: true, gender: "M", nature: "Hardy", abilities: ["adaptability"], moves: ["irontail", "trumpcard", "flail", "quickattack"], pokeball: "cherishball" },
+			{ generation: 5, level: 50, gender: "F", nature: "Hardy", abilities: ["adaptability"], moves: ["sing", "return", "echoedvoice", "attract"], pokeball: "cherishball" },
+			{ generation: 6, level: 10, moves: ["celebrate", "sandattack", "babydolleyes", "swift"], pokeball: "cherishball" },
+			{ generation: 6, level: 15, shiny: true, isHidden: true, moves: ["swift", "quickattack", "babydolleyes", "helpinghand"], pokeball: "cherishball" },
+			{ generation: 7, level: 10, nature: "Jolly", moves: ["celebrate", "sandattack", "babydolleyes"], pokeball: "cherishball" },
+			{ generation: 8, level: 5, gender: "M", nature: "Docile", abilities: ["runaway"], moves: ["celebrate", "covet", "helpinghand", "tackle"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 1, level: 25},
+			{ generation: 1, level: 25 },
 		],
 	},
 	eeveestarter: {
@@ -20271,7 +20271,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			yawn: ["9E"],
 		},
 		eventData: [
-			{generation: 7, level: 5, perfectIVs: 6, moves: ["tackle", "tailwhip", "growl"], pokeball: "pokeball"},
+			{ generation: 7, level: 5, perfectIVs: 6, moves: ["tackle", "tailwhip", "growl"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -20377,9 +20377,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			yawn: ["8V"],
 		},
 		eventData: [
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["tailwhip", "tackle", "helpinghand", "sandattack"]},
-			{generation: 6, level: 10, moves: ["celebrate", "tailwhip", "sandattack", "watergun"], pokeball: "cherishball"},
-			{generation: 7, level: 50, gender: "F", isHidden: true, moves: ["scald", "icebeam", "raindance", "rest"], pokeball: "cherishball"},
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["tailwhip", "tackle", "helpinghand", "sandattack"] },
+			{ generation: 6, level: 10, moves: ["celebrate", "tailwhip", "sandattack", "watergun"], pokeball: "cherishball" },
+			{ generation: 7, level: 50, gender: "F", isHidden: true, moves: ["scald", "icebeam", "raindance", "rest"], pokeball: "cherishball" },
 		],
 	},
 	jolteon: {
@@ -20484,9 +20484,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		eventData: [
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["tailwhip", "tackle", "helpinghand", "sandattack"]},
-			{generation: 6, level: 10, moves: ["celebrate", "tailwhip", "sandattack", "thundershock"], pokeball: "cherishball"},
-			{generation: 7, level: 50, gender: "F", moves: ["thunderbolt", "shadowball", "lightscreen", "voltswitch"], pokeball: "cherishball"},
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["tailwhip", "tackle", "helpinghand", "sandattack"] },
+			{ generation: 6, level: 10, moves: ["celebrate", "tailwhip", "sandattack", "thundershock"], pokeball: "cherishball" },
+			{ generation: 7, level: 50, gender: "F", moves: ["thunderbolt", "shadowball", "lightscreen", "voltswitch"], pokeball: "cherishball" },
 		],
 	},
 	flareon: {
@@ -20588,9 +20588,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		eventData: [
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["tailwhip", "tackle", "helpinghand", "sandattack"]},
-			{generation: 6, level: 10, moves: ["celebrate", "tailwhip", "sandattack", "ember"], pokeball: "cherishball"},
-			{generation: 7, level: 50, gender: "F", isHidden: true, moves: ["flareblitz", "facade", "willowisp", "quickattack"], pokeball: "cherishball"},
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["tailwhip", "tackle", "helpinghand", "sandattack"] },
+			{ generation: 6, level: 10, moves: ["celebrate", "tailwhip", "sandattack", "ember"], pokeball: "cherishball" },
+			{ generation: 7, level: 50, gender: "F", isHidden: true, moves: ["flareblitz", "facade", "willowisp", "quickattack"], pokeball: "cherishball" },
 		],
 	},
 	espeon: {
@@ -20699,10 +20699,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 70, moves: ["psybeam", "psychup", "psychic", "morningsun"], pokeball: "pokeball"},
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["tailwhip", "tackle", "helpinghand", "sandattack"]},
-			{generation: 6, level: 10, moves: ["celebrate", "tailwhip", "sandattack", "confusion"], pokeball: "cherishball"},
-			{generation: 7, level: 50, gender: "F", isHidden: true, moves: ["psychic", "dazzlinggleam", "shadowball", "reflect"], pokeball: "cherishball"},
+			{ generation: 3, level: 70, moves: ["psybeam", "psychup", "psychic", "morningsun"], pokeball: "pokeball" },
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["tailwhip", "tackle", "helpinghand", "sandattack"] },
+			{ generation: 6, level: 10, moves: ["celebrate", "tailwhip", "sandattack", "confusion"], pokeball: "cherishball" },
+			{ generation: 7, level: 50, gender: "F", isHidden: true, moves: ["psychic", "dazzlinggleam", "shadowball", "reflect"], pokeball: "cherishball" },
 		],
 	},
 	umbreon: {
@@ -20808,10 +20808,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		eventData: [
-			{generation: 3, level: 70, moves: ["feintattack", "meanlook", "screech", "moonlight"], pokeball: "pokeball"},
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["tailwhip", "tackle", "helpinghand", "sandattack"]},
-			{generation: 6, level: 10, moves: ["celebrate", "tailwhip", "sandattack", "pursuit"], pokeball: "cherishball"},
-			{generation: 7, level: 50, gender: "F", moves: ["snarl", "toxic", "protect", "moonlight"], pokeball: "cherishball"},
+			{ generation: 3, level: 70, moves: ["feintattack", "meanlook", "screech", "moonlight"], pokeball: "pokeball" },
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["tailwhip", "tackle", "helpinghand", "sandattack"] },
+			{ generation: 6, level: 10, moves: ["celebrate", "tailwhip", "sandattack", "pursuit"], pokeball: "cherishball" },
+			{ generation: 7, level: 50, gender: "F", moves: ["snarl", "toxic", "protect", "moonlight"], pokeball: "cherishball" },
 		],
 	},
 	leafeon: {
@@ -20907,9 +20907,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "8M", "7M", "6M", "5M", "4M"],
 		},
 		eventData: [
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["tailwhip", "tackle", "helpinghand", "sandattack"]},
-			{generation: 6, level: 10, moves: ["celebrate", "tailwhip", "sandattack", "razorleaf"], pokeball: "cherishball"},
-			{generation: 7, level: 50, gender: "F", isHidden: true, moves: ["leafblade", "swordsdance", "sunnyday", "synthesis"], pokeball: "cherishball"},
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["tailwhip", "tackle", "helpinghand", "sandattack"] },
+			{ generation: 6, level: 10, moves: ["celebrate", "tailwhip", "sandattack", "razorleaf"], pokeball: "cherishball" },
+			{ generation: 7, level: 50, gender: "F", isHidden: true, moves: ["leafblade", "swordsdance", "sunnyday", "synthesis"], pokeball: "cherishball" },
 		],
 	},
 	glaceon: {
@@ -21003,9 +21003,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M", "5M"],
 		},
 		eventData: [
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["tailwhip", "tackle", "helpinghand", "sandattack"]},
-			{generation: 6, level: 10, moves: ["celebrate", "tailwhip", "sandattack", "icywind"], pokeball: "cherishball"},
-			{generation: 7, level: 50, gender: "F", moves: ["blizzard", "shadowball", "hail", "auroraveil"], pokeball: "cherishball"},
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["tailwhip", "tackle", "helpinghand", "sandattack"] },
+			{ generation: 6, level: 10, moves: ["celebrate", "tailwhip", "sandattack", "icywind"], pokeball: "cherishball" },
+			{ generation: 7, level: 50, gender: "F", moves: ["blizzard", "shadowball", "hail", "auroraveil"], pokeball: "cherishball" },
 		],
 	},
 	porygon: {
@@ -21099,11 +21099,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 5, level: 10, isHidden: true, moves: ["tackle", "conversion", "sharpen", "psybeam"]},
-			{generation: 8, level: 25, isHidden: true, moves: ["magnetrise", "thundershock", "psybeam", "conversion2"], pokeball: "pokeball"},
+			{ generation: 5, level: 10, isHidden: true, moves: ["tackle", "conversion", "sharpen", "psybeam"] },
+			{ generation: 8, level: 25, isHidden: true, moves: ["magnetrise", "thundershock", "psybeam", "conversion2"], pokeball: "pokeball" },
 		],
 		encounters: [
-			{generation: 1, level: 18},
+			{ generation: 1, level: 18 },
 		],
 	},
 	porygon2: {
@@ -21188,8 +21188,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 8, level: 50, nature: "Sassy", abilities: ["download"], ivs: {hp: 31, atk: 0, spe: 0}, moves: ["recover", "trickroom", "icebeam", "thunderbolt"], pokeball: "cherishball"},
-			{generation: 9, level: 50, nature: "Quiet", abilities: ["download"], ivs: {hp: 31, atk: 31, def: 31, spa: 31, spd: 31, spe: 0}, moves: ["terablast", "icebeam", "recover", "trickroom"], pokeball: "cherishball"},
+			{ generation: 8, level: 50, nature: "Sassy", abilities: ["download"], ivs: { hp: 31, atk: 0, spe: 0 }, moves: ["recover", "trickroom", "icebeam", "thunderbolt"], pokeball: "cherishball" },
+			{ generation: 9, level: 50, nature: "Quiet", abilities: ["download"], ivs: { hp: 31, atk: 31, def: 31, spa: 31, spd: 31, spe: 0 }, moves: ["terablast", "icebeam", "recover", "trickroom"], pokeball: "cherishball" },
 		],
 	},
 	porygonz: {
@@ -21359,10 +21359,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wringout: ["7E", "6E", "5E", "4E"],
 		},
 		eventData: [
-			{generation: 5, level: 15, gender: "M", abilities: ["swiftswim"], moves: ["bubblebeam", "supersonic", "withdraw", "bite"], pokeball: "cherishball"},
+			{ generation: 5, level: 15, gender: "M", abilities: ["swiftswim"], moves: ["bubblebeam", "supersonic", "withdraw", "bite"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 1, level: 30},
+			{ generation: 1, level: 30 },
 		],
 	},
 	omastar: {
@@ -21542,10 +21542,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wringout: ["7L50", "6L50", "5L51", "4L51"],
 		},
 		eventData: [
-			{generation: 5, level: 15, gender: "M", abilities: ["battlearmor"], moves: ["confuseray", "dig", "scratch", "harden"], pokeball: "cherishball"},
+			{ generation: 5, level: 15, gender: "M", abilities: ["battlearmor"], moves: ["confuseray", "dig", "scratch", "harden"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 1, level: 30},
+			{ generation: 1, level: 30 },
 		],
 	},
 	kabutops: {
@@ -21758,11 +21758,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wingattack: ["8L10", "8V", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
 		},
 		eventData: [
-			{generation: 5, level: 15, gender: "M", abilities: ["pressure"], moves: ["steelwing", "icefang", "firefang", "thunderfang"], pokeball: "cherishball"},
-			{generation: 7, level: 50, isHidden: true, moves: ["ancientpower", "rockpolish", "wideguard", "celebrate"], pokeball: "cherishball"},
+			{ generation: 5, level: 15, gender: "M", abilities: ["pressure"], moves: ["steelwing", "icefang", "firefang", "thunderfang"], pokeball: "cherishball" },
+			{ generation: 7, level: 50, isHidden: true, moves: ["ancientpower", "rockpolish", "wideguard", "celebrate"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 1, level: 30},
+			{ generation: 1, level: 30 },
 		],
 	},
 	munchlax: {
@@ -21875,10 +21875,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "7E", "6T", "6E", "5T", "5E", "4T", "4E"],
 		},
 		eventData: [
-			{generation: 4, level: 5, moves: ["metronome", "tackle", "defensecurl", "selfdestruct"]},
-			{generation: 4, level: 5, gender: "F", nature: "Relaxed", abilities: ["thickfat"], moves: ["metronome", "odorsleuth", "tackle", "curse"], pokeball: "cherishball"},
-			{generation: 7, level: 5, abilities: ["thickfat"], moves: ["tackle", "metronome", "holdback", "happyhour"], pokeball: "cherishball"},
-			{generation: 9, level: 1, shiny: true, gender: "M", isHidden: true, nature: "Impish", moves: ["lick", "tackle"], pokeball: "pokeball"},
+			{ generation: 4, level: 5, moves: ["metronome", "tackle", "defensecurl", "selfdestruct"] },
+			{ generation: 4, level: 5, gender: "F", nature: "Relaxed", abilities: ["thickfat"], moves: ["metronome", "odorsleuth", "tackle", "curse"], pokeball: "cherishball" },
+			{ generation: 7, level: 5, abilities: ["thickfat"], moves: ["tackle", "metronome", "holdback", "happyhour"], pokeball: "cherishball" },
+			{ generation: 9, level: 1, shiny: true, gender: "M", isHidden: true, nature: "Impish", moves: ["lick", "tackle"], pokeball: "pokeball" },
 		],
 	},
 	snorlax: {
@@ -22023,12 +22023,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 43, moves: ["refresh", "fissure", "curse", "bodyslam"]},
-			{generation: 7, level: 30, abilities: ["thickfat"], moves: ["sunnyday", "block", "bodyslam", "celebrate"], pokeball: "cherishball"},
-			{generation: 9, level: 20, gender: "M", nature: "Lax", isHidden: true, ivs: {hp: 22, atk: 20, def: 20, spa: 20, spd: 20, spe: 20}, moves: ["rest", "block", "yawn", "bodyslam"], pokeball: "dreamball"},
+			{ generation: 3, level: 43, moves: ["refresh", "fissure", "curse", "bodyslam"] },
+			{ generation: 7, level: 30, abilities: ["thickfat"], moves: ["sunnyday", "block", "bodyslam", "celebrate"], pokeball: "cherishball" },
+			{ generation: 9, level: 20, gender: "M", nature: "Lax", isHidden: true, ivs: { hp: 22, atk: 20, def: 20, spa: 20, spd: 20, spe: 20 }, moves: ["rest", "block", "yawn", "bodyslam"], pokeball: "dreamball" },
 		],
 		encounters: [
-			{generation: 1, level: 30},
+			{ generation: 1, level: 30 },
 		],
 	},
 	articuno: {
@@ -22125,20 +22125,20 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlwind: ["7V"],
 		},
 		eventData: [
-			{generation: 3, level: 50, shiny: 1, moves: ["mist", "agility", "mindreader", "icebeam"]},
-			{generation: 3, level: 70, moves: ["agility", "mindreader", "icebeam", "reflect"], pokeball: "pokeball"},
-			{generation: 3, level: 50, moves: ["icebeam", "healbell", "extrasensory", "haze"]},
-			{generation: 4, level: 60, shiny: 1, moves: ["agility", "icebeam", "reflect", "roost"]},
-			{generation: 4, level: 50, shiny: 1, moves: ["mist", "agility", "mindreader", "icebeam"]},
-			{generation: 6, level: 70, moves: ["icebeam", "reflect", "hail", "tailwind"]},
-			{generation: 6, level: 70, isHidden: true, moves: ["freezedry", "icebeam", "hail", "reflect"], pokeball: "cherishball"},
-			{generation: 7, level: 60, shiny: 1, moves: ["ancientpower", "freezedry", "reflect", "hail"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["icebeam", "freezedry", "hurricane", "mist"]},
-			{generation: 8, level: 70, shiny: 1, isHidden: true, moves: ['sheercold', 'blizzard', 'mindreader', 'hurricane'], source: "gen8bdsp"},
-			{generation: 9, level: 70, moves: ["sheercold", "blizzard", "hurricane", "haze"]},
+			{ generation: 3, level: 50, shiny: 1, moves: ["mist", "agility", "mindreader", "icebeam"] },
+			{ generation: 3, level: 70, moves: ["agility", "mindreader", "icebeam", "reflect"], pokeball: "pokeball" },
+			{ generation: 3, level: 50, moves: ["icebeam", "healbell", "extrasensory", "haze"] },
+			{ generation: 4, level: 60, shiny: 1, moves: ["agility", "icebeam", "reflect", "roost"] },
+			{ generation: 4, level: 50, shiny: 1, moves: ["mist", "agility", "mindreader", "icebeam"] },
+			{ generation: 6, level: 70, moves: ["icebeam", "reflect", "hail", "tailwind"] },
+			{ generation: 6, level: 70, isHidden: true, moves: ["freezedry", "icebeam", "hail", "reflect"], pokeball: "cherishball" },
+			{ generation: 7, level: 60, shiny: 1, moves: ["ancientpower", "freezedry", "reflect", "hail"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["icebeam", "freezedry", "hurricane", "mist"] },
+			{ generation: 8, level: 70, shiny: 1, isHidden: true, moves: ['sheercold', 'blizzard', 'mindreader', 'hurricane'], source: "gen8bdsp" },
+			{ generation: 9, level: 70, moves: ["sheercold", "blizzard", "hurricane", "haze"] },
 		],
 		encounters: [
-			{generation: 1, level: 50},
+			{ generation: 1, level: 50 },
 		],
 		eventOnly: true,
 	},
@@ -22204,8 +22204,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			uturn: ["9M", "8M"],
 		},
 		eventData: [
-			{generation: 8, level: 70, moves: ["freezingglare", "hurricane", "psychocut", "psychoshift"]},
-			{generation: 8, level: 70, shiny: true, moves: ["freezingglare", "hurricane", "psychocut", "psychoshift"], pokeball: "cherishball"},
+			{ generation: 8, level: 70, moves: ["freezingglare", "hurricane", "psychocut", "psychoshift"] },
+			{ generation: 8, level: 70, shiny: true, moves: ["freezingglare", "hurricane", "psychocut", "psychoshift"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -22301,20 +22301,20 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["9L70", "9S10", "8L70", "7L99", "7V", "6L1", "5L92"],
 		},
 		eventData: [
-			{generation: 3, level: 50, shiny: 1, moves: ["thunderwave", "agility", "detect", "drillpeck"]},
-			{generation: 3, level: 70, moves: ["agility", "detect", "drillpeck", "charge"], pokeball: "pokeball"},
-			{generation: 3, level: 50, moves: ["thunderbolt", "extrasensory", "batonpass", "metalsound"]},
-			{generation: 4, level: 60, shiny: 1, moves: ["charge", "agility", "discharge", "roost"]},
-			{generation: 4, level: 50, shiny: 1, moves: ["thunderwave", "agility", "detect", "drillpeck"]},
-			{generation: 6, level: 70, moves: ["agility", "discharge", "raindance", "lightscreen"]},
-			{generation: 6, level: 70, isHidden: true, moves: ["discharge", "thundershock", "raindance", "agility"], pokeball: "cherishball"},
-			{generation: 7, level: 60, shiny: 1, moves: ["ancientpower", "discharge", "pluck", "raindance"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["thunder", "drillpeck", "bravebird", "agility"]},
-			{generation: 8, level: 70, shiny: 1, isHidden: true, moves: ['zapcannon', 'magneticflux', 'detect', 'thunder'], source: "gen8bdsp"},
-			{generation: 9, level: 70, moves: ["zapcannon", "magneticflux", "detect", "thunder"]},
+			{ generation: 3, level: 50, shiny: 1, moves: ["thunderwave", "agility", "detect", "drillpeck"] },
+			{ generation: 3, level: 70, moves: ["agility", "detect", "drillpeck", "charge"], pokeball: "pokeball" },
+			{ generation: 3, level: 50, moves: ["thunderbolt", "extrasensory", "batonpass", "metalsound"] },
+			{ generation: 4, level: 60, shiny: 1, moves: ["charge", "agility", "discharge", "roost"] },
+			{ generation: 4, level: 50, shiny: 1, moves: ["thunderwave", "agility", "detect", "drillpeck"] },
+			{ generation: 6, level: 70, moves: ["agility", "discharge", "raindance", "lightscreen"] },
+			{ generation: 6, level: 70, isHidden: true, moves: ["discharge", "thundershock", "raindance", "agility"], pokeball: "cherishball" },
+			{ generation: 7, level: 60, shiny: 1, moves: ["ancientpower", "discharge", "pluck", "raindance"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["thunder", "drillpeck", "bravebird", "agility"] },
+			{ generation: 8, level: 70, shiny: 1, isHidden: true, moves: ['zapcannon', 'magneticflux', 'detect', 'thunder'], source: "gen8bdsp" },
+			{ generation: 9, level: 70, moves: ["zapcannon", "magneticflux", "detect", "thunder"] },
 		],
 		encounters: [
-			{generation: 1, level: 50},
+			{ generation: 1, level: 50 },
 		],
 		eventOnly: true,
 	},
@@ -22384,8 +22384,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			uturn: ["9M", "8M"],
 		},
 		eventData: [
-			{generation: 8, level: 70, moves: ["thunderouskick", "drillpeck", "reversal", "focusenergy"]},
-			{generation: 8, level: 70, shiny: true, moves: ["thunderouskick", "drillpeck", "reversal", "focusenergy"], pokeball: "cherishball"},
+			{ generation: 8, level: 70, moves: ["thunderouskick", "drillpeck", "reversal", "focusenergy"] },
+			{ generation: 8, level: 70, shiny: true, moves: ["thunderouskick", "drillpeck", "reversal", "focusenergy"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -22477,20 +22477,20 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wingattack: ["9L15", "8L15", "8V", "8S8", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
 		},
 		eventData: [
-			{generation: 3, level: 50, shiny: 1, moves: ["firespin", "agility", "endure", "flamethrower"]},
-			{generation: 3, level: 70, moves: ["agility", "endure", "flamethrower", "safeguard"], pokeball: "pokeball"},
-			{generation: 3, level: 50, moves: ["extrasensory", "morningsun", "willowisp", "flamethrower"]},
-			{generation: 4, level: 60, shiny: 1, moves: ["flamethrower", "safeguard", "airslash", "roost"]},
-			{generation: 4, level: 50, shiny: 1, moves: ["firespin", "agility", "endure", "flamethrower"]},
-			{generation: 6, level: 70, moves: ["safeguard", "airslash", "sunnyday", "heatwave"]},
-			{generation: 6, level: 70, isHidden: true, moves: ["skyattack", "heatwave", "sunnyday", "safeguard"], pokeball: "cherishball"},
-			{generation: 7, level: 60, shiny: 1, moves: ["ancientpower", "flamethrower", "airslash", "sunnyday"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["heatwave", "wingattack", "leer", "firespin"]},
-			{generation: 8, level: 70, shiny: 1, isHidden: true, moves: ['skyattack', 'burnup', 'endure', 'hurricane'], source: "gen8bdsp"},
-			{generation: 9, level: 70, moves: ["skyattack", "overheat", "endure", "hurricane"]},
+			{ generation: 3, level: 50, shiny: 1, moves: ["firespin", "agility", "endure", "flamethrower"] },
+			{ generation: 3, level: 70, moves: ["agility", "endure", "flamethrower", "safeguard"], pokeball: "pokeball" },
+			{ generation: 3, level: 50, moves: ["extrasensory", "morningsun", "willowisp", "flamethrower"] },
+			{ generation: 4, level: 60, shiny: 1, moves: ["flamethrower", "safeguard", "airslash", "roost"] },
+			{ generation: 4, level: 50, shiny: 1, moves: ["firespin", "agility", "endure", "flamethrower"] },
+			{ generation: 6, level: 70, moves: ["safeguard", "airslash", "sunnyday", "heatwave"] },
+			{ generation: 6, level: 70, isHidden: true, moves: ["skyattack", "heatwave", "sunnyday", "safeguard"], pokeball: "cherishball" },
+			{ generation: 7, level: 60, shiny: 1, moves: ["ancientpower", "flamethrower", "airslash", "sunnyday"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["heatwave", "wingattack", "leer", "firespin"] },
+			{ generation: 8, level: 70, shiny: 1, isHidden: true, moves: ['skyattack', 'burnup', 'endure', 'hurricane'], source: "gen8bdsp" },
+			{ generation: 9, level: 70, moves: ["skyattack", "overheat", "endure", "hurricane"] },
 		],
 		encounters: [
-			{generation: 1, level: 50},
+			{ generation: 1, level: 50 },
 		],
 		eventOnly: true,
 	},
@@ -22552,8 +22552,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wingattack: ["9L15", "8L15"],
 		},
 		eventData: [
-			{generation: 8, level: 70, moves: ["fierywrath", "hurricane", "suckerpunch", "nastyplot"]},
-			{generation: 8, level: 70, shiny: true, moves: ["fierywrath", "hurricane", "suckerpunch", "nastyplot"], pokeball: "cherishball"},
+			{ generation: 8, level: 70, moves: ["fierywrath", "hurricane", "suckerpunch", "nastyplot"] },
+			{ generation: 8, level: 70, shiny: true, moves: ["fierywrath", "hurricane", "suckerpunch", "nastyplot"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -22647,7 +22647,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		encounters: [
-			{generation: 1, level: 10},
+			{ generation: 1, level: 10 },
 		],
 	},
 	dragonair: {
@@ -22738,11 +22738,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		encounters: [
-			{generation: 1, level: 15},
-			{generation: 2, level: 10},
-			{generation: 3, level: 25, pokeball: "safariball"},
-			{generation: 4, level: 15},
-			{generation: 7, level: 10},
+			{ generation: 1, level: 15 },
+			{ generation: 2, level: 10 },
+			{ generation: 3, level: 25, pokeball: "safariball" },
+			{ generation: 4, level: 15 },
+			{ generation: 7, level: 10 },
 		],
 	},
 	dragonite: {
@@ -22888,20 +22888,20 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		eventData: [
-			{generation: 3, level: 70, moves: ["agility", "safeguard", "wingattack", "outrage"], pokeball: "pokeball"},
-			{generation: 3, level: 55, moves: ["healbell", "hyperbeam", "dragondance", "earthquake"]},
-			{generation: 4, level: 50, gender: "M", nature: "Mild", moves: ["dracometeor", "thunderbolt", "outrage", "dragondance"], pokeball: "cherishball"},
-			{generation: 5, level: 100, gender: "M", isHidden: true, moves: ["extremespeed", "firepunch", "dragondance", "outrage"], pokeball: "cherishball"},
-			{generation: 5, level: 55, gender: "M", isHidden: true, moves: ["dragonrush", "safeguard", "wingattack", "thunderpunch"]},
-			{generation: 5, level: 55, gender: "M", isHidden: true, moves: ["dragonrush", "safeguard", "wingattack", "extremespeed"]},
-			{generation: 5, level: 50, gender: "M", nature: "Brave", ivs: {hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30}, moves: ["fireblast", "safeguard", "outrage", "hyperbeam"], pokeball: "cherishball"},
-			{generation: 6, level: 55, gender: "M", isHidden: true, moves: ["dragondance", "outrage", "hurricane", "extremespeed"], pokeball: "cherishball"},
-			{generation: 6, level: 62, gender: "M", ivs: {hp: 31, def: 31, spa: 31, spd: 31}, moves: ["agility", "slam", "barrier", "hyperbeam"], pokeball: "cherishball"},
-			{generation: 8, level: 80, gender: "F", nature: "Jolly", abilities: ["innerfocus"], ivs: {hp: 30, atk: 31, def: 30, spa: 30, spd: 31, spe: 31}, moves: ["dragonclaw", "dracometeor", "hurricane", "dragondance"], pokeball: "pokeball"},
+			{ generation: 3, level: 70, moves: ["agility", "safeguard", "wingattack", "outrage"], pokeball: "pokeball" },
+			{ generation: 3, level: 55, moves: ["healbell", "hyperbeam", "dragondance", "earthquake"] },
+			{ generation: 4, level: 50, gender: "M", nature: "Mild", moves: ["dracometeor", "thunderbolt", "outrage", "dragondance"], pokeball: "cherishball" },
+			{ generation: 5, level: 100, gender: "M", isHidden: true, moves: ["extremespeed", "firepunch", "dragondance", "outrage"], pokeball: "cherishball" },
+			{ generation: 5, level: 55, gender: "M", isHidden: true, moves: ["dragonrush", "safeguard", "wingattack", "thunderpunch"] },
+			{ generation: 5, level: 55, gender: "M", isHidden: true, moves: ["dragonrush", "safeguard", "wingattack", "extremespeed"] },
+			{ generation: 5, level: 50, gender: "M", nature: "Brave", ivs: { hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30 }, moves: ["fireblast", "safeguard", "outrage", "hyperbeam"], pokeball: "cherishball" },
+			{ generation: 6, level: 55, gender: "M", isHidden: true, moves: ["dragondance", "outrage", "hurricane", "extremespeed"], pokeball: "cherishball" },
+			{ generation: 6, level: 62, gender: "M", ivs: { hp: 31, def: 31, spa: 31, spd: 31 }, moves: ["agility", "slam", "barrier", "hyperbeam"], pokeball: "cherishball" },
+			{ generation: 8, level: 80, gender: "F", nature: "Jolly", abilities: ["innerfocus"], ivs: { hp: 30, atk: 31, def: 30, spa: 30, spd: 31, spe: 31 }, moves: ["dragonclaw", "dracometeor", "hurricane", "dragondance"], pokeball: "pokeball" },
 		],
 		encounters: [
-			{generation: 5, level: 50},
-			{generation: 7, level: 10},
+			{ generation: 5, level: 50 },
+			{ generation: 7, level: 10 },
 		],
 	},
 	mewtwo: {
@@ -23076,19 +23076,19 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 70, shiny: 1, moves: ["swift", "recover", "safeguard", "psychic"]},
-			{generation: 4, level: 70, shiny: 1, moves: ["psychocut", "amnesia", "powerswap", "guardswap"]},
-			{generation: 5, level: 70, moves: ["psystrike", "shadowball", "aurasphere", "electroball"], pokeball: "cherishball"},
-			{generation: 5, level: 100, nature: "Timid", ivs: {spa: 31, spe: 31}, isHidden: true, moves: ["psystrike", "icebeam", "healpulse", "hurricane"], pokeball: "cherishball"},
-			{generation: 6, level: 70, moves: ["recover", "psychic", "barrier", "aurasphere"]},
-			{generation: 6, level: 100, shiny: true, isHidden: true, moves: ["psystrike", "psychic", "recover", "aurasphere"], pokeball: "cherishball"},
-			{generation: 7, level: 60, shiny: 1, moves: ["psychic", "recover", "swift", "psychocut"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["psychic", "disable", "recover", "blizzard"]},
-			{generation: 8, level: 70, shiny: 1, isHidden: true, moves: ['mist', 'guardswap', 'powerswap', 'psychic'], source: "gen8bdsp"},
-			{generation: 9, level: 100, nature: "Modest", perfectIVs: 6, isHidden: true, moves: ["psystrike", "aurasphere", "icebeam", "calmmind"]},
+			{ generation: 3, level: 70, shiny: 1, moves: ["swift", "recover", "safeguard", "psychic"] },
+			{ generation: 4, level: 70, shiny: 1, moves: ["psychocut", "amnesia", "powerswap", "guardswap"] },
+			{ generation: 5, level: 70, moves: ["psystrike", "shadowball", "aurasphere", "electroball"], pokeball: "cherishball" },
+			{ generation: 5, level: 100, nature: "Timid", ivs: { spa: 31, spe: 31 }, isHidden: true, moves: ["psystrike", "icebeam", "healpulse", "hurricane"], pokeball: "cherishball" },
+			{ generation: 6, level: 70, moves: ["recover", "psychic", "barrier", "aurasphere"] },
+			{ generation: 6, level: 100, shiny: true, isHidden: true, moves: ["psystrike", "psychic", "recover", "aurasphere"], pokeball: "cherishball" },
+			{ generation: 7, level: 60, shiny: 1, moves: ["psychic", "recover", "swift", "psychocut"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["psychic", "disable", "recover", "blizzard"] },
+			{ generation: 8, level: 70, shiny: 1, isHidden: true, moves: ['mist', 'guardswap', 'powerswap', 'psychic'], source: "gen8bdsp" },
+			{ generation: 9, level: 100, nature: "Modest", perfectIVs: 6, isHidden: true, moves: ["psystrike", "aurasphere", "icebeam", "calmmind"] },
 		],
 		encounters: [
-			{generation: 1, level: 70},
+			{ generation: 1, level: 70 },
 		],
 		eventOnly: true,
 	},
@@ -23471,34 +23471,34 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 30, shiny: 1, moves: ["pound", "transform", "megapunch", "metronome"]},
-			{generation: 3, level: 10, moves: ["pound", "transform"], pokeball: "pokeball"},
-			{generation: 3, level: 30, shiny: 1, moves: ["fakeout"]},
-			{generation: 3, level: 10, moves: ["fakeout"], pokeball: "pokeball"},
-			{generation: 3, level: 30, shiny: 1, moves: ["feintattack"]},
-			{generation: 3, level: 10, moves: ["feintattack"], pokeball: "pokeball"},
-			{generation: 3, level: 30, shiny: 1, moves: ["hypnosis"]},
-			{generation: 3, level: 10, moves: ["hypnosis"], pokeball: "pokeball"},
-			{generation: 3, level: 30, shiny: 1, moves: ["nightshade"]},
-			{generation: 3, level: 10, moves: ["nightshade"], pokeball: "pokeball"},
-			{generation: 3, level: 30, shiny: 1, moves: ["roleplay"]},
-			{generation: 3, level: 10, moves: ["roleplay"], pokeball: "pokeball"},
-			{generation: 3, level: 30, shiny: 1, moves: ["zapcannon"]},
-			{generation: 3, level: 10, moves: ["zapcannon"], pokeball: "pokeball"},
-			{generation: 4, level: 50, moves: ["ancientpower", "metronome", "teleport", "aurasphere"], pokeball: "cherishball"},
-			{generation: 4, level: 50, moves: ["barrier", "metronome", "teleport", "aurasphere"], pokeball: "cherishball"},
-			{generation: 4, level: 50, moves: ["megapunch", "metronome", "teleport", "aurasphere"], pokeball: "cherishball"},
-			{generation: 4, level: 50, moves: ["amnesia", "metronome", "teleport", "aurasphere"], pokeball: "cherishball"},
-			{generation: 4, level: 50, moves: ["transform", "metronome", "teleport", "aurasphere"], pokeball: "cherishball"},
-			{generation: 4, level: 50, moves: ["psychic", "metronome", "teleport", "aurasphere"], pokeball: "cherishball"},
-			{generation: 4, level: 50, moves: ["synthesis", "return", "hypnosis", "teleport"], pokeball: "cherishball"},
-			{generation: 4, level: 5, moves: ["pound"], pokeball: "cherishball"},
-			{generation: 6, level: 100, moves: ["pound"], pokeball: "cherishball"},
-			{generation: 7, level: 5, perfectIVs: 5, moves: ["pound"], pokeball: "pokeball"},
-			{generation: 7, level: 50, moves: ["psychic", "barrier", "metronome", "transform"], pokeball: "cherishball"},
-			{generation: 8, level: 1, moves: ["pound"], pokeball: "pokeball"},
-			{generation: 8, level: 1, moves: ['pound', 'reflecttype'], source: "gen8bdsp"},
-			{generation: 9, level: 5, moves: ["pollenpuff", "darkpulse", "dragonpulse", "thunderbolt", "dazzlinggleam", "aurasphere", "flamethrower", "airslash", "shadowball", "energyball", "earthpower", "icebeam", "hypervoice", "sludgebomb", "psyshock", "powergem", "flashcannon", "surf", "swift", "lightscreen", "lifedew"], pokeball: "pokeball"},
+			{ generation: 3, level: 30, shiny: 1, moves: ["pound", "transform", "megapunch", "metronome"] },
+			{ generation: 3, level: 10, moves: ["pound", "transform"], pokeball: "pokeball" },
+			{ generation: 3, level: 30, shiny: 1, moves: ["fakeout"] },
+			{ generation: 3, level: 10, moves: ["fakeout"], pokeball: "pokeball" },
+			{ generation: 3, level: 30, shiny: 1, moves: ["feintattack"] },
+			{ generation: 3, level: 10, moves: ["feintattack"], pokeball: "pokeball" },
+			{ generation: 3, level: 30, shiny: 1, moves: ["hypnosis"] },
+			{ generation: 3, level: 10, moves: ["hypnosis"], pokeball: "pokeball" },
+			{ generation: 3, level: 30, shiny: 1, moves: ["nightshade"] },
+			{ generation: 3, level: 10, moves: ["nightshade"], pokeball: "pokeball" },
+			{ generation: 3, level: 30, shiny: 1, moves: ["roleplay"] },
+			{ generation: 3, level: 10, moves: ["roleplay"], pokeball: "pokeball" },
+			{ generation: 3, level: 30, shiny: 1, moves: ["zapcannon"] },
+			{ generation: 3, level: 10, moves: ["zapcannon"], pokeball: "pokeball" },
+			{ generation: 4, level: 50, moves: ["ancientpower", "metronome", "teleport", "aurasphere"], pokeball: "cherishball" },
+			{ generation: 4, level: 50, moves: ["barrier", "metronome", "teleport", "aurasphere"], pokeball: "cherishball" },
+			{ generation: 4, level: 50, moves: ["megapunch", "metronome", "teleport", "aurasphere"], pokeball: "cherishball" },
+			{ generation: 4, level: 50, moves: ["amnesia", "metronome", "teleport", "aurasphere"], pokeball: "cherishball" },
+			{ generation: 4, level: 50, moves: ["transform", "metronome", "teleport", "aurasphere"], pokeball: "cherishball" },
+			{ generation: 4, level: 50, moves: ["psychic", "metronome", "teleport", "aurasphere"], pokeball: "cherishball" },
+			{ generation: 4, level: 50, moves: ["synthesis", "return", "hypnosis", "teleport"], pokeball: "cherishball" },
+			{ generation: 4, level: 5, moves: ["pound"], pokeball: "cherishball" },
+			{ generation: 6, level: 100, moves: ["pound"], pokeball: "cherishball" },
+			{ generation: 7, level: 5, perfectIVs: 5, moves: ["pound"], pokeball: "pokeball" },
+			{ generation: 7, level: 50, moves: ["psychic", "barrier", "metronome", "transform"], pokeball: "cherishball" },
+			{ generation: 8, level: 1, moves: ["pound"], pokeball: "pokeball" },
+			{ generation: 8, level: 1, moves: ['pound', 'reflecttype'], source: "gen8bdsp" },
+			{ generation: 9, level: 5, moves: ["pollenpuff", "darkpulse", "dragonpulse", "thunderbolt", "dazzlinggleam", "aurasphere", "flamethrower", "airslash", "shadowball", "energyball", "earthpower", "icebeam", "hypervoice", "sludgebomb", "psyshock", "powergem", "flashcannon", "surf", "swift", "lightscreen", "lifedew"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -23583,9 +23583,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wringout: ["7E", "6E", "5E", "4E"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", moves: ["tackle", "growl", "razorleaf"], pokeball: "pokeball"},
-			{generation: 3, level: 5, moves: ["tackle", "growl", "ancientpower", "frenzyplant"], pokeball: "pokeball"},
-			{generation: 6, level: 5, moves: ["tackle", "growl"], pokeball: "cherishball"},
+			{ generation: 3, level: 10, gender: "M", moves: ["tackle", "growl", "razorleaf"], pokeball: "pokeball" },
+			{ generation: 3, level: 5, moves: ["tackle", "growl", "ancientpower", "frenzyplant"], pokeball: "pokeball" },
+			{ generation: 6, level: 5, moves: ["tackle", "growl"], pokeball: "cherishball" },
 		],
 	},
 	bayleef: {
@@ -23758,7 +23758,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 6, level: 50, isHidden: true, moves: ["solarbeam", "sunnyday", "synthesis", "bodyslam"], pokeball: "pokeball"},
+			{ generation: 6, level: 50, isHidden: true, moves: ["solarbeam", "sunnyday", "synthesis", "bodyslam"], pokeball: "pokeball" },
 		],
 	},
 	cyndaquil: {
@@ -23843,9 +23843,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", moves: ["tackle", "leer", "smokescreen"], pokeball: "pokeball"},
-			{generation: 3, level: 5, moves: ["tackle", "leer", "reversal", "blastburn"], pokeball: "pokeball"},
-			{generation: 6, level: 5, moves: ["tackle", "leer"], pokeball: "cherishball"},
+			{ generation: 3, level: 10, gender: "M", moves: ["tackle", "leer", "smokescreen"], pokeball: "pokeball" },
+			{ generation: 3, level: 5, moves: ["tackle", "leer", "reversal", "blastburn"], pokeball: "pokeball" },
+			{ generation: 6, level: 5, moves: ["tackle", "leer"], pokeball: "cherishball" },
 		],
 	},
 	quilava: {
@@ -24032,8 +24032,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 3, level: 70, moves: ["quickattack", "flamewheel", "swift", "flamethrower"], pokeball: "pokeball"},
-			{generation: 6, level: 50, isHidden: true, moves: ["overheat", "flamewheel", "flamecharge", "swift"], pokeball: "pokeball"},
+			{ generation: 3, level: 70, moves: ["quickattack", "flamewheel", "swift", "flamethrower"], pokeball: "pokeball" },
+			{ generation: 6, level: 50, isHidden: true, moves: ["overheat", "flamewheel", "flamecharge", "swift"], pokeball: "pokeball" },
 		],
 	},
 	typhlosionhisui: {
@@ -24212,9 +24212,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["7M"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", moves: ["scratch", "leer", "rage"], pokeball: "pokeball"},
-			{generation: 3, level: 5, moves: ["scratch", "leer", "crunch", "hydrocannon"], pokeball: "pokeball"},
-			{generation: 6, level: 5, moves: ["scratch", "leer"], pokeball: "cherishball"},
+			{ generation: 3, level: 10, gender: "M", moves: ["scratch", "leer", "rage"], pokeball: "pokeball" },
+			{ generation: 3, level: 5, moves: ["scratch", "leer", "crunch", "hydrocannon"], pokeball: "pokeball" },
+			{ generation: 6, level: 5, moves: ["scratch", "leer"], pokeball: "cherishball" },
 		],
 	},
 	croconaw: {
@@ -24438,7 +24438,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["7M"],
 		},
 		eventData: [
-			{generation: 6, level: 50, isHidden: true, moves: ["icepunch", "crunch", "waterfall", "screech"], pokeball: "pokeball"},
+			{ generation: 6, level: 50, isHidden: true, moves: ["icepunch", "crunch", "waterfall", "screech"], pokeball: "pokeball" },
 		],
 	},
 	sentret: {
@@ -24544,7 +24544,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["7M", "5M"],
 		},
 		encounters: [
-			{generation: 2, level: 2},
+			{ generation: 2, level: 2 },
 		],
 	},
 	furret: {
@@ -24651,8 +24651,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		encounters: [
-			{generation: 2, level: 6},
-			{generation: 4, level: 6},
+			{ generation: 2, level: 6 },
+			{ generation: 4, level: 6 },
 		],
 	},
 	hoothoot: {
@@ -24751,10 +24751,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "7L16", "6T", "6L37", "5T", "5L37", "4T", "4L33"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", moves: ["tackle", "growl", "foresight"], pokeball: "pokeball"},
+			{ generation: 3, level: 10, gender: "M", moves: ["tackle", "growl", "foresight"], pokeball: "pokeball" },
 		],
 		encounters: [
-			{generation: 2, level: 2},
+			{ generation: 2, level: 2 },
 		],
 	},
 	noctowl: {
@@ -24854,9 +24854,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "7L16", "6T", "6L42", "5T", "5L42", "4T", "4L37"],
 		},
 		encounters: [
-			{generation: 2, level: 7},
-			{generation: 4, level: 5},
-			{generation: 7, level: 19},
+			{ generation: 2, level: 7 },
+			{ generation: 4, level: 5 },
+			{ generation: 7, level: 19 },
 		],
 	},
 	ledyba: {
@@ -24937,10 +24937,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			uturn: ["7M", "6M", "5M", "4M"],
 		},
 		eventData: [
-			{generation: 3, level: 10, moves: ["refresh", "psybeam", "aerialace", "supersonic"]},
+			{ generation: 3, level: 10, moves: ["refresh", "psybeam", "aerialace", "supersonic"] },
 		],
 		encounters: [
-			{generation: 2, level: 3},
+			{ generation: 2, level: 3 },
 		],
 	},
 	ledian: {
@@ -25020,8 +25020,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			uturn: ["7M", "6M", "5M", "4M"],
 		},
 		encounters: [
-			{generation: 2, level: 7},
-			{generation: 4, level: 5},
+			{ generation: 2, level: 7 },
+			{ generation: 4, level: 5 },
 		],
 	},
 	spinarak: {
@@ -25109,10 +25109,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "7M", "6M", "5M"],
 		},
 		eventData: [
-			{generation: 3, level: 14, moves: ["refresh", "dig", "signalbeam", "nightshade"]},
+			{ generation: 3, level: 14, moves: ["refresh", "dig", "signalbeam", "nightshade"] },
 		],
 		encounters: [
-			{generation: 2, level: 3},
+			{ generation: 2, level: 3 },
 		],
 	},
 	ariados: {
@@ -25200,12 +25200,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "7M", "6M", "5M"],
 		},
 		eventData: [
-			{generation: 9, level: 65, gender: "M", nature: "Hardy", abilities: ["swarm"], ivs: {hp: 20, atk: 20, def: 20, spa: 20, spd: 20, spe: 20}, moves: ["toxicthread", "stickyweb", "crosspoison", "poisonjab"]},
+			{ generation: 9, level: 65, gender: "M", nature: "Hardy", abilities: ["swarm"], ivs: { hp: 20, atk: 20, def: 20, spa: 20, spd: 20, spe: 20 }, moves: ["toxicthread", "stickyweb", "crosspoison", "poisonjab"] },
 		],
 		encounters: [
-			{generation: 2, level: 7},
-			{generation: 4, level: 5},
-			{generation: 6, level: 19, maxEggMoves: 1},
+			{ generation: 2, level: 7 },
+			{ generation: 4, level: 5 },
+			{ generation: 6, level: 19, maxEggMoves: 1 },
 		],
 	},
 	chinchou: {
@@ -25375,9 +25375,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		encounters: [
-			{generation: 4, level: 20},
-			{generation: 6, level: 26, maxEggMoves: 1},
-			{generation: 7, level: 10},
+			{ generation: 4, level: 20 },
+			{ generation: 6, level: 26, maxEggMoves: 1 },
+			{ generation: 7, level: 10 },
 		],
 	},
 	togepi: {
@@ -25485,8 +25485,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 20, gender: "F", abilities: ["serenegrace"], moves: ["metronome", "charm", "sweetkiss", "yawn"], pokeball: "pokeball"},
-			{generation: 3, level: 25, moves: ["triattack", "followme", "ancientpower", "helpinghand"]},
+			{ generation: 3, level: 20, gender: "F", abilities: ["serenegrace"], moves: ["metronome", "charm", "sweetkiss", "yawn"], pokeball: "pokeball" },
+			{ generation: 3, level: 25, moves: ["triattack", "followme", "ancientpower", "helpinghand"] },
 		],
 	},
 	togetic: {
@@ -25726,7 +25726,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["extremespeed", "aurasphere", "airslash", "present"]},
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["extremespeed", "aurasphere", "airslash", "present"] },
 		],
 	},
 	natu: {
@@ -25826,7 +25826,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "7E", "6T", "6E", "5T", "5E", "4T", "4E"],
 		},
 		eventData: [
-			{generation: 3, level: 22, moves: ["batonpass", "futuresight", "nightshade", "aerialace"]},
+			{ generation: 3, level: 22, moves: ["batonpass", "futuresight", "nightshade", "aerialace"] },
 		],
 	},
 	xatu: {
@@ -25924,10 +25924,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T", "5T", "4T"],
 		},
 		encounters: [
-			{generation: 2, level: 15},
-			{generation: 4, level: 16, gender: "M", nature: "Modest", ivs: {hp: 15, atk: 20, def: 15, spa: 20, spd: 20, spe: 20}, abilities: ["synchronize"], pokeball: "pokeball"},
-			{generation: 6, level: 24, maxEggMoves: 1},
-			{generation: 7, level: 21},
+			{ generation: 2, level: 15 },
+			{ generation: 4, level: 16, gender: "M", nature: "Modest", ivs: { hp: 15, atk: 20, def: 15, spa: 20, spd: 20, spe: 20 }, abilities: ["synchronize"], pokeball: "pokeball" },
+			{ generation: 6, level: 24, maxEggMoves: 1 },
+			{ generation: 7, level: 21 },
 		],
 	},
 	mareep: {
@@ -26006,10 +26006,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		eventData: [
-			{generation: 3, level: 37, gender: "F", moves: ["thunder", "thundershock", "thunderwave", "cottonspore"], pokeball: "pokeball"},
-			{generation: 3, level: 10, gender: "M", moves: ["tackle", "growl", "thundershock"], pokeball: "pokeball"},
-			{generation: 3, level: 17, moves: ["healbell", "thundershock", "thunderwave", "bodyslam"]},
-			{generation: 6, level: 10, moves: ["holdback", "tackle", "thunderwave", "thundershock"], pokeball: "cherishball"},
+			{ generation: 3, level: 37, gender: "F", moves: ["thunder", "thundershock", "thunderwave", "cottonspore"], pokeball: "pokeball" },
+			{ generation: 3, level: 10, gender: "M", moves: ["tackle", "growl", "thundershock"], pokeball: "pokeball" },
+			{ generation: 3, level: 17, moves: ["healbell", "thundershock", "thunderwave", "bodyslam"] },
+			{ generation: 6, level: 10, moves: ["holdback", "tackle", "thunderwave", "thundershock"], pokeball: "cherishball" },
 		],
 	},
 	flaaffy: {
@@ -26099,7 +26099,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		encounters: [
-			{generation: 7, level: 11, pokeball: "pokeball"},
+			{ generation: 7, level: 11, pokeball: "pokeball" },
 		],
 	},
 	ampharos: {
@@ -26499,8 +26499,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M", "5M"],
 		},
 		encounters: [
-			{generation: 5, level: 5},
-			{generation: 6, level: 16, maxEggMoves: 1},
+			{ generation: 5, level: 5 },
+			{ generation: 6, level: 16, maxEggMoves: 1 },
 		],
 	},
 	bonsly: {
@@ -26772,7 +26772,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			worryseed: ["9E", "7T", "7L40", "7E", "6T", "6L40", "6E", "5T", "5L40", "5E", "4T", "4L34", "4E"],
 		},
 		encounters: [
-			{generation: 2, level: 3},
+			{ generation: 2, level: 3 },
 		],
 	},
 	skiploom: {
@@ -26855,7 +26855,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			worryseed: ["7T", "7L48", "6T", "6L48", "5T", "5L48", "4T", "4L40"],
 		},
 		encounters: [
-			{generation: 4, level: 12},
+			{ generation: 4, level: 12 },
 		],
 	},
 	jumpluff: {
@@ -26941,7 +26941,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			worryseed: ["7T", "7L54", "6T", "6L54", "5T", "5L54", "4T", "4L40"],
 		},
 		eventData: [
-			{generation: 5, level: 27, gender: "M", isHidden: true, moves: ["falseswipe", "sleeppowder", "bulletseed", "leechseed"]},
+			{ generation: 5, level: 27, gender: "M", isHidden: true, moves: ["falseswipe", "sleeppowder", "bulletseed", "leechseed"] },
 		],
 	},
 	aipom: {
@@ -27061,7 +27061,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", moves: ["scratch", "tailwhip", "sandattack"], pokeball: "pokeball"},
+			{ generation: 3, level: 10, gender: "M", moves: ["scratch", "tailwhip", "sandattack"], pokeball: "pokeball" },
 		],
 	},
 	ambipom: {
@@ -27232,7 +27232,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			worryseed: ["9L19", "7T", "7L19", "6T", "6L19", "5T", "5L19", "4T", "4L25"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", abilities: ["chlorophyll"], moves: ["absorb", "growth"], pokeball: "pokeball"},
+			{ generation: 3, level: 10, gender: "M", abilities: ["chlorophyll"], moves: ["absorb", "growth"], pokeball: "pokeball" },
 		],
 	},
 	sunflora: {
@@ -27560,7 +27560,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			yawn: ["9L21", "8L21", "7L29", "6L29", "5L29", "4L29", "3L31"],
 		},
 		encounters: [
-			{generation: 2, level: 4},
+			{ generation: 2, level: 4 },
 		],
 	},
 	wooperpaldea: {
@@ -27732,8 +27732,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			yawn: ["9L23", "8L23", "7L31", "6L31", "5L31", "4L31", "3L35"],
 		},
 		encounters: [
-			{generation: 2, level: 15},
-			{generation: 4, level: 10},
+			{ generation: 2, level: 15 },
+			{ generation: 4, level: 10 },
 		],
 	},
 	clodsire: {
@@ -27898,7 +27898,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wingattack: ["9L15", "7L15", "7E", "7V", "6L15", "6E", "5L15", "5E", "4L15", "4E", "3E"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", abilities: ["insomnia"], moves: ["peck", "astonish"], pokeball: "pokeball"},
+			{ generation: 3, level: 10, gender: "M", abilities: ["insomnia"], moves: ["peck", "astonish"], pokeball: "pokeball" },
 		],
 	},
 	honchkrow: {
@@ -27991,7 +27991,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wingattack: ["9L1", "7L1", "6L1", "5L1", "4L1"],
 		},
 		eventData: [
-			{generation: 7, level: 65, gender: "M", abilities: ["superluck"], moves: ["nightslash", "skyattack", "heatwave", "icywind"], pokeball: "cherishball"},
+			{ generation: 7, level: 65, gender: "M", abilities: ["superluck"], moves: ["nightslash", "skyattack", "heatwave", "icywind"], pokeball: "cherishball" },
 		],
 	},
 	misdreavus: {
@@ -28105,7 +28105,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", moves: ["growl", "psywave", "spite"], pokeball: "pokeball"},
+			{ generation: 3, level: 10, gender: "M", moves: ["growl", "psywave", "spite"], pokeball: "pokeball" },
 		],
 	},
 	mismagius: {
@@ -28213,10 +28213,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			hiddenpower: ["7M", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
 		},
 		encounters: [
-			{generation: 2, level: 5},
-			{generation: 3, level: 25},
-			{generation: 4, level: 5},
-			{generation: 6, level: 32},
+			{ generation: 2, level: 5 },
+			{ generation: 3, level: 25 },
+			{ generation: 4, level: 5 },
+			{ generation: 6, level: 32 },
 		],
 	},
 	wynaut: {
@@ -28232,7 +28232,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			tickle: ["3S0"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: 1, moves: ["splash", "charm", "encore", "tickle"], pokeball: "pokeball", emeraldEventEgg: true},
+			{ generation: 3, level: 5, shiny: 1, moves: ["splash", "charm", "encore", "tickle"], pokeball: "pokeball", emeraldEventEgg: true },
 		],
 	},
 	wobbuffet: {
@@ -28247,14 +28247,14 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			splash: ["8L1"],
 		},
 		eventData: [
-			{generation: 3, level: 5, moves: ["counter", "mirrorcoat", "safeguard", "destinybond"], pokeball: "pokeball"},
-			{generation: 3, level: 10, gender: "M", moves: ["counter", "mirrorcoat", "safeguard", "destinybond"], pokeball: "pokeball"},
-			{generation: 6, level: 10, gender: "M", moves: ["counter"], pokeball: "cherishball"},
-			{generation: 6, level: 15, gender: "M", moves: ["counter", "mirrorcoat"], pokeball: "cherishball"},
+			{ generation: 3, level: 5, moves: ["counter", "mirrorcoat", "safeguard", "destinybond"], pokeball: "pokeball" },
+			{ generation: 3, level: 10, gender: "M", moves: ["counter", "mirrorcoat", "safeguard", "destinybond"], pokeball: "pokeball" },
+			{ generation: 6, level: 10, gender: "M", moves: ["counter"], pokeball: "cherishball" },
+			{ generation: 6, level: 15, gender: "M", moves: ["counter", "mirrorcoat"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 2, level: 5},
-			{generation: 4, level: 3},
+			{ generation: 2, level: 5 },
+			{ generation: 4, level: 3 },
 		],
 	},
 	girafarig: {
@@ -28455,8 +28455,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			venoshock: ["9M", "7M", "6M", "5M"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", moves: ["tackle", "protect", "selfdestruct"], pokeball: "pokeball"},
-			{generation: 3, level: 20, moves: ["refresh", "pinmissile", "spikes", "counter"]},
+			{ generation: 3, level: 10, gender: "M", moves: ["tackle", "protect", "selfdestruct"], pokeball: "pokeball" },
+			{ generation: 3, level: 20, moves: ["refresh", "pinmissile", "spikes", "counter"] },
 		],
 	},
 	forretress: {
@@ -28560,7 +28560,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["9L1", "7L1", "6L1", "5L64", "4L62", "3L31"],
 		},
 		encounters: [
-			{generation: 6, level: 30},
+			{ generation: 6, level: 30 },
 		],
 	},
 	dunsparce: {
@@ -28888,7 +28888,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "9L40", "7M", "7L40", "6M", "6L40", "5M", "5L40", "4M", "4L42"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", moves: ["poisonsting", "sandattack"], pokeball: "pokeball"},
+			{ generation: 3, level: 10, gender: "M", moves: ["poisonsting", "sandattack"], pokeball: "pokeball" },
 		],
 	},
 	gliscor: {
@@ -29112,7 +29112,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", moves: ["tackle", "scaryface", "tailwhip", "charm"], pokeball: "pokeball"},
+			{ generation: 3, level: 10, gender: "M", moves: ["tackle", "scaryface", "tailwhip", "charm"], pokeball: "pokeball" },
 		],
 	},
 	granbull: {
@@ -29236,7 +29236,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		encounters: [
-			{generation: 2, level: 15},
+			{ generation: 2, level: 15 },
 		],
 	},
 	qwilfish: {
@@ -29342,7 +29342,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["9M", "8M", "7V", "4M"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", moves: ["tackle", "poisonsting", "harden", "minimize"], pokeball: "pokeball"},
+			{ generation: 3, level: 10, gender: "M", moves: ["tackle", "poisonsting", "harden", "minimize"], pokeball: "pokeball" },
 		],
 	},
 	qwilfishhisui: {
@@ -29570,8 +29570,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wrap: ["8L1", "7L9", "7V", "6L9", "5L9", "4L22", "3L9", "3S0"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", abilities: ["sturdy"], moves: ["constrict", "withdraw", "wrap"], pokeball: "pokeball"},
-			{generation: 3, level: 20, abilities: ["sturdy"], moves: ["substitute", "toxic", "sludgebomb", "encore"], pokeball: "pokeball"},
+			{ generation: 3, level: 10, gender: "M", abilities: ["sturdy"], moves: ["constrict", "withdraw", "wrap"], pokeball: "pokeball" },
+			{ generation: 3, level: 20, abilities: ["sturdy"], moves: ["substitute", "toxic", "sludgebomb", "encore"], pokeball: "pokeball" },
 		],
 	},
 	heracross: {
@@ -29676,8 +29676,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M", "5M"],
 		},
 		eventData: [
-			{generation: 6, level: 50, gender: "F", nature: "Adamant", moves: ["bulletseed", "pinmissile", "closecombat", "megahorn"], pokeball: "cherishball"},
-			{generation: 6, level: 50, nature: "Adamant", abilities: ["guts"], moves: ["pinmissile", "bulletseed", "earthquake", "rockblast"], pokeball: "cherishball"},
+			{ generation: 6, level: 50, gender: "F", nature: "Adamant", moves: ["bulletseed", "pinmissile", "closecombat", "megahorn"], pokeball: "cherishball" },
+			{ generation: 6, level: 50, nature: "Adamant", abilities: ["guts"], moves: ["pinmissile", "bulletseed", "earthquake", "rockblast"], pokeball: "cherishball" },
 		],
 	},
 	sneasel: {
@@ -29801,7 +29801,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "8M", "7M", "6M", "5M", "4M"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", moves: ["scratch", "leer", "taunt", "quickattack"], pokeball: "pokeball"},
+			{ generation: 3, level: 10, gender: "M", moves: ["scratch", "leer", "taunt", "quickattack"], pokeball: "pokeball" },
 		],
 	},
 	sneaselhisui: {
@@ -29986,8 +29986,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "8M", "7M", "6M", "6S1", "5M", "4M"],
 		},
 		eventData: [
-			{generation: 4, level: 30, gender: "M", nature: "Jolly", moves: ["fakeout", "iceshard", "nightslash", "brickbreak"], pokeball: "cherishball"},
-			{generation: 6, level: 48, gender: "M", perfectIVs: 2, moves: ["nightslash", "icepunch", "brickbreak", "xscissor"], pokeball: "cherishball"},
+			{ generation: 4, level: 30, gender: "M", nature: "Jolly", moves: ["fakeout", "iceshard", "nightslash", "brickbreak"], pokeball: "cherishball" },
+			{ generation: 6, level: 48, gender: "M", perfectIVs: 2, moves: ["nightslash", "icepunch", "brickbreak", "xscissor"], pokeball: "cherishball" },
 		],
 	},
 	sneasler: {
@@ -30165,11 +30165,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", abilities: ["pickup"], moves: ["scratch", "leer", "lick"], pokeball: "pokeball"},
-			{generation: 3, level: 11, abilities: ["pickup"], moves: ["refresh", "metalclaw", "lick", "return"]},
+			{ generation: 3, level: 10, gender: "M", abilities: ["pickup"], moves: ["scratch", "leer", "lick"], pokeball: "pokeball" },
+			{ generation: 3, level: 11, abilities: ["pickup"], moves: ["refresh", "metalclaw", "lick", "return"] },
 		],
 		encounters: [
-			{generation: 2, level: 2},
+			{ generation: 2, level: 2 },
 		],
 	},
 	ursaring: {
@@ -30281,7 +30281,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		encounters: [
-			{generation: 2, level: 25},
+			{ generation: 2, level: 25 },
 		],
 	},
 	ursaluna: {
@@ -30435,7 +30435,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			vacuumwave: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 70, nature: "Hardy", perfectIVs: 3, moves: ["bloodmoon", "earthpower", "slash", "calmmind"]},
+			{ generation: 9, level: 70, nature: "Hardy", perfectIVs: 3, moves: ["bloodmoon", "earthpower", "slash", "calmmind"] },
 		],
 		eventOnly: true,
 	},
@@ -30612,11 +30612,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			yawn: ["9L1", "7L1", "6L1", "5L1", "4L1", "3L1"],
 		},
 		eventData: [
-			{generation: 3, level: 38, moves: ["refresh", "heatwave", "earthquake", "flamethrower"]},
+			{ generation: 3, level: 38, moves: ["refresh", "heatwave", "earthquake", "flamethrower"] },
 		],
 		encounters: [
-			{generation: 3, level: 25},
-			{generation: 6, level: 30},
+			{ generation: 3, level: 25 },
+			{ generation: 6, level: 30 },
 		],
 	},
 	swinub: {
@@ -30701,7 +30701,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			trailblaze: ["9M"],
 		},
 		eventData: [
-			{generation: 3, level: 22, abilities: ["oblivious"], moves: ["charm", "ancientpower", "mist", "mudshot"]},
+			{ generation: 3, level: 22, abilities: ["oblivious"], moves: ["charm", "ancientpower", "mist", "mudshot"] },
 		],
 	},
 	piloswine: {
@@ -30789,7 +30789,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			trailblaze: ["9M"],
 		},
 		encounters: [
-			{generation: 6, level: 30},
+			{ generation: 6, level: 30 },
 		],
 	},
 	mamoswine: {
@@ -30884,8 +30884,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			trailblaze: ["9M"],
 		},
 		eventData: [
-			{generation: 5, level: 34, gender: "M", isHidden: true, moves: ["hail", "icefang", "takedown", "doublehit"]},
-			{generation: 6, level: 50, shiny: true, gender: "M", nature: "Adamant", isHidden: true, moves: ["iciclespear", "earthquake", "iciclecrash", "rockslide"], pokeball: "pokeball"},
+			{ generation: 5, level: 34, gender: "M", isHidden: true, moves: ["hail", "icefang", "takedown", "doublehit"] },
+			{ generation: 6, level: 50, shiny: true, gender: "M", nature: "Adamant", isHidden: true, moves: ["iciclespear", "earthquake", "iciclecrash", "rockslide"], pokeball: "pokeball" },
 		],
 	},
 	corsola: {
@@ -30987,8 +30987,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["8M", "7V", "4M"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: 1, moves: ["tackle", "mudsport"], pokeball: "pokeball", emeraldEventEgg: true},
-			{generation: 7, level: 50, gender: "F", nature: "Serious", abilities: ["hustle"], moves: ["tackle", "powergem"], pokeball: "ultraball"},
+			{ generation: 3, level: 5, shiny: 1, moves: ["tackle", "mudsport"], pokeball: "pokeball", emeraldEventEgg: true },
+			{ generation: 7, level: 50, gender: "F", nature: "Serious", abilities: ["hustle"], moves: ["tackle", "powergem"], pokeball: "ultraball" },
 		],
 	},
 	corsolagalar: {
@@ -31062,7 +31062,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["8M"],
 		},
 		eventData: [
-			{generation: 8, level: 15, isHidden: true, moves: ["tackle", "astonish", "disable", "spite"], pokeball: "cherishball"},
+			{ generation: 8, level: 15, isHidden: true, moves: ["tackle", "astonish", "disable", "spite"], pokeball: "cherishball" },
 		],
 	},
 	cursola: {
@@ -31297,11 +31297,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wringout: ["7L28", "6L28", "5L28", "4L36"],
 		},
 		eventData: [
-			{generation: 4, level: 50, gender: "F", nature: "Serious", abilities: ["suctioncups"], moves: ["octazooka", "icebeam", "signalbeam", "hyperbeam"], pokeball: "cherishball"},
+			{ generation: 4, level: 50, gender: "F", nature: "Serious", abilities: ["suctioncups"], moves: ["octazooka", "icebeam", "signalbeam", "hyperbeam"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 4, level: 19},
-			{generation: 7, level: 10},
+			{ generation: 4, level: 19 },
+			{ generation: 7, level: 10 },
 		],
 	},
 	delibird: {
@@ -31410,8 +31410,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			weatherball: ["9M", "8M"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", moves: ["present"], pokeball: "pokeball"},
-			{generation: 6, level: 10, abilities: ["vitalspirit"], moves: ["present", "happyhour"], pokeball: "cherishball"},
+			{ generation: 3, level: 10, gender: "M", moves: ["present"], pokeball: "pokeball" },
+			{ generation: 6, level: 10, abilities: ["vitalspirit"], moves: ["present", "happyhour"], pokeball: "cherishball" },
 		],
 	},
 	mantyke: {
@@ -31573,7 +31573,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wingattack: ["8L1", "7L14", "7V", "6L14", "5L14", "4L22", "3L36"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", moves: ["tackle", "bubble", "supersonic"], pokeball: "pokeball"},
+			{ generation: 3, level: 10, gender: "M", moves: ["tackle", "bubble", "supersonic"], pokeball: "pokeball" },
 		],
 	},
 	skarmory: {
@@ -31769,8 +31769,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["9M", "7M", "6M", "5M", "4M", "4E", "3E"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", moves: ["leer", "ember", "howl"], pokeball: "pokeball"},
-			{generation: 3, level: 17, moves: ["charm", "feintattack", "ember", "roar"]},
+			{ generation: 3, level: 10, gender: "M", moves: ["leer", "ember", "howl"], pokeball: "pokeball" },
+			{ generation: 3, level: 17, moves: ["charm", "feintattack", "ember", "roar"] },
 		],
 	},
 	houndoom: {
@@ -31872,10 +31872,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["9M", "7M", "6M", "5M", "4M"],
 		},
 		eventData: [
-			{generation: 6, level: 50, nature: "Timid", abilities: ["flashfire"], moves: ["flamethrower", "darkpulse", "solarbeam", "sludgebomb"], pokeball: "cherishball"},
+			{ generation: 6, level: 50, nature: "Timid", abilities: ["flashfire"], moves: ["flamethrower", "darkpulse", "solarbeam", "sludgebomb"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 4, level: 20},
+			{ generation: 4, level: 20 },
 		],
 	},
 	phanpy: {
@@ -31959,7 +31959,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			watergun: ["7V"],
 		},
 		encounters: [
-			{generation: 2, level: 2},
+			{ generation: 2, level: 2 },
 		],
 	},
 	donphan: {
@@ -32059,7 +32059,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			trailblaze: ["9M"],
 		},
 		encounters: [
-			{generation: 6, level: 24, maxEggMoves: 1},
+			{ generation: 6, level: 24, maxEggMoves: 1 },
 		],
 	},
 	stantler: {
@@ -32167,7 +32167,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L37", "7T", "7L38", "7E", "6T", "6L38", "6E", "5T", "5L38", "5E", "4T", "4L38", "4E"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", abilities: ["intimidate"], moves: ["tackle", "leer"], pokeball: "pokeball"},
+			{ generation: 3, level: 10, gender: "M", abilities: ["intimidate"], moves: ["tackle", "leer"], pokeball: "pokeball" },
 		],
 	},
 	wyrdeer: {
@@ -32254,9 +32254,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			spore: ["5S1"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", abilities: ["owntempo"], moves: ["sketch"], pokeball: "pokeball"},
-			{generation: 5, level: 50, gender: "F", nature: "Jolly", ivs: {atk: 31, spe: 31}, abilities: ["technician"], moves: ["falseswipe", "spore", "odorsleuth", "meanlook"], pokeball: "cherishball"},
-			{generation: 6, level: 40, gender: "M", nature: "Jolly", abilities: ["owntempo"], moves: ["sketch", "furyswipes", "seismictoss", "flamethrower"], pokeball: "cherishball"},
+			{ generation: 3, level: 10, gender: "M", abilities: ["owntempo"], moves: ["sketch"], pokeball: "pokeball" },
+			{ generation: 5, level: 50, gender: "F", nature: "Jolly", ivs: { atk: 31, spe: 31 }, abilities: ["technician"], moves: ["falseswipe", "spore", "odorsleuth", "meanlook"], pokeball: "cherishball" },
+			{ generation: 6, level: 40, gender: "M", nature: "Jolly", abilities: ["owntempo"], moves: ["sketch", "furyswipes", "seismictoss", "flamethrower"], pokeball: "cherishball" },
 		],
 	},
 	miltank: {
@@ -32362,7 +32362,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "8L30", "7T", "7L29", "6T", "6L29", "5T", "5L29", "4T", "4L29"],
 		},
 		eventData: [
-			{generation: 6, level: 20, perfectIVs: 3, abilities: ["scrappy"], moves: ["rollout", "attract", "stomp", "milkdrink"], pokeball: "cherishball"},
+			{ generation: 6, level: 20, perfectIVs: 3, abilities: ["scrappy"], moves: ["rollout", "attract", "stomp", "milkdrink"], pokeball: "cherishball" },
 		],
 	},
 	raikou: {
@@ -32455,21 +32455,21 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["9L78", "8L78", "7V", "4S3"],
 		},
 		eventData: [
-			{generation: 3, level: 50, shiny: 1, moves: ["thundershock", "roar", "quickattack", "spark"]},
-			{generation: 3, level: 70, moves: ["quickattack", "spark", "reflect", "crunch"], pokeball: "pokeball"},
-			{generation: 4, level: 40, shiny: 1, moves: ["roar", "quickattack", "spark", "reflect"]},
-			{generation: 4, level: 30, shiny: true, nature: "Rash", moves: ["zapcannon", "aurasphere", "extremespeed", "weatherball"], pokeball: "cherishball"},
-			{generation: 6, level: 50, shiny: 1, moves: ["spark", "reflect", "crunch", "thunderfang"]},
-			{generation: 7, level: 60, shiny: 1, moves: ["reflect", "crunch", "thunderfang", "discharge"]},
-			{generation: 7, level: 60, moves: ["reflect", "crunch", "thunderfang", "discharge"], pokeball: "cherishball"},
-			{generation: 7, level: 100, moves: ["thunderbolt", "voltswitch", "extrasensory", "calmmind"], pokeball: "cherishball"},
-			{generation: 8, level: 70, shiny: 1, moves: ["thunderbolt", "howl", "extremespeed", "weatherball"]},
-			{generation: 8, level: 70, shiny: 1, isHidden: true, moves: ['raindance', 'reflect', 'discharge', 'extrasensory'], source: "gen8bdsp"},
-			{generation: 9, level: 70, moves: ["raindance", "reflect", "discharge", "extrasensory"]},
+			{ generation: 3, level: 50, shiny: 1, moves: ["thundershock", "roar", "quickattack", "spark"] },
+			{ generation: 3, level: 70, moves: ["quickattack", "spark", "reflect", "crunch"], pokeball: "pokeball" },
+			{ generation: 4, level: 40, shiny: 1, moves: ["roar", "quickattack", "spark", "reflect"] },
+			{ generation: 4, level: 30, shiny: true, nature: "Rash", moves: ["zapcannon", "aurasphere", "extremespeed", "weatherball"], pokeball: "cherishball" },
+			{ generation: 6, level: 50, shiny: 1, moves: ["spark", "reflect", "crunch", "thunderfang"] },
+			{ generation: 7, level: 60, shiny: 1, moves: ["reflect", "crunch", "thunderfang", "discharge"] },
+			{ generation: 7, level: 60, moves: ["reflect", "crunch", "thunderfang", "discharge"], pokeball: "cherishball" },
+			{ generation: 7, level: 100, moves: ["thunderbolt", "voltswitch", "extrasensory", "calmmind"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, shiny: 1, moves: ["thunderbolt", "howl", "extremespeed", "weatherball"] },
+			{ generation: 8, level: 70, shiny: 1, isHidden: true, moves: ['raindance', 'reflect', 'discharge', 'extrasensory'], source: "gen8bdsp" },
+			{ generation: 9, level: 70, moves: ["raindance", "reflect", "discharge", "extrasensory"] },
 		],
 		encounters: [
-			{generation: 2, level: 40},
-			{generation: 3, level: 40},
+			{ generation: 2, level: 40 },
+			{ generation: 3, level: 40 },
 		],
 		eventOnly: true,
 	},
@@ -32560,21 +32560,21 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["9M", "8M", "7M", "6M", "5M", "4M"],
 		},
 		eventData: [
-			{generation: 3, level: 50, shiny: 1, moves: ["ember", "roar", "firespin", "stomp"]},
-			{generation: 3, level: 70, moves: ["firespin", "stomp", "flamethrower", "swagger"], pokeball: "pokeball"},
-			{generation: 4, level: 40, shiny: 1, moves: ["roar", "firespin", "stomp", "flamethrower"]},
-			{generation: 4, level: 30, shiny: true, nature: "Adamant", moves: ["flareblitz", "howl", "extremespeed", "crushclaw"], pokeball: "cherishball"},
-			{generation: 6, level: 50, shiny: 1, moves: ["stomp", "flamethrower", "swagger", "firefang"]},
-			{generation: 7, level: 60, shiny: 1, moves: ["stomp", "bite", "swagger", "lavaplume"]},
-			{generation: 7, level: 60, moves: ["stomp", "bite", "swagger", "lavaplume"], pokeball: "cherishball"},
-			{generation: 7, level: 100, moves: ["sacredfire", "stoneedge", "ironhead", "flamecharge"], pokeball: "cherishball"},
-			{generation: 8, level: 70, shiny: 1, moves: ["flamethrower", "scaryface", "extremespeed", "crunch"]},
-			{generation: 8, level: 70, shiny: 1, isHidden: true, moves: ['sunnyday', 'swagger', 'lavaplume', 'extrasensory'], source: "gen8bdsp"},
-			{generation: 9, level: 70, moves: ["sunnyday", "swagger", "lavaplume", "extrasensory"]},
+			{ generation: 3, level: 50, shiny: 1, moves: ["ember", "roar", "firespin", "stomp"] },
+			{ generation: 3, level: 70, moves: ["firespin", "stomp", "flamethrower", "swagger"], pokeball: "pokeball" },
+			{ generation: 4, level: 40, shiny: 1, moves: ["roar", "firespin", "stomp", "flamethrower"] },
+			{ generation: 4, level: 30, shiny: true, nature: "Adamant", moves: ["flareblitz", "howl", "extremespeed", "crushclaw"], pokeball: "cherishball" },
+			{ generation: 6, level: 50, shiny: 1, moves: ["stomp", "flamethrower", "swagger", "firefang"] },
+			{ generation: 7, level: 60, shiny: 1, moves: ["stomp", "bite", "swagger", "lavaplume"] },
+			{ generation: 7, level: 60, moves: ["stomp", "bite", "swagger", "lavaplume"], pokeball: "cherishball" },
+			{ generation: 7, level: 100, moves: ["sacredfire", "stoneedge", "ironhead", "flamecharge"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, shiny: 1, moves: ["flamethrower", "scaryface", "extremespeed", "crunch"] },
+			{ generation: 8, level: 70, shiny: 1, isHidden: true, moves: ['sunnyday', 'swagger', 'lavaplume', 'extrasensory'], source: "gen8bdsp" },
+			{ generation: 9, level: 70, moves: ["sunnyday", "swagger", "lavaplume", "extrasensory"] },
 		],
 		encounters: [
-			{generation: 2, level: 40},
-			{generation: 3, level: 40},
+			{ generation: 2, level: 40 },
+			{ generation: 3, level: 40 },
 		],
 		eventOnly: true,
 	},
@@ -32667,20 +32667,20 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["9M", "8M", "7V", "4M"],
 		},
 		eventData: [
-			{generation: 3, level: 50, shiny: 1, moves: ["bubblebeam", "raindance", "gust", "aurorabeam"]},
-			{generation: 3, level: 70, moves: ["gust", "aurorabeam", "mist", "mirrorcoat"], pokeball: "pokeball"},
-			{generation: 3, level: 40, shiny: 1, moves: ["raindance", "leer", "gust", "hydropump"]},
-			{generation: 4, level: 40, shiny: 1, moves: ["raindance", "gust", "aurorabeam", "mist"]},
-			{generation: 4, level: 30, shiny: true, nature: "Relaxed", moves: ["sheercold", "airslash", "extremespeed", "aquaring"], pokeball: "cherishball"},
-			{generation: 6, level: 50, shiny: 1, moves: ["aurorabeam", "mist", "mirrorcoat", "icefang"]},
-			{generation: 7, level: 60, shiny: 1, moves: ["bubblebeam", "aurorabeam", "mist", "raindance"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["liquidation", "extrasensory", "extremespeed", "calmmind"]},
-			{generation: 8, level: 70, shiny: 1, isHidden: true, moves: ['raindance', 'mirrorcoat', 'surf', 'extrasensory'], source: "gen8bdsp"},
-			{generation: 9, level: 70, moves: ["raindance", "mirrorcoat", "surf", "extrasensory"]},
+			{ generation: 3, level: 50, shiny: 1, moves: ["bubblebeam", "raindance", "gust", "aurorabeam"] },
+			{ generation: 3, level: 70, moves: ["gust", "aurorabeam", "mist", "mirrorcoat"], pokeball: "pokeball" },
+			{ generation: 3, level: 40, shiny: 1, moves: ["raindance", "leer", "gust", "hydropump"] },
+			{ generation: 4, level: 40, shiny: 1, moves: ["raindance", "gust", "aurorabeam", "mist"] },
+			{ generation: 4, level: 30, shiny: true, nature: "Relaxed", moves: ["sheercold", "airslash", "extremespeed", "aquaring"], pokeball: "cherishball" },
+			{ generation: 6, level: 50, shiny: 1, moves: ["aurorabeam", "mist", "mirrorcoat", "icefang"] },
+			{ generation: 7, level: 60, shiny: 1, moves: ["bubblebeam", "aurorabeam", "mist", "raindance"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["liquidation", "extrasensory", "extremespeed", "calmmind"] },
+			{ generation: 8, level: 70, shiny: 1, isHidden: true, moves: ['raindance', 'mirrorcoat', 'surf', 'extrasensory'], source: "gen8bdsp" },
+			{ generation: 9, level: 70, moves: ["raindance", "mirrorcoat", "surf", "extrasensory"] },
 		],
 		encounters: [
-			{generation: 2, level: 40},
-			{generation: 3, level: 40},
+			{ generation: 2, level: 40 },
+			{ generation: 3, level: 40 },
 		],
 		eventOnly: true,
 	},
@@ -32768,8 +32768,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			uproar: ["8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 20, moves: ["sandstorm", "dragondance", "bite", "outrage"], pokeball: "pokeball"},
-			{generation: 5, level: 5, shiny: true, gender: "M", moves: ["bite", "leer", "sandstorm", "superpower"], pokeball: "cherishball"},
+			{ generation: 3, level: 20, moves: ["sandstorm", "dragondance", "bite", "outrage"], pokeball: "pokeball" },
+			{ generation: 5, level: 5, shiny: true, gender: "M", moves: ["bite", "leer", "sandstorm", "superpower"], pokeball: "cherishball" },
 		],
 	},
 	pupitar: {
@@ -32995,16 +32995,16 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["8M", "4M"],
 		},
 		eventData: [
-			{generation: 3, level: 70, moves: ["thrash", "scaryface", "crunch", "earthquake"], pokeball: "pokeball"},
-			{generation: 5, level: 100, gender: "M", moves: ["fireblast", "icebeam", "stoneedge", "crunch"], pokeball: "cherishball"},
-			{generation: 5, level: 55, gender: "M", isHidden: true, moves: ["payback", "crunch", "earthquake", "seismictoss"]},
-			{generation: 6, level: 50, moves: ["stoneedge", "crunch", "earthquake", "icepunch"], pokeball: "cherishball"},
-			{generation: 6, level: 50, nature: "Jolly", moves: ["rockslide", "earthquake", "crunch", "stoneedge"], pokeball: "cherishball"},
-			{generation: 6, level: 55, shiny: true, nature: "Adamant", ivs: {hp: 31, atk: 31, def: 31, spa: 14, spd: 31, spe: 0}, moves: ["crunch", "rockslide", "lowkick", "protect"], pokeball: "cherishball"},
-			{generation: 6, level: 100, moves: ["rockslide", "crunch", "icepunch", "lowkick"], pokeball: "cherishball"},
+			{ generation: 3, level: 70, moves: ["thrash", "scaryface", "crunch", "earthquake"], pokeball: "pokeball" },
+			{ generation: 5, level: 100, gender: "M", moves: ["fireblast", "icebeam", "stoneedge", "crunch"], pokeball: "cherishball" },
+			{ generation: 5, level: 55, gender: "M", isHidden: true, moves: ["payback", "crunch", "earthquake", "seismictoss"] },
+			{ generation: 6, level: 50, moves: ["stoneedge", "crunch", "earthquake", "icepunch"], pokeball: "cherishball" },
+			{ generation: 6, level: 50, nature: "Jolly", moves: ["rockslide", "earthquake", "crunch", "stoneedge"], pokeball: "cherishball" },
+			{ generation: 6, level: 55, shiny: true, nature: "Adamant", ivs: { hp: 31, atk: 31, def: 31, spa: 14, spd: 31, spe: 0 }, moves: ["crunch", "rockslide", "lowkick", "protect"], pokeball: "cherishball" },
+			{ generation: 6, level: 100, moves: ["rockslide", "crunch", "icepunch", "lowkick"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 5, level: 50},
+			{ generation: 5, level: 50 },
 		],
 	},
 	lugia: {
@@ -33130,23 +33130,23 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 70, shiny: 1, moves: ["recover", "hydropump", "raindance", "swift"]},
-			{generation: 3, level: 50, moves: ["psychoboost", "earthquake", "hydropump", "featherdance"]},
-			{generation: 4, level: 45, shiny: 1, moves: ["extrasensory", "raindance", "hydropump", "aeroblast"]},
-			{generation: 4, level: 70, shiny: 1, moves: ["aeroblast", "punishment", "ancientpower", "safeguard"]},
-			{generation: 5, level: 5, isHidden: true, moves: ["whirlwind", "weatherball"], pokeball: "dreamball"},
-			{generation: 6, level: 50, shiny: 1, moves: ["raindance", "hydropump", "aeroblast", "punishment"]},
-			{generation: 6, level: 50, nature: "Timid", moves: ["aeroblast", "hydropump", "dragonrush", "icebeam"], pokeball: "cherishball"},
-			{generation: 7, level: 60, shiny: 1, moves: ["skillswap", "aeroblast", "extrasensory", "ancientpower"]},
-			{generation: 7, level: 100, isHidden: true, moves: ["aeroblast", "hurricane", "defog", "tailwind"], pokeball: "cherishball"},
-			{generation: 7, level: 60, moves: ["skillswap", "aeroblast", "extrasensory", "ancientpower"], pokeball: "cherishball"},
-			{generation: 7, level: 100, moves: ["aeroblast", "earthpower", "psychic", "tailwind"], pokeball: "cherishball"},
-			{generation: 8, level: 70, shiny: 1, moves: ["dragonpulse", "extrasensory", "whirlpool", "ancientpower"]},
-			{generation: 8, level: 70, shiny: 1, isHidden: true, moves: ['raindance', 'aeroblast', 'recover', 'extrasensory'], source: "gen8bdsp"},
-			{generation: 9, level: 70, moves: ["raindance", "aeroblast", "recover", "extrasensory"]},
+			{ generation: 3, level: 70, shiny: 1, moves: ["recover", "hydropump", "raindance", "swift"] },
+			{ generation: 3, level: 50, moves: ["psychoboost", "earthquake", "hydropump", "featherdance"] },
+			{ generation: 4, level: 45, shiny: 1, moves: ["extrasensory", "raindance", "hydropump", "aeroblast"] },
+			{ generation: 4, level: 70, shiny: 1, moves: ["aeroblast", "punishment", "ancientpower", "safeguard"] },
+			{ generation: 5, level: 5, isHidden: true, moves: ["whirlwind", "weatherball"], pokeball: "dreamball" },
+			{ generation: 6, level: 50, shiny: 1, moves: ["raindance", "hydropump", "aeroblast", "punishment"] },
+			{ generation: 6, level: 50, nature: "Timid", moves: ["aeroblast", "hydropump", "dragonrush", "icebeam"], pokeball: "cherishball" },
+			{ generation: 7, level: 60, shiny: 1, moves: ["skillswap", "aeroblast", "extrasensory", "ancientpower"] },
+			{ generation: 7, level: 100, isHidden: true, moves: ["aeroblast", "hurricane", "defog", "tailwind"], pokeball: "cherishball" },
+			{ generation: 7, level: 60, moves: ["skillswap", "aeroblast", "extrasensory", "ancientpower"], pokeball: "cherishball" },
+			{ generation: 7, level: 100, moves: ["aeroblast", "earthpower", "psychic", "tailwind"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, shiny: 1, moves: ["dragonpulse", "extrasensory", "whirlpool", "ancientpower"] },
+			{ generation: 8, level: 70, shiny: 1, isHidden: true, moves: ['raindance', 'aeroblast', 'recover', 'extrasensory'], source: "gen8bdsp" },
+			{ generation: 9, level: 70, moves: ["raindance", "aeroblast", "recover", "extrasensory"] },
 		],
 		encounters: [
-			{generation: 2, level: 40},
+			{ generation: 2, level: 40 },
 		],
 		eventOnly: true,
 	},
@@ -33257,22 +33257,22 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 70, shiny: 1, moves: ["recover", "fireblast", "sunnyday", "swift"]},
-			{generation: 4, level: 45, shiny: 1, moves: ["extrasensory", "sunnyday", "fireblast", "sacredfire"]},
-			{generation: 4, level: 70, shiny: 1, moves: ["sacredfire", "punishment", "ancientpower", "safeguard"]},
-			{generation: 5, level: 5, isHidden: true, moves: ["whirlwind", "weatherball"], pokeball: "dreamball"},
-			{generation: 6, level: 50, shiny: 1, moves: ["sunnyday", "fireblast", "sacredfire", "punishment"]},
-			{generation: 6, level: 50, shiny: true, moves: ["sacredfire", "bravebird", "recover", "celebrate"], pokeball: "cherishball"},
-			{generation: 7, level: 100, moves: ["sacredfire", "bravebird", "recover", "safeguard"], pokeball: "cherishball"},
-			{generation: 7, level: 60, shiny: 1, moves: ["burnup", "sacredfire", "extrasensory", "ancientpower"]},
-			{generation: 7, level: 60, moves: ["burnup", "sacredfire", "extrasensory", "ancientpower"], pokeball: "cherishball"},
-			{generation: 7, level: 100, moves: ["sacredfire", "bravebird", "earthquake", "tailwind"], pokeball: "cherishball"},
-			{generation: 8, level: 70, shiny: 1, moves: ["flareblitz", "extrasensory", "sunnyday", "ancientpower"]},
-			{generation: 8, level: 70, shiny: 1, isHidden: true, moves: ['sunnyday', 'sacredfire', 'recover', 'extrasensory'], source: "gen8bdsp"},
-			{generation: 9, level: 70, moves: ["sunnyday", "sacredfire", "recover", "extrasensory"]},
+			{ generation: 3, level: 70, shiny: 1, moves: ["recover", "fireblast", "sunnyday", "swift"] },
+			{ generation: 4, level: 45, shiny: 1, moves: ["extrasensory", "sunnyday", "fireblast", "sacredfire"] },
+			{ generation: 4, level: 70, shiny: 1, moves: ["sacredfire", "punishment", "ancientpower", "safeguard"] },
+			{ generation: 5, level: 5, isHidden: true, moves: ["whirlwind", "weatherball"], pokeball: "dreamball" },
+			{ generation: 6, level: 50, shiny: 1, moves: ["sunnyday", "fireblast", "sacredfire", "punishment"] },
+			{ generation: 6, level: 50, shiny: true, moves: ["sacredfire", "bravebird", "recover", "celebrate"], pokeball: "cherishball" },
+			{ generation: 7, level: 100, moves: ["sacredfire", "bravebird", "recover", "safeguard"], pokeball: "cherishball" },
+			{ generation: 7, level: 60, shiny: 1, moves: ["burnup", "sacredfire", "extrasensory", "ancientpower"] },
+			{ generation: 7, level: 60, moves: ["burnup", "sacredfire", "extrasensory", "ancientpower"], pokeball: "cherishball" },
+			{ generation: 7, level: 100, moves: ["sacredfire", "bravebird", "earthquake", "tailwind"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, shiny: 1, moves: ["flareblitz", "extrasensory", "sunnyday", "ancientpower"] },
+			{ generation: 8, level: 70, shiny: 1, isHidden: true, moves: ['sunnyday', 'sacredfire', 'recover', 'extrasensory'], source: "gen8bdsp" },
+			{ generation: 9, level: 70, moves: ["sunnyday", "sacredfire", "recover", "extrasensory"] },
 		],
 		encounters: [
-			{generation: 2, level: 40},
+			{ generation: 2, level: 40 },
 		],
 		eventOnly: true,
 	},
@@ -33385,18 +33385,18 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 10, moves: ["confusion", "recover", "healbell", "safeguard"], pokeball: "pokeball"},
-			{generation: 3, level: 70, moves: ["ancientpower", "futuresight", "batonpass", "perishsong"], pokeball: "pokeball"},
-			{generation: 3, level: 10, moves: ["leechseed", "recover", "healbell", "safeguard"], pokeball: "pokeball"},
-			{generation: 3, level: 30, moves: ["healbell", "safeguard", "ancientpower", "futuresight"], pokeball: "pokeball"},
-			{generation: 4, level: 50, moves: ["leafstorm", "recover", "nastyplot", "healingwish"], pokeball: "cherishball"},
-			{generation: 6, level: 10, moves: ["recover", "healbell", "safeguard", "holdback"], pokeball: "luxuryball"},
-			{generation: 6, level: 100, moves: ["confusion", "recover", "healbell", "safeguard"], pokeball: "cherishball"},
-			{generation: 7, level: 30, moves: ["healbell", "safeguard", "ancientpower", "futuresight"], pokeball: "cherishball"},
-			{generation: 8, level: 60, shiny: true, nature: "Quirky", moves: ["magicalleaf", "futuresight", "lifedew", "healbell"], pokeball: "cherishball"},
+			{ generation: 3, level: 10, moves: ["confusion", "recover", "healbell", "safeguard"], pokeball: "pokeball" },
+			{ generation: 3, level: 70, moves: ["ancientpower", "futuresight", "batonpass", "perishsong"], pokeball: "pokeball" },
+			{ generation: 3, level: 10, moves: ["leechseed", "recover", "healbell", "safeguard"], pokeball: "pokeball" },
+			{ generation: 3, level: 30, moves: ["healbell", "safeguard", "ancientpower", "futuresight"], pokeball: "pokeball" },
+			{ generation: 4, level: 50, moves: ["leafstorm", "recover", "nastyplot", "healingwish"], pokeball: "cherishball" },
+			{ generation: 6, level: 10, moves: ["recover", "healbell", "safeguard", "holdback"], pokeball: "luxuryball" },
+			{ generation: 6, level: 100, moves: ["confusion", "recover", "healbell", "safeguard"], pokeball: "cherishball" },
+			{ generation: 7, level: 30, moves: ["healbell", "safeguard", "ancientpower", "futuresight"], pokeball: "cherishball" },
+			{ generation: 8, level: 60, shiny: true, nature: "Quirky", moves: ["magicalleaf", "futuresight", "lifedew", "healbell"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 2, level: 30},
+			{ generation: 2, level: 30 },
 		],
 		eventOnly: true,
 	},
@@ -33502,8 +33502,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			worryseed: ["9E", "8E", "7T", "7E", "6T", "6E", "5T", "5E", "4T", "4E"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", moves: ["pound", "leer", "absorb"], pokeball: "pokeball"},
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["pound", "leer", "absorb"]},
+			{ generation: 3, level: 10, gender: "M", moves: ["pound", "leer", "absorb"], pokeball: "pokeball" },
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["pound", "leer", "absorb"] },
 		],
 	},
 	grovyle: {
@@ -33726,7 +33726,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "9L1", "8M", "8L1", "7M", "7L45", "6M", "6L16", "5M", "5L16", "4M", "4L16"],
 		},
 		eventData: [
-			{generation: 5, level: 50, shiny: 1, moves: ["leafstorm", "dragonpulse", "focusblast", "rockslide"], pokeball: "cherishball"},
+			{ generation: 5, level: 50, shiny: 1, moves: ["leafstorm", "dragonpulse", "focusblast", "rockslide"], pokeball: "cherishball" },
 		],
 	},
 	torchic: {
@@ -33815,9 +33815,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", moves: ["scratch", "growl", "focusenergy", "ember"], pokeball: "pokeball"},
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["scratch", "growl", "focusenergy", "ember"]},
-			{generation: 6, level: 10, gender: "M", isHidden: true, moves: ["scratch", "growl", "focusenergy", "ember"], pokeball: "cherishball"},
+			{ generation: 3, level: 10, gender: "M", moves: ["scratch", "growl", "focusenergy", "ember"], pokeball: "pokeball" },
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["scratch", "growl", "focusenergy", "ember"] },
+			{ generation: 6, level: 10, gender: "M", isHidden: true, moves: ["scratch", "growl", "focusenergy", "ember"], pokeball: "cherishball" },
 		],
 	},
 	combusken: {
@@ -34045,8 +34045,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M", "5M"],
 		},
 		eventData: [
-			{generation: 3, level: 70, moves: ["blazekick", "slash", "mirrormove", "skyuppercut"], pokeball: "pokeball"},
-			{generation: 5, level: 50, shiny: 1, moves: ["flareblitz", "highjumpkick", "thunderpunch", "stoneedge"], pokeball: "cherishball"},
+			{ generation: 3, level: 70, moves: ["blazekick", "slash", "mirrormove", "skyuppercut"], pokeball: "pokeball" },
+			{ generation: 5, level: 50, shiny: 1, moves: ["flareblitz", "highjumpkick", "thunderpunch", "stoneedge"], pokeball: "cherishball" },
 		],
 	},
 	mudkip: {
@@ -34138,8 +34138,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			yawn: ["9E", "8E", "7E", "6E", "5E", "4E"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", moves: ["tackle", "growl", "mudslap", "watergun"], pokeball: "pokeball"},
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["tackle", "growl", "mudslap", "watergun"]},
+			{ generation: 3, level: 10, gender: "M", moves: ["tackle", "growl", "mudslap", "watergun"], pokeball: "pokeball" },
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["tackle", "growl", "mudslap", "watergun"] },
 		],
 	},
 	marshtomp: {
@@ -34350,7 +34350,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M"],
 		},
 		eventData: [
-			{generation: 5, level: 50, shiny: 1, moves: ["earthquake", "icebeam", "hydropump", "hammerarm"], pokeball: "cherishball"},
+			{ generation: 5, level: 50, shiny: 1, moves: ["earthquake", "icebeam", "hydropump", "hammerarm"], pokeball: "cherishball" },
 		],
 	},
 	poochyena: {
@@ -34434,10 +34434,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			yawn: ["9L34", "7L37", "7E", "6E", "5E", "4E", "3E"],
 		},
 		eventData: [
-			{generation: 3, level: 10, abilities: ["runaway"], moves: ["healbell", "dig", "poisonfang", "howl"]},
+			{ generation: 3, level: 10, abilities: ["runaway"], moves: ["healbell", "dig", "poisonfang", "howl"] },
 		],
 		encounters: [
-			{generation: 3, level: 2},
+			{ generation: 3, level: 2 },
 		],
 	},
 	mightyena: {
@@ -34522,7 +34522,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			yawn: ["9L44", "7L44"],
 		},
 		eventData: [
-			{generation: 7, level: 64, gender: "M", abilities: ["intimidate"], moves: ["crunch", "firefang", "icefang", "thunderfang"], pokeball: "cherishball"},
+			{ generation: 7, level: 64, gender: "M", abilities: ["intimidate"], moves: ["crunch", "firefang", "icefang", "thunderfang"], pokeball: "cherishball" },
 		],
 	},
 	zigzagoon: {
@@ -34610,11 +34610,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M", "5M"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: true, abilities: ["pickup"], moves: ["tackle", "growl", "tailwhip"], pokeball: "pokeball"},
-			{generation: 3, level: 5, shiny: 1, abilities: ["pickup"], moves: ["tackle", "growl", "tailwhip", "extremespeed"], pokeball: "pokeball", emeraldEventEgg: true},
+			{ generation: 3, level: 5, shiny: true, abilities: ["pickup"], moves: ["tackle", "growl", "tailwhip"], pokeball: "pokeball" },
+			{ generation: 3, level: 5, shiny: 1, abilities: ["pickup"], moves: ["tackle", "growl", "tailwhip", "extremespeed"], pokeball: "pokeball", emeraldEventEgg: true },
 		],
 		encounters: [
-			{generation: 3, level: 2},
+			{ generation: 3, level: 2 },
 		],
 	},
 	zigzagoongalar: {
@@ -34770,11 +34770,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M", "5M"],
 		},
 		eventData: [
-			{generation: 6, level: 50, moves: ["extremespeed", "helpinghand", "babydolleyes", "protect"], pokeball: "cherishball"},
+			{ generation: 6, level: 50, moves: ["extremespeed", "helpinghand", "babydolleyes", "protect"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 4, level: 3},
-			{generation: 6, level: 17, maxEggMoves: 1},
+			{ generation: 4, level: 3 },
+			{ generation: 6, level: 17, maxEggMoves: 1 },
 		],
 	},
 	linoonegalar: {
@@ -34939,7 +34939,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			tackle: ["7L1", "6L1", "5L1", "4L1", "3L1"],
 		},
 		encounters: [
-			{generation: 3, level: 2},
+			{ generation: 3, level: 2 },
 		],
 	},
 	silcoon: {
@@ -34951,9 +34951,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			stringshot: ["4T"],
 		},
 		encounters: [
-			{generation: 3, level: 5},
-			{generation: 4, level: 5},
-			{generation: 6, level: 2, maxEggMoves: 1},
+			{ generation: 3, level: 5 },
+			{ generation: 4, level: 5 },
+			{ generation: 6, level: 2, maxEggMoves: 1 },
 		],
 	},
 	beautifly: {
@@ -35029,9 +35029,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			stringshot: ["4T"],
 		},
 		encounters: [
-			{generation: 3, level: 5},
-			{generation: 4, level: 5},
-			{generation: 6, level: 2, maxEggMoves: 1},
+			{ generation: 3, level: 5 },
+			{ generation: 4, level: 5 },
+			{ generation: 6, level: 2, maxEggMoves: 1 },
 		],
 	},
 	dustox: {
@@ -35174,10 +35174,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L38", "8M", "8L38", "7T", "7L33", "6T", "6L31", "5T", "5L31", "4T", "4L27"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", moves: ["astonish", "growl", "absorb"], pokeball: "pokeball"},
+			{ generation: 3, level: 10, gender: "M", moves: ["astonish", "growl", "absorb"], pokeball: "pokeball" },
 		],
 		encounters: [
-			{generation: 3, level: 3},
+			{ generation: 3, level: 3 },
 		],
 	},
 	lombre: {
@@ -35277,7 +35277,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L50", "8M", "8L50", "7T", "7L40", "6T", "6L31", "5T", "5L31", "4T", "4L27"],
 		},
 		encounters: [
-			{generation: 6, level: 13, maxEggMoves: 1},
+			{ generation: 6, level: 13, maxEggMoves: 1 },
 		],
 	},
 	ludicolo: {
@@ -35385,8 +35385,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L1", "8M", "8L1", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 5, level: 50, shiny: 1, abilities: ["swiftswim"], moves: ["fakeout", "hydropump", "icebeam", "gigadrain"], pokeball: "cherishball"},
-			{generation: 5, level: 30, gender: "M", nature: "Calm", abilities: ["swiftswim"], moves: ["scald", "gigadrain", "icebeam", "sunnyday"], pokeball: "pokeball"},
+			{ generation: 5, level: 50, shiny: 1, abilities: ["swiftswim"], moves: ["fakeout", "hydropump", "icebeam", "gigadrain"], pokeball: "cherishball" },
+			{ generation: 5, level: 30, gender: "M", nature: "Calm", abilities: ["swiftswim"], moves: ["scald", "gigadrain", "icebeam", "sunnyday"], pokeball: "pokeball" },
 		],
 	},
 	seedot: {
@@ -35468,11 +35468,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			worryseed: ["9E", "8E", "7T", "7E", "6T", "6E", "5T", "5E", "4T", "4E"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", moves: ["bide", "harden", "growth"], pokeball: "pokeball"},
-			{generation: 3, level: 17, moves: ["refresh", "gigadrain", "bulletseed", "secretpower"]},
+			{ generation: 3, level: 10, gender: "M", moves: ["bide", "harden", "growth"], pokeball: "pokeball" },
+			{ generation: 3, level: 17, moves: ["refresh", "gigadrain", "bulletseed", "secretpower"] },
 		],
 		encounters: [
-			{generation: 3, level: 3},
+			{ generation: 3, level: 3 },
 		],
 	},
 	nuzleaf: {
@@ -35584,7 +35584,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			worryseed: ["7T", "6T", "5T", "4T"],
 		},
 		encounters: [
-			{generation: 6, level: 13, maxEggMoves: 1},
+			{ generation: 6, level: 13, maxEggMoves: 1 },
 		],
 	},
 	shiftry: {
@@ -35790,10 +35790,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["7M", "5M"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: 1, moves: ["peck", "growl", "focusenergy", "featherdance"], pokeball: "pokeball", emeraldEventEgg: true},
+			{ generation: 3, level: 5, shiny: 1, moves: ["peck", "growl", "focusenergy", "featherdance"], pokeball: "pokeball", emeraldEventEgg: true },
 		],
 		encounters: [
-			{generation: 3, level: 4},
+			{ generation: 3, level: 4 },
 		],
 	},
 	swellow: {
@@ -35857,10 +35857,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["7M", "5M"],
 		},
 		eventData: [
-			{generation: 3, level: 43, moves: ["batonpass", "skyattack", "agility", "facade"]},
+			{ generation: 3, level: 43, moves: ["batonpass", "skyattack", "agility", "facade"] },
 		],
 		encounters: [
-			{generation: 4, level: 20},
+			{ generation: 4, level: 20 },
 		],
 	},
 	wingull: {
@@ -35945,7 +35945,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wingattack: ["9L15", "8L15", "7L8", "6L8", "5L9", "4L11", "3L13"],
 		},
 		encounters: [
-			{generation: 3, level: 2},
+			{ generation: 3, level: 2 },
 		],
 	},
 	pelipper: {
@@ -36039,11 +36039,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wingattack: ["9L15", "8L15", "7L1", "6L1", "5L1", "4L1", "3L1"],
 		},
 		eventData: [
-			{generation: 9, level: 50, shiny: true, gender: "M", nature: "Modest", abilities: ["drizzle"], ivs: {hp: 31, atk: 8, def: 31, spa: 31, spd: 31, spe: 31}, moves: ["protect", "weatherball", "hurricane", "wideguard"], pokeball: "cherishball"},
+			{ generation: 9, level: 50, shiny: true, gender: "M", nature: "Modest", abilities: ["drizzle"], ivs: { hp: 31, atk: 8, def: 31, spa: 31, spd: 31, spe: 31 }, moves: ["protect", "weatherball", "hurricane", "wideguard"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 4, level: 15},
-			{generation: 6, level: 18, maxEggMoves: 1},
+			{ generation: 4, level: 15 },
+			{ generation: 6, level: 18, maxEggMoves: 1 },
 		],
 	},
 	ralts: {
@@ -36156,13 +36156,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: 1, moves: ["growl", "wish"], pokeball: "pokeball"},
-			{generation: 3, level: 5, shiny: 1, moves: ["growl", "charm"], pokeball: "pokeball"},
-			{generation: 3, level: 20, moves: ["sing", "shockwave", "reflect", "confusion"]},
-			{generation: 6, level: 1, isHidden: true, moves: ["growl", "encore"], pokeball: "pokeball"},
+			{ generation: 3, level: 5, shiny: 1, moves: ["growl", "wish"], pokeball: "pokeball" },
+			{ generation: 3, level: 5, shiny: 1, moves: ["growl", "charm"], pokeball: "pokeball" },
+			{ generation: 3, level: 20, moves: ["sing", "shockwave", "reflect", "confusion"] },
+			{ generation: 6, level: 1, isHidden: true, moves: ["growl", "encore"], pokeball: "pokeball" },
 		],
 		encounters: [
-			{generation: 3, level: 4},
+			{ generation: 3, level: 4 },
 		],
 	},
 	kirlia: {
@@ -36267,7 +36267,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
 		},
 		encounters: [
-			{generation: 4, level: 6},
+			{ generation: 4, level: 6 },
 		],
 	},
 	gardevoir: {
@@ -36388,8 +36388,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 5, level: 50, shiny: 1, abilities: ["trace"], moves: ["hypnosis", "thunderbolt", "focusblast", "psychic"], pokeball: "cherishball"},
-			{generation: 6, level: 50, shiny: true, gender: "F", abilities: ["synchronize"], moves: ["dazzlinggleam", "moonblast", "storedpower", "calmmind"], pokeball: "cherishball"},
+			{ generation: 5, level: 50, shiny: 1, abilities: ["trace"], moves: ["hypnosis", "thunderbolt", "focusblast", "psychic"], pokeball: "cherishball" },
+			{ generation: 6, level: 50, shiny: true, gender: "F", abilities: ["synchronize"], moves: ["dazzlinggleam", "moonblast", "storedpower", "calmmind"], pokeball: "cherishball" },
 		],
 	},
 	gallade: {
@@ -36621,11 +36621,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			watersport: ["7L14", "6L14", "5L19", "4L19", "3L19"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: 1, moves: ["bubble", "mudsport"], pokeball: "pokeball", emeraldEventEgg: true},
-			{generation: 3, level: 10, gender: "M", moves: ["bubble", "quickattack"], pokeball: "pokeball"},
+			{ generation: 3, level: 5, shiny: 1, moves: ["bubble", "mudsport"], pokeball: "pokeball", emeraldEventEgg: true },
+			{ generation: 3, level: 10, gender: "M", moves: ["bubble", "quickattack"], pokeball: "pokeball" },
 		],
 		encounters: [
-			{generation: 3, level: 3},
+			{ generation: 3, level: 3 },
 		],
 	},
 	masquerain: {
@@ -36721,7 +36721,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlwind: ["9L1", "7L1", "6L1", "5L54", "4L54", "3L53"],
 		},
 		encounters: [
-			{generation: 6, level: 21, maxEggMoves: 1},
+			{ generation: 6, level: 21, maxEggMoves: 1 },
 		],
 	},
 	shroomish: {
@@ -36791,7 +36791,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 3, level: 15, abilities: ["effectspore"], moves: ["refresh", "falseswipe", "megadrain", "stunspore"]},
+			{ generation: 3, level: 15, abilities: ["effectspore"], moves: ["refresh", "falseswipe", "megadrain", "stunspore"] },
 		],
 	},
 	breloom: {
@@ -37243,7 +37243,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 4, level: 50, gender: "M", nature: "Adamant", moves: ["gigaimpact", "return", "shadowclaw", "aerialace"], pokeball: "cherishball"},
+			{ generation: 4, level: 50, gender: "M", nature: "Adamant", moves: ["gigaimpact", "return", "shadowclaw", "aerialace"], pokeball: "cherishball" },
 		],
 	},
 	nincada: {
@@ -37451,7 +37451,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["8M", "7M", "6M", "5M", "4M"],
 		},
 		eventData: [
-			{generation: 3, level: 50, moves: ["spite", "confuseray", "shadowball", "grudge"], pokeball: "pokeball"},
+			{ generation: 3, level: 50, moves: ["spite", "confuseray", "shadowball", "grudge"], pokeball: "pokeball" },
 		],
 	},
 	whismur: {
@@ -37531,7 +37531,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T", "5T", "5D", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: 1, moves: ["pound", "uproar", "teeterdance"], pokeball: "pokeball", emeraldEventEgg: true},
+			{ generation: 3, level: 5, shiny: 1, moves: ["pound", "uproar", "teeterdance"], pokeball: "pokeball", emeraldEventEgg: true },
 		],
 	},
 	loudred: {
@@ -37617,7 +37617,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T", "5T", "4T"],
 		},
 		encounters: [
-			{generation: 6, level: 16, maxEggMoves: 1},
+			{ generation: 6, level: 16, maxEggMoves: 1 },
 		],
 	},
 	exploud: {
@@ -37718,8 +37718,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 100, moves: ["roar", "rest", "sleeptalk", "hypervoice"], pokeball: "pokeball"},
-			{generation: 3, level: 50, moves: ["stomp", "screech", "hyperbeam", "roar"], pokeball: "pokeball"},
+			{ generation: 3, level: 100, moves: ["roar", "rest", "sleeptalk", "hypervoice"], pokeball: "pokeball" },
+			{ generation: 3, level: 50, moves: ["stomp", "screech", "hyperbeam", "roar"], pokeball: "pokeball" },
 		],
 	},
 	makuhita: {
@@ -37826,7 +37826,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 3, level: 18, moves: ["refresh", "brickbreak", "armthrust", "rocktomb"]},
+			{ generation: 3, level: 18, moves: ["refresh", "brickbreak", "armthrust", "rocktomb"] },
 		],
 	},
 	hariyama: {
@@ -37934,7 +37934,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		encounters: [
-			{generation: 6, level: 22},
+			{ generation: 6, level: 22 },
 		],
 	},
 	nosepass: {
@@ -38025,7 +38025,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["9L43", "7L43", "6L43", "5L50", "4L61", "3L43"],
 		},
 		eventData: [
-			{generation: 3, level: 26, moves: ["helpinghand", "thunderbolt", "thunderwave", "rockslide"]},
+			{ generation: 3, level: 26, moves: ["helpinghand", "thunderbolt", "thunderwave", "rockslide"] },
 		],
 	},
 	probopass: {
@@ -38206,12 +38206,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["7T", "7E", "6T", "6E", "5T", "5E", "4T", "4E"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: 1, abilities: ["cutecharm"], moves: ["tackle", "growl", "tailwhip", "payday"], pokeball: "pokeball", emeraldEventEgg: true},
-			{generation: 3, level: 5, shiny: 1, abilities: ["cutecharm"], moves: ["growl", "tackle", "tailwhip", "rollout"], pokeball: "pokeball", emeraldEventEgg: true},
-			{generation: 3, level: 10, gender: "M", abilities: ["cutecharm"], moves: ["growl", "tackle", "tailwhip", "attract"], pokeball: "pokeball"},
+			{ generation: 3, level: 5, shiny: 1, abilities: ["cutecharm"], moves: ["tackle", "growl", "tailwhip", "payday"], pokeball: "pokeball", emeraldEventEgg: true },
+			{ generation: 3, level: 5, shiny: 1, abilities: ["cutecharm"], moves: ["growl", "tackle", "tailwhip", "rollout"], pokeball: "pokeball", emeraldEventEgg: true },
+			{ generation: 3, level: 10, gender: "M", abilities: ["cutecharm"], moves: ["growl", "tackle", "tailwhip", "attract"], pokeball: "pokeball" },
 		],
 		encounters: [
-			{generation: 3, level: 3, gender: "F", ivs: {hp: 5, atk: 4, def: 4, spa: 5, spd: 4, spe: 4}, abilities: ["cutecharm"], pokeball: "pokeball"},
+			{ generation: 3, level: 3, gender: "F", ivs: { hp: 5, atk: 4, def: 4, spa: 5, spd: 4, spe: 4 }, abilities: ["cutecharm"], pokeball: "pokeball" },
 		],
 	},
 	delcatty: {
@@ -38290,7 +38290,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 18, abilities: ["cutecharm"], moves: ["sweetkiss", "secretpower", "attract", "shockwave"]},
+			{ generation: 3, level: 18, abilities: ["cutecharm"], moves: ["sweetkiss", "secretpower", "attract", "shockwave"] },
 		],
 	},
 	sableye: {
@@ -38434,11 +38434,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L42", "8M", "8L42", "7T", "7L34", "6T", "6L1", "5T", "5L53", "4T", "4L50"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", abilities: ["keeneye"], moves: ["leer", "scratch", "foresight", "nightshade"], pokeball: "pokeball"},
-			{generation: 3, level: 33, abilities: ["keeneye"], moves: ["helpinghand", "shadowball", "feintattack", "recover"]},
-			{generation: 5, level: 50, gender: "M", isHidden: true, moves: ["foulplay", "octazooka", "tickle", "trick"], pokeball: "cherishball"},
-			{generation: 6, level: 50, nature: "Relaxed", ivs: {hp: 31, spa: 31}, isHidden: true, moves: ["calmmind", "willowisp", "recover", "shadowball"], pokeball: "cherishball"},
-			{generation: 6, level: 100, nature: "Bold", isHidden: true, moves: ["willowisp", "recover", "taunt", "shockwave"], pokeball: "cherishball"},
+			{ generation: 3, level: 10, gender: "M", abilities: ["keeneye"], moves: ["leer", "scratch", "foresight", "nightshade"], pokeball: "pokeball" },
+			{ generation: 3, level: 33, abilities: ["keeneye"], moves: ["helpinghand", "shadowball", "feintattack", "recover"] },
+			{ generation: 5, level: 50, gender: "M", isHidden: true, moves: ["foulplay", "octazooka", "tickle", "trick"], pokeball: "cherishball" },
+			{ generation: 6, level: 50, nature: "Relaxed", ivs: { hp: 31, spa: 31 }, isHidden: true, moves: ["calmmind", "willowisp", "recover", "shadowball"], pokeball: "cherishball" },
+			{ generation: 6, level: 100, nature: "Bold", isHidden: true, moves: ["willowisp", "recover", "taunt", "shockwave"], pokeball: "cherishball" },
 		],
 	},
 	mawile: {
@@ -38554,10 +38554,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			visegrip: ["7L17", "6L17", "5L21", "4L21", "3L21", "3S1"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", moves: ["astonish", "faketears"], pokeball: "pokeball"},
-			{generation: 3, level: 22, moves: ["sing", "falseswipe", "visegrip", "irondefense"]},
-			{generation: 6, level: 50, abilities: ["intimidate"], moves: ["ironhead", "playrough", "firefang", "suckerpunch"], pokeball: "cherishball"},
-			{generation: 6, level: 100, abilities: ["intimidate"], moves: ["suckerpunch", "protect", "playrough", "ironhead"], pokeball: "cherishball"},
+			{ generation: 3, level: 10, gender: "M", moves: ["astonish", "faketears"], pokeball: "pokeball" },
+			{ generation: 3, level: 22, moves: ["sing", "falseswipe", "visegrip", "irondefense"] },
+			{ generation: 6, level: 50, abilities: ["intimidate"], moves: ["ironhead", "playrough", "firefang", "suckerpunch"], pokeball: "cherishball" },
+			{ generation: 6, level: 100, abilities: ["intimidate"], moves: ["suckerpunch", "protect", "playrough", "ironhead"], pokeball: "cherishball" },
 		],
 	},
 	aron: {
@@ -38841,9 +38841,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["8M", "4M"],
 		},
 		eventData: [
-			{generation: 3, level: 100, moves: ["irontail", "protect", "metalsound", "doubleedge"], pokeball: "pokeball"},
-			{generation: 3, level: 50, moves: ["takedown", "irontail", "protect", "metalsound"], pokeball: "pokeball"},
-			{generation: 6, level: 50, nature: "Brave", abilities: ["rockhead"], moves: ["ironhead", "earthquake", "headsmash", "rockslide"], pokeball: "cherishball"},
+			{ generation: 3, level: 100, moves: ["irontail", "protect", "metalsound", "doubleedge"], pokeball: "pokeball" },
+			{ generation: 3, level: 50, moves: ["takedown", "irontail", "protect", "metalsound"], pokeball: "pokeball" },
+			{ generation: 6, level: 50, nature: "Brave", abilities: ["rockhead"], moves: ["ironhead", "earthquake", "headsmash", "rockslide"], pokeball: "cherishball" },
 		],
 	},
 	meditite: {
@@ -38959,8 +38959,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L25", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", moves: ["bide", "meditate", "confusion"], pokeball: "pokeball"},
-			{generation: 3, level: 20, moves: ["dynamicpunch", "confusion", "shadowball", "detect"], pokeball: "pokeball"},
+			{ generation: 3, level: 10, gender: "M", moves: ["bide", "meditate", "confusion"], pokeball: "pokeball" },
+			{ generation: 3, level: 20, moves: ["dynamicpunch", "confusion", "shadowball", "detect"], pokeball: "pokeball" },
 		],
 	},
 	medicham: {
@@ -39075,8 +39075,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L25", "7T", "7L1", "6T", "6L1", "5T", "4T"],
 		},
 		encounters: [
-			{generation: 4, level: 35},
-			{generation: 6, level: 34, maxEggMoves: 1},
+			{ generation: 4, level: 35 },
+			{ generation: 6, level: 34, maxEggMoves: 1 },
 		],
 	},
 	electrike: {
@@ -39222,8 +39222,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wildcharge: ["8M", "8L48", "7M", "7L42", "6M", "6L42", "5M", "5L61"],
 		},
 		eventData: [
-			{generation: 3, level: 44, moves: ["refresh", "thunder", "raindance", "bite"]},
-			{generation: 6, level: 50, nature: "Timid", abilities: ["lightningrod"], moves: ["overheat", "thunderbolt", "voltswitch", "protect"], pokeball: "cherishball"},
+			{ generation: 3, level: 44, moves: ["refresh", "thunder", "raindance", "bite"] },
+			{ generation: 6, level: 50, nature: "Timid", abilities: ["lightningrod"], moves: ["overheat", "thunderbolt", "voltswitch", "protect"], pokeball: "cherishball" },
 		],
 	},
 	plusle: {
@@ -39318,8 +39318,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wish: ["9E", "7E", "6E", "5E", "4E", "3E"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: 1, moves: ["growl", "thunderwave", "watersport"], pokeball: "pokeball", emeraldEventEgg: true},
-			{generation: 3, level: 10, gender: "M", moves: ["growl", "thunderwave", "quickattack"], pokeball: "pokeball"},
+			{ generation: 3, level: 5, shiny: 1, moves: ["growl", "thunderwave", "watersport"], pokeball: "pokeball", emeraldEventEgg: true },
+			{ generation: 3, level: 10, gender: "M", moves: ["growl", "thunderwave", "quickattack"], pokeball: "pokeball" },
 		],
 	},
 	minun: {
@@ -39412,8 +39412,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wish: ["9E", "7E", "6E", "5E", "4E", "3E"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: 1, moves: ["growl", "thunderwave", "mudsport"], pokeball: "pokeball", emeraldEventEgg: true},
-			{generation: 3, level: 10, gender: "M", moves: ["growl", "thunderwave", "quickattack"], pokeball: "pokeball"},
+			{ generation: 3, level: 5, shiny: 1, moves: ["growl", "thunderwave", "mudsport"], pokeball: "pokeball", emeraldEventEgg: true },
+			{ generation: 3, level: 10, gender: "M", moves: ["growl", "thunderwave", "quickattack"], pokeball: "pokeball" },
 		],
 	},
 	volbeat: {
@@ -39749,8 +39749,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			worryseed: ["8L1", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", moves: ["absorb", "growth", "poisonsting"], pokeball: "pokeball"},
-			{generation: 3, level: 22, moves: ["sweetkiss", "magicalleaf", "leechseed", "grasswhistle"]},
+			{ generation: 3, level: 10, gender: "M", moves: ["absorb", "growth", "poisonsting"], pokeball: "pokeball" },
+			{ generation: 3, level: 22, moves: ["sweetkiss", "magicalleaf", "leechseed", "grasswhistle"] },
 		],
 	},
 	roserade: {
@@ -39916,7 +39916,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			yawn: ["9L5", "7L5", "6L5", "5L6", "4L6", "3L6"],
 		},
 		eventData: [
-			{generation: 3, level: 17, moves: ["sing", "shockwave", "sludge", "toxic"]},
+			{ generation: 3, level: 17, moves: ["sing", "shockwave", "sludge", "toxic"] },
 		],
 	},
 	swalot: {
@@ -40087,8 +40087,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 15, moves: ["refresh", "waterpulse", "bite", "scaryface"]},
-			{generation: 6, level: 1, isHidden: true, moves: ["leer", "bite", "hydropump"], pokeball: "pokeball"},
+			{ generation: 3, level: 15, moves: ["refresh", "waterpulse", "bite", "scaryface"] },
+			{ generation: 6, level: 1, isHidden: true, moves: ["leer", "bite", "hydropump"], pokeball: "pokeball" },
 		],
 	},
 	sharpedo: {
@@ -40178,11 +40178,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 6, level: 50, nature: "Adamant", isHidden: true, moves: ["aquajet", "crunch", "icefang", "destinybond"], pokeball: "cherishball"},
-			{generation: 6, level: 43, gender: "M", perfectIVs: 2, moves: ["scaryface", "slash", "poisonfang", "crunch"], pokeball: "cherishball"},
+			{ generation: 6, level: 50, nature: "Adamant", isHidden: true, moves: ["aquajet", "crunch", "icefang", "destinybond"], pokeball: "cherishball" },
+			{ generation: 6, level: 43, gender: "M", perfectIVs: 2, moves: ["scaryface", "slash", "poisonfang", "crunch"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 7, level: 10},
+			{ generation: 7, level: 10 },
 		],
 	},
 	wailmer: {
@@ -40329,14 +40329,14 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T", "5T"],
 		},
 		eventData: [
-			{generation: 3, level: 100, moves: ["rest", "waterspout", "amnesia", "hydropump"], pokeball: "pokeball"},
-			{generation: 3, level: 50, moves: ["waterpulse", "mist", "rest", "waterspout"], pokeball: "pokeball"},
+			{ generation: 3, level: 100, moves: ["rest", "waterspout", "amnesia", "hydropump"], pokeball: "pokeball" },
+			{ generation: 3, level: 50, moves: ["waterpulse", "mist", "rest", "waterspout"], pokeball: "pokeball" },
 		],
 		encounters: [
-			{generation: 3, level: 25},
-			{generation: 4, level: 35},
-			{generation: 5, level: 30},
-			{generation: 7, level: 10},
+			{ generation: 3, level: 25 },
+			{ generation: 4, level: 35 },
+			{ generation: 5, level: 30 },
+			{ generation: 7, level: 10 },
 		],
 	},
 	numel: {
@@ -40432,8 +40432,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 3, level: 14, abilities: ["oblivious"], moves: ["charm", "takedown", "dig", "ember"]},
-			{generation: 6, level: 1, moves: ["growl", "tackle", "ironhead"], pokeball: "pokeball"},
+			{ generation: 3, level: 14, abilities: ["oblivious"], moves: ["charm", "takedown", "dig", "ember"] },
+			{ generation: 6, level: 1, moves: ["growl", "tackle", "ironhead"], pokeball: "pokeball" },
 		],
 	},
 	camerupt: {
@@ -40530,10 +40530,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 6, level: 43, gender: "M", perfectIVs: 2, abilities: ["solidrock"], moves: ["curse", "takedown", "rockslide", "yawn"], pokeball: "cherishball"},
+			{ generation: 6, level: 43, gender: "M", perfectIVs: 2, abilities: ["solidrock"], moves: ["curse", "takedown", "rockslide", "yawn"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 6, level: 30},
+			{ generation: 6, level: 30 },
 		],
 	},
 	torkoal: {
@@ -40628,7 +40628,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 8, level: 50, gender: "M", nature: "Bold", abilities: ["drought"], ivs: {hp: 31, atk: 12, def: 31, spa: 31, spd: 31, spe: 0}, moves: ["burningjealousy", "bodypress", "yawn", "protect"], pokeball: "cherishball"},
+			{ generation: 8, level: 50, gender: "M", nature: "Bold", abilities: ["drought"], ivs: { hp: 31, atk: 12, def: 31, spa: 31, spd: 31, spe: 0 }, moves: ["burningjealousy", "bodypress", "yawn", "protect"], pokeball: "cherishball" },
 		],
 	},
 	spoink: {
@@ -40727,7 +40727,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9E", "7T", "7L26", "7E", "6T", "6L26", "6E", "5T", "5L26", "5E", "4T", "4L26", "4E"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: 1, abilities: ["owntempo"], moves: ["splash", "uproar"], pokeball: "pokeball", emeraldEventEgg: true},
+			{ generation: 3, level: 5, shiny: 1, abilities: ["owntempo"], moves: ["splash", "uproar"], pokeball: "pokeball", emeraldEventEgg: true },
 		],
 	},
 	grumpig: {
@@ -40854,7 +40854,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L26", "7T", "7L26", "6T", "6L26", "5T", "5L26", "4T", "4L26"],
 		},
 		encounters: [
-			{generation: 6, level: 30},
+			{ generation: 6, level: 30 },
 		],
 	},
 	spinda: {
@@ -40963,7 +40963,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: 1, moves: ["tackle", "uproar", "sing"], pokeball: "pokeball", emeraldEventEgg: true},
+			{ generation: 3, level: 5, shiny: 1, moves: ["tackle", "uproar", "sing"], pokeball: "pokeball", emeraldEventEgg: true },
 		],
 	},
 	trapinch: {
@@ -41033,7 +41033,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			toxic: ["7M", "6M", "5M", "4M", "3M"],
 		},
 		eventData: [
-			{generation: 5, level: 1, shiny: true, moves: ["bite"], pokeball: "pokeball"},
+			{ generation: 5, level: 1, shiny: true, moves: ["bite"], pokeball: "pokeball" },
 		],
 	},
 	vibrava: {
@@ -41242,8 +41242,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			vacuumwave: ["9M"],
 		},
 		eventData: [
-			{generation: 3, level: 45, moves: ["sandtomb", "crunch", "dragonbreath", "screech"], pokeball: "pokeball"},
-			{generation: 4, level: 50, gender: "M", nature: "Naive", moves: ["dracometeor", "uturn", "earthquake", "dragonclaw"], pokeball: "cherishball"},
+			{ generation: 3, level: 45, moves: ["sandtomb", "crunch", "dragonbreath", "screech"], pokeball: "pokeball" },
+			{ generation: 4, level: 50, gender: "M", nature: "Naive", moves: ["dracometeor", "uturn", "earthquake", "dragonclaw"], pokeball: "cherishball" },
 		],
 	},
 	cacnea: {
@@ -41353,7 +41353,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			worryseed: ["7T", "7E", "6T", "6E", "5T", "5E", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: 1, moves: ["poisonsting", "leer", "absorb", "encore"], pokeball: "pokeball", emeraldEventEgg: true},
+			{ generation: 3, level: 5, shiny: 1, moves: ["poisonsting", "leer", "absorb", "encore"], pokeball: "pokeball", emeraldEventEgg: true },
 		],
 	},
 	cacturne: {
@@ -41471,10 +41471,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 3, level: 45, moves: ["ingrain", "feintattack", "spikes", "needlearm"], pokeball: "pokeball"},
+			{ generation: 3, level: 45, moves: ["ingrain", "feintattack", "spikes", "needlearm"], pokeball: "pokeball" },
 		],
 		encounters: [
-			{generation: 6, level: 30},
+			{ generation: 6, level: 30 },
 		],
 	},
 	swablu: {
@@ -41564,9 +41564,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			uproar: ["8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: 1, moves: ["peck", "growl", "falseswipe"], pokeball: "pokeball", emeraldEventEgg: true},
-			{generation: 5, level: 1, shiny: true, moves: ["peck", "growl"], pokeball: "pokeball"},
-			{generation: 6, level: 1, isHidden: true, moves: ["peck", "growl", "hypervoice"], pokeball: "pokeball"},
+			{ generation: 3, level: 5, shiny: 1, moves: ["peck", "growl", "falseswipe"], pokeball: "pokeball", emeraldEventEgg: true },
+			{ generation: 5, level: 1, shiny: true, moves: ["peck", "growl"], pokeball: "pokeball" },
+			{ generation: 6, level: 1, isHidden: true, moves: ["peck", "growl", "hypervoice"], pokeball: "pokeball" },
 		],
 	},
 	altaria: {
@@ -41673,10 +41673,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wonderroom: ["8M", "7T", "6T", "5T"],
 		},
 		eventData: [
-			{generation: 3, level: 45, moves: ["takedown", "dragonbreath", "dragondance", "refresh"], pokeball: "pokeball"},
-			{generation: 3, level: 36, moves: ["healbell", "dragonbreath", "solarbeam", "aerialace"]},
-			{generation: 5, level: 35, gender: "M", isHidden: true, moves: ["takedown", "naturalgift", "dragonbreath", "falseswipe"]},
-			{generation: 6, level: 100, nature: "Modest", isHidden: true, moves: ["hypervoice", "fireblast", "protect", "agility"], pokeball: "cherishball"},
+			{ generation: 3, level: 45, moves: ["takedown", "dragonbreath", "dragondance", "refresh"], pokeball: "pokeball" },
+			{ generation: 3, level: 36, moves: ["healbell", "dragonbreath", "solarbeam", "aerialace"] },
+			{ generation: 5, level: 35, gender: "M", isHidden: true, moves: ["takedown", "naturalgift", "dragonbreath", "falseswipe"] },
+			{ generation: 6, level: 100, nature: "Modest", isHidden: true, moves: ["hypervoice", "fireblast", "protect", "agility"], pokeball: "cherishball" },
 		],
 	},
 	zangoose: {
@@ -41807,9 +41807,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 3, level: 18, moves: ["leer", "quickattack", "swordsdance", "furycutter"], pokeball: "pokeball"},
-			{generation: 3, level: 10, gender: "M", moves: ["scratch", "leer", "quickattack", "swordsdance"], pokeball: "pokeball"},
-			{generation: 3, level: 28, moves: ["refresh", "brickbreak", "counter", "crushclaw"]},
+			{ generation: 3, level: 18, moves: ["leer", "quickattack", "swordsdance", "furycutter"], pokeball: "pokeball" },
+			{ generation: 3, level: 10, gender: "M", moves: ["scratch", "leer", "quickattack", "swordsdance"], pokeball: "pokeball" },
+			{ generation: 3, level: 28, moves: ["refresh", "brickbreak", "counter", "crushclaw"] },
 		],
 	},
 	seviper: {
@@ -41920,9 +41920,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 3, level: 18, moves: ["wrap", "lick", "bite", "poisontail"], pokeball: "pokeball"},
-			{generation: 3, level: 30, moves: ["poisontail", "screech", "glare", "crunch"], pokeball: "pokeball"},
-			{generation: 3, level: 10, gender: "M", moves: ["wrap", "lick", "bite"], pokeball: "pokeball"},
+			{ generation: 3, level: 18, moves: ["wrap", "lick", "bite", "poisontail"], pokeball: "pokeball" },
+			{ generation: 3, level: 30, moves: ["poisontail", "screech", "glare", "crunch"], pokeball: "pokeball" },
+			{ generation: 3, level: 10, gender: "M", moves: ["wrap", "lick", "bite"], pokeball: "pokeball" },
 		],
 	},
 	lunatone: {
@@ -42023,9 +42023,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 10, moves: ["tackle", "harden", "confusion"], pokeball: "pokeball"},
-			{generation: 3, level: 25, moves: ["batonpass", "psychic", "raindance", "rocktomb"]},
-			{generation: 7, level: 30, moves: ["cosmicpower", "hiddenpower", "moonblast", "powergem"], pokeball: "cherishball"},
+			{ generation: 3, level: 10, moves: ["tackle", "harden", "confusion"], pokeball: "pokeball" },
+			{ generation: 3, level: 25, moves: ["batonpass", "psychic", "raindance", "rocktomb"] },
+			{ generation: 7, level: 30, moves: ["cosmicpower", "hiddenpower", "moonblast", "powergem"], pokeball: "cherishball" },
 		],
 	},
 	solrock: {
@@ -42130,9 +42130,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "8L20", "7T", "6T", "5T", "5D", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 10, moves: ["tackle", "harden", "confusion"], pokeball: "pokeball"},
-			{generation: 3, level: 41, moves: ["batonpass", "psychic", "sunnyday", "cosmicpower"]},
-			{generation: 7, level: 30, moves: ["cosmicpower", "hiddenpower", "solarbeam", "stoneedge"], pokeball: "cherishball"},
+			{ generation: 3, level: 10, moves: ["tackle", "harden", "confusion"], pokeball: "pokeball" },
+			{ generation: 3, level: 41, moves: ["batonpass", "psychic", "sunnyday", "cosmicpower"] },
+			{ generation: 7, level: 30, moves: ["cosmicpower", "hiddenpower", "solarbeam", "stoneedge"], pokeball: "cherishball" },
 		],
 	},
 	barboach: {
@@ -42294,11 +42294,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L1", "8M", "8L1", "7T", "7L1", "6T", "6L1", "5T", "5L1", "4T", "4L1", "4S0"],
 		},
 		eventData: [
-			{generation: 4, level: 51, gender: "F", nature: "Gentle", abilities: ["oblivious"], moves: ["earthquake", "aquatail", "zenheadbutt", "gigaimpact"], pokeball: "cherishball"},
+			{ generation: 4, level: 51, gender: "F", nature: "Gentle", abilities: ["oblivious"], moves: ["earthquake", "aquatail", "zenheadbutt", "gigaimpact"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 4, level: 10},
-			{generation: 7, level: 10},
+			{ generation: 4, level: 10 },
+			{ generation: 7, level: 10 },
 		],
 	},
 	corphish: {
@@ -42391,7 +42391,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "8M", "7M", "6M", "5M", "4M"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: 1, moves: ["bubble", "watersport"], pokeball: "pokeball", emeraldEventEgg: true},
+			{ generation: 3, level: 5, shiny: 1, moves: ["bubble", "watersport"], pokeball: "pokeball", emeraldEventEgg: true },
 		],
 	},
 	crawdaunt: {
@@ -42493,11 +42493,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "8M", "7M", "6M", "5M", "4M"],
 		},
 		eventData: [
-			{generation: 3, level: 100, moves: ["taunt", "crabhammer", "swordsdance", "guillotine"], pokeball: "pokeball"},
-			{generation: 3, level: 50, moves: ["knockoff", "taunt", "crabhammer", "swordsdance"], pokeball: "pokeball"},
+			{ generation: 3, level: 100, moves: ["taunt", "crabhammer", "swordsdance", "guillotine"], pokeball: "pokeball" },
+			{ generation: 3, level: 50, moves: ["knockoff", "taunt", "crabhammer", "swordsdance"], pokeball: "pokeball" },
 		],
 		encounters: [
-			{generation: 7, level: 10},
+			{ generation: 7, level: 10 },
 		],
 	},
 	baltoy: {
@@ -42588,7 +42588,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T", "5T", "5D", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 17, moves: ["refresh", "rocktomb", "mudslap", "psybeam"]},
+			{ generation: 3, level: 17, moves: ["refresh", "rocktomb", "mudslap", "psybeam"] },
 		],
 	},
 	claydol: {
@@ -42763,7 +42763,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wringout: ["7L52", "7E", "6L52", "6E", "5L64", "5E", "4L64", "4E"],
 		},
 		eventData: [
-			{generation: 5, level: 15, gender: "M", moves: ["recover", "rockslide", "constrict", "acid"], pokeball: "cherishball"},
+			{ generation: 5, level: 15, gender: "M", moves: ["recover", "rockslide", "constrict", "acid"], pokeball: "cherishball" },
 		],
 	},
 	cradily: {
@@ -42919,7 +42919,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["8M", "8L44", "7M", "7L44", "6M", "6L44", "5M", "5L61", "4M", "4L61"],
 		},
 		eventData: [
-			{generation: 5, level: 15, gender: "M", moves: ["harden", "mudsport", "watergun", "crosspoison"], pokeball: "cherishball"},
+			{ generation: 5, level: 15, gender: "M", moves: ["harden", "mudsport", "watergun", "crosspoison"], pokeball: "cherishball" },
 		],
 	},
 	armaldo: {
@@ -43062,7 +43062,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["9M", "8M", "4M"],
 		},
 		eventData: [
-			{generation: 4, level: 5, gender: "F", nature: "Calm", moves: ["splash", "mirrorcoat"], pokeball: "cherishball"},
+			{ generation: 4, level: 5, gender: "F", nature: "Calm", moves: ["splash", "mirrorcoat"], pokeball: "cherishball" },
 		],
 	},
 	milotic: {
@@ -43155,11 +43155,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wrap: ["9L1", "8L1", "7L1", "6L1", "5L1", "4L1", "3L5"],
 		},
 		eventData: [
-			{generation: 3, level: 35, moves: ["waterpulse", "twister", "recover", "raindance"], pokeball: "pokeball"},
-			{generation: 4, level: 50, gender: "F", nature: "Bold", moves: ["recover", "raindance", "icebeam", "hydropump"], pokeball: "cherishball"},
-			{generation: 4, level: 50, shiny: true, gender: "M", nature: "Timid", moves: ["raindance", "recover", "hydropump", "icywind"], pokeball: "cherishball"},
-			{generation: 5, level: 50, shiny: 1, moves: ["recover", "hydropump", "icebeam", "mirrorcoat"], pokeball: "cherishball"},
-			{generation: 5, level: 58, gender: "M", nature: "Lax", ivs: {hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30}, moves: ["recover", "surf", "icebeam", "toxic"], pokeball: "cherishball"},
+			{ generation: 3, level: 35, moves: ["waterpulse", "twister", "recover", "raindance"], pokeball: "pokeball" },
+			{ generation: 4, level: 50, gender: "F", nature: "Bold", moves: ["recover", "raindance", "icebeam", "hydropump"], pokeball: "cherishball" },
+			{ generation: 4, level: 50, shiny: true, gender: "M", nature: "Timid", moves: ["raindance", "recover", "hydropump", "icywind"], pokeball: "cherishball" },
+			{ generation: 5, level: 50, shiny: 1, moves: ["recover", "hydropump", "icebeam", "mirrorcoat"], pokeball: "cherishball" },
+			{ generation: 5, level: 58, gender: "M", nature: "Lax", ivs: { hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30 }, moves: ["recover", "surf", "icebeam", "toxic"], pokeball: "cherishball" },
 		],
 	},
 	castform: {
@@ -43443,7 +43443,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["9M", "9L16", "7M", "7L16", "6M", "6L13", "5M", "5L13", "4M", "4L23", "3L32", "3S0"],
 		},
 		eventData: [
-			{generation: 3, level: 45, abilities: ["insomnia"], moves: ["spite", "willowisp", "feintattack", "shadowball"], pokeball: "pokeball"},
+			{ generation: 3, level: 45, abilities: ["insomnia"], moves: ["spite", "willowisp", "feintattack", "shadowball"], pokeball: "pokeball" },
 		],
 	},
 	banette: {
@@ -43544,11 +43544,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["9M", "9L16", "7M", "7L16", "6M", "6L13", "5M", "5L13", "4M", "4L23", "3L32"],
 		},
 		eventData: [
-			{generation: 3, level: 37, abilities: ["insomnia"], moves: ["helpinghand", "feintattack", "shadowball", "curse"]},
-			{generation: 5, level: 37, gender: "F", isHidden: true, moves: ["feintattack", "hex", "shadowball", "cottonguard"]},
+			{ generation: 3, level: 37, abilities: ["insomnia"], moves: ["helpinghand", "feintattack", "shadowball", "curse"] },
+			{ generation: 5, level: 37, gender: "F", isHidden: true, moves: ["feintattack", "hex", "shadowball", "cottonguard"] },
 		],
 		encounters: [
-			{generation: 5, level: 32},
+			{ generation: 5, level: 32 },
 		],
 	},
 	duskull: {
@@ -43637,8 +43637,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wonderroom: ["8M", "7T", "6T", "5T"],
 		},
 		eventData: [
-			{generation: 3, level: 45, moves: ["pursuit", "curse", "willowisp", "meanlook"], pokeball: "pokeball"},
-			{generation: 3, level: 19, moves: ["helpinghand", "shadowball", "astonish", "confuseray"]},
+			{ generation: 3, level: 45, moves: ["pursuit", "curse", "willowisp", "meanlook"], pokeball: "pokeball" },
+			{ generation: 3, level: 19, moves: ["helpinghand", "shadowball", "astonish", "confuseray"] },
 		],
 	},
 	dusclops: {
@@ -43746,8 +43746,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wonderroom: ["8M", "7T", "6T", "5T"],
 		},
 		encounters: [
-			{generation: 4, level: 16},
-			{generation: 6, level: 30},
+			{ generation: 4, level: 16 },
+			{ generation: 6, level: 30 },
 		],
 	},
 	dusknoir: {
@@ -43955,7 +43955,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 4, level: 53, gender: "F", nature: "Jolly", abilities: ["chlorophyll"], moves: ["airslash", "synthesis", "sunnyday", "solarbeam"], pokeball: "cherishball"},
+			{ generation: 4, level: 53, gender: "F", nature: "Jolly", abilities: ["chlorophyll"], moves: ["airslash", "synthesis", "sunnyday", "solarbeam"], pokeball: "cherishball" },
 		],
 	},
 	chingling: {
@@ -44145,7 +44145,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 3, level: 10, gender: "M", moves: ["wrap", "growl", "astonish"], pokeball: "pokeball"},
+			{ generation: 3, level: 10, gender: "M", moves: ["wrap", "growl", "astonish"], pokeball: "pokeball" },
 		],
 	},
 	absol: {
@@ -44265,10 +44265,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "7E", "6T", "6E", "5T", "5E", "4T", "4E"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: 1, abilities: ["pressure"], moves: ["scratch", "leer", "wish"], pokeball: "pokeball"},
-			{generation: 3, level: 5, shiny: 1, abilities: ["pressure"], moves: ["scratch", "leer", "spite"], pokeball: "pokeball"},
-			{generation: 3, level: 35, abilities: ["pressure"], moves: ["razorwind", "bite", "swordsdance", "spite"], pokeball: "pokeball"},
-			{generation: 3, level: 70, abilities: ["pressure"], moves: ["doubleteam", "slash", "futuresight", "perishsong"], pokeball: "pokeball"},
+			{ generation: 3, level: 5, shiny: 1, abilities: ["pressure"], moves: ["scratch", "leer", "wish"], pokeball: "pokeball" },
+			{ generation: 3, level: 5, shiny: 1, abilities: ["pressure"], moves: ["scratch", "leer", "spite"], pokeball: "pokeball" },
+			{ generation: 3, level: 35, abilities: ["pressure"], moves: ["razorwind", "bite", "swordsdance", "spite"], pokeball: "pokeball" },
+			{ generation: 3, level: 70, abilities: ["pressure"], moves: ["doubleteam", "slash", "futuresight", "perishsong"], pokeball: "pokeball" },
 		],
 	},
 	snorunt: {
@@ -44337,7 +44337,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			weatherball: ["9M", "9L50", "8M", "7E", "6E", "5E", "5D", "4E"],
 		},
 		eventData: [
-			{generation: 3, level: 20, abilities: ["innerfocus"], moves: ["sing", "waterpulse", "bite", "icywind"]},
+			{ generation: 3, level: 20, abilities: ["innerfocus"], moves: ["sing", "waterpulse", "bite", "icywind"] },
 		],
 	},
 	glalie: {
@@ -44592,7 +44592,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			yawn: ["8E", "7E", "6E", "5E", "4E", "3E"],
 		},
 		eventData: [
-			{generation: 3, level: 17, abilities: ["thickfat"], moves: ["charm", "aurorabeam", "watergun", "mudslap"]},
+			{ generation: 3, level: 17, abilities: ["thickfat"], moves: ["charm", "aurorabeam", "watergun", "mudslap"] },
 		],
 	},
 	sealeo: {
@@ -44658,8 +44658,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["8M", "4M"],
 		},
 		encounters: [
-			{generation: 4, level: 25},
-			{generation: 6, level: 28, maxEggMoves: 1},
+			{ generation: 4, level: 25 },
+			{ generation: 6, level: 28, maxEggMoves: 1 },
 		],
 	},
 	walrein: {
@@ -44739,10 +44739,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["8M", "4M"],
 		},
 		eventData: [
-			{generation: 5, level: 50, abilities: ["thickfat"], moves: ["icebeam", "brine", "hail", "sheercold"], pokeball: "cherishball"},
+			{ generation: 5, level: 50, abilities: ["thickfat"], moves: ["icebeam", "brine", "hail", "sheercold"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 5, level: 30},
+			{ generation: 5, level: 30 },
 		],
 	},
 	clamperl: {
@@ -45140,10 +45140,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L35", "8M", "8L35", "7T", "7L34", "6T", "6L34", "5T", "5L35", "4T", "4L35"],
 		},
 		eventData: [
-			{generation: 3, level: 5, shiny: 1, moves: ["rage", "bite", "wish"], pokeball: "pokeball"},
-			{generation: 3, level: 5, shiny: 1, moves: ["rage", "bite", "irondefense"], pokeball: "pokeball"},
-			{generation: 5, level: 1, shiny: true, moves: ["rage"], pokeball: "pokeball"},
-			{generation: 6, level: 1, moves: ["rage", "thrash"], pokeball: "pokeball"},
+			{ generation: 3, level: 5, shiny: 1, moves: ["rage", "bite", "wish"], pokeball: "pokeball" },
+			{ generation: 3, level: 5, shiny: 1, moves: ["rage", "bite", "irondefense"], pokeball: "pokeball" },
+			{ generation: 5, level: 1, shiny: true, moves: ["rage"], pokeball: "pokeball" },
+			{ generation: 6, level: 1, moves: ["rage", "thrash"], pokeball: "pokeball" },
 		],
 	},
 	shelgon: {
@@ -45220,7 +45220,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L39", "8M", "8L39", "7T", "7L35", "6T", "6L35", "5T", "5L37", "4T", "4L37"],
 		},
 		encounters: [
-			{generation: 7, level: 15},
+			{ generation: 7, level: 15 },
 		],
 	},
 	salamence: {
@@ -45321,13 +45321,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L39", "8M", "8L39", "7T", "7L35", "6T", "6L35", "5T", "5L37", "4T", "4L37"],
 		},
 		eventData: [
-			{generation: 3, level: 50, moves: ["protect", "dragonbreath", "scaryface", "fly"], pokeball: "pokeball"},
-			{generation: 3, level: 50, moves: ["refresh", "dragonclaw", "dragondance", "aerialace"]},
-			{generation: 4, level: 50, gender: "M", nature: "Naughty", moves: ["hydropump", "stoneedge", "fireblast", "dragonclaw"], pokeball: "cherishball"},
-			{generation: 5, level: 50, shiny: 1, moves: ["dragondance", "dragonclaw", "outrage", "aerialace"], pokeball: "cherishball"},
+			{ generation: 3, level: 50, moves: ["protect", "dragonbreath", "scaryface", "fly"], pokeball: "pokeball" },
+			{ generation: 3, level: 50, moves: ["refresh", "dragonclaw", "dragondance", "aerialace"] },
+			{ generation: 4, level: 50, gender: "M", nature: "Naughty", moves: ["hydropump", "stoneedge", "fireblast", "dragonclaw"], pokeball: "cherishball" },
+			{ generation: 5, level: 50, shiny: 1, moves: ["dragondance", "dragonclaw", "outrage", "aerialace"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 7, level: 9},
+			{ generation: 7, level: 9 },
 		],
 	},
 	beldum: {
@@ -45343,7 +45343,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "6S0", "5T", "5D", "4T"],
 		},
 		eventData: [
-			{generation: 6, level: 5, shiny: true, moves: ["holdback", "ironhead", "zenheadbutt", "irondefense"], pokeball: "cherishball"},
+			{ generation: 6, level: 5, shiny: true, moves: ["holdback", "ironhead", "zenheadbutt", "irondefense"], pokeball: "cherishball" },
 		],
 	},
 	metang: {
@@ -45444,7 +45444,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L6", "8M", "8L6", "7T", "7L32", "6T", "6L29", "5T", "5L29", "4T", "4L52"],
 		},
 		eventData: [
-			{generation: 3, level: 30, moves: ["takedown", "confusion", "metalclaw", "refresh"], pokeball: "pokeball"},
+			{ generation: 3, level: 30, moves: ["takedown", "confusion", "metalclaw", "refresh"], pokeball: "pokeball" },
 		],
 	},
 	metagross: {
@@ -45554,14 +45554,14 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L6", "8M", "8L6", "7T", "7L32", "6T", "6L29", "5T", "5L29", "5S2", "5S3", "4T", "4L62", "4S0"],
 		},
 		eventData: [
-			{generation: 4, level: 62, nature: "Brave", moves: ["bulletpunch", "meteormash", "hammerarm", "zenheadbutt"], pokeball: "cherishball"},
-			{generation: 5, level: 50, shiny: 1, moves: ["meteormash", "earthquake", "bulletpunch", "hammerarm"], pokeball: "cherishball"},
-			{generation: 5, level: 100, moves: ["bulletpunch", "zenheadbutt", "hammerarm", "icepunch"], pokeball: "cherishball"},
-			{generation: 5, level: 45, shiny: true, moves: ["meteormash", "zenheadbutt", "earthquake", "protect"], pokeball: "pokeball"},
-			{generation: 5, level: 45, isHidden: true, moves: ["irondefense", "agility", "hammerarm", "doubleedge"]},
-			{generation: 5, level: 45, isHidden: true, moves: ["psychic", "meteormash", "hammerarm", "doubleedge"]},
-			{generation: 5, level: 58, nature: "Serious", ivs: {hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30}, moves: ["earthquake", "hyperbeam", "psychic", "meteormash"], pokeball: "cherishball"},
-			{generation: 7, level: 50, nature: "Jolly", ivs: {hp: 31, atk: 31, def: 31, spa: 31, spd: 31, spe: 31}, moves: ["ironhead", "icepunch", "bulletpunch", "stompingtantrum"], pokeball: "cherishball"},
+			{ generation: 4, level: 62, nature: "Brave", moves: ["bulletpunch", "meteormash", "hammerarm", "zenheadbutt"], pokeball: "cherishball" },
+			{ generation: 5, level: 50, shiny: 1, moves: ["meteormash", "earthquake", "bulletpunch", "hammerarm"], pokeball: "cherishball" },
+			{ generation: 5, level: 100, moves: ["bulletpunch", "zenheadbutt", "hammerarm", "icepunch"], pokeball: "cherishball" },
+			{ generation: 5, level: 45, shiny: true, moves: ["meteormash", "zenheadbutt", "earthquake", "protect"], pokeball: "pokeball" },
+			{ generation: 5, level: 45, isHidden: true, moves: ["irondefense", "agility", "hammerarm", "doubleedge"] },
+			{ generation: 5, level: 45, isHidden: true, moves: ["psychic", "meteormash", "hammerarm", "doubleedge"] },
+			{ generation: 5, level: 58, nature: "Serious", ivs: { hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30 }, moves: ["earthquake", "hyperbeam", "psychic", "meteormash"], pokeball: "cherishball" },
+			{ generation: 7, level: 50, nature: "Jolly", ivs: { hp: 31, atk: 31, def: 31, spa: 31, spd: 31, spe: 31 }, moves: ["ironhead", "icepunch", "bulletpunch", "stompingtantrum"], pokeball: "cherishball" },
 		],
 	},
 	regirock: {
@@ -45655,15 +45655,15 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["9L66", "8L66", "7L55", "7S6", "6L1", "5L65", "5S3", "4L65", "3L49"],
 		},
 		eventData: [
-			{generation: 3, level: 40, shiny: 1, moves: ["rockthrow", "curse", "superpower", "ancientpower"]},
-			{generation: 3, level: 40, moves: ["curse", "superpower", "ancientpower", "hyperbeam"], pokeball: "pokeball"},
-			{generation: 4, level: 30, shiny: 1, moves: ["stomp", "rockthrow", "curse", "superpower"]},
-			{generation: 5, level: 65, shiny: 1, moves: ["irondefense", "chargebeam", "lockon", "zapcannon"]},
-			{generation: 6, level: 40, shiny: 1, moves: ["bulldoze", "curse", "ancientpower", "irondefense"]},
-			{generation: 6, level: 50, isHidden: true, moves: ["explosion", "icepunch", "stoneedge", "hammerarm"], pokeball: "pokeball"},
-			{generation: 7, level: 60, shiny: 1, moves: ["stoneedge", "hammerarm", "lockon", "zapcannon"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["superpower", "stoneedge", "hammerarm", "curse"]},
-			{generation: 8, level: 70, shiny: 1, isHidden: true, moves: ['zapcannon', 'lockon', 'superpower', 'stoneedge'], source: "gen8bdsp"},
+			{ generation: 3, level: 40, shiny: 1, moves: ["rockthrow", "curse", "superpower", "ancientpower"] },
+			{ generation: 3, level: 40, moves: ["curse", "superpower", "ancientpower", "hyperbeam"], pokeball: "pokeball" },
+			{ generation: 4, level: 30, shiny: 1, moves: ["stomp", "rockthrow", "curse", "superpower"] },
+			{ generation: 5, level: 65, shiny: 1, moves: ["irondefense", "chargebeam", "lockon", "zapcannon"] },
+			{ generation: 6, level: 40, shiny: 1, moves: ["bulldoze", "curse", "ancientpower", "irondefense"] },
+			{ generation: 6, level: 50, isHidden: true, moves: ["explosion", "icepunch", "stoneedge", "hammerarm"], pokeball: "pokeball" },
+			{ generation: 7, level: 60, shiny: 1, moves: ["stoneedge", "hammerarm", "lockon", "zapcannon"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["superpower", "stoneedge", "hammerarm", "curse"] },
+			{ generation: 8, level: 70, shiny: 1, isHidden: true, moves: ['zapcannon', 'lockon', 'superpower', 'stoneedge'], source: "gen8bdsp" },
 		],
 		eventOnly: true,
 	},
@@ -45754,15 +45754,15 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["9L66", "8L66", "8S7", "7L55", "7S6", "6L1", "5L65", "5S3", "4L65", "3L49"],
 		},
 		eventData: [
-			{generation: 3, level: 40, shiny: 1, moves: ["icywind", "curse", "superpower", "ancientpower"]},
-			{generation: 3, level: 40, moves: ["curse", "superpower", "ancientpower", "hyperbeam"], pokeball: "pokeball"},
-			{generation: 4, level: 30, shiny: 1, moves: ["stomp", "icywind", "curse", "superpower"]},
-			{generation: 5, level: 65, shiny: 1, moves: ["amnesia", "chargebeam", "lockon", "zapcannon"]},
-			{generation: 6, level: 40, shiny: 1, moves: ["bulldoze", "curse", "ancientpower", "amnesia"]},
-			{generation: 6, level: 50, isHidden: true, moves: ["thunderbolt", "amnesia", "icebeam", "hail"], pokeball: "pokeball"},
-			{generation: 7, level: 60, shiny: 1, moves: ["icebeam", "hammerarm", "lockon", "zapcannon"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["icebeam", "zapcannon", "amnesia", "icywind"]},
-			{generation: 8, level: 70, shiny: 1, isHidden: true, moves: ['zapcannon', 'lockon', 'superpower', 'blizzard'], source: "gen8bdsp"},
+			{ generation: 3, level: 40, shiny: 1, moves: ["icywind", "curse", "superpower", "ancientpower"] },
+			{ generation: 3, level: 40, moves: ["curse", "superpower", "ancientpower", "hyperbeam"], pokeball: "pokeball" },
+			{ generation: 4, level: 30, shiny: 1, moves: ["stomp", "icywind", "curse", "superpower"] },
+			{ generation: 5, level: 65, shiny: 1, moves: ["amnesia", "chargebeam", "lockon", "zapcannon"] },
+			{ generation: 6, level: 40, shiny: 1, moves: ["bulldoze", "curse", "ancientpower", "amnesia"] },
+			{ generation: 6, level: 50, isHidden: true, moves: ["thunderbolt", "amnesia", "icebeam", "hail"], pokeball: "pokeball" },
+			{ generation: 7, level: 60, shiny: 1, moves: ["icebeam", "hammerarm", "lockon", "zapcannon"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["icebeam", "zapcannon", "amnesia", "icywind"] },
+			{ generation: 8, level: 70, shiny: 1, isHidden: true, moves: ['zapcannon', 'lockon', 'superpower', 'blizzard'], source: "gen8bdsp" },
 		],
 		eventOnly: true,
 	},
@@ -45859,15 +45859,15 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["9L66", "8L66", "7L55", "7S6", "6L1", "5L65", "5S3", "4L65", "3L49"],
 		},
 		eventData: [
-			{generation: 3, level: 40, shiny: 1, moves: ["metalclaw", "curse", "superpower", "ancientpower"]},
-			{generation: 3, level: 40, moves: ["curse", "superpower", "ancientpower", "hyperbeam"], pokeball: "pokeball"},
-			{generation: 4, level: 30, shiny: 1, moves: ["stomp", "metalclaw", "curse", "superpower"]},
-			{generation: 5, level: 65, shiny: 1, moves: ["amnesia", "chargebeam", "lockon", "zapcannon"]},
-			{generation: 6, level: 40, shiny: 1, moves: ["curse", "ancientpower", "irondefense", "amnesia"]},
-			{generation: 6, level: 50, isHidden: true, moves: ["ironhead", "rockslide", "gravity", "irondefense"], pokeball: "pokeball"},
-			{generation: 7, level: 60, shiny: 1, moves: ["flashcannon", "hammerarm", "lockon", "zapcannon"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["heavyslam", "flashcannon", "irondefense", "chargebeam"]},
-			{generation: 8, level: 70, shiny: 1, isHidden: true, moves: ['zapcannon', 'lockon', 'superpower', 'heavyslam'], source: "gen8bdsp"},
+			{ generation: 3, level: 40, shiny: 1, moves: ["metalclaw", "curse", "superpower", "ancientpower"] },
+			{ generation: 3, level: 40, moves: ["curse", "superpower", "ancientpower", "hyperbeam"], pokeball: "pokeball" },
+			{ generation: 4, level: 30, shiny: 1, moves: ["stomp", "metalclaw", "curse", "superpower"] },
+			{ generation: 5, level: 65, shiny: 1, moves: ["amnesia", "chargebeam", "lockon", "zapcannon"] },
+			{ generation: 6, level: 40, shiny: 1, moves: ["curse", "ancientpower", "irondefense", "amnesia"] },
+			{ generation: 6, level: 50, isHidden: true, moves: ["ironhead", "rockslide", "gravity", "irondefense"], pokeball: "pokeball" },
+			{ generation: 7, level: 60, shiny: 1, moves: ["flashcannon", "hammerarm", "lockon", "zapcannon"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["heavyslam", "flashcannon", "irondefense", "chargebeam"] },
+			{ generation: 8, level: 70, shiny: 1, isHidden: true, moves: ['zapcannon', 'lockon', 'superpower', 'heavyslam'], source: "gen8bdsp" },
 		],
 		eventOnly: true,
 	},
@@ -45998,20 +45998,20 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L40", "8M", "8L40", "8S10", "7T", "7L41", "6T", "6L40", "5T", "5L40", "4T", "4L40", "4S4"],
 		},
 		eventData: [
-			{generation: 3, level: 40, shiny: 1, moves: ["watersport", "refresh", "mistball", "psychic"]},
-			{generation: 3, level: 50, shiny: 1, moves: ["mistball", "psychic", "recover", "charm"]},
-			{generation: 3, level: 70, moves: ["mistball", "psychic", "recover", "charm"], pokeball: "pokeball"},
-			{generation: 4, level: 35, shiny: 1, moves: ["dragonbreath", "watersport", "refresh", "mistball"]},
-			{generation: 4, level: 40, shiny: 1, moves: ["watersport", "refresh", "mistball", "zenheadbutt"]},
-			{generation: 5, level: 68, shiny: 1, moves: ["psychoshift", "charm", "psychic", "healpulse"]},
-			{generation: 6, level: 30, shiny: 1, moves: ["healpulse", "dragonbreath", "mistball", "psychoshift"]},
-			{generation: 7, level: 60, shiny: 1, moves: ["mistball", "dragonpulse", "psychoshift", "wish"]},
-			{generation: 7, level: 60, moves: ["mistball", "dragonpulse", "psychoshift", "wish"], pokeball: "cherishball"},
-			{generation: 7, level: 100, moves: ["mistball", "psychic", "dracometeor", "tailwind"], pokeball: "cherishball"},
-			{generation: 8, level: 70, shiny: 1, moves: ["reflecttype", "dragonbreath", "zenheadbutt", "surf"]},
-			{generation: 8, level: 70, nature: "Bashful", moves: ["mistball", "dragonpulse", "dive", "sweetkiss"], pokeball: "cherishball"},
-			{generation: 8, level: 70, shiny: 1, moves: ['healingwish', 'guardsplit', 'psychic', 'reflecttype'], source: "gen8bdsp"},
-			{generation: 9, level: 70, moves: ["healingwish", "guardsplit", "psychic", "reflecttype"]},
+			{ generation: 3, level: 40, shiny: 1, moves: ["watersport", "refresh", "mistball", "psychic"] },
+			{ generation: 3, level: 50, shiny: 1, moves: ["mistball", "psychic", "recover", "charm"] },
+			{ generation: 3, level: 70, moves: ["mistball", "psychic", "recover", "charm"], pokeball: "pokeball" },
+			{ generation: 4, level: 35, shiny: 1, moves: ["dragonbreath", "watersport", "refresh", "mistball"] },
+			{ generation: 4, level: 40, shiny: 1, moves: ["watersport", "refresh", "mistball", "zenheadbutt"] },
+			{ generation: 5, level: 68, shiny: 1, moves: ["psychoshift", "charm", "psychic", "healpulse"] },
+			{ generation: 6, level: 30, shiny: 1, moves: ["healpulse", "dragonbreath", "mistball", "psychoshift"] },
+			{ generation: 7, level: 60, shiny: 1, moves: ["mistball", "dragonpulse", "psychoshift", "wish"] },
+			{ generation: 7, level: 60, moves: ["mistball", "dragonpulse", "psychoshift", "wish"], pokeball: "cherishball" },
+			{ generation: 7, level: 100, moves: ["mistball", "psychic", "dracometeor", "tailwind"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, shiny: 1, moves: ["reflecttype", "dragonbreath", "zenheadbutt", "surf"] },
+			{ generation: 8, level: 70, nature: "Bashful", moves: ["mistball", "dragonpulse", "dive", "sweetkiss"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, shiny: 1, moves: ['healingwish', 'guardsplit', 'psychic', 'reflecttype'], source: "gen8bdsp" },
+			{ generation: 9, level: 70, moves: ["healingwish", "guardsplit", "psychic", "reflecttype"] },
 		],
 		eventOnly: true,
 	},
@@ -46135,20 +46135,20 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L40", "9S13", "8M", "8L40", "8S11", "7T", "7L41", "6T", "6L40", "5T", "5L40", "4T", "4L40", "4S4"],
 		},
 		eventData: [
-			{generation: 3, level: 40, shiny: 1, moves: ["protect", "refresh", "lusterpurge", "psychic"]},
-			{generation: 3, level: 50, shiny: 1, moves: ["lusterpurge", "psychic", "recover", "dragondance"]},
-			{generation: 3, level: 70, moves: ["lusterpurge", "psychic", "recover", "dragondance"], pokeball: "pokeball"},
-			{generation: 4, level: 35, shiny: 1, moves: ["dragonbreath", "protect", "refresh", "lusterpurge"]},
-			{generation: 4, level: 40, shiny: 1, moves: ["protect", "refresh", "lusterpurge", "zenheadbutt"]},
-			{generation: 5, level: 68, shiny: 1, moves: ["psychoshift", "dragondance", "psychic", "healpulse"]},
-			{generation: 6, level: 30, shiny: 1, moves: ["healpulse", "dragonbreath", "lusterpurge", "psychoshift"]},
-			{generation: 6, level: 50, nature: "Modest", moves: ["dragonpulse", "lusterpurge", "psychic", "healpulse"], pokeball: "cherishball"},
-			{generation: 7, level: 60, shiny: 1, moves: ["lusterpurge", "dragonpulse", "psychoshift", "dragonbreath"]},
-			{generation: 7, level: 60, moves: ["lusterpurge", "dragonpulse", "psychoshift", "dragonbreath"], pokeball: "cherishball"},
-			{generation: 7, level: 100, moves: ["lusterpurge", "psychic", "dracometeor", "tailwind"], pokeball: "cherishball"},
-			{generation: 8, level: 70, shiny: 1, moves: ["dragondance", "dragonpulse", "zenheadbutt", "aurasphere"]},
-			{generation: 8, level: 70, shiny: 1, moves: ['memento', 'powersplit', 'psychic', 'simplebeam'], source: "gen8bdsp"},
-			{generation: 9, level: 70, moves: ["lusterpurge", "dragonpulse", "zenheadbutt", "dragonbreath"]},
+			{ generation: 3, level: 40, shiny: 1, moves: ["protect", "refresh", "lusterpurge", "psychic"] },
+			{ generation: 3, level: 50, shiny: 1, moves: ["lusterpurge", "psychic", "recover", "dragondance"] },
+			{ generation: 3, level: 70, moves: ["lusterpurge", "psychic", "recover", "dragondance"], pokeball: "pokeball" },
+			{ generation: 4, level: 35, shiny: 1, moves: ["dragonbreath", "protect", "refresh", "lusterpurge"] },
+			{ generation: 4, level: 40, shiny: 1, moves: ["protect", "refresh", "lusterpurge", "zenheadbutt"] },
+			{ generation: 5, level: 68, shiny: 1, moves: ["psychoshift", "dragondance", "psychic", "healpulse"] },
+			{ generation: 6, level: 30, shiny: 1, moves: ["healpulse", "dragonbreath", "lusterpurge", "psychoshift"] },
+			{ generation: 6, level: 50, nature: "Modest", moves: ["dragonpulse", "lusterpurge", "psychic", "healpulse"], pokeball: "cherishball" },
+			{ generation: 7, level: 60, shiny: 1, moves: ["lusterpurge", "dragonpulse", "psychoshift", "dragonbreath"] },
+			{ generation: 7, level: 60, moves: ["lusterpurge", "dragonpulse", "psychoshift", "dragonbreath"], pokeball: "cherishball" },
+			{ generation: 7, level: 100, moves: ["lusterpurge", "psychic", "dracometeor", "tailwind"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, shiny: 1, moves: ["dragondance", "dragonpulse", "zenheadbutt", "aurasphere"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ['memento', 'powersplit', 'psychic', 'simplebeam'], source: "gen8bdsp" },
+			{ generation: 9, level: 70, moves: ["lusterpurge", "dragonpulse", "zenheadbutt", "dragonbreath"] },
 		],
 		eventOnly: true,
 	},
@@ -46229,20 +46229,20 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["9M", "8M", "4M"],
 		},
 		eventData: [
-			{generation: 3, level: 45, shiny: 1, moves: ["bodyslam", "calmmind", "icebeam", "hydropump"]},
-			{generation: 3, level: 70, shiny: 1, moves: ["hydropump", "rest", "sheercold", "doubleedge"]},
-			{generation: 4, level: 50, shiny: 1, moves: ["aquaring", "icebeam", "ancientpower", "waterspout"]},
-			{generation: 5, level: 80, shiny: 1, moves: ["icebeam", "ancientpower", "waterspout", "thunder"], pokeball: "cherishball"},
-			{generation: 5, level: 100, moves: ["waterspout", "thunder", "icebeam", "sheercold"], pokeball: "cherishball"},
-			{generation: 6, level: 45, moves: ["bodyslam", "aquaring", "icebeam", "originpulse"]},
-			{generation: 6, level: 100, nature: "Timid", moves: ["waterspout", "thunder", "sheercold", "icebeam"], pokeball: "cherishball"},
-			{generation: 7, level: 60, shiny: 1, moves: ["icebeam", "originpulse", "calmmind", "muddywater"]},
-			{generation: 7, level: 60, shiny: true, moves: ["icebeam", "originpulse", "calmmind", "muddywater"], pokeball: "cherishball"},
-			{generation: 7, level: 60, moves: ["icebeam", "originpulse", "calmmind", "muddywater"], pokeball: "cherishball"},
-			{generation: 7, level: 100, moves: ["originpulse", "icebeam", "waterspout", "calmmind"], pokeball: "cherishball"},
-			{generation: 8, level: 70, shiny: 1, moves: ["surf", "bodyslam", "aquaring", "thunder"]},
-			{generation: 8, level: 70, shiny: 1, moves: ['originpulse', 'aquaring', 'sheercold', 'icebeam'], source: "gen8bdsp"},
-			{generation: 9, level: 70, moves: ["aquaring", "sheercold", "icebeam", "muddywater"]},
+			{ generation: 3, level: 45, shiny: 1, moves: ["bodyslam", "calmmind", "icebeam", "hydropump"] },
+			{ generation: 3, level: 70, shiny: 1, moves: ["hydropump", "rest", "sheercold", "doubleedge"] },
+			{ generation: 4, level: 50, shiny: 1, moves: ["aquaring", "icebeam", "ancientpower", "waterspout"] },
+			{ generation: 5, level: 80, shiny: 1, moves: ["icebeam", "ancientpower", "waterspout", "thunder"], pokeball: "cherishball" },
+			{ generation: 5, level: 100, moves: ["waterspout", "thunder", "icebeam", "sheercold"], pokeball: "cherishball" },
+			{ generation: 6, level: 45, moves: ["bodyslam", "aquaring", "icebeam", "originpulse"] },
+			{ generation: 6, level: 100, nature: "Timid", moves: ["waterspout", "thunder", "sheercold", "icebeam"], pokeball: "cherishball" },
+			{ generation: 7, level: 60, shiny: 1, moves: ["icebeam", "originpulse", "calmmind", "muddywater"] },
+			{ generation: 7, level: 60, shiny: true, moves: ["icebeam", "originpulse", "calmmind", "muddywater"], pokeball: "cherishball" },
+			{ generation: 7, level: 60, moves: ["icebeam", "originpulse", "calmmind", "muddywater"], pokeball: "cherishball" },
+			{ generation: 7, level: 100, moves: ["originpulse", "icebeam", "waterspout", "calmmind"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, shiny: 1, moves: ["surf", "bodyslam", "aquaring", "thunder"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ['originpulse', 'aquaring', 'sheercold', 'icebeam'], source: "gen8bdsp" },
+			{ generation: 9, level: 70, moves: ["aquaring", "sheercold", "icebeam", "muddywater"] },
 		],
 		eventOnly: true,
 	},
@@ -46358,20 +46358,20 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 3, level: 45, shiny: 1, moves: ["slash", "bulkup", "earthquake", "fireblast"]},
-			{generation: 3, level: 70, shiny: 1, moves: ["fireblast", "rest", "fissure", "solarbeam"]},
-			{generation: 4, level: 50, shiny: 1, moves: ["rest", "earthquake", "ancientpower", "eruption"]},
-			{generation: 5, level: 80, shiny: 1, moves: ["earthquake", "ancientpower", "eruption", "solarbeam"], pokeball: "cherishball"},
-			{generation: 5, level: 100, moves: ["eruption", "hammerarm", "earthpower", "solarbeam"], pokeball: "cherishball"},
-			{generation: 6, level: 45, moves: ["lavaplume", "rest", "earthquake", "precipiceblades"]},
-			{generation: 6, level: 100, nature: "Adamant", moves: ["firepunch", "solarbeam", "hammerarm", "rockslide"], pokeball: "cherishball"},
-			{generation: 7, level: 60, shiny: 1, moves: ["earthquake", "precipiceblades", "bulkup", "solarbeam"]},
-			{generation: 7, level: 60, shiny: true, moves: ["earthquake", "precipiceblades", "bulkup", "solarbeam"], pokeball: "cherishball"},
-			{generation: 7, level: 60, moves: ["earthquake", "precipiceblades", "bulkup", "solarbeam"], pokeball: "cherishball"},
-			{generation: 7, level: 100, moves: ["precipiceblades", "earthpower", "firepunch", "swordsdance"], pokeball: "cherishball"},
-			{generation: 8, level: 70, shiny: 1, moves: ["earthquake", "scaryface", "lavaplume", "hammerarm"]},
-			{generation: 8, level: 70, shiny: 1, moves: ['precipiceblades', 'rest', 'fissure', 'hammerarm'], source: "gen8bdsp"},
-			{generation: 9, level: 70, moves: ["rest", "fissure", "hammerarm", "earthquake"]},
+			{ generation: 3, level: 45, shiny: 1, moves: ["slash", "bulkup", "earthquake", "fireblast"] },
+			{ generation: 3, level: 70, shiny: 1, moves: ["fireblast", "rest", "fissure", "solarbeam"] },
+			{ generation: 4, level: 50, shiny: 1, moves: ["rest", "earthquake", "ancientpower", "eruption"] },
+			{ generation: 5, level: 80, shiny: 1, moves: ["earthquake", "ancientpower", "eruption", "solarbeam"], pokeball: "cherishball" },
+			{ generation: 5, level: 100, moves: ["eruption", "hammerarm", "earthpower", "solarbeam"], pokeball: "cherishball" },
+			{ generation: 6, level: 45, moves: ["lavaplume", "rest", "earthquake", "precipiceblades"] },
+			{ generation: 6, level: 100, nature: "Adamant", moves: ["firepunch", "solarbeam", "hammerarm", "rockslide"], pokeball: "cherishball" },
+			{ generation: 7, level: 60, shiny: 1, moves: ["earthquake", "precipiceblades", "bulkup", "solarbeam"] },
+			{ generation: 7, level: 60, shiny: true, moves: ["earthquake", "precipiceblades", "bulkup", "solarbeam"], pokeball: "cherishball" },
+			{ generation: 7, level: 60, moves: ["earthquake", "precipiceblades", "bulkup", "solarbeam"], pokeball: "cherishball" },
+			{ generation: 7, level: 100, moves: ["precipiceblades", "earthpower", "firepunch", "swordsdance"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, shiny: 1, moves: ["earthquake", "scaryface", "lavaplume", "hammerarm"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ['precipiceblades', 'rest', 'fissure', 'hammerarm'], source: "gen8bdsp" },
+			{ generation: 9, level: 70, moves: ["rest", "fissure", "hammerarm", "earthquake"] },
 		],
 		eventOnly: true,
 	},
@@ -46486,18 +46486,18 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wildcharge: ["9M"],
 		},
 		eventData: [
-			{generation: 3, level: 70, shiny: 1, moves: ["fly", "rest", "extremespeed", "outrage"]},
-			{generation: 4, level: 50, shiny: 1, moves: ["rest", "airslash", "ancientpower", "outrage"]},
-			{generation: 5, level: 70, shiny: true, moves: ["dragonpulse", "ancientpower", "outrage", "dragondance"], pokeball: "cherishball"},
-			{generation: 5, level: 100, moves: ["extremespeed", "hyperbeam", "dragonpulse", "vcreate"], pokeball: "cherishball"},
-			{generation: 6, level: 70, moves: ["extremespeed", "dragonpulse", "dragondance", "dragonascent"]},
-			{generation: 6, level: 70, shiny: true, moves: ["dragonpulse", "thunder", "twister", "extremespeed"], pokeball: "cherishball"},
-			{generation: 6, level: 70, shiny: true, moves: ["dragonascent", "dragonclaw", "extremespeed", "dragondance"], pokeball: "cherishball"},
-			{generation: 6, level: 100, shiny: true, moves: ["dragonascent", "dracometeor", "fly", "celebrate"], pokeball: "cherishball"},
-			{generation: 7, level: 60, shiny: 1, moves: ["rest", "extremespeed", "dragonpulse", "dragondance"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["dragonascent", "brutalswing", "extremespeed", "twister"]},
-			{generation: 8, level: 70, shiny: 1, moves: ['fly', 'rest', 'hypervoice', 'dragonpulse'], source: "gen8bdsp"},
-			{generation: 9, level: 70, moves: ["fly", "rest", "hypervoice", "dragonpulse"]},
+			{ generation: 3, level: 70, shiny: 1, moves: ["fly", "rest", "extremespeed", "outrage"] },
+			{ generation: 4, level: 50, shiny: 1, moves: ["rest", "airslash", "ancientpower", "outrage"] },
+			{ generation: 5, level: 70, shiny: true, moves: ["dragonpulse", "ancientpower", "outrage", "dragondance"], pokeball: "cherishball" },
+			{ generation: 5, level: 100, moves: ["extremespeed", "hyperbeam", "dragonpulse", "vcreate"], pokeball: "cherishball" },
+			{ generation: 6, level: 70, moves: ["extremespeed", "dragonpulse", "dragondance", "dragonascent"] },
+			{ generation: 6, level: 70, shiny: true, moves: ["dragonpulse", "thunder", "twister", "extremespeed"], pokeball: "cherishball" },
+			{ generation: 6, level: 70, shiny: true, moves: ["dragonascent", "dragonclaw", "extremespeed", "dragondance"], pokeball: "cherishball" },
+			{ generation: 6, level: 100, shiny: true, moves: ["dragonascent", "dracometeor", "fly", "celebrate"], pokeball: "cherishball" },
+			{ generation: 7, level: 60, shiny: 1, moves: ["rest", "extremespeed", "dragonpulse", "dragondance"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["dragonascent", "brutalswing", "extremespeed", "twister"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ['fly', 'rest', 'hypervoice', 'dragonpulse'], source: "gen8bdsp" },
+			{ generation: 9, level: 70, moves: ["fly", "rest", "hypervoice", "dragonpulse"] },
 		],
 		eventOnly: true,
 	},
@@ -46618,23 +46618,23 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L28", "8M", "8L28", "7T", "7L35", "6T", "6L35", "5T", "5L35", "4T", "4L35"],
 		},
 		eventData: [
-			{generation: 3, level: 5, moves: ["wish", "confusion", "rest"], pokeball: "pokeball"},
-			{generation: 3, level: 5, shiny: 1, moves: ["wish", "confusion", "rest"], pokeball: "pokeball"},
-			{generation: 3, level: 30, moves: ["helpinghand", "psychic", "refresh", "rest"], pokeball: "pokeball"},
-			{generation: 4, level: 5, moves: ["wish", "confusion", "rest"], pokeball: "cherishball"},
-			{generation: 4, level: 5, moves: ["wish", "confusion", "rest", "dracometeor"], pokeball: "cherishball"},
-			{generation: 5, level: 50, moves: ["healingwish", "psychic", "swift", "meteormash"], pokeball: "cherishball"},
-			{generation: 5, level: 50, moves: ["dracometeor", "meteormash", "wish", "followme"], pokeball: "cherishball"},
-			{generation: 5, level: 50, moves: ["wish", "healingwish", "cosmicpower", "meteormash"], pokeball: "cherishball"},
-			{generation: 5, level: 50, moves: ["wish", "healingwish", "swift", "return"], pokeball: "cherishball"},
-			{generation: 6, level: 10, shiny: true, moves: ["wish", "swift", "healingwish", "moonblast"], pokeball: "cherishball"},
-			{generation: 6, level: 15, shiny: true, moves: ["wish", "confusion", "helpinghand", "return"], pokeball: "cherishball"},
-			{generation: 6, level: 100, moves: ["heartstamp", "playrough", "wish", "cosmicpower"], pokeball: "cherishball"},
-			{generation: 6, level: 25, shiny: true, moves: ["wish", "confusion", "swift", "happyhour"], pokeball: "cherishball"},
-			{generation: 6, level: 100, moves: ["wish", "confusion", "rest"], pokeball: "cherishball"},
-			{generation: 7, level: 15, moves: ["swift", "wish", "healingwish", "rest"], pokeball: "cherishball"},
-			{generation: 8, level: 70, nature: "Timid", moves: ["meteormash", "psychic", "rest", "wish"], pokeball: "cherishball"},
-			{generation: 8, level: 5, moves: ['confusion', 'wish'], source: "gen8bdsp"},
+			{ generation: 3, level: 5, moves: ["wish", "confusion", "rest"], pokeball: "pokeball" },
+			{ generation: 3, level: 5, shiny: 1, moves: ["wish", "confusion", "rest"], pokeball: "pokeball" },
+			{ generation: 3, level: 30, moves: ["helpinghand", "psychic", "refresh", "rest"], pokeball: "pokeball" },
+			{ generation: 4, level: 5, moves: ["wish", "confusion", "rest"], pokeball: "cherishball" },
+			{ generation: 4, level: 5, moves: ["wish", "confusion", "rest", "dracometeor"], pokeball: "cherishball" },
+			{ generation: 5, level: 50, moves: ["healingwish", "psychic", "swift", "meteormash"], pokeball: "cherishball" },
+			{ generation: 5, level: 50, moves: ["dracometeor", "meteormash", "wish", "followme"], pokeball: "cherishball" },
+			{ generation: 5, level: 50, moves: ["wish", "healingwish", "cosmicpower", "meteormash"], pokeball: "cherishball" },
+			{ generation: 5, level: 50, moves: ["wish", "healingwish", "swift", "return"], pokeball: "cherishball" },
+			{ generation: 6, level: 10, shiny: true, moves: ["wish", "swift", "healingwish", "moonblast"], pokeball: "cherishball" },
+			{ generation: 6, level: 15, shiny: true, moves: ["wish", "confusion", "helpinghand", "return"], pokeball: "cherishball" },
+			{ generation: 6, level: 100, moves: ["heartstamp", "playrough", "wish", "cosmicpower"], pokeball: "cherishball" },
+			{ generation: 6, level: 25, shiny: true, moves: ["wish", "confusion", "swift", "happyhour"], pokeball: "cherishball" },
+			{ generation: 6, level: 100, moves: ["wish", "confusion", "rest"], pokeball: "cherishball" },
+			{ generation: 7, level: 15, moves: ["swift", "wish", "healingwish", "rest"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, nature: "Timid", moves: ["meteormash", "psychic", "rest", "wish"], pokeball: "cherishball" },
+			{ generation: 8, level: 5, moves: ['confusion', 'wish'], source: "gen8bdsp" },
 		],
 		eventOnly: true,
 	},
@@ -46771,18 +46771,18 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L49", "9S11", "7T", "7L49", "6T", "6L49", "5T", "5L65", "4T", "4L65"],
 		},
 		eventData: [
-			{generation: 3, level: 30, shiny: 1, moves: ["taunt", "pursuit", "psychic", "superpower"]},
-			{generation: 3, level: 30, shiny: 1, moves: ["knockoff", "spikes", "psychic", "snatch"]},
-			{generation: 3, level: 30, shiny: 1, moves: ["knockoff", "pursuit", "psychic", "swift"]},
-			{generation: 3, level: 70, moves: ["cosmicpower", "recover", "psychoboost", "hyperbeam"], pokeball: "pokeball"},
-			{generation: 4, level: 50, moves: ["psychoboost", "zapcannon", "irondefense", "extremespeed"], pokeball: "cherishball"},
-			{generation: 4, level: 50, moves: ["psychoboost", "swift", "doubleteam", "extremespeed"], pokeball: "pokeball"},
-			{generation: 4, level: 50, moves: ["psychoboost", "detect", "counter", "mirrorcoat"], pokeball: "pokeball"},
-			{generation: 4, level: 50, moves: ["psychoboost", "meteormash", "superpower", "hyperbeam"], pokeball: "pokeball"},
-			{generation: 4, level: 50, moves: ["psychoboost", "leer", "wrap", "nightshade"], pokeball: "pokeball"},
-			{generation: 5, level: 100, moves: ["nastyplot", "darkpulse", "recover", "psychoboost"], pokeball: "duskball"},
-			{generation: 6, level: 80, moves: ["cosmicpower", "recover", "psychoboost", "hyperbeam"]},
-			{generation: 9, level: 50, nature: "Serious", moves: ["psychic", "gravity", "skillswap", "zenheadbutt"], pokeball: "cherishball"},
+			{ generation: 3, level: 30, shiny: 1, moves: ["taunt", "pursuit", "psychic", "superpower"] },
+			{ generation: 3, level: 30, shiny: 1, moves: ["knockoff", "spikes", "psychic", "snatch"] },
+			{ generation: 3, level: 30, shiny: 1, moves: ["knockoff", "pursuit", "psychic", "swift"] },
+			{ generation: 3, level: 70, moves: ["cosmicpower", "recover", "psychoboost", "hyperbeam"], pokeball: "pokeball" },
+			{ generation: 4, level: 50, moves: ["psychoboost", "zapcannon", "irondefense", "extremespeed"], pokeball: "cherishball" },
+			{ generation: 4, level: 50, moves: ["psychoboost", "swift", "doubleteam", "extremespeed"], pokeball: "pokeball" },
+			{ generation: 4, level: 50, moves: ["psychoboost", "detect", "counter", "mirrorcoat"], pokeball: "pokeball" },
+			{ generation: 4, level: 50, moves: ["psychoboost", "meteormash", "superpower", "hyperbeam"], pokeball: "pokeball" },
+			{ generation: 4, level: 50, moves: ["psychoboost", "leer", "wrap", "nightshade"], pokeball: "pokeball" },
+			{ generation: 5, level: 100, moves: ["nastyplot", "darkpulse", "recover", "psychoboost"], pokeball: "duskball" },
+			{ generation: 6, level: 80, moves: ["cosmicpower", "recover", "psychoboost", "hyperbeam"] },
+			{ generation: 9, level: 50, nature: "Serious", moves: ["psychic", "gravity", "skillswap", "zenheadbutt"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -46880,9 +46880,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["tackle", "withdraw", "absorb"]},
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["tackle", "withdraw", "absorb", "stockpile"]},
-			{generation: 9, level: 1, moves: ["tackle"], pokeball: "pokeball"},
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["tackle", "withdraw", "absorb"] },
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["tackle", "withdraw", "absorb", "stockpile"] },
+			{ generation: 9, level: 1, moves: ["tackle"], pokeball: "pokeball" },
 		],
 	},
 	grotle: {
@@ -47061,7 +47061,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 5, level: 100, gender: "M", moves: ["woodhammer", "earthquake", "outrage", "stoneedge"], pokeball: "cherishball"},
+			{ generation: 5, level: 100, gender: "M", moves: ["woodhammer", "earthquake", "outrage", "stoneedge"], pokeball: "cherishball" },
 		],
 	},
 	chimchar: {
@@ -47167,11 +47167,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 4, level: 40, gender: "M", nature: "Mild", moves: ["flamethrower", "thunderpunch", "grassknot", "helpinghand"], pokeball: "cherishball"},
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["scratch", "leer", "ember", "taunt"]},
-			{generation: 4, level: 40, gender: "M", nature: "Hardy", moves: ["flamethrower", "thunderpunch", "grassknot", "helpinghand"], pokeball: "cherishball"},
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["leer", "ember", "taunt", "fakeout"]},
-			{generation: 9, level: 1, moves: ["scratch"], pokeball: "pokeball"},
+			{ generation: 4, level: 40, gender: "M", nature: "Mild", moves: ["flamethrower", "thunderpunch", "grassknot", "helpinghand"], pokeball: "cherishball" },
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["scratch", "leer", "ember", "taunt"] },
+			{ generation: 4, level: 40, gender: "M", nature: "Hardy", moves: ["flamethrower", "thunderpunch", "grassknot", "helpinghand"], pokeball: "cherishball" },
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["leer", "ember", "taunt", "fakeout"] },
+			{ generation: 9, level: 1, moves: ["scratch"], pokeball: "pokeball" },
 		],
 	},
 	monferno: {
@@ -47402,8 +47402,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 5, level: 100, gender: "M", moves: ["fireblast", "closecombat", "uturn", "grassknot"], pokeball: "cherishball"},
-			{generation: 6, level: 88, isHidden: true, moves: ["fireblast", "closecombat", "firepunch", "focuspunch"], pokeball: "cherishball"},
+			{ generation: 5, level: 100, gender: "M", moves: ["fireblast", "closecombat", "uturn", "grassknot"], pokeball: "cherishball" },
+			{ generation: 6, level: 88, isHidden: true, moves: ["fireblast", "closecombat", "firepunch", "focuspunch"], pokeball: "cherishball" },
 		],
 	},
 	piplup: {
@@ -47496,13 +47496,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			yawn: ["9E", "7E", "6E", "5E", "4E"],
 		},
 		eventData: [
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["pound", "growl", "bubble"]},
-			{generation: 5, level: 15, shiny: 1, moves: ["hydropump", "featherdance", "watersport", "peck"], pokeball: "cherishball"},
-			{generation: 5, level: 15, gender: "M", moves: ["sing", "round", "featherdance", "peck"], pokeball: "cherishball"},
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["pound", "growl", "bubble", "featherdance"]},
-			{generation: 6, level: 7, moves: ["pound", "growl", "return"], pokeball: "cherishball"},
-			{generation: 7, level: 30, gender: "M", nature: "Hardy", moves: ["hydropump", "bubblebeam", "whirlpool", "drillpeck"], pokeball: "pokeball"},
-			{generation: 9, level: 1, moves: ["pound"], pokeball: "pokeball"},
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["pound", "growl", "bubble"] },
+			{ generation: 5, level: 15, shiny: 1, moves: ["hydropump", "featherdance", "watersport", "peck"], pokeball: "cherishball" },
+			{ generation: 5, level: 15, gender: "M", moves: ["sing", "round", "featherdance", "peck"], pokeball: "cherishball" },
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["pound", "growl", "bubble", "featherdance"] },
+			{ generation: 6, level: 7, moves: ["pound", "growl", "return"], pokeball: "cherishball" },
+			{ generation: 7, level: 30, gender: "M", nature: "Hardy", moves: ["hydropump", "bubblebeam", "whirlpool", "drillpeck"], pokeball: "pokeball" },
+			{ generation: 9, level: 1, moves: ["pound"], pokeball: "pokeball" },
 		],
 	},
 	prinplup: {
@@ -47709,7 +47709,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["7M"],
 		},
 		eventData: [
-			{generation: 5, level: 100, gender: "M", moves: ["hydropump", "icebeam", "aquajet", "grassknot"], pokeball: "cherishball"},
+			{ generation: 5, level: 100, gender: "M", moves: ["hydropump", "icebeam", "aquajet", "grassknot"], pokeball: "cherishball" },
 		],
 	},
 	starly: {
@@ -47781,7 +47781,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["7M", "5M"],
 		},
 		eventData: [
-			{generation: 4, level: 1, gender: "M", nature: "Mild", moves: ["tackle", "growl"], pokeball: "pokeball"},
+			{ generation: 4, level: 1, gender: "M", nature: "Mild", moves: ["tackle", "growl"], pokeball: "pokeball" },
 		],
 	},
 	staravia: {
@@ -47846,7 +47846,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["7M", "5M"],
 		},
 		encounters: [
-			{generation: 4, level: 4},
+			{ generation: 4, level: 4 },
 		],
 	},
 	staraptor: {
@@ -47991,7 +47991,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			yawn: ["7L21", "6L25", "5L25", "4L25"],
 		},
 		eventData: [
-			{generation: 4, level: 1, gender: "M", nature: "Lonely", abilities: ["simple"], moves: ["tackle"], pokeball: "pokeball"},
+			{ generation: 4, level: 1, gender: "M", nature: "Lonely", abilities: ["simple"], moves: ["tackle"], pokeball: "pokeball" },
 		],
 	},
 	bibarel: {
@@ -48078,7 +48078,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			yawn: ["7L23", "6L28", "5L28", "4L28"],
 		},
 		encounters: [
-			{generation: 4, level: 4},
+			{ generation: 4, level: 4 },
 		],
 	},
 	kricketot: {
@@ -48490,7 +48490,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L37", "7T", "7L37", "6T", "6L37", "5T", "5L37", "4T", "4L33"],
 		},
 		eventData: [
-			{generation: 5, level: 15, gender: "M", moves: ["pursuit", "takedown", "crunch", "headbutt"], pokeball: "cherishball"},
+			{ generation: 5, level: 15, gender: "M", moves: ["pursuit", "takedown", "crunch", "headbutt"], pokeball: "cherishball" },
 		],
 	},
 	rampardos: {
@@ -48677,7 +48677,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wideguard: ["7E", "6E", "5E"],
 		},
 		eventData: [
-			{generation: 5, level: 15, gender: "M", moves: ["metalsound", "takedown", "bodyslam", "protect"], pokeball: "cherishball"},
+			{ generation: 5, level: 15, gender: "M", moves: ["metalsound", "takedown", "bodyslam", "protect"], pokeball: "cherishball" },
 		],
 	},
 	bastiodon: {
@@ -49250,7 +49250,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wildcharge: ["9M"],
 		},
 		eventData: [
-			{generation: 6, level: 50, nature: "Impish", ivs: {hp: 31, atk: 31, def: 31, spa: 14, spd: 31, spe: 31}, isHidden: true, moves: ["nuzzle", "superfang", "followme", "protect"], pokeball: "cherishball"},
+			{ generation: 6, level: 50, nature: "Impish", ivs: { hp: 31, atk: 31, def: 31, spa: 14, spd: 31, spe: 31 }, isHidden: true, moves: ["nuzzle", "superfang", "followme", "protect"], pokeball: "cherishball" },
 		],
 	},
 	buizel: {
@@ -49434,8 +49434,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["9M", "9L35", "7L35", "6L35", "5L35", "4M", "4L39"],
 		},
 		encounters: [
-			{generation: 4, level: 22},
-			{generation: 5, level: 10},
+			{ generation: 4, level: 22 },
+			{ generation: 5, level: 10 },
 		],
 	},
 	cherubi: {
@@ -49721,10 +49721,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["9M", "8M", "4M"],
 		},
 		eventData: [
-			{generation: 7, level: 50, gender: "F", nature: "Modest", abilities: ["stormdrain"], ivs: {hp: 31, atk: 0, def: 31, spa: 31, spd: 31, spe: 31}, moves: ["earthpower", "icebeam", "recover", "protect"], pokeball: "cherishball"},
+			{ generation: 7, level: 50, gender: "F", nature: "Modest", abilities: ["stormdrain"], ivs: { hp: 31, atk: 0, def: 31, spa: 31, spd: 31, spe: 31 }, moves: ["earthpower", "icebeam", "recover", "protect"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 4, level: 20},
+			{ generation: 4, level: 20 },
 		],
 	},
 	gastrodoneast: {
@@ -49737,13 +49737,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			yawn: ["9S3", "9S2", "8S1"],
 		},
 		eventData: [
-			{generation: 8, level: 50, gender: "F", nature: "Quiet", abilities: ["stormdrain"], ivs: {hp: 31, atk: 2, def: 31, spa: 31, spd: 31, spe: 0}, moves: ["protect", "surf", "icebeam", "earthpower"], pokeball: "cherishball"},
-			{generation: 8, level: 50, gender: "F", nature: "Sassy", abilities: ["stormdrain"], ivs: {hp: 31, atk: 0, def: 31, spa: 31, spd: 31, spe: 0}, moves: ["protect", "yawn", "icebeam", "earthpower"], pokeball: "cherishball"},
-			{generation: 9, level: 50, gender: "M", nature: "Bold", abilities: ["stormdrain"], ivs: {hp: 31, atk: 0, def: 31, spa: 31, spd: 31, spe: 8}, moves: ["protect", "yawn", "icebeam", "earthpower"], pokeball: "cherishball"},
-			{generation: 9, level: 50, gender: "F", nature: "Calm", abilities: ["stormdrain"], ivs: {hp: 31, atk: 0, def: 31, spa: 31, spd: 31, spe: 8}, moves: ["protect", "yawn", "icywind", "earthpower"], pokeball: "cherishball"},
+			{ generation: 8, level: 50, gender: "F", nature: "Quiet", abilities: ["stormdrain"], ivs: { hp: 31, atk: 2, def: 31, spa: 31, spd: 31, spe: 0 }, moves: ["protect", "surf", "icebeam", "earthpower"], pokeball: "cherishball" },
+			{ generation: 8, level: 50, gender: "F", nature: "Sassy", abilities: ["stormdrain"], ivs: { hp: 31, atk: 0, def: 31, spa: 31, spd: 31, spe: 0 }, moves: ["protect", "yawn", "icebeam", "earthpower"], pokeball: "cherishball" },
+			{ generation: 9, level: 50, gender: "M", nature: "Bold", abilities: ["stormdrain"], ivs: { hp: 31, atk: 0, def: 31, spa: 31, spd: 31, spe: 8 }, moves: ["protect", "yawn", "icebeam", "earthpower"], pokeball: "cherishball" },
+			{ generation: 9, level: 50, gender: "F", nature: "Calm", abilities: ["stormdrain"], ivs: { hp: 31, atk: 0, def: 31, spa: 31, spd: 31, spe: 8 }, moves: ["protect", "yawn", "icywind", "earthpower"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 4, level: 20},
+			{ generation: 4, level: 20 },
 		],
 	},
 	drifloon: {
@@ -49941,7 +49941,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["9M", "8M", "7M", "6M", "5M", "4M"],
 		},
 		encounters: [
-			{generation: 7, level: 11, pokeball: "pokeball"},
+			{ generation: 7, level: 11, pokeball: "pokeball" },
 		],
 	},
 	buneary: {
@@ -50296,7 +50296,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["7M", "5M"],
 		},
 		encounters: [
-			{generation: 6, level: 32, maxEggMoves: 1},
+			{ generation: 6, level: 32, maxEggMoves: 1 },
 		],
 	},
 	stunky: {
@@ -50494,7 +50494,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			venoshock: ["9M", "9L21", "8M", "8L21", "7M", "6M", "5M"],
 		},
 		encounters: [
-			{generation: 4, level: 29},
+			{ generation: 4, level: 29 },
 		],
 	},
 	bronzor: {
@@ -50688,11 +50688,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 9, level: 50, nature: "Relaxed", ivs: {hp: 31, atk: 31, def: 31, spa: 22, spd: 31, spe: 0}, moves: ["bodypress", "irondefense", "protect", "trickroom"], pokeball: "cherishball"},
-			{generation: 9, level: 50, nature: "Modest", moves: ["flashcannon", "gyroball", "psychic", "hypnosis"], pokeball: "cherishball"},
+			{ generation: 9, level: 50, nature: "Relaxed", ivs: { hp: 31, atk: 31, def: 31, spa: 22, spd: 31, spe: 0 }, moves: ["bodypress", "irondefense", "protect", "trickroom"], pokeball: "cherishball" },
+			{ generation: 9, level: 50, nature: "Modest", moves: ["flashcannon", "gyroball", "psychic", "hypnosis"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 6, level: 30},
+			{ generation: 6, level: 30 },
 		],
 	},
 	chatot: {
@@ -50758,7 +50758,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["7M", "5M"],
 		},
 		eventData: [
-			{generation: 4, level: 25, gender: "M", nature: "Jolly", abilities: ["keeneye"], moves: ["mirrormove", "furyattack", "chatter", "taunt"]},
+			{ generation: 4, level: 25, gender: "M", nature: "Jolly", abilities: ["keeneye"], moves: ["mirrormove", "furyattack", "chatter", "taunt"] },
 		],
 	},
 	spiritomb: {
@@ -50850,7 +50850,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wonderroom: ["8M", "7T", "6T", "5T"],
 		},
 		eventData: [
-			{generation: 5, level: 61, gender: "F", nature: "Quiet", ivs: {hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30}, moves: ["darkpulse", "psychic", "silverwind", "embargo"], pokeball: "cherishball"},
+			{ generation: 5, level: 61, gender: "F", nature: "Quiet", ivs: { hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30 }, moves: ["darkpulse", "psychic", "silverwind", "embargo"], pokeball: "cherishball" },
 		],
 	},
 	gible: {
@@ -51116,11 +51116,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["8M", "4M"],
 		},
 		eventData: [
-			{generation: 5, level: 100, gender: "M", moves: ["outrage", "earthquake", "swordsdance", "stoneedge"], pokeball: "cherishball"},
-			{generation: 5, level: 48, gender: "M", isHidden: true, moves: ["dragonclaw", "dig", "crunch", "outrage"]},
-			{generation: 6, level: 48, gender: "M", moves: ["dracometeor", "dragonclaw", "dig", "crunch"], pokeball: "cherishball"},
-			{generation: 6, level: 50, gender: "M", moves: ["slash", "dragonclaw", "dig", "crunch"], pokeball: "cherishball"},
-			{generation: 6, level: 66, gender: "F", perfectIVs: 3, moves: ["dragonrush", "earthquake", "brickbreak", "gigaimpact"], pokeball: "cherishball"},
+			{ generation: 5, level: 100, gender: "M", moves: ["outrage", "earthquake", "swordsdance", "stoneedge"], pokeball: "cherishball" },
+			{ generation: 5, level: 48, gender: "M", isHidden: true, moves: ["dragonclaw", "dig", "crunch", "outrage"] },
+			{ generation: 6, level: 48, gender: "M", moves: ["dracometeor", "dragonclaw", "dig", "crunch"], pokeball: "cherishball" },
+			{ generation: 6, level: 50, gender: "M", moves: ["slash", "dragonclaw", "dig", "crunch"], pokeball: "cherishball" },
+			{ generation: 6, level: 66, gender: "F", perfectIVs: 3, moves: ["dragonrush", "earthquake", "brickbreak", "gigaimpact"], pokeball: "cherishball" },
 		],
 	},
 	riolu: {
@@ -51224,7 +51224,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 4, level: 30, gender: "M", nature: "Serious", abilities: ["steadfast"], moves: ["aurasphere", "shadowclaw", "bulletpunch", "drainpunch"], pokeball: "pokeball"},
+			{ generation: 4, level: 30, gender: "M", nature: "Serious", abilities: ["steadfast"], moves: ["aurasphere", "shadowclaw", "bulletpunch", "drainpunch"], pokeball: "pokeball" },
 		],
 	},
 	lucario: {
@@ -51345,14 +51345,14 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 4, level: 50, gender: "M", nature: "Modest", abilities: ["steadfast"], moves: ["aurasphere", "darkpulse", "dragonpulse", "waterpulse"], pokeball: "cherishball"},
-			{generation: 4, level: 30, gender: "M", nature: "Adamant", abilities: ["innerfocus"], moves: ["forcepalm", "bonerush", "sunnyday", "blazekick"], pokeball: "cherishball"},
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["detect", "metalclaw", "counter", "bulletpunch"]},
-			{generation: 5, level: 50, gender: "M", nature: "Naughty", ivs: {atk: 31}, isHidden: true, moves: ["bulletpunch", "closecombat", "stoneedge", "shadowclaw"], pokeball: "cherishball"},
-			{generation: 6, level: 100, nature: "Jolly", abilities: ["innerfocus"], moves: ["closecombat", "aurasphere", "flashcannon", "quickattack"], pokeball: "cherishball"},
-			{generation: 7, level: 40, gender: "M", nature: "Serious", abilities: ["steadfast"], moves: ["aurasphere", "highjumpkick", "dragonpulse", "extremespeed"], pokeball: "pokeball"},
-			{generation: 8, level: 80, gender: "M", nature: "Serious", abilities: ["innerfocus"], ivs: {hp: 31, atk: 30, def: 30, spa: 31, spd: 30, spe: 31}, moves: ["aurasphere", "bulletpunch", "reversal", "steelbeam"], pokeball: "pokeball"},
-			{generation: 9, level: 75, shiny: true, gender: "M", nature: "Naive", abilities: ["innerfocus"], ivs: {hp: 31, atk: 31, def: 20, spa: 31, spd: 20, spe: 31}, moves: ["flashcannon", "bulletpunch", "aurasphere", "icepunch"], pokeball: "cherishball"},
+			{ generation: 4, level: 50, gender: "M", nature: "Modest", abilities: ["steadfast"], moves: ["aurasphere", "darkpulse", "dragonpulse", "waterpulse"], pokeball: "cherishball" },
+			{ generation: 4, level: 30, gender: "M", nature: "Adamant", abilities: ["innerfocus"], moves: ["forcepalm", "bonerush", "sunnyday", "blazekick"], pokeball: "cherishball" },
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["detect", "metalclaw", "counter", "bulletpunch"] },
+			{ generation: 5, level: 50, gender: "M", nature: "Naughty", ivs: { atk: 31 }, isHidden: true, moves: ["bulletpunch", "closecombat", "stoneedge", "shadowclaw"], pokeball: "cherishball" },
+			{ generation: 6, level: 100, nature: "Jolly", abilities: ["innerfocus"], moves: ["closecombat", "aurasphere", "flashcannon", "quickattack"], pokeball: "cherishball" },
+			{ generation: 7, level: 40, gender: "M", nature: "Serious", abilities: ["steadfast"], moves: ["aurasphere", "highjumpkick", "dragonpulse", "extremespeed"], pokeball: "pokeball" },
+			{ generation: 8, level: 80, gender: "M", nature: "Serious", abilities: ["innerfocus"], ivs: { hp: 31, atk: 30, def: 30, spa: 31, spd: 30, spe: 31 }, moves: ["aurasphere", "bulletpunch", "reversal", "steelbeam"], pokeball: "pokeball" },
+			{ generation: 9, level: 75, shiny: true, gender: "M", nature: "Naive", abilities: ["innerfocus"], ivs: { hp: 31, atk: 31, def: 20, spa: 31, spd: 20, spe: 31 }, moves: ["flashcannon", "bulletpunch", "aurasphere", "icepunch"], pokeball: "cherishball" },
 		],
 	},
 	hippopotas: {
@@ -51674,8 +51674,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["8M", "8L44", "7M", "6M", "5M", "4M"],
 		},
 		encounters: [
-			{generation: 4, level: 22, pokeball: "safariball"},
-			{generation: 6, level: 30},
+			{ generation: 4, level: 22, pokeball: "safariball" },
+			{ generation: 6, level: 30 },
 		],
 	},
 	croagunk: {
@@ -51792,8 +51792,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "8M", "7M", "6M", "5M", "4M"],
 		},
 		eventData: [
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["astonish", "mudslap", "poisonsting", "taunt"]},
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["mudslap", "poisonsting", "taunt", "poisonjab"]},
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["astonish", "mudslap", "poisonsting", "taunt"] },
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["mudslap", "poisonsting", "taunt", "poisonjab"] },
 		],
 	},
 	toxicroak: {
@@ -51907,8 +51907,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "8M", "7M", "6M", "5M", "4M"],
 		},
 		encounters: [
-			{generation: 4, level: 22, pokeball: "safariball"},
-			{generation: 6, level: 30},
+			{ generation: 4, level: 22, pokeball: "safariball" },
+			{ generation: 6, level: 30 },
 		],
 	},
 	carnivine: {
@@ -52132,7 +52132,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["9M", "9L42", "7L42", "6L42", "5L42", "4M", "4L42"],
 		},
 		encounters: [
-			{generation: 4, level: 20},
+			{ generation: 4, level: 20 },
 		],
 	},
 	snover: {
@@ -52312,7 +52312,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			worryseed: ["7T", "6T", "5T", "4T"],
 		},
 		encounters: [
-			{generation: 4, level: 38},
+			{ generation: 4, level: 38 },
 		],
 	},
 	rotom: {
@@ -52386,9 +52386,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["9M", "8M", "7M", "6M", "5M", "4M"],
 		},
 		eventData: [
-			{generation: 5, level: 10, nature: "Naughty", moves: ["uproar", "astonish", "trick", "thundershock"], pokeball: "cherishball"},
-			{generation: 6, level: 10, nature: "Quirky", moves: ["shockwave", "astonish", "trick", "thunderwave"], pokeball: "cherishball"},
-			{generation: 7, level: 10, moves: ["uproar", "confide", "disarmingvoice"], pokeball: "cherishball"},
+			{ generation: 5, level: 10, nature: "Naughty", moves: ["uproar", "astonish", "trick", "thundershock"], pokeball: "cherishball" },
+			{ generation: 6, level: 10, nature: "Quirky", moves: ["shockwave", "astonish", "trick", "thunderwave"], pokeball: "cherishball" },
+			{ generation: 7, level: 10, moves: ["uproar", "confide", "disarmingvoice"], pokeball: "cherishball" },
 		],
 	},
 	rotomheat: {
@@ -52517,14 +52517,14 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 4, level: 50, shiny: 1, moves: ["confusion", "yawn", "futuresight", "amnesia"]},
-			{generation: 4, level: 50, shiny: 1, moves: ["swift", "yawn", "futuresight", "amnesia"]},
-			{generation: 5, level: 65, shiny: 1, moves: ["futuresight", "amnesia", "extrasensory", "flail"]},
-			{generation: 6, level: 50, shiny: 1, moves: ["yawn", "futuresight", "amnesia", "extrasensory"]},
-			{generation: 7, level: 60, shiny: 1, moves: ["extrasensory", "yawn", "amnesia", "swift"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["psychic", "futuresight", "magicroom", "shadowball"]},
-			{generation: 8, level: 50, shiny: 1, moves: ['psychic', 'amnesia', 'extrasensory', 'imprison'], source: "gen8bdsp"},
-			{generation: 8, level: 70, moves: ["swift", "extrasensory", "mysticalpower", "hypnosis"], source: "gen8legends"},
+			{ generation: 4, level: 50, shiny: 1, moves: ["confusion", "yawn", "futuresight", "amnesia"] },
+			{ generation: 4, level: 50, shiny: 1, moves: ["swift", "yawn", "futuresight", "amnesia"] },
+			{ generation: 5, level: 65, shiny: 1, moves: ["futuresight", "amnesia", "extrasensory", "flail"] },
+			{ generation: 6, level: 50, shiny: 1, moves: ["yawn", "futuresight", "amnesia", "extrasensory"] },
+			{ generation: 7, level: 60, shiny: 1, moves: ["extrasensory", "yawn", "amnesia", "swift"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["psychic", "futuresight", "magicroom", "shadowball"] },
+			{ generation: 8, level: 50, shiny: 1, moves: ['psychic', 'amnesia', 'extrasensory', 'imprison'], source: "gen8bdsp" },
+			{ generation: 8, level: 70, moves: ["swift", "extrasensory", "mysticalpower", "hypnosis"], source: "gen8legends" },
 		],
 		eventOnly: true,
 	},
@@ -52629,14 +52629,14 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 4, level: 50, shiny: 1, moves: ["confusion", "luckychant", "futuresight", "charm"]},
-			{generation: 4, level: 50, shiny: 1, moves: ["swift", "luckychant", "futuresight", "charm"]},
-			{generation: 5, level: 50, shiny: 1, moves: ["futuresight", "charm", "extrasensory", "copycat"]},
-			{generation: 6, level: 50, shiny: 1, moves: ["luckychant", "futuresight", "charm", "extrasensory"]},
-			{generation: 7, level: 60, shiny: 1, moves: ["extrasensory", "charm", "futuresight", "swift"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["psychic", "charm", "drainingkiss", "triattack"]},
-			{generation: 8, level: 50, shiny: 1, moves: ['psychic', 'charm', 'extrasensory', 'imprison'], source: "gen8bdsp"},
-			{generation: 8, level: 70, moves: ["swift", "extrasensory", "mysticalpower", "recover"], source: "gen8legends"},
+			{ generation: 4, level: 50, shiny: 1, moves: ["confusion", "luckychant", "futuresight", "charm"] },
+			{ generation: 4, level: 50, shiny: 1, moves: ["swift", "luckychant", "futuresight", "charm"] },
+			{ generation: 5, level: 50, shiny: 1, moves: ["futuresight", "charm", "extrasensory", "copycat"] },
+			{ generation: 6, level: 50, shiny: 1, moves: ["luckychant", "futuresight", "charm", "extrasensory"] },
+			{ generation: 7, level: 60, shiny: 1, moves: ["extrasensory", "charm", "futuresight", "swift"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["psychic", "charm", "drainingkiss", "triattack"] },
+			{ generation: 8, level: 50, shiny: 1, moves: ['psychic', 'charm', 'extrasensory', 'imprison'], source: "gen8bdsp" },
+			{ generation: 8, level: 70, moves: ["swift", "extrasensory", "mysticalpower", "recover"], source: "gen8legends" },
 		],
 		eventOnly: true,
 	},
@@ -52744,14 +52744,14 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 4, level: 50, shiny: 1, moves: ["confusion", "uproar", "futuresight", "nastyplot"]},
-			{generation: 4, level: 50, shiny: 1, moves: ["swift", "uproar", "futuresight", "nastyplot"]},
-			{generation: 5, level: 50, shiny: 1, moves: ["futuresight", "nastyplot", "extrasensory", "lastresort"]},
-			{generation: 6, level: 50, shiny: 1, moves: ["uproar", "futuresight", "nastyplot", "extrasensory"]},
-			{generation: 7, level: 60, shiny: 1, moves: ["extrasensory", "nastyplot", "uproar", "swift"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["psychic", "dazzlinggleam", "nastyplot", "facade"]},
-			{generation: 8, level: 50, shiny: 1, moves: ['psychic', 'nastyplot', 'extrasensory', 'imprison'], source: "gen8bdsp"},
-			{generation: 8, level: 70, moves: ["swift", "extrasensory", "mysticalpower", "doublehit"], source: "gen8legends"},
+			{ generation: 4, level: 50, shiny: 1, moves: ["confusion", "uproar", "futuresight", "nastyplot"] },
+			{ generation: 4, level: 50, shiny: 1, moves: ["swift", "uproar", "futuresight", "nastyplot"] },
+			{ generation: 5, level: 50, shiny: 1, moves: ["futuresight", "nastyplot", "extrasensory", "lastresort"] },
+			{ generation: 6, level: 50, shiny: 1, moves: ["uproar", "futuresight", "nastyplot", "extrasensory"] },
+			{ generation: 7, level: 60, shiny: 1, moves: ["extrasensory", "nastyplot", "uproar", "swift"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["psychic", "dazzlinggleam", "nastyplot", "facade"] },
+			{ generation: 8, level: 50, shiny: 1, moves: ['psychic', 'nastyplot', 'extrasensory', 'imprison'], source: "gen8bdsp" },
+			{ generation: 8, level: 70, moves: ["swift", "extrasensory", "mysticalpower", "doublehit"], source: "gen8legends" },
 		],
 		eventOnly: true,
 	},
@@ -52851,22 +52851,22 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			twister: ["4T"],
 		},
 		eventData: [
-			{generation: 4, level: 47, shiny: 1, moves: ["metalclaw", "ancientpower", "dragonclaw", "roaroftime"]},
-			{generation: 4, level: 70, shiny: 1, moves: ["roaroftime", "healblock", "earthpower", "slash"]},
-			{generation: 4, level: 1, shiny: 1, moves: ["dragonbreath", "scaryface"]},
-			{generation: 5, level: 5, isHidden: true, moves: ["dragonbreath", "scaryface"], pokeball: "dreamball"},
-			{generation: 5, level: 100, shiny: true, moves: ["dragonpulse", "dracometeor", "aurasphere", "roaroftime"], pokeball: "cherishball"},
-			{generation: 6, level: 50, shiny: 1, moves: ["aurasphere", "irontail", "roaroftime", "flashcannon"]},
-			{generation: 6, level: 100, nature: "Modest", isHidden: true, moves: ["metalburst", "overheat", "roaroftime", "flashcannon"], pokeball: "cherishball"},
-			{generation: 7, level: 60, shiny: 1, moves: ["aurasphere", "irontail", "roaroftime", "flashcannon"]},
-			{generation: 7, level: 60, moves: ["aurasphere", "irontail", "roaroftime", "flashcannon"], pokeball: "cherishball"},
-			{generation: 7, level: 100, moves: ["roaroftime", "aurasphere", "dracometeor", "flashcannon"], pokeball: "cherishball"},
-			{generation: 7, level: 50, moves: ["flashcannon", "dracometeor", "roaroftime", "aurasphere"], pokeball: "cherishball"},
-			{generation: 8, level: 70, shiny: 1, moves: ["slash", "ancientpower", "flashcannon", "dragonclaw"]},
-			{generation: 8, level: 70, nature: "Bold", isHidden: true, moves: ["roaroftime", "flashcannon", "metalburst", "overheat"], pokeball: "cherishball"},
-			{generation: 8, level: 47, shiny: 1, moves: ['roaroftime', 'flashcannon', 'slash', 'ancientpower'], source: "gen8bdsp"},
-			{generation: 8, level: 65, moves: ["earthpower", "irontail", "flashcannon", "roaroftime"], source: "gen8legends"},
-			{generation: 9, level: 75, nature: "Quiet", isHidden: true, perfectIVs: 4, moves: ["dracometeor", "earthpower", "fireblast", "steelbeam"]},
+			{ generation: 4, level: 47, shiny: 1, moves: ["metalclaw", "ancientpower", "dragonclaw", "roaroftime"] },
+			{ generation: 4, level: 70, shiny: 1, moves: ["roaroftime", "healblock", "earthpower", "slash"] },
+			{ generation: 4, level: 1, shiny: 1, moves: ["dragonbreath", "scaryface"] },
+			{ generation: 5, level: 5, isHidden: true, moves: ["dragonbreath", "scaryface"], pokeball: "dreamball" },
+			{ generation: 5, level: 100, shiny: true, moves: ["dragonpulse", "dracometeor", "aurasphere", "roaroftime"], pokeball: "cherishball" },
+			{ generation: 6, level: 50, shiny: 1, moves: ["aurasphere", "irontail", "roaroftime", "flashcannon"] },
+			{ generation: 6, level: 100, nature: "Modest", isHidden: true, moves: ["metalburst", "overheat", "roaroftime", "flashcannon"], pokeball: "cherishball" },
+			{ generation: 7, level: 60, shiny: 1, moves: ["aurasphere", "irontail", "roaroftime", "flashcannon"] },
+			{ generation: 7, level: 60, moves: ["aurasphere", "irontail", "roaroftime", "flashcannon"], pokeball: "cherishball" },
+			{ generation: 7, level: 100, moves: ["roaroftime", "aurasphere", "dracometeor", "flashcannon"], pokeball: "cherishball" },
+			{ generation: 7, level: 50, moves: ["flashcannon", "dracometeor", "roaroftime", "aurasphere"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, shiny: 1, moves: ["slash", "ancientpower", "flashcannon", "dragonclaw"] },
+			{ generation: 8, level: 70, nature: "Bold", isHidden: true, moves: ["roaroftime", "flashcannon", "metalburst", "overheat"], pokeball: "cherishball" },
+			{ generation: 8, level: 47, shiny: 1, moves: ['roaroftime', 'flashcannon', 'slash', 'ancientpower'], source: "gen8bdsp" },
+			{ generation: 8, level: 65, moves: ["earthpower", "irontail", "flashcannon", "roaroftime"], source: "gen8legends" },
+			{ generation: 9, level: 75, nature: "Quiet", isHidden: true, perfectIVs: 4, moves: ["dracometeor", "earthpower", "fireblast", "steelbeam"] },
 		],
 		eventOnly: true,
 	},
@@ -52975,22 +52975,22 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["9M", "8M", "4M"],
 		},
 		eventData: [
-			{generation: 4, level: 47, shiny: 1, moves: ["waterpulse", "ancientpower", "dragonclaw", "spacialrend"]},
-			{generation: 4, level: 70, shiny: 1, moves: ["spacialrend", "healblock", "earthpower", "slash"]},
-			{generation: 4, level: 1, shiny: 1, moves: ["dragonbreath", "scaryface"]},
-			{generation: 5, level: 5, isHidden: true, moves: ["dragonbreath", "scaryface"], pokeball: "dreamball"},
-			{generation: 5, level: 100, shiny: true, moves: ["hydropump", "dracometeor", "spacialrend", "aurasphere"], pokeball: "cherishball"},
-			{generation: 6, level: 50, shiny: 1, moves: ["earthpower", "aurasphere", "spacialrend", "hydropump"]},
-			{generation: 6, level: 100, nature: "Timid", isHidden: true, moves: ["earthpower", "aurasphere", "spacialrend", "hydropump"], pokeball: "cherishball"},
-			{generation: 7, level: 60, shiny: 1, moves: ["aurasphere", "aquatail", "spacialrend", "hydropump"]},
-			{generation: 7, level: 60, moves: ["aurasphere", "aquatail", "spacialrend", "hydropump"], pokeball: "cherishball"},
-			{generation: 7, level: 100, moves: ["spacialrend", "aurasphere", "dracometeor", "hydropump"], pokeball: "cherishball"},
-			{generation: 7, level: 50, moves: ["hydropump", "dracometeor", "spacialrend", "aurasphere"], pokeball: "cherishball"},
-			{generation: 8, level: 70, shiny: 1, moves: ["slash", "surf", "ancientpower", "dragonclaw"]},
-			{generation: 8, level: 70, nature: "Hasty", isHidden: true, moves: ["spacialrend", "hydropump", "aurasphere", "earthpower"], pokeball: "cherishball"},
-			{generation: 8, level: 47, shiny: 1, moves: ['spacialrend', 'aquaring', 'slash', 'ancientpower'], source: "gen8bdsp"},
-			{generation: 8, level: 65, moves: ["earthpower", "aquatail", "hydropump", "spacialrend"], source: "gen8legends"},
-			{generation: 9, level: 75, nature: "Modest", isHidden: true, perfectIVs: 4, moves: ["dracometeor", "thunder", "fireblast", "hydropump"]},
+			{ generation: 4, level: 47, shiny: 1, moves: ["waterpulse", "ancientpower", "dragonclaw", "spacialrend"] },
+			{ generation: 4, level: 70, shiny: 1, moves: ["spacialrend", "healblock", "earthpower", "slash"] },
+			{ generation: 4, level: 1, shiny: 1, moves: ["dragonbreath", "scaryface"] },
+			{ generation: 5, level: 5, isHidden: true, moves: ["dragonbreath", "scaryface"], pokeball: "dreamball" },
+			{ generation: 5, level: 100, shiny: true, moves: ["hydropump", "dracometeor", "spacialrend", "aurasphere"], pokeball: "cherishball" },
+			{ generation: 6, level: 50, shiny: 1, moves: ["earthpower", "aurasphere", "spacialrend", "hydropump"] },
+			{ generation: 6, level: 100, nature: "Timid", isHidden: true, moves: ["earthpower", "aurasphere", "spacialrend", "hydropump"], pokeball: "cherishball" },
+			{ generation: 7, level: 60, shiny: 1, moves: ["aurasphere", "aquatail", "spacialrend", "hydropump"] },
+			{ generation: 7, level: 60, moves: ["aurasphere", "aquatail", "spacialrend", "hydropump"], pokeball: "cherishball" },
+			{ generation: 7, level: 100, moves: ["spacialrend", "aurasphere", "dracometeor", "hydropump"], pokeball: "cherishball" },
+			{ generation: 7, level: 50, moves: ["hydropump", "dracometeor", "spacialrend", "aurasphere"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, shiny: 1, moves: ["slash", "surf", "ancientpower", "dragonclaw"] },
+			{ generation: 8, level: 70, nature: "Hasty", isHidden: true, moves: ["spacialrend", "hydropump", "aurasphere", "earthpower"], pokeball: "cherishball" },
+			{ generation: 8, level: 47, shiny: 1, moves: ['spacialrend', 'aquaring', 'slash', 'ancientpower'], source: "gen8bdsp" },
+			{ generation: 8, level: 65, moves: ["earthpower", "aquatail", "hydropump", "spacialrend"], source: "gen8legends" },
+			{ generation: 9, level: 75, nature: "Modest", isHidden: true, perfectIVs: 4, moves: ["dracometeor", "thunder", "fireblast", "hydropump"] },
 		],
 		eventOnly: true,
 	},
@@ -53087,17 +53087,17 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["9M", "8M", "7M", "6M", "5M", "4M"],
 		},
 		eventData: [
-			{generation: 4, level: 70, shiny: 1, moves: ["scaryface", "lavaplume", "firespin", "ironhead"]},
-			{generation: 4, level: 50, shiny: 1, moves: ["metalsound", "crunch", "scaryface", "lavaplume"]},
-			{generation: 4, level: 50, gender: "M", nature: "Quiet", moves: ["eruption", "magmastorm", "earthpower", "ancientpower"], pokeball: "pokeball"},
-			{generation: 5, level: 68, shiny: 1, moves: ["scaryface", "lavaplume", "firespin", "ironhead"]},
-			{generation: 6, level: 50, shiny: 1, moves: ["metalsound", "crunch", "scaryface", "lavaplume"]},
-			{generation: 7, level: 60, shiny: 1, moves: ["crunch", "scaryface", "lavaplume", "firespin"]},
-			{generation: 7, level: 60, moves: ["crunch", "scaryface", "lavaplume", "firespin"], pokeball: "cherishball"},
-			{generation: 7, level: 100, moves: ["magmastorm", "heatwave", "earthpower", "flashcannon"], pokeball: "cherishball"},
-			{generation: 8, level: 70, shiny: 1, moves: ["metalsound", "lavaplume", "crunch", "ironhead"]},
-			{generation: 8, level: 70, shiny: 1, moves: ['stoneedge', 'heatwave', 'earthpower', 'metalsound'], source: "gen8bdsp"},
-			{generation: 8, level: 70, moves: ["ironhead", "crunch", "earthpower", "magmastorm"], source: "gen8legends"},
+			{ generation: 4, level: 70, shiny: 1, moves: ["scaryface", "lavaplume", "firespin", "ironhead"] },
+			{ generation: 4, level: 50, shiny: 1, moves: ["metalsound", "crunch", "scaryface", "lavaplume"] },
+			{ generation: 4, level: 50, gender: "M", nature: "Quiet", moves: ["eruption", "magmastorm", "earthpower", "ancientpower"], pokeball: "pokeball" },
+			{ generation: 5, level: 68, shiny: 1, moves: ["scaryface", "lavaplume", "firespin", "ironhead"] },
+			{ generation: 6, level: 50, shiny: 1, moves: ["metalsound", "crunch", "scaryface", "lavaplume"] },
+			{ generation: 7, level: 60, shiny: 1, moves: ["crunch", "scaryface", "lavaplume", "firespin"] },
+			{ generation: 7, level: 60, moves: ["crunch", "scaryface", "lavaplume", "firespin"], pokeball: "cherishball" },
+			{ generation: 7, level: 100, moves: ["magmastorm", "heatwave", "earthpower", "flashcannon"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, shiny: 1, moves: ["metalsound", "lavaplume", "crunch", "ironhead"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ['stoneedge', 'heatwave', 'earthpower', 'metalsound'], source: "gen8bdsp" },
+			{ generation: 8, level: 70, moves: ["ironhead", "crunch", "earthpower", "magmastorm"], source: "gen8legends" },
 		],
 		eventOnly: true,
 	},
@@ -53189,17 +53189,17 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L54", "8M", "8L54", "8S8", "7T", "7L50", "7S5", "7S6", "7S7", "6T", "6L50", "6S4", "5T", "5L50", "5S3", "4T", "4L50", "4S0"],
 		},
 		eventData: [
-			{generation: 4, level: 70, shiny: 1, moves: ["confuseray", "stomp", "superpower", "zenheadbutt"]},
-			{generation: 4, level: 1, shiny: 1, moves: ["dizzypunch", "knockoff", "foresight", "confuseray"]},
-			{generation: 4, level: 100, moves: ["ironhead", "rockslide", "icywind", "crushgrip"], pokeball: "cherishball"},
-			{generation: 5, level: 68, shiny: 1, moves: ["revenge", "wideguard", "zenheadbutt", "payback"]},
-			{generation: 6, level: 50, shiny: 1, moves: ["foresight", "revenge", "wideguard", "zenheadbutt"]},
-			{generation: 7, level: 60, shiny: 1, moves: ["zenheadbutt", "revenge", "dizzypunch", "confuseray"]},
-			{generation: 7, level: 60, moves: ["zenheadbutt", "revenge", "dizzypunch", "confuseray"], pokeball: "cherishball"},
-			{generation: 7, level: 100, moves: ["crushgrip", "drainpunch", "zenheadbutt", "heavyslam"], pokeball: "cherishball"},
-			{generation: 8, level: 100, shiny: 1, moves: ["gigaimpact", "zenheadbutt", "hammerarm", "crushgrip"]},
-			{generation: 8, level: 70, shiny: 1, moves: ['crushgrip', 'gigaimpact', 'hammerarm', 'heavyslam'], source: "gen8bdsp"},
-			{generation: 8, level: 70, moves: ["zenheadbutt", "ironhead", "crushgrip", "gigaimpact"], source: "gen8legends"},
+			{ generation: 4, level: 70, shiny: 1, moves: ["confuseray", "stomp", "superpower", "zenheadbutt"] },
+			{ generation: 4, level: 1, shiny: 1, moves: ["dizzypunch", "knockoff", "foresight", "confuseray"] },
+			{ generation: 4, level: 100, moves: ["ironhead", "rockslide", "icywind", "crushgrip"], pokeball: "cherishball" },
+			{ generation: 5, level: 68, shiny: 1, moves: ["revenge", "wideguard", "zenheadbutt", "payback"] },
+			{ generation: 6, level: 50, shiny: 1, moves: ["foresight", "revenge", "wideguard", "zenheadbutt"] },
+			{ generation: 7, level: 60, shiny: 1, moves: ["zenheadbutt", "revenge", "dizzypunch", "confuseray"] },
+			{ generation: 7, level: 60, moves: ["zenheadbutt", "revenge", "dizzypunch", "confuseray"], pokeball: "cherishball" },
+			{ generation: 7, level: 100, moves: ["crushgrip", "drainpunch", "zenheadbutt", "heavyslam"], pokeball: "cherishball" },
+			{ generation: 8, level: 100, shiny: 1, moves: ["gigaimpact", "zenheadbutt", "hammerarm", "crushgrip"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ['crushgrip', 'gigaimpact', 'hammerarm', 'heavyslam'], source: "gen8bdsp" },
+			{ generation: 8, level: 70, moves: ["zenheadbutt", "ironhead", "crushgrip", "gigaimpact"], source: "gen8legends" },
 		],
 		eventOnly: true,
 	},
@@ -53304,17 +53304,17 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["9M", "8M", "7M", "6M", "5M", "4M"],
 		},
 		eventData: [
-			{generation: 4, level: 70, shiny: 1, moves: ["shadowforce", "healblock", "earthpower", "slash"]},
-			{generation: 4, level: 47, shiny: 1, moves: ["ominouswind", "ancientpower", "dragonclaw", "shadowforce"]},
-			{generation: 4, level: 1, shiny: 1, moves: ["dragonbreath", "scaryface"]},
-			{generation: 5, level: 5, isHidden: true, moves: ["dragonbreath", "scaryface"], pokeball: "dreamball"},
-			{generation: 5, level: 100, shiny: true, moves: ["dragonpulse", "dragonclaw", "aurasphere", "shadowforce"], pokeball: "cherishball"},
-			{generation: 6, level: 50, shiny: 1, moves: ["aurasphere", "shadowclaw", "shadowforce", "hex"]},
-			{generation: 6, level: 100, nature: "Brave", isHidden: true, moves: ["aurasphere", "dracometeor", "shadowforce", "ironhead"], pokeball: "cherishball"},
-			{generation: 7, level: 60, shiny: 1, moves: ["shadowforce", "aurasphere", "earthpower", "dragonclaw"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["dragonclaw", "scaryface", "shadowball", "ancientpower"]},
-			{generation: 8, level: 70, shiny: 1, moves: ['dragonclaw', 'aurasphere', 'painsplit', 'shadowforce'], source: "gen8bdsp"},
-			{generation: 8, level: 70, moves: ["dragonclaw", "dragonpulse", "earthpower", "shadowforce"], source: "gen8legends"},
+			{ generation: 4, level: 70, shiny: 1, moves: ["shadowforce", "healblock", "earthpower", "slash"] },
+			{ generation: 4, level: 47, shiny: 1, moves: ["ominouswind", "ancientpower", "dragonclaw", "shadowforce"] },
+			{ generation: 4, level: 1, shiny: 1, moves: ["dragonbreath", "scaryface"] },
+			{ generation: 5, level: 5, isHidden: true, moves: ["dragonbreath", "scaryface"], pokeball: "dreamball" },
+			{ generation: 5, level: 100, shiny: true, moves: ["dragonpulse", "dragonclaw", "aurasphere", "shadowforce"], pokeball: "cherishball" },
+			{ generation: 6, level: 50, shiny: 1, moves: ["aurasphere", "shadowclaw", "shadowforce", "hex"] },
+			{ generation: 6, level: 100, nature: "Brave", isHidden: true, moves: ["aurasphere", "dracometeor", "shadowforce", "ironhead"], pokeball: "cherishball" },
+			{ generation: 7, level: 60, shiny: 1, moves: ["shadowforce", "aurasphere", "earthpower", "dragonclaw"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["dragonclaw", "scaryface", "shadowball", "ancientpower"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ['dragonclaw', 'aurasphere', 'painsplit', 'shadowforce'], source: "gen8bdsp" },
+			{ generation: 8, level: 70, moves: ["dragonclaw", "dragonpulse", "earthpower", "shadowforce"], source: "gen8legends" },
 		],
 		eventOnly: true,
 	},
@@ -53405,14 +53405,14 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 4, level: 50, shiny: 1, moves: ["mist", "aurorabeam", "futuresight", "slash"]},
-			{generation: 5, level: 68, shiny: 1, moves: ["futuresight", "slash", "moonlight", "psychocut"]},
-			{generation: 5, level: 68, nature: "Modest", moves: ["icebeam", "psyshock", "energyball", "hiddenpower"]},
-			{generation: 6, level: 50, shiny: 1, moves: ["mist", "aurorabeam", "futuresight", "slash"]},
-			{generation: 7, level: 60, shiny: 1, moves: ["aurorabeam", "futuresight", "slash", "moonlight"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["icywind", "moonblast", "psychocut", "psyshock"]},
-			{generation: 8, level: 50, shiny: 1, moves: ['safeguard', 'moonlight', 'psychocut', 'slash'], source: "gen8bdsp"},
-			{generation: 8, level: 70, moves: ["psychocut", "psychic", "moonblast", "lunarblessing"], source: "gen8legends"},
+			{ generation: 4, level: 50, shiny: 1, moves: ["mist", "aurorabeam", "futuresight", "slash"] },
+			{ generation: 5, level: 68, shiny: 1, moves: ["futuresight", "slash", "moonlight", "psychocut"] },
+			{ generation: 5, level: 68, nature: "Modest", moves: ["icebeam", "psyshock", "energyball", "hiddenpower"] },
+			{ generation: 6, level: 50, shiny: 1, moves: ["mist", "aurorabeam", "futuresight", "slash"] },
+			{ generation: 7, level: 60, shiny: 1, moves: ["aurorabeam", "futuresight", "slash", "moonlight"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["icywind", "moonblast", "psychocut", "psyshock"] },
+			{ generation: 8, level: 50, shiny: 1, moves: ['safeguard', 'moonlight', 'psychocut', 'slash'], source: "gen8bdsp" },
+			{ generation: 8, level: 70, moves: ["psychocut", "psychic", "moonblast", "lunarblessing"], source: "gen8legends" },
 		],
 		eventOnly: true,
 	},
@@ -53486,7 +53486,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 4, level: 50, moves: ["grassknot", "raindance", "rest", "surf"], pokeball: "cherishball"},
+			{ generation: 4, level: 50, moves: ["grassknot", "raindance", "rest", "surf"], pokeball: "cherishball" },
 		],
 	},
 	manaphy: {
@@ -53574,16 +53574,16 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 4, level: 5, moves: ["tailglow", "bubble", "watersport"]},
-			{generation: 4, level: 1, shiny: 1, moves: ["tailglow", "bubble", "watersport"], pokeball: "pokeball"},
-			{generation: 4, level: 50, moves: ["heartswap", "waterpulse", "whirlpool", "acidarmor"], pokeball: "cherishball"},
-			{generation: 4, level: 50, nature: "Impish", moves: ["aquaring", "waterpulse", "watersport", "heartswap"], pokeball: "cherishball"},
-			{generation: 6, level: 1, moves: ["tailglow", "bubble", "watersport", "heartswap"], pokeball: "cherishball"},
-			{generation: 6, level: 100, moves: ["tailglow", "bubble", "watersport"], pokeball: "cherishball"},
-			{generation: 7, level: 15, moves: ["tailglow", "waterpulse", "aquaring", "heartswap"], pokeball: "cherishball"},
-			{generation: 8, moves: ['tailglow', 'watergun'], pokeball: 'pokeball', source: "gen8bdsp"},
-			{generation: 8, level: 50, moves: ["waterpulse", "zenheadbutt", "moonblast", "bubble"], source: "gen8legends"},
-			{generation: 9, level: 50, shiny: true, nature: "Calm", ivs: {hp: 31, atk: 20, def: 31, spa: 20, spd: 31, spe: 20}, moves: ["bubblebeam", "acidarmor", "whirlpool", "waterpulse"], pokeball: "cherishball"},
+			{ generation: 4, level: 5, moves: ["tailglow", "bubble", "watersport"] },
+			{ generation: 4, level: 1, shiny: 1, moves: ["tailglow", "bubble", "watersport"], pokeball: "pokeball" },
+			{ generation: 4, level: 50, moves: ["heartswap", "waterpulse", "whirlpool", "acidarmor"], pokeball: "cherishball" },
+			{ generation: 4, level: 50, nature: "Impish", moves: ["aquaring", "waterpulse", "watersport", "heartswap"], pokeball: "cherishball" },
+			{ generation: 6, level: 1, moves: ["tailglow", "bubble", "watersport", "heartswap"], pokeball: "cherishball" },
+			{ generation: 6, level: 100, moves: ["tailglow", "bubble", "watersport"], pokeball: "cherishball" },
+			{ generation: 7, level: 15, moves: ["tailglow", "waterpulse", "aquaring", "heartswap"], pokeball: "cherishball" },
+			{ generation: 8, moves: ['tailglow', 'watergun'], pokeball: 'pokeball', source: "gen8bdsp" },
+			{ generation: 8, level: 50, moves: ["waterpulse", "zenheadbutt", "moonblast", "bubble"], source: "gen8legends" },
+			{ generation: 9, level: 50, shiny: true, nature: "Calm", ivs: { hp: 31, atk: 20, def: 31, spa: 20, spd: 31, spe: 20 }, moves: ["bubblebeam", "acidarmor", "whirlpool", "waterpulse"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -53687,17 +53687,17 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "7M", "6M", "5M", "4M"],
 		},
 		eventData: [
-			{generation: 4, level: 40, shiny: 1, moves: ["quickattack", "hypnosis", "pursuit", "nightmare"]},
-			{generation: 4, level: 50, moves: ["roaroftime", "spacialrend", "nightmare", "hypnosis"], pokeball: "cherishball"},
-			{generation: 4, level: 50, moves: ["darkvoid", "darkpulse", "shadowball", "doubleteam"], pokeball: "pokeball"},
-			{generation: 4, level: 50, shiny: 1, moves: ["hypnosis", "feintattack", "nightmare", "doubleteam"]},
-			{generation: 5, level: 50, moves: ["darkvoid", "ominouswind", "feintattack", "nightmare"], pokeball: "cherishball"},
-			{generation: 6, level: 50, moves: ["darkvoid", "darkpulse", "phantomforce", "dreameater"], pokeball: "cherishball"},
-			{generation: 6, level: 100, moves: ["darkvoid", "ominouswind", "nightmare", "feintattack"], pokeball: "cherishball"},
-			{generation: 7, level: 50, moves: ["darkvoid", "feintattack", "nightmare", "ominouswind"], pokeball: "cherishball"},
-			{generation: 8, level: 50, shiny: 1, moves: ["hypnosis", "suckerpunch", "foulplay", "doubleteam"], source: "gen8bdsp"},
-			{generation: 8, level: 70, moves: ["hex", "darkpulse", "psychic", "darkvoid"], source: "gen8legends"},
-			{generation: 9, level: 50, moves: ["darkpulse", "shadowball", "hypnosis", "dreameater"], pokeball: "cherishball"},
+			{ generation: 4, level: 40, shiny: 1, moves: ["quickattack", "hypnosis", "pursuit", "nightmare"] },
+			{ generation: 4, level: 50, moves: ["roaroftime", "spacialrend", "nightmare", "hypnosis"], pokeball: "cherishball" },
+			{ generation: 4, level: 50, moves: ["darkvoid", "darkpulse", "shadowball", "doubleteam"], pokeball: "pokeball" },
+			{ generation: 4, level: 50, shiny: 1, moves: ["hypnosis", "feintattack", "nightmare", "doubleteam"] },
+			{ generation: 5, level: 50, moves: ["darkvoid", "ominouswind", "feintattack", "nightmare"], pokeball: "cherishball" },
+			{ generation: 6, level: 50, moves: ["darkvoid", "darkpulse", "phantomforce", "dreameater"], pokeball: "cherishball" },
+			{ generation: 6, level: 100, moves: ["darkvoid", "ominouswind", "nightmare", "feintattack"], pokeball: "cherishball" },
+			{ generation: 7, level: 50, moves: ["darkvoid", "feintattack", "nightmare", "ominouswind"], pokeball: "cherishball" },
+			{ generation: 8, level: 50, shiny: 1, moves: ["hypnosis", "suckerpunch", "foulplay", "doubleteam"], source: "gen8bdsp" },
+			{ generation: 8, level: 70, moves: ["hex", "darkpulse", "psychic", "darkvoid"], source: "gen8legends" },
+			{ generation: 9, level: 50, moves: ["darkpulse", "shadowball", "hypnosis", "dreameater"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -53777,14 +53777,14 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 4, level: 50, moves: ["seedflare", "aromatherapy", "substitute", "energyball"], pokeball: "cherishball"},
-			{generation: 4, level: 30, shiny: 1, moves: ["growth", "magicalleaf", "leechseed", "synthesis"], pokeball: "pokeball"},
-			{generation: 5, level: 50, moves: ["seedflare", "leechseed", "synthesis", "sweetscent"], pokeball: "cherishball"},
-			{generation: 6, level: 15, moves: ["growth", "magicalleaf", "seedflare", "airslash"], pokeball: "cherishball"},
-			{generation: 6, level: 100, moves: ["seedflare", "aromatherapy", "substitute", "energyball"], pokeball: "cherishball"},
-			{generation: 7, level: 20, moves: ["return", "growth", "seedflare", "celebrate"], pokeball: "cherishball"},
-			{generation: 8, level: 30, shiny: 1, moves: ["growth", "magicalleaf", "leechseed", "synthesis"], source: "gen8bdsp"},
-			{generation: 8, level: 70, moves: ["seedflare", "energyball", "airslash", "earthpower"], source: "gen8legends"},
+			{ generation: 4, level: 50, moves: ["seedflare", "aromatherapy", "substitute", "energyball"], pokeball: "cherishball" },
+			{ generation: 4, level: 30, shiny: 1, moves: ["growth", "magicalleaf", "leechseed", "synthesis"], pokeball: "pokeball" },
+			{ generation: 5, level: 50, moves: ["seedflare", "leechseed", "synthesis", "sweetscent"], pokeball: "cherishball" },
+			{ generation: 6, level: 15, moves: ["growth", "magicalleaf", "seedflare", "airslash"], pokeball: "cherishball" },
+			{ generation: 6, level: 100, moves: ["seedflare", "aromatherapy", "substitute", "energyball"], pokeball: "cherishball" },
+			{ generation: 7, level: 20, moves: ["return", "growth", "seedflare", "celebrate"], pokeball: "cherishball" },
+			{ generation: 8, level: 30, shiny: 1, moves: ["growth", "magicalleaf", "leechseed", "synthesis"], source: "gen8bdsp" },
+			{ generation: 8, level: 70, moves: ["seedflare", "energyball", "airslash", "earthpower"], source: "gen8legends" },
 		],
 		eventOnly: true,
 	},
@@ -53970,13 +53970,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{generation: 4, level: 100, moves: ["judgment", "roaroftime", "spacialrend", "shadowforce"], pokeball: "cherishball"},
-			{generation: 5, level: 100, moves: ["recover", "hyperbeam", "perishsong", "judgment"]},
-			{generation: 6, level: 100, shiny: 1, moves: ["judgment", "blastburn", "hydrocannon", "earthpower"], pokeball: "cherishball"},
-			{generation: 6, level: 100, moves: ["judgment", "perishsong", "hyperbeam", "recover"], pokeball: "cherishball"},
-			{generation: 7, level: 100, moves: ["judgment", "extremespeed", "recover", "hyperbeam"], pokeball: "cherishball"},
-			{generation: 8, level: 80, shiny: 1, moves: ["healingwish", "futuresight", "recover", "hyperbeam"], source: "gen8bdsp"},
-			{generation: 8, level: 75, moves: ["recover", "calmmind", "judgment", "hyperbeam"], pokeball: "pokeball", source: "gen8legends"},
+			{ generation: 4, level: 100, moves: ["judgment", "roaroftime", "spacialrend", "shadowforce"], pokeball: "cherishball" },
+			{ generation: 5, level: 100, moves: ["recover", "hyperbeam", "perishsong", "judgment"] },
+			{ generation: 6, level: 100, shiny: 1, moves: ["judgment", "blastburn", "hydrocannon", "earthpower"], pokeball: "cherishball" },
+			{ generation: 6, level: 100, moves: ["judgment", "perishsong", "hyperbeam", "recover"], pokeball: "cherishball" },
+			{ generation: 7, level: 100, moves: ["judgment", "extremespeed", "recover", "hyperbeam"], pokeball: "cherishball" },
+			{ generation: 8, level: 80, shiny: 1, moves: ["healingwish", "futuresight", "recover", "hyperbeam"], source: "gen8bdsp" },
+			{ generation: 8, level: 75, moves: ["recover", "calmmind", "judgment", "hyperbeam"], pokeball: "pokeball", source: "gen8legends" },
 		],
 		eventOnly: true,
 	},
@@ -54135,14 +54135,14 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "8L42", "8S7", "7T", "7L49", "6T", "6L49", "5T", "5L49"],
 		},
 		eventData: [
-			{generation: 5, level: 15, moves: ["quickattack", "incinerate", "confusion", "endure"]},
-			{generation: 5, level: 50, moves: ["vcreate", "fusionflare", "fusionbolt", "searingshot"], pokeball: "cherishball"},
-			{generation: 5, level: 100, moves: ["vcreate", "blueflare", "boltstrike", "glaciate"], pokeball: "cherishball"},
-			{generation: 6, level: 15, moves: ["confusion", "quickattack", "vcreate", "searingshot"], pokeball: "cherishball"},
-			{generation: 6, level: 100, moves: ["incinerate", "quickattack", "endure", "confusion"], pokeball: "cherishball"},
-			{generation: 6, level: 15, moves: ["quickattack", "swagger", "vcreate"], pokeball: "cherishball"},
-			{generation: 7, level: 15, moves: ["vcreate", "reversal", "storedpower", "celebrate"], pokeball: "cherishball"},
-			{generation: 8, level: 50, nature: "Brave", perfectIVs: 6, moves: ["vcreate", "zenheadbutt", "workup", "flamecharge"], pokeball: "cherishball"},
+			{ generation: 5, level: 15, moves: ["quickattack", "incinerate", "confusion", "endure"] },
+			{ generation: 5, level: 50, moves: ["vcreate", "fusionflare", "fusionbolt", "searingshot"], pokeball: "cherishball" },
+			{ generation: 5, level: 100, moves: ["vcreate", "blueflare", "boltstrike", "glaciate"], pokeball: "cherishball" },
+			{ generation: 6, level: 15, moves: ["confusion", "quickattack", "vcreate", "searingshot"], pokeball: "cherishball" },
+			{ generation: 6, level: 100, moves: ["incinerate", "quickattack", "endure", "confusion"], pokeball: "cherishball" },
+			{ generation: 6, level: 15, moves: ["quickattack", "swagger", "vcreate"], pokeball: "cherishball" },
+			{ generation: 7, level: 15, moves: ["vcreate", "reversal", "storedpower", "celebrate"], pokeball: "cherishball" },
+			{ generation: 8, level: 50, nature: "Brave", perfectIVs: 6, moves: ["vcreate", "zenheadbutt", "workup", "flamecharge"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -54228,7 +54228,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wringout: ["7L37", "6L37", "5L37"],
 		},
 		eventData: [
-			{generation: 5, level: 5, gender: "M", nature: "Hardy", moves: ["growth", "synthesis", "energyball", "aromatherapy"], pokeball: "cherishball"},
+			{ generation: 5, level: 5, gender: "M", nature: "Hardy", moves: ["growth", "synthesis", "energyball", "aromatherapy"], pokeball: "cherishball" },
 		],
 	},
 	servine: {
@@ -54391,8 +54391,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wringout: ["7L50", "6L50", "6S1", "5L50"],
 		},
 		eventData: [
-			{generation: 5, level: 100, gender: "M", moves: ["leafstorm", "substitute", "gigadrain", "leechseed"], pokeball: "cherishball"},
-			{generation: 6, level: 50, isHidden: true, moves: ["leafstorm", "holdback", "wringout", "gigadrain"], pokeball: "cherishball"},
+			{ generation: 5, level: 100, gender: "M", moves: ["leafstorm", "substitute", "gigadrain", "leechseed"], pokeball: "cherishball" },
+			{ generation: 6, level: 50, isHidden: true, moves: ["leafstorm", "holdback", "wringout", "gigadrain"], pokeball: "cherishball" },
 		],
 	},
 	tepig: {
@@ -54667,8 +54667,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "7T", "6T"],
 		},
 		eventData: [
-			{generation: 5, level: 100, gender: "M", moves: ["flareblitz", "hammerarm", "wildcharge", "headsmash"], pokeball: "cherishball"},
-			{generation: 6, level: 50, isHidden: true, moves: ["flareblitz", "holdback", "headsmash", "takedown"], pokeball: "cherishball"},
+			{ generation: 5, level: 100, gender: "M", moves: ["flareblitz", "hammerarm", "wildcharge", "headsmash"], pokeball: "cherishball" },
+			{ generation: 6, level: 50, isHidden: true, moves: ["flareblitz", "holdback", "headsmash", "takedown"], pokeball: "cherishball" },
 		],
 	},
 	oshawott: {
@@ -54916,8 +54916,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "7M", "6M", "5M"],
 		},
 		eventData: [
-			{generation: 5, level: 100, gender: "M", moves: ["hydropump", "icebeam", "megahorn", "superpower"], pokeball: "cherishball"},
-			{generation: 6, level: 50, isHidden: true, moves: ["razorshell", "holdback", "confide", "hydropump"], pokeball: "cherishball"},
+			{ generation: 5, level: 100, gender: "M", moves: ["hydropump", "icebeam", "megahorn", "superpower"], pokeball: "cherishball" },
+			{ generation: 6, level: 50, isHidden: true, moves: ["razorshell", "holdback", "confide", "hydropump"], pokeball: "cherishball" },
 		],
 	},
 	samurotthisui: {
@@ -55261,7 +55261,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "8L1", "7M", "7L20", "6L20", "5M", "5L20"],
 		},
 		encounters: [
-			{generation: 5, level: 20, isHidden: true},
+			{ generation: 5, level: 20, isHidden: true },
 		],
 	},
 	stoutland: {
@@ -55329,7 +55329,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "8L1", "7M", "7L20", "6L20", "5M", "5L20"],
 		},
 		encounters: [
-			{generation: 5, level: 23},
+			{ generation: 5, level: 23 },
 		],
 	},
 	purrloin: {
@@ -55491,7 +55491,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			uturn: ["8M", "7M", "6M", "5M"],
 		},
 		eventData: [
-			{generation: 5, level: 20, gender: "F", nature: "Jolly", isHidden: true, moves: ["fakeout", "foulplay", "encore", "swagger"]},
+			{ generation: 5, level: 20, gender: "F", nature: "Jolly", isHidden: true, moves: ["fakeout", "foulplay", "encore", "swagger"] },
 		],
 	},
 	pansage: {
@@ -55570,9 +55570,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			worryseed: ["7T", "6T", "5T"],
 		},
 		eventData: [
-			{generation: 5, level: 1, shiny: 1, gender: "M", nature: "Brave", ivs: {spa: 31}, moves: ["bulletseed", "bite", "solarbeam", "dig"], pokeball: "pokeball"},
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["leer", "lick", "vinewhip", "leafstorm"]},
-			{generation: 5, level: 30, gender: "M", nature: "Serious", moves: ["seedbomb", "solarbeam", "rocktomb", "dig"], pokeball: "cherishball"},
+			{ generation: 5, level: 1, shiny: 1, gender: "M", nature: "Brave", ivs: { spa: 31 }, moves: ["bulletseed", "bite", "solarbeam", "dig"], pokeball: "pokeball" },
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["leer", "lick", "vinewhip", "leafstorm"] },
+			{ generation: 5, level: 30, gender: "M", nature: "Serious", moves: ["seedbomb", "solarbeam", "rocktomb", "dig"], pokeball: "cherishball" },
 		],
 	},
 	simisage: {
@@ -55719,7 +55719,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			yawn: ["7L16", "6L16", "5L16"],
 		},
 		eventData: [
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["leer", "lick", "incinerate", "heatwave"]},
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["leer", "lick", "incinerate", "heatwave"] },
 		],
 	},
 	simisear: {
@@ -55792,7 +55792,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["7M", "6S0", "5M"],
 		},
 		eventData: [
-			{generation: 6, level: 5, perfectIVs: 2, moves: ["workup", "honeclaws", "poweruppunch", "gigaimpact"], pokeball: "cherishball"},
+			{ generation: 6, level: 5, perfectIVs: 2, moves: ["workup", "honeclaws", "poweruppunch", "gigaimpact"], pokeball: "cherishball" },
 		],
 	},
 	panpour: {
@@ -55873,7 +55873,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["7M", "5M"],
 		},
 		eventData: [
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["leer", "lick", "watergun", "hydropump"]},
+			{ generation: 5, level: 10, gender: "M", isHidden: true, moves: ["leer", "lick", "watergun", "hydropump"] },
 		],
 	},
 	simipour: {
@@ -56026,7 +56026,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "8L24", "7T", "7L23", "6T", "6L23", "5T", "5L23"],
 		},
 		eventData: [
-			{generation: 7, level: 39, nature: "Mild", isHidden: true, moves: ["hypnosis", "dreameater", "rest", "sleeptalk"], pokeball: "dreamball"},
+			{ generation: 7, level: 39, nature: "Mild", isHidden: true, moves: ["hypnosis", "dreameater", "rest", "sleeptalk"], pokeball: "dreamball" },
 		],
 	},
 	musharna: {
@@ -56104,7 +56104,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "8L1", "7T", "6T", "5T"],
 		},
 		eventData: [
-			{generation: 5, level: 50, isHidden: true, moves: ["defensecurl", "luckychant", "psybeam", "hypnosis"]},
+			{ generation: 5, level: 50, isHidden: true, moves: ["defensecurl", "luckychant", "psybeam", "hypnosis"] },
 		],
 	},
 	pidove: {
@@ -56163,7 +56163,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M", "5M"],
 		},
 		eventData: [
-			{generation: 5, level: 1, shiny: 1, gender: "F", nature: "Hardy", ivs: {atk: 31}, abilities: ["superluck"], moves: ["gust", "quickattack", "aircutter"], pokeball: "pokeball"},
+			{ generation: 5, level: 1, shiny: 1, gender: "F", nature: "Hardy", ivs: { atk: 31 }, abilities: ["superluck"], moves: ["gust", "quickattack", "aircutter"], pokeball: "pokeball" },
 		],
 	},
 	tranquill: {
@@ -56271,7 +56271,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M", "5M"],
 		},
 		encounters: [
-			{generation: 5, level: 22},
+			{ generation: 5, level: 22 },
 		],
 	},
 	blitzle: {
@@ -56524,7 +56524,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			toxic: ["7M", "6M", "5M"],
 		},
 		encounters: [
-			{generation: 5, level: 24},
+			{ generation: 5, level: 24 },
 		],
 	},
 	gigalith: {
@@ -56918,7 +56918,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "8M", "7M", "6M", "5M"],
 		},
 		encounters: [
-			{generation: 6, level: 30},
+			{ generation: 6, level: 30 },
 		],
 	},
 	audino: {
@@ -57033,10 +57033,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "8L20", "7T", "6T", "5T"],
 		},
 		eventData: [
-			{generation: 5, level: 30, gender: "F", nature: "Calm", abilities: ["healer"], moves: ["healpulse", "helpinghand", "refresh", "doubleslap"], pokeball: "cherishball"},
-			{generation: 5, level: 30, gender: "F", nature: "Serious", abilities: ["healer"], moves: ["healpulse", "helpinghand", "refresh", "present"], pokeball: "cherishball"},
-			{generation: 5, level: 30, gender: "F", nature: "Jolly", abilities: ["healer"], moves: ["healpulse", "helpinghand", "refresh", "present"], pokeball: "cherishball"},
-			{generation: 6, level: 100, nature: "Relaxed", abilities: ["regenerator"], moves: ["trickroom", "healpulse", "simplebeam", "thunderbolt"], pokeball: "cherishball"},
+			{ generation: 5, level: 30, gender: "F", nature: "Calm", abilities: ["healer"], moves: ["healpulse", "helpinghand", "refresh", "doubleslap"], pokeball: "cherishball" },
+			{ generation: 5, level: 30, gender: "F", nature: "Serious", abilities: ["healer"], moves: ["healpulse", "helpinghand", "refresh", "present"], pokeball: "cherishball" },
+			{ generation: 5, level: 30, gender: "F", nature: "Jolly", abilities: ["healer"], moves: ["healpulse", "helpinghand", "refresh", "present"], pokeball: "cherishball" },
+			{ generation: 6, level: 100, nature: "Relaxed", abilities: ["regenerator"], moves: ["trickroom", "healpulse", "simplebeam", "thunderbolt"], pokeball: "cherishball" },
 		],
 	},
 	timburr: {
@@ -57476,7 +57476,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			weatherball: ["8M"],
 		},
 		encounters: [
-			{generation: 5, level: 15},
+			{ generation: 5, level: 15 },
 		],
 	},
 	throh: {
@@ -57757,7 +57757,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			worryseed: ["7T", "6T", "5T"],
 		},
 		encounters: [
-			{generation: 5, level: 19},
+			{ generation: 5, level: 19 },
 		],
 	},
 	leavanny: {
@@ -57847,7 +57847,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "9L39", "7M", "7L39", "6M", "6L39", "5M", "5L39"],
 		},
 		encounters: [
-			{generation: 5, level: 20, isHidden: true},
+			{ generation: 5, level: 20, isHidden: true },
 		],
 	},
 	venipede: {
@@ -58172,7 +58172,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			worryseed: ["7T", "6T", "5T"],
 		},
 		eventData: [
-			{generation: 5, level: 50, gender: "F", nature: "Timid", ivs: {spe: 31}, abilities: ["prankster"], moves: ["swagger", "gigadrain", "beatup", "helpinghand"], pokeball: "cherishball"},
+			{ generation: 5, level: 50, gender: "F", nature: "Timid", ivs: { spe: 31 }, abilities: ["prankster"], moves: ["swagger", "gigadrain", "beatup", "helpinghand"], pokeball: "cherishball" },
 		],
 	},
 	petilil: {
@@ -59140,11 +59140,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T", "5T"],
 		},
 		eventData: [
-			{generation: 5, level: 35, isHidden: true, moves: ["thrash", "bellydrum", "flareblitz", "hammerarm"]},
-			{generation: 6, level: 35, gender: "M", nature: "Calm", ivs: {hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30}, isHidden: true, moves: ["thrash", "bellydrum", "flareblitz", "hammerarm"], pokeball: "cherishball"},
+			{ generation: 5, level: 35, isHidden: true, moves: ["thrash", "bellydrum", "flareblitz", "hammerarm"] },
+			{ generation: 6, level: 35, gender: "M", nature: "Calm", ivs: { hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30 }, isHidden: true, moves: ["thrash", "bellydrum", "flareblitz", "hammerarm"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 6, level: 32, maxEggMoves: 1},
+			{ generation: 6, level: 32, maxEggMoves: 1 },
 		],
 	},
 	darmanitangalar: {
@@ -59418,7 +59418,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["8M", "8L38", "7M", "7L38", "6M", "6L38", "5M", "5L38"],
 		},
 		encounters: [
-			{generation: 6, level: 33, maxEggMoves: 1},
+			{ generation: 6, level: 33, maxEggMoves: 1 },
 		],
 	},
 	scraggy: {
@@ -59526,7 +59526,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "7E", "6T", "6E", "5T", "5E"],
 		},
 		eventData: [
-			{generation: 5, level: 1, gender: "M", nature: "Adamant", abilities: ["moxie"], moves: ["headbutt", "leer", "highjumpkick", "lowkick"], pokeball: "cherishball"},
+			{ generation: 5, level: 1, gender: "M", nature: "Adamant", abilities: ["moxie"], moves: ["headbutt", "leer", "highjumpkick", "lowkick"], pokeball: "cherishball" },
 		],
 	},
 	scrafty: {
@@ -59637,7 +59637,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T"],
 		},
 		eventData: [
-			{generation: 5, level: 50, gender: "M", nature: "Brave", abilities: ["moxie"], moves: ["firepunch", "payback", "drainpunch", "substitute"], pokeball: "cherishball"},
+			{ generation: 5, level: 50, gender: "M", nature: "Brave", abilities: ["moxie"], moves: ["firepunch", "payback", "drainpunch", "substitute"], pokeball: "cherishball" },
 		],
 	},
 	sigilyph: {
@@ -59936,10 +59936,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T"],
 		},
 		eventData: [
-			{generation: 7, level: 66, gender: "M", moves: ["willowisp", "shadowball", "powersplit", "darkpulse"], pokeball: "cherishball"},
+			{ generation: 7, level: 66, gender: "M", moves: ["willowisp", "shadowball", "powersplit", "darkpulse"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 6, level: 32, maxEggMoves: 1},
+			{ generation: 6, level: 32, maxEggMoves: 1 },
 		],
 	},
 	runerigus: {
@@ -60086,7 +60086,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T"],
 		},
 		eventData: [
-			{generation: 5, level: 15, gender: "M", abilities: ["sturdy"], moves: ["bite", "protect", "aquajet", "bodyslam"], pokeball: "cherishball"},
+			{ generation: 5, level: 15, gender: "M", abilities: ["sturdy"], moves: ["bite", "protect", "aquajet", "bodyslam"], pokeball: "cherishball" },
 		],
 	},
 	carracosta: {
@@ -60245,7 +60245,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T"],
 		},
 		eventData: [
-			{generation: 5, level: 15, gender: "M", moves: ["headsmash", "wingattack", "doubleteam", "scaryface"], pokeball: "cherishball"},
+			{ generation: 5, level: 15, gender: "M", moves: ["headsmash", "wingattack", "doubleteam", "scaryface"], pokeball: "cherishball" },
 		],
 	},
 	archeops: {
@@ -60463,9 +60463,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			venoshock: ["8M", "7M", "6M", "5M"],
 		},
 		encounters: [
-			{generation: 5, level: 31},
-			{generation: 6, level: 30},
-			{generation: 7, level: 24},
+			{ generation: 5, level: 31 },
+			{ generation: 6, level: 30 },
+			{ generation: 7, level: 24 },
 		],
 	},
 	zorua: {
@@ -60714,12 +60714,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			uturn: ["9M", "9L1", "8M", "8L1", "7M", "7L1", "6M", "6L1", "5M", "5L1"],
 		},
 		eventData: [
-			{generation: 5, level: 50, gender: "M", nature: "Quirky", moves: ["agility", "embargo", "punishment", "snarl"], pokeball: "cherishball"},
-			{generation: 6, level: 50, moves: ["sludgebomb", "darkpulse", "flamethrower", "suckerpunch"], pokeball: "ultraball"},
-			{generation: 6, level: 45, gender: "M", nature: "Naughty", moves: ["scaryface", "furyswipes", "nastyplot", "punishment"], pokeball: "cherishball"},
+			{ generation: 5, level: 50, gender: "M", nature: "Quirky", moves: ["agility", "embargo", "punishment", "snarl"], pokeball: "cherishball" },
+			{ generation: 6, level: 50, moves: ["sludgebomb", "darkpulse", "flamethrower", "suckerpunch"], pokeball: "ultraball" },
+			{ generation: 6, level: 45, gender: "M", nature: "Naughty", moves: ["scaryface", "furyswipes", "nastyplot", "punishment"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 5, level: 25},
+			{ generation: 5, level: 25 },
 		],
 	},
 	zoroarkhisui: {
@@ -60795,7 +60795,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 50, perfectIVs: 3, moves: ["happyhour", "bittermalice", "nastyplot", "terablast"], pokeball: "cherishball"},
+			{ generation: 9, level: 50, perfectIVs: 3, moves: ["happyhour", "bittermalice", "nastyplot", "terablast"], pokeball: "cherishball" },
 		],
 	},
 	minccino: {
@@ -61136,11 +61136,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T"],
 		},
 		eventData: [
-			{generation: 5, level: 32, gender: "M", isHidden: true, moves: ["psyshock", "flatter", "futuresight", "mirrorcoat"]},
-			{generation: 5, level: 32, gender: "M", isHidden: true, moves: ["psyshock", "flatter", "futuresight", "imprison"]},
+			{ generation: 5, level: 32, gender: "M", isHidden: true, moves: ["psyshock", "flatter", "futuresight", "mirrorcoat"] },
+			{ generation: 5, level: 32, gender: "M", isHidden: true, moves: ["psyshock", "flatter", "futuresight", "imprison"] },
 		],
 		encounters: [
-			{generation: 5, level: 31},
+			{ generation: 5, level: 31 },
 		],
 	},
 	gothitelle: {
@@ -61240,7 +61240,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T"],
 		},
 		encounters: [
-			{generation: 5, level: 34},
+			{ generation: 5, level: 34 },
 		],
 	},
 	solosis: {
@@ -61407,7 +61407,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T"],
 		},
 		encounters: [
-			{generation: 5, level: 31},
+			{ generation: 5, level: 31 },
 		],
 	},
 	reuniclus: {
@@ -61512,7 +61512,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T"],
 		},
 		encounters: [
-			{generation: 5, level: 34},
+			{ generation: 5, level: 34 },
 		],
 	},
 	ducklett: {
@@ -61645,7 +61645,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wingattack: ["9L1", "7L1", "6L1", "5L1"],
 		},
 		encounters: [
-			{generation: 6, level: 30},
+			{ generation: 6, level: 30 },
 		],
 	},
 	vanillite: {
@@ -61886,7 +61886,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L24"],
 		},
 		eventData: [
-			{generation: 5, level: 30, gender: "F", isHidden: true, moves: ["feintattack", "takedown", "jumpkick", "aromatherapy"]},
+			{ generation: 5, level: 30, gender: "F", isHidden: true, moves: ["feintattack", "takedown", "jumpkick", "aromatherapy"] },
 		],
 	},
 	sawsbuck: {
@@ -61973,7 +61973,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L24"],
 		},
 		encounters: [
-			{generation: 6, level: 30},
+			{ generation: 6, level: 30 },
 		],
 	},
 	emolga: {
@@ -62104,8 +62104,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["8M", "8L32", "7M", "7L44", "6M", "6L44", "5M", "5L44", "5S1"],
 		},
 		eventData: [
-			{generation: 5, level: 30, moves: ["furyattack", "headbutt", "falseswipe", "bugbuzz"], pokeball: "cherishball"},
-			{generation: 5, level: 50, moves: ["megahorn", "takedown", "xscissor", "flail"], pokeball: "cherishball"},
+			{ generation: 5, level: 30, moves: ["furyattack", "headbutt", "falseswipe", "bugbuzz"], pokeball: "cherishball" },
+			{ generation: 5, level: 50, moves: ["megahorn", "takedown", "xscissor", "flail"], pokeball: "cherishball" },
 		],
 	},
 	escavalier: {
@@ -62301,11 +62301,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			worryseed: ["7T", "6T", "5T"],
 		},
 		eventData: [
-			{generation: 8, level: 50, shiny: true, gender: "F", nature: "Sassy", ivs: {hp: 31, atk: 0, def: 31, spa: 31, spd: 31, spe: 0}, isHidden: true, moves: ["clearsmog", "spore", "protect", "ragepowder"], pokeball: "cherishball"},
+			{ generation: 8, level: 50, shiny: true, gender: "F", nature: "Sassy", ivs: { hp: 31, atk: 0, def: 31, spa: 31, spd: 31, spe: 0 }, isHidden: true, moves: ["clearsmog", "spore", "protect", "ragepowder"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 5, level: 37},
-			{generation: 5, level: 35, isHidden: true},
+			{ generation: 5, level: 37 },
+			{ generation: 5, level: 35, isHidden: true },
 		],
 	},
 	frillish: {
@@ -62457,10 +62457,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wringout: ["7L1", "6L1", "5L61"],
 		},
 		eventData: [
-			{generation: 5, level: 40, isHidden: true, moves: ["waterpulse", "ominouswind", "brine", "raindance"]},
+			{ generation: 5, level: 40, isHidden: true, moves: ["waterpulse", "ominouswind", "brine", "raindance"] },
 		],
 		encounters: [
-			{generation: 5, level: 5},
+			{ generation: 5, level: 5 },
 		],
 	},
 	alomomola: {
@@ -62688,7 +62688,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "8M", "7M", "6M", "5M"],
 		},
 		encounters: [
-			{generation: 6, level: 30},
+			{ generation: 6, level: 30 },
 		],
 	},
 	ferroseed: {
@@ -62948,7 +62948,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["8L48", "7L60", "6L60", "5L60"],
 		},
 		encounters: [
-			{generation: 6, level: 30},
+			{ generation: 6, level: 30 },
 		],
 	},
 	klinklang: {
@@ -63515,7 +63515,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["9M", "9L20", "8M", "8L20", "7M", "7L16", "6M", "6L16", "5M", "5L16"],
 		},
 		encounters: [
-			{generation: 6, level: 30},
+			{ generation: 6, level: 30 },
 		],
 	},
 	chandelure: {
@@ -63594,7 +63594,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["9M", "9L1", "8M", "8L1", "7M", "6M", "5M"],
 		},
 		eventData: [
-			{generation: 5, level: 50, gender: "F", nature: "Modest", ivs: {spa: 31}, abilities: ["flashfire"], moves: ["heatwave", "shadowball", "energyball", "psychic"], pokeball: "cherishball"},
+			{ generation: 5, level: 50, gender: "F", nature: "Modest", ivs: { spa: 31 }, abilities: ["flashfire"], moves: ["heatwave", "shadowball", "energyball", "psychic"], pokeball: "cherishball" },
 		],
 	},
 	axew: {
@@ -63681,9 +63681,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "8M", "7M", "6M", "5M"],
 		},
 		eventData: [
-			{generation: 5, level: 1, shiny: 1, gender: "M", nature: "Naive", ivs: {spe: 31}, abilities: ["moldbreaker"], moves: ["scratch", "dragonrage"], pokeball: "pokeball"},
-			{generation: 5, level: 10, gender: "F", abilities: ["moldbreaker"], moves: ["dragonrage", "return", "endure", "dragonclaw"], pokeball: "cherishball"},
-			{generation: 5, level: 30, gender: "M", nature: "Naive", abilities: ["rivalry"], moves: ["dragonrage", "scratch", "outrage", "gigaimpact"], pokeball: "cherishball"},
+			{ generation: 5, level: 1, shiny: 1, gender: "M", nature: "Naive", ivs: { spe: 31 }, abilities: ["moldbreaker"], moves: ["scratch", "dragonrage"], pokeball: "pokeball" },
+			{ generation: 5, level: 10, gender: "F", abilities: ["moldbreaker"], moves: ["dragonrage", "return", "endure", "dragonclaw"], pokeball: "cherishball" },
+			{ generation: 5, level: 30, gender: "M", nature: "Naive", abilities: ["rivalry"], moves: ["dragonrage", "scratch", "outrage", "gigaimpact"], pokeball: "cherishball" },
 		],
 	},
 	fraxure: {
@@ -63766,7 +63766,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "8M", "7M", "6M", "5M"],
 		},
 		encounters: [
-			{generation: 6, level: 30},
+			{ generation: 6, level: 30 },
 		],
 	},
 	haxorus: {
@@ -63859,7 +63859,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "8M", "7M", "6M", "5M", "5S0"],
 		},
 		eventData: [
-			{generation: 5, level: 59, gender: "F", nature: "Naive", ivs: {hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30}, abilities: ["moldbreaker"], moves: ["earthquake", "dualchop", "xscissor", "dragondance"], pokeball: "cherishball"},
+			{ generation: 5, level: 59, gender: "F", nature: "Naive", ivs: { hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30 }, abilities: ["moldbreaker"], moves: ["earthquake", "dualchop", "xscissor", "dragondance"], pokeball: "cherishball" },
 		],
 	},
 	cubchoo: {
@@ -63949,7 +63949,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			yawn: ["9E", "8E", "7E", "6E", "5E"],
 		},
 		eventData: [
-			{generation: 5, level: 15, moves: ["powdersnow", "growl", "bide", "icywind"], pokeball: "cherishball"},
+			{ generation: 5, level: 15, moves: ["powdersnow", "growl", "bide", "icywind"], pokeball: "cherishball" },
 		],
 	},
 	beartic: {
@@ -64056,7 +64056,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M"],
 		},
 		encounters: [
-			{generation: 6, level: 30},
+			{ generation: 6, level: 30 },
 		],
 	},
 	cryogonal: {
@@ -64185,8 +64185,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			yawn: ["8L20", "7L25", "6L25", "5L25", "5S0"],
 		},
 		eventData: [
-			{generation: 5, level: 30, moves: ["strugglebug", "megadrain", "yawn", "protect"], pokeball: "cherishball"},
-			{generation: 5, level: 50, moves: ["encore", "gigadrain", "bodyslam", "bugbuzz"], pokeball: "cherishball"},
+			{ generation: 5, level: 30, moves: ["strugglebug", "megadrain", "yawn", "protect"], pokeball: "cherishball" },
+			{ generation: 5, level: 50, moves: ["encore", "gigadrain", "bodyslam", "bugbuzz"], pokeball: "cherishball" },
 		],
 	},
 	accelgor: {
@@ -64575,7 +64575,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M", "5M"],
 		},
 		eventData: [
-			{generation: 7, level: 65, gender: "M", abilities: ["innerfocus"], moves: ["fakeout", "dualchop", "highjumpkick", "uturn"], pokeball: "cherishball"},
+			{ generation: 7, level: 65, gender: "M", abilities: ["innerfocus"], moves: ["fakeout", "dualchop", "highjumpkick", "uturn"], pokeball: "cherishball" },
 		],
 	},
 	druddigon: {
@@ -64673,7 +64673,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			toxic: ["7M", "6M", "5M"],
 		},
 		eventData: [
-			{generation: 5, level: 1, shiny: true, moves: ["leer", "scratch"], pokeball: "pokeball"},
+			{ generation: 5, level: 1, shiny: true, moves: ["leer", "scratch"], pokeball: "pokeball" },
 		],
 	},
 	golett: {
@@ -64878,10 +64878,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T"],
 		},
 		eventData: [
-			{generation: 5, level: 70, shiny: true, abilities: ["ironfist"], moves: ["shadowpunch", "hyperbeam", "gyroball", "hammerarm"], pokeball: "cherishball"},
+			{ generation: 5, level: 70, shiny: true, abilities: ["ironfist"], moves: ["shadowpunch", "hyperbeam", "gyroball", "hammerarm"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 6, level: 30},
+			{ generation: 6, level: 30 },
 		],
 	},
 	pawniard: {
@@ -65061,7 +65061,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "8M", "7M", "6M", "5M"],
 		},
 		encounters: [
-			{generation: 7, level: 33},
+			{ generation: 7, level: 33 },
 		],
 	},
 	kingambit: {
@@ -65203,7 +65203,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T", "5T"],
 		},
 		eventData: [
-			{generation: 6, level: 50, nature: "Adamant", ivs: {hp: 31, atk: 31}, isHidden: true, moves: ["headcharge", "facade", "earthquake", "rockslide"], pokeball: "cherishball"},
+			{ generation: 6, level: 50, nature: "Adamant", ivs: { hp: 31, atk: 31 }, isHidden: true, moves: ["headcharge", "facade", "earthquake", "rockslide"], pokeball: "cherishball" },
 		],
 	},
 	rufflet: {
@@ -65353,10 +65353,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T"],
 		},
 		eventData: [
-			{generation: 5, level: 25, gender: "M", isHidden: true, moves: ["wingattack", "honeclaws", "scaryface", "aerialace"]},
+			{ generation: 5, level: 25, gender: "M", isHidden: true, moves: ["wingattack", "honeclaws", "scaryface", "aerialace"] },
 		],
 		encounters: [
-			{generation: 6, level: 45},
+			{ generation: 6, level: 45 },
 		],
 	},
 	braviaryhisui: {
@@ -65591,7 +65591,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlwind: ["9L36", "8L36", "7L1", "6L1", "5L57"],
 		},
 		eventData: [
-			{generation: 5, level: 25, gender: "F", isHidden: true, moves: ["pluck", "nastyplot", "flatter", "feintattack"]},
+			{ generation: 5, level: 25, gender: "F", isHidden: true, moves: ["pluck", "nastyplot", "flatter", "feintattack"] },
 		],
 	},
 	heatmor: {
@@ -65818,7 +65818,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T"],
 		},
 		eventData: [
-			{generation: 5, level: 1, shiny: true, moves: ["tackle", "dragonrage"], pokeball: "pokeball"},
+			{ generation: 5, level: 1, shiny: true, moves: ["tackle", "dragonrage"], pokeball: "pokeball" },
 		],
 	},
 	zweilous: {
@@ -65893,7 +65893,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T"],
 		},
 		encounters: [
-			{generation: 5, level: 49},
+			{ generation: 5, level: 49 },
 		],
 	},
 	hydreigon: {
@@ -66004,11 +66004,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T"],
 		},
 		eventData: [
-			{generation: 5, level: 70, shiny: true, gender: "M", moves: ["hypervoice", "dragonbreath", "flamethrower", "focusblast"], pokeball: "cherishball"},
-			{generation: 6, level: 52, gender: "M", perfectIVs: 2, moves: ["dragonrush", "crunch", "rockslide", "frustration"], pokeball: "cherishball"},
+			{ generation: 5, level: 70, shiny: true, gender: "M", moves: ["hypervoice", "dragonbreath", "flamethrower", "focusblast"], pokeball: "cherishball" },
+			{ generation: 6, level: 52, gender: "M", perfectIVs: 2, moves: ["dragonrush", "crunch", "rockslide", "frustration"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 6, level: 59},
+			{ generation: 6, level: 59 },
 		],
 	},
 	larvesta: {
@@ -66158,11 +66158,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T"],
 		},
 		eventData: [
-			{generation: 5, level: 35, moves: ["stringshot", "leechlife", "gust", "firespin"]},
-			{generation: 5, level: 77, gender: "M", nature: "Calm", ivs: {hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30}, moves: ["bugbuzz", "overheat", "hyperbeam", "quiverdance"], pokeball: "cherishball"},
+			{ generation: 5, level: 35, moves: ["stringshot", "leechlife", "gust", "firespin"] },
+			{ generation: 5, level: 77, gender: "M", nature: "Calm", ivs: { hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30 }, moves: ["bugbuzz", "overheat", "hyperbeam", "quiverdance"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 7, level: 41},
+			{ generation: 7, level: 41 },
 		],
 	},
 	cobalion: {
@@ -66251,13 +66251,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T"],
 		},
 		eventData: [
-			{generation: 5, level: 42, shiny: 1, moves: ["helpinghand", "retaliate", "ironhead", "sacredsword"]},
-			{generation: 5, level: 45, shiny: 1, moves: ["helpinghand", "retaliate", "ironhead", "sacredsword"]},
-			{generation: 5, level: 65, shiny: 1, moves: ["sacredsword", "swordsdance", "quickguard", "workup"]},
-			{generation: 6, level: 50, shiny: 1, moves: ["retaliate", "ironhead", "sacredsword", "swordsdance"]},
-			{generation: 7, level: 60, shiny: 1, moves: ["sacredsword", "swordsdance", "quickattack", "ironhead"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["sacredsword", "swordsdance", "ironhead", "closecombat"]},
-			{generation: 9, level: 70, moves: ["closecombat", "ironhead", "swordsdance", "sacredsword"]},
+			{ generation: 5, level: 42, shiny: 1, moves: ["helpinghand", "retaliate", "ironhead", "sacredsword"] },
+			{ generation: 5, level: 45, shiny: 1, moves: ["helpinghand", "retaliate", "ironhead", "sacredsword"] },
+			{ generation: 5, level: 65, shiny: 1, moves: ["sacredsword", "swordsdance", "quickguard", "workup"] },
+			{ generation: 6, level: 50, shiny: 1, moves: ["retaliate", "ironhead", "sacredsword", "swordsdance"] },
+			{ generation: 7, level: 60, shiny: 1, moves: ["sacredsword", "swordsdance", "quickattack", "ironhead"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["sacredsword", "swordsdance", "ironhead", "closecombat"] },
+			{ generation: 9, level: 70, moves: ["closecombat", "ironhead", "swordsdance", "sacredsword"] },
 		],
 		eventOnly: true,
 	},
@@ -66340,13 +66340,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T"],
 		},
 		eventData: [
-			{generation: 5, level: 42, shiny: 1, moves: ["helpinghand", "retaliate", "rockslide", "sacredsword"]},
-			{generation: 5, level: 45, shiny: 1, moves: ["helpinghand", "retaliate", "rockslide", "sacredsword"]},
-			{generation: 5, level: 65, shiny: 1, moves: ["sacredsword", "swordsdance", "quickguard", "workup"]},
-			{generation: 6, level: 50, shiny: 1, moves: ["retaliate", "rockslide", "sacredsword", "swordsdance"]},
-			{generation: 7, level: 60, shiny: 1, moves: ["sacredsword", "swordsdance", "rockslide", "stoneedge"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["sacredsword", "swordsdance", "stoneedge", "closecombat"]},
-			{generation: 9, level: 70, moves: ["closecombat", "stoneedge", "swordsdance", "sacredsword"]},
+			{ generation: 5, level: 42, shiny: 1, moves: ["helpinghand", "retaliate", "rockslide", "sacredsword"] },
+			{ generation: 5, level: 45, shiny: 1, moves: ["helpinghand", "retaliate", "rockslide", "sacredsword"] },
+			{ generation: 5, level: 65, shiny: 1, moves: ["sacredsword", "swordsdance", "quickguard", "workup"] },
+			{ generation: 6, level: 50, shiny: 1, moves: ["retaliate", "rockslide", "sacredsword", "swordsdance"] },
+			{ generation: 7, level: 60, shiny: 1, moves: ["sacredsword", "swordsdance", "rockslide", "stoneedge"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["sacredsword", "swordsdance", "stoneedge", "closecombat"] },
+			{ generation: 9, level: 70, moves: ["closecombat", "stoneedge", "swordsdance", "sacredsword"] },
 		],
 		eventOnly: true,
 	},
@@ -66435,13 +66435,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T"],
 		},
 		eventData: [
-			{generation: 5, level: 42, shiny: 1, moves: ["helpinghand", "retaliate", "gigadrain", "sacredsword"]},
-			{generation: 5, level: 45, shiny: 1, moves: ["helpinghand", "retaliate", "gigadrain", "sacredsword"]},
-			{generation: 5, level: 65, shiny: 1, moves: ["sacredsword", "swordsdance", "quickguard", "workup"]},
-			{generation: 6, level: 50, shiny: 1, moves: ["retaliate", "gigadrain", "sacredsword", "swordsdance"]},
-			{generation: 7, level: 60, shiny: 1, moves: ["sacredsword", "swordsdance", "gigadrain", "leafblade"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["sacredsword", "swordsdance", "leafblade", "closecombat"]},
-			{generation: 9, level: 70, moves: ["closecombat", "leafblade", "swordsdance", "sacredsword"]},
+			{ generation: 5, level: 42, shiny: 1, moves: ["helpinghand", "retaliate", "gigadrain", "sacredsword"] },
+			{ generation: 5, level: 45, shiny: 1, moves: ["helpinghand", "retaliate", "gigadrain", "sacredsword"] },
+			{ generation: 5, level: 65, shiny: 1, moves: ["sacredsword", "swordsdance", "quickguard", "workup"] },
+			{ generation: 6, level: 50, shiny: 1, moves: ["retaliate", "gigadrain", "sacredsword", "swordsdance"] },
+			{ generation: 7, level: 60, shiny: 1, moves: ["sacredsword", "swordsdance", "gigadrain", "leafblade"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["sacredsword", "swordsdance", "leafblade", "closecombat"] },
+			{ generation: 9, level: 70, moves: ["closecombat", "leafblade", "swordsdance", "sacredsword"] },
 		],
 		eventOnly: true,
 	},
@@ -66531,15 +66531,15 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			weatherball: ["9M", "8M"],
 		},
 		eventData: [
-			{generation: 5, level: 40, shiny: 1, moves: ["revenge", "aircutter", "extrasensory", "agility"]},
-			{generation: 5, level: 5, isHidden: true, moves: ["uproar", "astonish", "gust"], pokeball: "dreamball"},
-			{generation: 5, level: 70, moves: ["hurricane", "hammerarm", "airslash", "hiddenpower"], pokeball: "cherishball"},
-			{generation: 6, level: 50, shiny: 1, moves: ["extrasensory", "agility", "airslash", "crunch"]},
-			{generation: 7, level: 60, shiny: 1, moves: ["airslash", "crunch", "tailwind", "raindance"]},
-			{generation: 7, level: 60, moves: ["airslash", "crunch", "tailwind", "raindance"], pokeball: "cherishball"},
-			{generation: 7, level: 100, moves: ["hurricane", "heatwave", "grassknot", "tailwind"], pokeball: "cherishball"},
-			{generation: 8, level: 70, shiny: 1, moves: ["hurricane", "agility", "icywind", "heatwave"]},
-			{generation: 8, level: 70, moves: ["extrasensory", "crunch", "hurricane", "bleakwindstorm"], source: "gen8legends"},
+			{ generation: 5, level: 40, shiny: 1, moves: ["revenge", "aircutter", "extrasensory", "agility"] },
+			{ generation: 5, level: 5, isHidden: true, moves: ["uproar", "astonish", "gust"], pokeball: "dreamball" },
+			{ generation: 5, level: 70, moves: ["hurricane", "hammerarm", "airslash", "hiddenpower"], pokeball: "cherishball" },
+			{ generation: 6, level: 50, shiny: 1, moves: ["extrasensory", "agility", "airslash", "crunch"] },
+			{ generation: 7, level: 60, shiny: 1, moves: ["airslash", "crunch", "tailwind", "raindance"] },
+			{ generation: 7, level: 60, moves: ["airslash", "crunch", "tailwind", "raindance"], pokeball: "cherishball" },
+			{ generation: 7, level: 100, moves: ["hurricane", "heatwave", "grassknot", "tailwind"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, shiny: 1, moves: ["hurricane", "agility", "icywind", "heatwave"] },
+			{ generation: 8, level: 70, moves: ["extrasensory", "crunch", "hurricane", "bleakwindstorm"], source: "gen8legends" },
 		],
 		eventOnly: true,
 	},
@@ -66640,15 +66640,15 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 5, level: 40, shiny: 1, moves: ["revenge", "shockwave", "healblock", "agility"]},
-			{generation: 5, level: 5, isHidden: true, moves: ["uproar", "astonish", "thundershock"], pokeball: "dreamball"},
-			{generation: 5, level: 70, moves: ["thunder", "hammerarm", "focusblast", "wildcharge"], pokeball: "cherishball"},
-			{generation: 6, level: 50, shiny: 1, moves: ["healblock", "agility", "discharge", "crunch"]},
-			{generation: 7, level: 60, shiny: 1, moves: ["discharge", "crunch", "charge", "nastyplot"]},
-			{generation: 7, level: 60, moves: ["discharge", "crunch", "charge", "nastyplot"], pokeball: "cherishball"},
-			{generation: 7, level: 100, moves: ["thunderbolt", "focusblast", "grassknot", "nastyplot"], pokeball: "cherishball"},
-			{generation: 8, level: 70, shiny: 1, moves: ["thunder", "raindance", "weatherball", "sludgewave"]},
-			{generation: 8, level: 70, moves: ["extrasensory", "crunch", "thunder", "wildboltstorm"], source: "gen8legends"},
+			{ generation: 5, level: 40, shiny: 1, moves: ["revenge", "shockwave", "healblock", "agility"] },
+			{ generation: 5, level: 5, isHidden: true, moves: ["uproar", "astonish", "thundershock"], pokeball: "dreamball" },
+			{ generation: 5, level: 70, moves: ["thunder", "hammerarm", "focusblast", "wildcharge"], pokeball: "cherishball" },
+			{ generation: 6, level: 50, shiny: 1, moves: ["healblock", "agility", "discharge", "crunch"] },
+			{ generation: 7, level: 60, shiny: 1, moves: ["discharge", "crunch", "charge", "nastyplot"] },
+			{ generation: 7, level: 60, moves: ["discharge", "crunch", "charge", "nastyplot"], pokeball: "cherishball" },
+			{ generation: 7, level: 100, moves: ["thunderbolt", "focusblast", "grassknot", "nastyplot"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, shiny: 1, moves: ["thunder", "raindance", "weatherball", "sludgewave"] },
+			{ generation: 8, level: 70, moves: ["extrasensory", "crunch", "thunder", "wildboltstorm"], source: "gen8legends" },
 		],
 		eventOnly: true,
 	},
@@ -66751,15 +66751,15 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T"],
 		},
 		eventData: [
-			{generation: 5, level: 50, moves: ["dragonbreath", "slash", "extrasensory", "fusionflare"]},
-			{generation: 5, level: 70, moves: ["extrasensory", "fusionflare", "dragonpulse", "imprison"]},
-			{generation: 5, level: 100, moves: ["blueflare", "fusionflare", "mist", "dracometeor"], pokeball: "cherishball"},
-			{generation: 6, level: 50, shiny: 1, moves: ["dragonbreath", "slash", "extrasensory", "fusionflare"]},
-			{generation: 7, level: 60, shiny: 1, moves: ["slash", "extrasensory", "fusionflare", "dragonpulse"]},
-			{generation: 7, level: 60, moves: ["slash", "extrasensory", "fusionflare", "dragonpulse"], pokeball: "cherishball"},
-			{generation: 7, level: 100, moves: ["fusionflare", "blueflare", "dracometeor", "earthpower"], pokeball: "cherishball"},
-			{generation: 8, level: 70, shiny: 1, moves: ["nobleroar", "extrasensory", "fusionflare", "dragonclaw"]},
-			{generation: 9, level: 70, moves: ["fireblast", "hypervoice", "fusionflare", "flamethrower"]},
+			{ generation: 5, level: 50, moves: ["dragonbreath", "slash", "extrasensory", "fusionflare"] },
+			{ generation: 5, level: 70, moves: ["extrasensory", "fusionflare", "dragonpulse", "imprison"] },
+			{ generation: 5, level: 100, moves: ["blueflare", "fusionflare", "mist", "dracometeor"], pokeball: "cherishball" },
+			{ generation: 6, level: 50, shiny: 1, moves: ["dragonbreath", "slash", "extrasensory", "fusionflare"] },
+			{ generation: 7, level: 60, shiny: 1, moves: ["slash", "extrasensory", "fusionflare", "dragonpulse"] },
+			{ generation: 7, level: 60, moves: ["slash", "extrasensory", "fusionflare", "dragonpulse"], pokeball: "cherishball" },
+			{ generation: 7, level: 100, moves: ["fusionflare", "blueflare", "dracometeor", "earthpower"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, shiny: 1, moves: ["nobleroar", "extrasensory", "fusionflare", "dragonclaw"] },
+			{ generation: 9, level: 70, moves: ["fireblast", "hypervoice", "fusionflare", "flamethrower"] },
 		],
 		eventOnly: true,
 	},
@@ -66865,15 +66865,15 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L24", "8M", "8L24", "7T", "7L43", "7S4", "7S5", "6T", "6L43", "6S3", "5T", "5L43", "5S0", "5S1"],
 		},
 		eventData: [
-			{generation: 5, level: 50, moves: ["dragonbreath", "slash", "zenheadbutt", "fusionbolt"]},
-			{generation: 5, level: 70, moves: ["zenheadbutt", "fusionbolt", "dragonclaw", "imprison"]},
-			{generation: 5, level: 100, moves: ["boltstrike", "fusionbolt", "haze", "outrage"], pokeball: "cherishball"},
-			{generation: 6, level: 50, shiny: 1, moves: ["dragonbreath", "slash", "zenheadbutt", "fusionbolt"]},
-			{generation: 7, level: 60, shiny: 1, moves: ["slash", "zenheadbutt", "fusionbolt", "dragonclaw"]},
-			{generation: 7, level: 60, moves: ["slash", "zenheadbutt", "fusionbolt", "dragonclaw"], pokeball: "cherishball"},
-			{generation: 7, level: 100, moves: ["fusionbolt", "boltstrike", "outrage", "stoneedge"], pokeball: "cherishball"},
-			{generation: 8, level: 70, shiny: 1, moves: ["nobleroar", "slash", "fusionbolt", "dragonclaw"]},
-			{generation: 9, level: 70, moves: ["thunder", "hypervoice", "fusionbolt", "thunderbolt"]},
+			{ generation: 5, level: 50, moves: ["dragonbreath", "slash", "zenheadbutt", "fusionbolt"] },
+			{ generation: 5, level: 70, moves: ["zenheadbutt", "fusionbolt", "dragonclaw", "imprison"] },
+			{ generation: 5, level: 100, moves: ["boltstrike", "fusionbolt", "haze", "outrage"], pokeball: "cherishball" },
+			{ generation: 6, level: 50, shiny: 1, moves: ["dragonbreath", "slash", "zenheadbutt", "fusionbolt"] },
+			{ generation: 7, level: 60, shiny: 1, moves: ["slash", "zenheadbutt", "fusionbolt", "dragonclaw"] },
+			{ generation: 7, level: 60, moves: ["slash", "zenheadbutt", "fusionbolt", "dragonclaw"], pokeball: "cherishball" },
+			{ generation: 7, level: 100, moves: ["fusionbolt", "boltstrike", "outrage", "stoneedge"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, shiny: 1, moves: ["nobleroar", "slash", "fusionbolt", "dragonclaw"] },
+			{ generation: 9, level: 70, moves: ["thunder", "hypervoice", "fusionbolt", "thunderbolt"] },
 		],
 		eventOnly: true,
 	},
@@ -66960,13 +66960,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			weatherball: ["9M", "8M"],
 		},
 		eventData: [
-			{generation: 5, level: 70, shiny: 1, moves: ["rockslide", "earthquake", "sandstorm", "fissure"]},
-			{generation: 5, level: 5, isHidden: true, moves: ["block", "mudshot", "rocktomb"], pokeball: "dreamball"},
-			{generation: 6, level: 65, shiny: 1, moves: ["extrasensory", "swordsdance", "earthpower", "rockslide"]},
-			{generation: 6, level: 50, nature: "Adamant", ivs: {hp: 31, atk: 31, def: 31, spa: 1, spd: 31, spe: 24}, moves: ["earthquake", "knockoff", "uturn", "rocktomb"], pokeball: "cherishball"},
-			{generation: 7, level: 60, shiny: 1, moves: ["earthpower", "rockslide", "earthquake", "sandstorm"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["sandtomb", "rockslide", "bulldoze", "focusblast"]},
-			{generation: 8, level: 70, moves: ["extrasensory", "crunch", "earthpower", "sandsearstorm"], source: "gen8legends"},
+			{ generation: 5, level: 70, shiny: 1, moves: ["rockslide", "earthquake", "sandstorm", "fissure"] },
+			{ generation: 5, level: 5, isHidden: true, moves: ["block", "mudshot", "rocktomb"], pokeball: "dreamball" },
+			{ generation: 6, level: 65, shiny: 1, moves: ["extrasensory", "swordsdance", "earthpower", "rockslide"] },
+			{ generation: 6, level: 50, nature: "Adamant", ivs: { hp: 31, atk: 31, def: 31, spa: 1, spd: 31, spe: 24 }, moves: ["earthquake", "knockoff", "uturn", "rocktomb"], pokeball: "cherishball" },
+			{ generation: 7, level: 60, shiny: 1, moves: ["earthpower", "rockslide", "earthquake", "sandstorm"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["sandtomb", "rockslide", "bulldoze", "focusblast"] },
+			{ generation: 8, level: 70, moves: ["extrasensory", "crunch", "earthpower", "sandsearstorm"], source: "gen8legends" },
 		],
 		eventOnly: true,
 	},
@@ -67063,13 +67063,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T"],
 		},
 		eventData: [
-			{generation: 5, level: 75, shiny: 1, moves: ["glaciate", "dragonpulse", "imprison", "endeavor"]},
-			{generation: 5, level: 70, shiny: 1, moves: ["scaryface", "glaciate", "dragonpulse", "imprison"]},
-			{generation: 6, level: 50, shiny: 1, moves: ["dragonbreath", "slash", "scaryface", "glaciate"]},
-			{generation: 6, level: 100, moves: ["glaciate", "scaryface", "dracometeor", "ironhead"], pokeball: "cherishball"},
-			{generation: 7, level: 60, shiny: 1, moves: ["slash", "scaryface", "glaciate", "dragonpulse"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["icebeam", "hypervoice", "shadowball", "scaryface"]},
-			{generation: 9, level: 70, moves: ["imprison", "blizzard", "scaryface", "hypervoice"]},
+			{ generation: 5, level: 75, shiny: 1, moves: ["glaciate", "dragonpulse", "imprison", "endeavor"] },
+			{ generation: 5, level: 70, shiny: 1, moves: ["scaryface", "glaciate", "dragonpulse", "imprison"] },
+			{ generation: 6, level: 50, shiny: 1, moves: ["dragonbreath", "slash", "scaryface", "glaciate"] },
+			{ generation: 6, level: 100, moves: ["glaciate", "scaryface", "dracometeor", "ironhead"], pokeball: "cherishball" },
+			{ generation: 7, level: 60, shiny: 1, moves: ["slash", "scaryface", "glaciate", "dragonpulse"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["icebeam", "hypervoice", "shadowball", "scaryface"] },
+			{ generation: 9, level: 70, moves: ["imprison", "blizzard", "scaryface", "hypervoice"] },
 		],
 		eventOnly: true,
 	},
@@ -67164,13 +67164,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T"],
 		},
 		eventData: [
-			{generation: 5, level: 75, shiny: 1, moves: ["freezeshock", "dragonpulse", "imprison", "endeavor"]},
-			{generation: 5, level: 70, shiny: 1, moves: ["fusionbolt", "freezeshock", "dragonpulse", "imprison"]},
-			{generation: 6, level: 50, shiny: 1, moves: ["dragonbreath", "slash", "fusionbolt", "freezeshock"]},
-			{generation: 6, level: 100, moves: ["freezeshock", "fusionbolt", "dracometeor", "ironhead"], pokeball: "cherishball"},
-			{generation: 7, level: 60, shiny: 1, moves: ["slash", "fusionbolt", "freezeshock", "dragonpulse"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["icebeam", "hypervoice", "shadowball", "fusionbolt"]},
-			{generation: 9, level: 70, moves: ["imprison", "blizzard", "fusionbolt", "hypervoice"]},
+			{ generation: 5, level: 75, shiny: 1, moves: ["freezeshock", "dragonpulse", "imprison", "endeavor"] },
+			{ generation: 5, level: 70, shiny: 1, moves: ["fusionbolt", "freezeshock", "dragonpulse", "imprison"] },
+			{ generation: 6, level: 50, shiny: 1, moves: ["dragonbreath", "slash", "fusionbolt", "freezeshock"] },
+			{ generation: 6, level: 100, moves: ["freezeshock", "fusionbolt", "dracometeor", "ironhead"], pokeball: "cherishball" },
+			{ generation: 7, level: 60, shiny: 1, moves: ["slash", "fusionbolt", "freezeshock", "dragonpulse"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["icebeam", "hypervoice", "shadowball", "fusionbolt"] },
+			{ generation: 9, level: 70, moves: ["imprison", "blizzard", "fusionbolt", "hypervoice"] },
 		],
 		eventOnly: true,
 	},
@@ -67265,13 +67265,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T"],
 		},
 		eventData: [
-			{generation: 5, level: 75, shiny: 1, moves: ["iceburn", "dragonpulse", "imprison", "endeavor"]},
-			{generation: 5, level: 70, shiny: 1, moves: ["fusionflare", "iceburn", "dragonpulse", "imprison"]},
-			{generation: 6, level: 50, shiny: 1, moves: ["dragonbreath", "slash", "fusionflare", "iceburn"]},
-			{generation: 6, level: 100, moves: ["iceburn", "fusionflare", "dracometeor", "ironhead"], pokeball: "cherishball"},
-			{generation: 7, level: 60, shiny: 1, moves: ["slash", "fusionflare", "iceburn", "dragonpulse"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["icebeam", "hypervoice", "shadowball", "fusionflare"]},
-			{generation: 9, level: 70, moves: ["imprison", "blizzard", "fusionflare", "hypervoice"]},
+			{ generation: 5, level: 75, shiny: 1, moves: ["iceburn", "dragonpulse", "imprison", "endeavor"] },
+			{ generation: 5, level: 70, shiny: 1, moves: ["fusionflare", "iceburn", "dragonpulse", "imprison"] },
+			{ generation: 6, level: 50, shiny: 1, moves: ["dragonbreath", "slash", "fusionflare", "iceburn"] },
+			{ generation: 6, level: 100, moves: ["iceburn", "fusionflare", "dracometeor", "ironhead"], pokeball: "cherishball" },
+			{ generation: 7, level: 60, shiny: 1, moves: ["slash", "fusionflare", "iceburn", "dragonpulse"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["icebeam", "hypervoice", "shadowball", "fusionflare"] },
+			{ generation: 9, level: 70, moves: ["imprison", "blizzard", "fusionflare", "hypervoice"] },
 		],
 		eventOnly: true,
 	},
@@ -67360,13 +67360,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "8M", "7M", "6M", "5M"],
 		},
 		eventData: [
-			{generation: 5, level: 15, moves: ["aquajet", "leer", "doublekick", "bubblebeam"], pokeball: "cherishball"},
-			{generation: 5, level: 50, moves: ["sacredsword", "hydropump", "aquajet", "swordsdance"], pokeball: "cherishball"},
-			{generation: 6, level: 15, moves: ["aquajet", "leer", "doublekick", "hydropump"], pokeball: "cherishball"},
-			{generation: 6, level: 100, moves: ["aquajet", "leer", "doublekick", "bubblebeam"], pokeball: "cherishball"},
-			{generation: 8, level: 65, moves: ["secretsword", "sacredsword", "swordsdance", "hydropump"]},
-			{generation: 9, level: 50, nature: "Docile", moves: ["retaliate", "aquatail", "takedown", "sacredsword"], pokeball: "cherishball"},
-			{generation: 9, level: 50, shiny: true, nature: "Modest", moves: ["quickguard", "doublekick", "aquatail", "sacredsword"], ivs: {hp: 31, atk: 20, def: 20, spa: 31, spd: 20, spe: 31}, pokeball: "cherishball"},
+			{ generation: 5, level: 15, moves: ["aquajet", "leer", "doublekick", "bubblebeam"], pokeball: "cherishball" },
+			{ generation: 5, level: 50, moves: ["sacredsword", "hydropump", "aquajet", "swordsdance"], pokeball: "cherishball" },
+			{ generation: 6, level: 15, moves: ["aquajet", "leer", "doublekick", "hydropump"], pokeball: "cherishball" },
+			{ generation: 6, level: 100, moves: ["aquajet", "leer", "doublekick", "bubblebeam"], pokeball: "cherishball" },
+			{ generation: 8, level: 65, moves: ["secretsword", "sacredsword", "swordsdance", "hydropump"] },
+			{ generation: 9, level: 50, nature: "Docile", moves: ["retaliate", "aquatail", "takedown", "sacredsword"], pokeball: "cherishball" },
+			{ generation: 9, level: 50, shiny: true, nature: "Modest", moves: ["quickguard", "doublekick", "aquatail", "sacredsword"], ivs: { hp: 31, atk: 20, def: 20, spa: 31, spd: 20, spe: 31 }, pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -67483,12 +67483,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "7T", "6T", "5T"],
 		},
 		eventData: [
-			{generation: 5, level: 15, moves: ["quickattack", "confusion", "round"], pokeball: "cherishball"},
-			{generation: 5, level: 50, moves: ["round", "teeterdance", "psychic", "closecombat"], pokeball: "cherishball"},
-			{generation: 7, level: 15, moves: ["sing", "psychic", "closecombat"], pokeball: "cherishball"},
-			{generation: 7, level: 50, moves: ["sing", "celebrate", "round", "relicsong"], pokeball: "cherishball"},
-			{generation: 9, level: 70, moves: ["relicsong", "hypervoice", "sing", "psychic"]},
-			{generation: 9, level: 50, shiny: true, nature: "Modest", ivs: {hp: 20, atk: 20, def: 20, spa: 31, spd: 31, spe: 31}, moves: ["relicsong", "echoedvoice", "psybeam", "sing"], pokeball: "cherishball"},
+			{ generation: 5, level: 15, moves: ["quickattack", "confusion", "round"], pokeball: "cherishball" },
+			{ generation: 5, level: 50, moves: ["round", "teeterdance", "psychic", "closecombat"], pokeball: "cherishball" },
+			{ generation: 7, level: 15, moves: ["sing", "psychic", "closecombat"], pokeball: "cherishball" },
+			{ generation: 7, level: 50, moves: ["sing", "celebrate", "round", "relicsong"], pokeball: "cherishball" },
+			{ generation: 9, level: 70, moves: ["relicsong", "hypervoice", "sing", "psychic"] },
+			{ generation: 9, level: 50, shiny: true, nature: "Modest", ivs: { hp: 20, atk: 20, def: 20, spa: 31, spd: 31, spe: 31 }, moves: ["relicsong", "echoedvoice", "psybeam", "sing"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -67578,11 +67578,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T", "5T"],
 		},
 		eventData: [
-			{generation: 5, level: 50, moves: ["technoblast", "magnetbomb", "solarbeam", "signalbeam"], pokeball: "cherishball"},
-			{generation: 5, level: 15, moves: ["technoblast", "magnetbomb", "solarbeam", "signalbeam"], pokeball: "cherishball"},
-			{generation: 5, level: 100, shiny: true, nature: "Hasty", ivs: {atk: 31, spe: 31}, moves: ["extremespeed", "technoblast", "blazekick", "shiftgear"], pokeball: "cherishball"},
-			{generation: 6, level: 100, moves: ["technoblast", "magnetbomb", "solarbeam", "signalbeam"], pokeball: "cherishball"},
-			{generation: 8, level: 60, moves: ["technoblast", "xscissor", "metalclaw", "fellstinger"], pokeball: "cherishball"},
+			{ generation: 5, level: 50, moves: ["technoblast", "magnetbomb", "solarbeam", "signalbeam"], pokeball: "cherishball" },
+			{ generation: 5, level: 15, moves: ["technoblast", "magnetbomb", "solarbeam", "signalbeam"], pokeball: "cherishball" },
+			{ generation: 5, level: 100, shiny: true, nature: "Hasty", ivs: { atk: 31, spe: 31 }, moves: ["extremespeed", "technoblast", "blazekick", "shiftgear"], pokeball: "cherishball" },
+			{ generation: 6, level: 100, moves: ["technoblast", "magnetbomb", "solarbeam", "signalbeam"], pokeball: "cherishball" },
+			{ generation: 8, level: 60, moves: ["technoblast", "xscissor", "metalclaw", "fellstinger"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -67993,7 +67993,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["7M"],
 		},
 		eventData: [
-			{generation: 6, level: 15, gender: "F", nature: "Hardy", moves: ["scratch", "flamethrower", "hiddenpower"], pokeball: "cherishball"},
+			{ generation: 6, level: 15, gender: "F", nature: "Hardy", moves: ["scratch", "flamethrower", "hiddenpower"], pokeball: "cherishball" },
 		],
 	},
 	braixen: {
@@ -68270,7 +68270,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["7M"],
 		},
 		eventData: [
-			{generation: 6, level: 7, moves: ["pound", "growl", "bubble", "return"], pokeball: "cherishball"},
+			{ generation: 6, level: 7, moves: ["pound", "growl", "bubble", "return"], pokeball: "cherishball" },
 		],
 	},
 	frogadier: {
@@ -68446,8 +68446,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["7M"],
 		},
 		eventData: [
-			{generation: 6, level: 36, ivs: {spe: 31}, isHidden: true, moves: ["watershuriken", "shadowsneak", "hydropump", "substitute"], pokeball: "cherishball"},
-			{generation: 6, level: 100, isHidden: true, moves: ["hydrocannon", "gunkshot", "matblock", "happyhour"], pokeball: "cherishball"},
+			{ generation: 6, level: 36, ivs: { spe: 31 }, isHidden: true, moves: ["watershuriken", "shadowsneak", "hydropump", "substitute"], pokeball: "cherishball" },
+			{ generation: 6, level: 100, isHidden: true, moves: ["hydrocannon", "gunkshot", "matblock", "happyhour"], pokeball: "cherishball" },
 		],
 	},
 	greninjabond: {
@@ -68539,7 +68539,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["7M"],
 		},
 		eventData: [
-			{generation: 7, level: 36, ivs: {hp: 20, atk: 31, def: 20, spa: 31, spd: 20, spe: 31}, moves: ["watershuriken", "aerialace", "doubleteam", "nightslash"], pokeball: "pokeball"},
+			{ generation: 7, level: 36, ivs: { hp: 20, atk: 31, def: 20, spa: 31, spd: 20, spe: 31 }, moves: ["watershuriken", "aerialace", "doubleteam", "nightslash"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -68833,7 +68833,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M"],
 		},
 		encounters: [
-			{generation: 7, level: 16},
+			{ generation: 7, level: 16 },
 		],
 	},
 	talonflame: {
@@ -68910,7 +68910,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M"],
 		},
 		eventData: [
-			{generation: 9, level: 50, gender: "M", nature: "Adamant", isHidden: true, perfectIVs: 6, moves: ["acrobatics", "tailwind", "protect", "quickguard"], pokeball: "cherishball"},
+			{ generation: 9, level: 50, gender: "M", nature: "Adamant", isHidden: true, perfectIVs: 6, moves: ["acrobatics", "tailwind", "protect", "quickguard"], pokeball: "cherishball" },
 		],
 	},
 	scatterbug: {
@@ -69079,7 +69079,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			uturn: ["9M", "7M", "6M"],
 		},
 		eventData: [
-			{generation: 6, level: 12, moves: ["gust", "lightscreen", "strugglebug", "holdhands"], pokeball: "cherishball"},
+			{ generation: 6, level: 12, moves: ["gust", "lightscreen", "strugglebug", "holdhands"], pokeball: "cherishball" },
 		],
 	},
 	vivillonpokeball: {
@@ -69151,7 +69151,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			uturn: ["9M", "7M", "6M"],
 		},
 		eventData: [
-			{generation: 6, level: 12, moves: ["stunspore", "gust", "lightscreen", "strugglebug"], pokeball: "pokeball"},
+			{ generation: 6, level: 12, moves: ["stunspore", "gust", "lightscreen", "strugglebug"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -69300,10 +69300,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["9L1", "7M", "7L1", "6L8"],
 		},
 		eventData: [
-			{generation: 6, level: 49, gender: "M", perfectIVs: 2, abilities: ["unnerve"], moves: ["hypervoice", "fireblast", "darkpulse"], pokeball: "cherishball"},
+			{ generation: 6, level: 49, gender: "M", perfectIVs: 2, abilities: ["unnerve"], moves: ["hypervoice", "fireblast", "darkpulse"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 6, level: 30},
+			{ generation: 6, level: 30 },
 		],
 	},
 	flabebe: {
@@ -69380,7 +69380,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			worryseed: ["7T", "6T"],
 		},
 		eventData: [
-			{generation: 9, level: 5, abilities: ["flowerveil"], moves: ["vinewhip", "fairywind", "wish", "celebrate"], pokeball: "cherishball"},
+			{ generation: 9, level: 5, abilities: ["flowerveil"], moves: ["vinewhip", "fairywind", "wish", "celebrate"], pokeball: "cherishball" },
 		],
 	},
 	floette: {
@@ -69513,7 +69513,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			worryseed: ["7T"],
 		},
 		eventData: [
-			{generation: 9, level: 72, nature: "Modest", moves: ["lightofruin", "energyball", "gigadrain", "synthesis"], source: "gen9legends"},
+			{ generation: 9, level: 72, nature: "Modest", moves: ["lightofruin", "energyball", "gigadrain", "synthesis"], source: "gen9legends" },
 		],
 		eventOnly: true,
 	},
@@ -69743,7 +69743,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "7T", "6T"],
 		},
 		encounters: [
-			{generation: 6, level: 30},
+			{ generation: 6, level: 30 },
 		],
 	},
 	pancham: {
@@ -69841,7 +69841,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T"],
 		},
 		eventData: [
-			{generation: 6, level: 30, gender: "M", nature: "Adamant", abilities: ["moldbreaker"], moves: ["armthrust", "stoneedge", "darkpulse"], pokeball: "cherishball"},
+			{ generation: 6, level: 30, gender: "M", nature: "Adamant", abilities: ["moldbreaker"], moves: ["armthrust", "stoneedge", "darkpulse"], pokeball: "cherishball" },
 		],
 	},
 	pangoro: {
@@ -69960,7 +69960,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T"],
 		},
 		encounters: [
-			{generation: 7, level: 24},
+			{ generation: 7, level: 24 },
 		],
 	},
 	furfrou: {
@@ -70476,7 +70476,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wideguard: ["6S0"],
 		},
 		eventData: [
-			{generation: 6, level: 50, gender: "F", nature: "Quiet", moves: ["wideguard", "kingsshield", "shadowball", "flashcannon"], pokeball: "cherishball"},
+			{ generation: 6, level: 50, gender: "F", nature: "Quiet", moves: ["wideguard", "kingsshield", "shadowball", "flashcannon"], pokeball: "cherishball" },
 		],
 	},
 	spritzee: {
@@ -70618,7 +70618,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			trickroom: ["8M", "7M", "6M", "6S0"],
 		},
 		eventData: [
-			{generation: 6, level: 50, nature: "Relaxed", isHidden: true, moves: ["trickroom", "healpulse", "disable", "moonblast"], pokeball: "cherishball"},
+			{ generation: 6, level: 50, nature: "Relaxed", isHidden: true, moves: ["trickroom", "healpulse", "disable", "moonblast"], pokeball: "cherishball" },
 		],
 	},
 	swirlix: {
@@ -70837,7 +70837,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wrap: ["9L6", "8L6"],
 		},
 		eventData: [
-			{generation: 6, level: 10, moves: ["happyhour", "foulplay", "hypnosis", "topsyturvy"], pokeball: "cherishball"},
+			{ generation: 6, level: 10, moves: ["happyhour", "foulplay", "hypnosis", "topsyturvy"], pokeball: "cherishball" },
 		],
 	},
 	malamar: {
@@ -70932,7 +70932,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wrap: ["9L1", "8L1"],
 		},
 		eventData: [
-			{generation: 6, level: 50, nature: "Adamant", ivs: {hp: 31, atk: 31}, abilities: ["contrary"], moves: ["superpower", "knockoff", "facade", "rockslide"], pokeball: "cherishball"},
+			{ generation: 6, level: 50, nature: "Adamant", ivs: { hp: 31, atk: 31 }, abilities: ["contrary"], moves: ["superpower", "knockoff", "facade", "rockslide"], pokeball: "cherishball" },
 		],
 	},
 	binacle: {
@@ -71127,7 +71127,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["8M", "7M", "6M"],
 		},
 		encounters: [
-			{generation: 6, level: 30},
+			{ generation: 6, level: 30 },
 		],
 	},
 	skrelp: {
@@ -71280,7 +71280,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["9M"],
 		},
 		encounters: [
-			{generation: 6, level: 35},
+			{ generation: 6, level: 35 },
 		],
 	},
 	clauncher: {
@@ -71430,7 +71430,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			weatherball: ["9M"],
 		},
 		encounters: [
-			{generation: 6, level: 35},
+			{ generation: 6, level: 35 },
 		],
 	},
 	helioptile: {
@@ -71660,7 +71660,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T"],
 		},
 		eventData: [
-			{generation: 6, level: 10, isHidden: true, moves: ["tailwhip", "tackle", "roar", "stomp"], pokeball: "cherishball"},
+			{ generation: 6, level: 10, isHidden: true, moves: ["tailwhip", "tackle", "roar", "stomp"], pokeball: "cherishball" },
 		],
 	},
 	tyrantrum: {
@@ -71827,7 +71827,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T"],
 		},
 		eventData: [
-			{generation: 6, level: 10, isHidden: true, moves: ["growl", "powdersnow", "thunderwave", "rockthrow"], pokeball: "cherishball"},
+			{ generation: 6, level: 10, isHidden: true, moves: ["growl", "powdersnow", "thunderwave", "rockthrow"], pokeball: "cherishball" },
 		],
 	},
 	aurorus: {
@@ -71997,10 +71997,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M"],
 		},
 		eventData: [
-			{generation: 6, level: 10, moves: ["celebrate", "helpinghand", "sandattack", "fairywind"], pokeball: "cherishball"},
-			{generation: 6, level: 10, gender: "F", moves: ["disarmingvoice", "babydolleyes", "quickattack", "drainingkiss"], pokeball: "cherishball"},
-			{generation: 7, level: 50, gender: "F", isHidden: true, moves: ["hyperbeam", "drainingkiss", "psyshock", "calmmind"], pokeball: "cherishball"},
-			{generation: 9, level: 50, gender: "M", nature: "Modest", isHidden: true, perfectIVs: 6, moves: ["hypervoice", "terablast", "hyperbeam", "sleeptalk"], pokeball: "cherishball"},
+			{ generation: 6, level: 10, moves: ["celebrate", "helpinghand", "sandattack", "fairywind"], pokeball: "cherishball" },
+			{ generation: 6, level: 10, gender: "F", moves: ["disarmingvoice", "babydolleyes", "quickattack", "drainingkiss"], pokeball: "cherishball" },
+			{ generation: 7, level: 50, gender: "F", isHidden: true, moves: ["hyperbeam", "drainingkiss", "psyshock", "calmmind"], pokeball: "cherishball" },
+			{ generation: 9, level: 50, gender: "M", nature: "Modest", isHidden: true, perfectIVs: 6, moves: ["hypervoice", "terablast", "hyperbeam", "sleeptalk"], pokeball: "cherishball" },
 		],
 	},
 	hawlucha: {
@@ -72331,7 +72331,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			waterpulse: ["9M", "9L25", "8L25", "7T", "6T"],
 		},
 		eventData: [
-			{generation: 7, level: 1, shiny: 1, isHidden: true, moves: ["bodyslam", "dragonpulse", "counter"], pokeball: "cherishball"},
+			{ generation: 7, level: 1, shiny: 1, isHidden: true, moves: ["bodyslam", "dragonpulse", "counter"], pokeball: "cherishball" },
 		],
 	},
 	sliggoo: {
@@ -72389,7 +72389,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			waterpulse: ["9M", "9L25", "8L25", "7T", "6T"],
 		},
 		encounters: [
-			{generation: 6, level: 30},
+			{ generation: 6, level: 30 },
 		],
 	},
 	sliggoohisui: {
@@ -72943,7 +72943,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			trickortreat: ["6S0"],
 		},
 		eventData: [
-			{generation: 6, level: 50, moves: ["trickortreat", "astonish", "scaryface", "shadowsneak"], pokeball: "cherishball"},
+			{ generation: 6, level: 50, moves: ["trickortreat", "astonish", "scaryface", "shadowsneak"], pokeball: "cherishball" },
 		],
 	},
 	gourgeist: {
@@ -73465,13 +73465,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T"],
 		},
 		eventData: [
-			{generation: 6, level: 50, moves: ["gravity", "geomancy", "moonblast", "megahorn"]},
-			{generation: 6, level: 100, shiny: true, moves: ["geomancy", "moonblast", "aromatherapy", "focusblast"], pokeball: "cherishball"},
-			{generation: 7, level: 60, shiny: 1, moves: ["geomancy", "hornleech", "nightslash", "moonblast"]},
-			{generation: 7, level: 60, moves: ["geomancy", "hornleech", "nightslash", "moonblast"], pokeball: "cherishball"},
-			{generation: 7, level: 100, moves: ["geomancy", "focusblast", "grassknot", "moonblast"], pokeball: "cherishball"},
-			{generation: 8, level: 70, shiny: 1, moves: ["ingrain", "dazzlinggleam", "moonblast", "hornleech"]},
-			{generation: 9, level: 75, moves: ["megahorn", "moonblast", "hornleech", "geomancy"], source: "gen9legends"},
+			{ generation: 6, level: 50, moves: ["gravity", "geomancy", "moonblast", "megahorn"] },
+			{ generation: 6, level: 100, shiny: true, moves: ["geomancy", "moonblast", "aromatherapy", "focusblast"], pokeball: "cherishball" },
+			{ generation: 7, level: 60, shiny: 1, moves: ["geomancy", "hornleech", "nightslash", "moonblast"] },
+			{ generation: 7, level: 60, moves: ["geomancy", "hornleech", "nightslash", "moonblast"], pokeball: "cherishball" },
+			{ generation: 7, level: 100, moves: ["geomancy", "focusblast", "grassknot", "moonblast"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, shiny: 1, moves: ["ingrain", "dazzlinggleam", "moonblast", "hornleech"] },
+			{ generation: 9, level: 75, moves: ["megahorn", "moonblast", "hornleech", "geomancy"], source: "gen9legends" },
 		],
 		eventOnly: true,
 	},
@@ -73545,13 +73545,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T"],
 		},
 		eventData: [
-			{generation: 6, level: 50, moves: ["snarl", "oblivionwing", "disable", "darkpulse"]},
-			{generation: 6, level: 100, shiny: true, moves: ["oblivionwing", "suckerpunch", "darkpulse", "foulplay"], pokeball: "cherishball"},
-			{generation: 7, level: 60, shiny: 1, moves: ["oblivionwing", "darkpulse", "phantomforce", "psychic"]},
-			{generation: 7, level: 60, moves: ["oblivionwing", "darkpulse", "phantomforce", "psychic"], pokeball: "cherishball"},
-			{generation: 7, level: 100, moves: ["oblivionwing", "darkpulse", "heatwave", "tailwind"], pokeball: "cherishball"},
-			{generation: 8, level: 70, shiny: 1, moves: ["taunt", "oblivionwing", "dragonrush", "suckerpunch"]},
-			{generation: 9, level: 75, moves: ["hurricane", "darkpulse", "psychic", "oblivionwing"], source: "gen9legends"},
+			{ generation: 6, level: 50, moves: ["snarl", "oblivionwing", "disable", "darkpulse"] },
+			{ generation: 6, level: 100, shiny: true, moves: ["oblivionwing", "suckerpunch", "darkpulse", "foulplay"], pokeball: "cherishball" },
+			{ generation: 7, level: 60, shiny: 1, moves: ["oblivionwing", "darkpulse", "phantomforce", "psychic"] },
+			{ generation: 7, level: 60, moves: ["oblivionwing", "darkpulse", "phantomforce", "psychic"], pokeball: "cherishball" },
+			{ generation: 7, level: 100, moves: ["oblivionwing", "darkpulse", "heatwave", "tailwind"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, shiny: 1, moves: ["taunt", "oblivionwing", "dragonrush", "suckerpunch"] },
+			{ generation: 9, level: 75, moves: ["hurricane", "darkpulse", "psychic", "oblivionwing"], source: "gen9legends" },
 		],
 		eventOnly: true,
 	},
@@ -73629,16 +73629,16 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T"],
 		},
 		eventData: [
-			{generation: 6, level: 70, moves: ["crunch", "earthquake", "camouflage", "dragonpulse"]},
-			{generation: 6, level: 100, moves: ["landswrath", "extremespeed", "glare", "outrage"], pokeball: "cherishball"},
-			{generation: 7, level: 30, moves: ["safeguard", "dig", "bind", "landswrath"]},
-			{generation: 7, level: 50, moves: ["bind", "landswrath", "sandstorm", "haze"]},
-			{generation: 7, level: 50, isHidden: true, moves: ["bind", "landswrath", "sandstorm", "haze"]},
-			{generation: 7, level: 60, shiny: true, moves: ["landswrath", "glare", "safeguard", "dragonbreath"], pokeball: "cherishball"},
-			{generation: 7, level: 60, shiny: true, isHidden: true, moves: ["landswrath", "glare", "safeguard", "dragonbreath"], pokeball: "cherishball"},
-			{generation: 7, level: 100, shiny: true, moves: ["thousandarrows", "outrage", "extremespeed", "dragondance"], pokeball: "cherishball"},
-			{generation: 7, level: 100, shiny: true, isHidden: true, moves: ["thousandarrows", "outrage", "extremespeed", "dragondance"], pokeball: "cherishball"},
-			{generation: 8, level: 70, shiny: 1, isHidden: true, moves: ["thousandarrows", "landswrath", "dragonpulse", "bind"]},
+			{ generation: 6, level: 70, moves: ["crunch", "earthquake", "camouflage", "dragonpulse"] },
+			{ generation: 6, level: 100, moves: ["landswrath", "extremespeed", "glare", "outrage"], pokeball: "cherishball" },
+			{ generation: 7, level: 30, moves: ["safeguard", "dig", "bind", "landswrath"] },
+			{ generation: 7, level: 50, moves: ["bind", "landswrath", "sandstorm", "haze"] },
+			{ generation: 7, level: 50, isHidden: true, moves: ["bind", "landswrath", "sandstorm", "haze"] },
+			{ generation: 7, level: 60, shiny: true, moves: ["landswrath", "glare", "safeguard", "dragonbreath"], pokeball: "cherishball" },
+			{ generation: 7, level: 60, shiny: true, isHidden: true, moves: ["landswrath", "glare", "safeguard", "dragonbreath"], pokeball: "cherishball" },
+			{ generation: 7, level: 100, shiny: true, moves: ["thousandarrows", "outrage", "extremespeed", "dragondance"], pokeball: "cherishball" },
+			{ generation: 7, level: 100, shiny: true, isHidden: true, moves: ["thousandarrows", "outrage", "extremespeed", "dragondance"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, shiny: 1, isHidden: true, moves: ["thousandarrows", "landswrath", "dragonpulse", "bind"] },
 		],
 		eventOnly: true,
 	},
@@ -73659,13 +73659,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			thousandarrows: ["8S5", "7S4"],
 		},
 		eventData: [
-			{generation: 7, level: 30, moves: ["safeguard", "dig", "bind", "landswrath"]},
-			{generation: 7, level: 50, isHidden: true, moves: ["bind", "landswrath", "sandstorm", "haze"]},
-			{generation: 7, level: 50, isHidden: true, moves: ["safeguard", "dig", "bind", "landswrath"]},
-			{generation: 7, level: 60, shiny: true, isHidden: true, moves: ["landswrath", "glare", "safeguard", "dragonbreath"], pokeball: "cherishball"},
-			{generation: 7, level: 100, shiny: true, isHidden: true, moves: ["thousandarrows", "outrage", "extremespeed", "dragondance"], pokeball: "cherishball"},
-			{generation: 8, level: 70, shiny: 1, isHidden: true, moves: ["thousandarrows", "landswrath", "dragonpulse", "bind"]},
-			{generation: 9, level: 84, ivs: { hp: 31, atk: 31, def: 15, spa: 31, spd: 28, spe: 19 }, nature: "Quiet", moves: ["coreenforcer", "thousandarrows", "thousandwaves", "landswrath"], source: "gen9legends"},
+			{ generation: 7, level: 30, moves: ["safeguard", "dig", "bind", "landswrath"] },
+			{ generation: 7, level: 50, isHidden: true, moves: ["bind", "landswrath", "sandstorm", "haze"] },
+			{ generation: 7, level: 50, isHidden: true, moves: ["safeguard", "dig", "bind", "landswrath"] },
+			{ generation: 7, level: 60, shiny: true, isHidden: true, moves: ["landswrath", "glare", "safeguard", "dragonbreath"], pokeball: "cherishball" },
+			{ generation: 7, level: 100, shiny: true, isHidden: true, moves: ["thousandarrows", "outrage", "extremespeed", "dragondance"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, shiny: 1, isHidden: true, moves: ["thousandarrows", "landswrath", "dragonpulse", "bind"] },
+			{ generation: 9, level: 84, ivs: { hp: 31, atk: 31, def: 15, spa: 31, spd: 28, spe: 19 }, nature: "Quiet", moves: ["coreenforcer", "thousandarrows", "thousandwaves", "landswrath"], source: "gen9legends" },
 		],
 		eventOnly: true,
 	},
@@ -73763,9 +73763,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wonderroom: ["8M", "7T", "6T"],
 		},
 		eventData: [
-			{generation: 6, level: 50, moves: ["diamondstorm", "reflect", "return", "moonblast"], pokeball: "cherishball"},
-			{generation: 6, level: 50, shiny: true, moves: ["diamondstorm", "moonblast", "reflect", "return"], pokeball: "cherishball"},
-			{generation: 9, level: 70, moves: ["diamondstorm", "moonblast", "stealthrock", "drainingkiss"], source: "gen9legends"},
+			{ generation: 6, level: 50, moves: ["diamondstorm", "reflect", "return", "moonblast"], pokeball: "cherishball" },
+			{ generation: 6, level: 50, shiny: true, moves: ["diamondstorm", "moonblast", "reflect", "return"], pokeball: "cherishball" },
+			{ generation: 9, level: 70, moves: ["diamondstorm", "moonblast", "stealthrock", "drainingkiss"], source: "gen9legends" },
 		],
 		eventOnly: true,
 	},
@@ -73870,8 +73870,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L46", "7T", "7L46", "6T", "6L46"],
 		},
 		eventData: [
-			{generation: 6, level: 50, moves: ["hyperspacehole", "nastyplot", "psychic", "astonish"], pokeball: "cherishball"},
-			{generation: 7, level: 15, moves: ["shadowball", "nastyplot", "psychic", "hyperspacehole"], pokeball: "cherishball"},
+			{ generation: 6, level: 50, moves: ["hyperspacehole", "nastyplot", "psychic", "astonish"], pokeball: "cherishball" },
+			{ generation: 7, level: 15, moves: ["shadowball", "nastyplot", "psychic", "hyperspacehole"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -73964,9 +73964,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["9M", "8M", "7M", "6M"],
 		},
 		eventData: [
-			{generation: 6, level: 70, moves: ["steameruption", "overheat", "hydropump", "mist"], pokeball: "cherishball"},
-			{generation: 6, level: 70, moves: ["steameruption", "flamethrower", "hydropump", "explosion"], pokeball: "cherishball"},
-			{generation: 8, level: 60, moves: ["steameruption", "flareblitz", "incinerate", "haze"], pokeball: "cherishball"},
+			{ generation: 6, level: 70, moves: ["steameruption", "overheat", "hydropump", "mist"], pokeball: "cherishball" },
+			{ generation: 6, level: 70, moves: ["steameruption", "flamethrower", "hydropump", "explosion"], pokeball: "cherishball" },
+			{ generation: 8, level: 60, moves: ["steameruption", "flareblitz", "incinerate", "haze"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -74228,7 +74228,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			worryseed: ["7T"],
 		},
 		eventData: [
-			{generation: 7, level: 50, isHidden: true, moves: ["leafblade", "phantomforce", "shadowsneak", "bravebird"], pokeball: "pokeball"},
+			{ generation: 7, level: 50, isHidden: true, moves: ["leafblade", "phantomforce", "shadowsneak", "bravebird"], pokeball: "pokeball" },
 		],
 	},
 	decidueyehisui: {
@@ -74548,7 +74548,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M"],
 		},
 		eventData: [
-			{generation: 7, level: 50, isHidden: true, moves: ["fakeout", "uturn", "darkestlariat", "flareblitz"], pokeball: "pokeball"},
+			{ generation: 7, level: 50, isHidden: true, moves: ["fakeout", "uturn", "darkestlariat", "flareblitz"], pokeball: "pokeball" },
 		],
 	},
 	popplio: {
@@ -74780,7 +74780,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M"],
 		},
 		eventData: [
-			{generation: 7, level: 50, isHidden: true, moves: ["hypervoice", "moonblast", "icywind", "perishsong"], pokeball: "pokeball"},
+			{ generation: 7, level: 50, isHidden: true, moves: ["hypervoice", "moonblast", "icywind", "perishsong"], pokeball: "pokeball" },
 		],
 	},
 	pikipek: {
@@ -74981,7 +74981,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["7M"],
 		},
 		encounters: [
-			{generation: 7, level: 26},
+			{ generation: 7, level: 26 },
 		],
 	},
 	yungoos: {
@@ -75138,7 +75138,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "7T"],
 		},
 		encounters: [
-			{generation: 7, level: 17},
+			{ generation: 7, level: 17 },
 		],
 	},
 	gumshoostotem: {
@@ -75201,7 +75201,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["7T"],
 		},
 		eventData: [
-			{generation: 7, level: 20, perfectIVs: 3, moves: ["sandattack", "odorsleuth", "bide", "bite"], pokeball: "pokeball"},
+			{ generation: 7, level: 20, perfectIVs: 3, moves: ["sandattack", "odorsleuth", "bide", "bite"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -75454,7 +75454,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7L41"],
 		},
 		eventData: [
-			{generation: 7, level: 35, perfectIVs: 3, moves: ["spark", "acrobatics", "guillotine", "bugbuzz"], pokeball: "pokeball"},
+			{ generation: 7, level: 35, perfectIVs: 3, moves: ["spark", "acrobatics", "guillotine", "bugbuzz"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -75924,7 +75924,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wonderroom: ["7T"],
 		},
 		eventData: [
-			{generation: 7, level: 50, perfectIVs: 3, moves: ["bugbuzz", "dazzlinggleam", "aromatherapy", "quiverdance"], pokeball: "pokeball"},
+			{ generation: 7, level: 50, perfectIVs: 3, moves: ["bugbuzz", "dazzlinggleam", "aromatherapy", "quiverdance"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -76065,8 +76065,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T"],
 		},
 		eventData: [
-			{generation: 7, level: 10, moves: ["tackle", "bite", "firefang", "happyhour"], pokeball: "cherishball"},
-			{generation: 7, level: 10, moves: ["tackle", "bite", "thunderfang", "happyhour"], pokeball: "cherishball"},
+			{ generation: 7, level: 10, moves: ["tackle", "bite", "firefang", "happyhour"], pokeball: "cherishball" },
+			{ generation: 7, level: 10, moves: ["tackle", "bite", "thunderfang", "happyhour"], pokeball: "cherishball" },
 		],
 	},
 	lycanroc: {
@@ -76242,7 +76242,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T"],
 		},
 		eventData: [
-			{generation: 7, level: 50, isHidden: true, moves: ["stoneedge", "firefang", "suckerpunch", "swordsdance"], pokeball: "cherishball"},
+			{ generation: 7, level: 50, isHidden: true, moves: ["stoneedge", "firefang", "suckerpunch", "swordsdance"], pokeball: "cherishball" },
 		],
 	},
 	lycanrocdusk: {
@@ -76455,7 +76455,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wideguard: ["9L5", "8L5", "7L17"],
 		},
 		eventData: [
-			{generation: 7, level: 1, shiny: 1, isHidden: true, moves: ["toxic", "stockpile", "swallow"], pokeball: "cherishball"},
+			{ generation: 7, level: 1, shiny: 1, isHidden: true, moves: ["toxic", "stockpile", "swallow"], pokeball: "cherishball" },
 		],
 	},
 	toxapex: {
@@ -76662,7 +76662,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			toxic: ["7M"],
 		},
 		encounters: [
-			{generation: 7, level: 29},
+			{ generation: 7, level: 29 },
 		],
 	},
 	dewpider: {
@@ -76856,7 +76856,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["7M"],
 		},
 		eventData: [
-			{generation: 7, level: 25, perfectIVs: 3, moves: ["spiderweb", "bugbite", "bubblebeam", "bite"], pokeball: "pokeball"},
+			{ generation: 7, level: 25, perfectIVs: 3, moves: ["spiderweb", "bugbite", "bubblebeam", "bite"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -77056,7 +77056,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["7M", "7L1"],
 		},
 		eventData: [
-			{generation: 7, level: 30, perfectIVs: 3, moves: ["growth", "ingrain", "leafblade", "synthesis"], pokeball: "pokeball"},
+			{ generation: 7, level: 30, perfectIVs: 3, moves: ["growth", "ingrain", "leafblade", "synthesis"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -77360,10 +77360,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["9M", "8M", "7M"],
 		},
 		eventData: [
-			{generation: 7, level: 50, moves: ["fakeout", "toxic", "sludgebomb", "flamethrower"], pokeball: "cherishball"},
+			{ generation: 7, level: 50, moves: ["fakeout", "toxic", "sludgebomb", "flamethrower"], pokeball: "cherishball" },
 		],
 		encounters: [
-			{generation: 7, level: 16},
+			{ generation: 7, level: 16 },
 		],
 	},
 	salazzletotem: {
@@ -77427,7 +77427,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["7M"],
 		},
 		eventData: [
-			{generation: 7, level: 30, perfectIVs: 3, moves: ["smog", "doubleslap", "flameburst", "toxic"], pokeball: "pokeball"},
+			{ generation: 7, level: 30, perfectIVs: 3, moves: ["smog", "doubleslap", "flameburst", "toxic"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -77571,7 +77571,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T"],
 		},
 		eventData: [
-			{generation: 7, level: 50, gender: "F", isHidden: true, moves: ["babydolleyes", "brutalswing", "superpower", "bind"], pokeball: "cherishball"},
+			{ generation: 7, level: 50, gender: "F", isHidden: true, moves: ["babydolleyes", "brutalswing", "superpower", "bind"], pokeball: "cherishball" },
 		],
 	},
 	bounsweet: {
@@ -77705,8 +77705,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T"],
 		},
 		eventData: [
-			{generation: 7, level: 20, nature: "Naive", abilities: ["leafguard"], moves: ["magicalleaf", "doubleslap", "sweetscent"], pokeball: "cherishball"},
-			{generation: 9, level: 50, abilities: ["leafguard"], moves: ["celebrate", "sunnyday", "splash", "dazzlinggleam"], pokeball: "cherishball"},
+			{ generation: 7, level: 20, nature: "Naive", abilities: ["leafguard"], moves: ["magicalleaf", "doubleslap", "sweetscent"], pokeball: "cherishball" },
+			{ generation: 9, level: 50, abilities: ["leafguard"], moves: ["celebrate", "sunnyday", "splash", "dazzlinggleam"], pokeball: "cherishball" },
 		],
 	},
 	tsareena: {
@@ -77877,7 +77877,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wrap: ["9L1", "8L1", "7L16"],
 		},
 		eventData: [
-			{generation: 7, level: 10, nature: "Jolly", moves: ["celebrate", "leechseed", "drainingkiss", "magicalleaf"], pokeball: "cherishball"},
+			{ generation: 7, level: 10, nature: "Jolly", moves: ["celebrate", "leechseed", "drainingkiss", "magicalleaf"], pokeball: "cherishball" },
 		],
 	},
 	oranguru: {
@@ -77975,8 +77975,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L35", "8M", "8L35", "7T", "7L29"],
 		},
 		eventData: [
-			{generation: 7, level: 1, shiny: 1, abilities: ["telepathy"], moves: ["instruct", "psychic", "psychicterrain"], pokeball: "cherishball"},
-			{generation: 7, level: 50, isHidden: true, moves: ["instruct", "foulplay", "trickroom", "allyswitch"], pokeball: "pokeball"},
+			{ generation: 7, level: 1, shiny: 1, abilities: ["telepathy"], moves: ["instruct", "psychic", "psychicterrain"], pokeball: "cherishball" },
+			{ generation: 7, level: 50, isHidden: true, moves: ["instruct", "foulplay", "trickroom", "allyswitch"], pokeball: "pokeball" },
 		],
 	},
 	passimian: {
@@ -78074,8 +78074,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M"],
 		},
 		eventData: [
-			{generation: 7, level: 1, shiny: 1, moves: ["bestow", "fling", "feint"], pokeball: "cherishball"},
-			{generation: 7, level: 50, isHidden: true, moves: ["closecombat", "uturn", "knockoff", "gunkshot"], pokeball: "pokeball"},
+			{ generation: 7, level: 1, shiny: 1, moves: ["bestow", "fling", "feint"], pokeball: "cherishball" },
+			{ generation: 7, level: 50, isHidden: true, moves: ["closecombat", "uturn", "knockoff", "gunkshot"], pokeball: "pokeball" },
 		],
 	},
 	wimpod: {
@@ -78462,9 +78462,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["8M", "8L40", "8S2", "7M", "7L35", "7S0"],
 		},
 		eventData: [
-			{generation: 7, level: 40, shiny: 1, perfectIVs: 3, moves: ["crushclaw", "scaryface", "xscissor", "takedown"], pokeball: "pokeball"},
-			{generation: 7, level: 60, shiny: 1, perfectIVs: 3, moves: ["metalsound", "ironhead", "doublehit", "airslash"], pokeball: "pokeball"},
-			{generation: 8, level: 50, shiny: 1, perfectIVs: 3, moves: ["triattack", "xscissor", "ironhead", "takedown"], pokeball: "pokeball"},
+			{ generation: 7, level: 40, shiny: 1, perfectIVs: 3, moves: ["crushclaw", "scaryface", "xscissor", "takedown"], pokeball: "pokeball" },
+			{ generation: 7, level: 60, shiny: 1, perfectIVs: 3, moves: ["metalsound", "ironhead", "doublehit", "airslash"], pokeball: "pokeball" },
+			{ generation: 8, level: 50, shiny: 1, perfectIVs: 3, moves: ["triattack", "xscissor", "ironhead", "takedown"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -78558,7 +78558,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T"],
 		},
 		eventData: [
-			{generation: 7, level: 100, shiny: true, moves: ["multiattack", "partingshot", "punishment", "scaryface"], pokeball: "cherishball"},
+			{ generation: 7, level: 100, shiny: true, moves: ["multiattack", "partingshot", "punishment", "scaryface"], pokeball: "cherishball" },
 		],
 	},
 	minior: {
@@ -78790,8 +78790,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M"],
 		},
 		eventData: [
-			{generation: 7, level: 1, shiny: 1, moves: ["flamethrower", "bodyslam", "wideguard"], pokeball: "cherishball"},
-			{generation: 7, level: 30, gender: "M", nature: "Brave", moves: ["flamethrower", "shelltrap", "dragontail"], pokeball: "cherishball"},
+			{ generation: 7, level: 1, shiny: 1, moves: ["flamethrower", "bodyslam", "wideguard"], pokeball: "cherishball" },
+			{ generation: 7, level: 30, gender: "M", nature: "Brave", moves: ["flamethrower", "shelltrap", "dragontail"], pokeball: "cherishball" },
 		],
 	},
 	togedemaru: {
@@ -78939,7 +78939,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zingzap: ["7L33", "7S0"],
 		},
 		eventData: [
-			{generation: 7, level: 30, perfectIVs: 3, moves: ["nuzzle", "magnetrise", "discharge", "zingzap"], pokeball: "pokeball"},
+			{ generation: 7, level: 30, perfectIVs: 3, moves: ["nuzzle", "magnetrise", "discharge", "zingzap"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -79034,10 +79034,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "8M", "7M"],
 		},
 		eventData: [
-			{generation: 7, level: 10, moves: ["copycat", "babydolleyes", "splash", "astonish"], pokeball: "cherishball"},
-			{generation: 7, level: 10, shiny: true, moves: ["astonish", "playrough", "copycat", "substitute"], pokeball: "cherishball"},
-			{generation: 7, level: 50, shiny: true, moves: ["mimic", "snatch", "trick", "destinybond"], pokeball: "cherishball"},
-			{generation: 9, level: 25, moves: ["thunderbolt", "destinybond", "phantomforce", "curse"], pokeball: "cherishball"},
+			{ generation: 7, level: 10, moves: ["copycat", "babydolleyes", "splash", "astonish"], pokeball: "cherishball" },
+			{ generation: 7, level: 10, shiny: true, moves: ["astonish", "playrough", "copycat", "substitute"], pokeball: "cherishball" },
+			{ generation: 7, level: 50, shiny: true, moves: ["mimic", "snatch", "trick", "destinybond"], pokeball: "cherishball" },
+			{ generation: 9, level: 25, moves: ["thunderbolt", "destinybond", "phantomforce", "curse"], pokeball: "cherishball" },
 		],
 	},
 	mimikyutotem: {
@@ -79110,7 +79110,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["7M"],
 		},
 		eventData: [
-			{generation: 7, level: 40, perfectIVs: 3, moves: ["feintattack", "charm", "slash", "shadowclaw"], pokeball: "pokeball"},
+			{ generation: 7, level: 40, perfectIVs: 3, moves: ["feintattack", "charm", "slash", "shadowclaw"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -79294,7 +79294,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M"],
 		},
 		eventData: [
-			{generation: 7, level: 1, shiny: 1, isHidden: true, moves: ["playnice", "echoedvoice", "hurricane"], pokeball: "cherishball"},
+			{ generation: 7, level: 1, shiny: 1, isHidden: true, moves: ["playnice", "echoedvoice", "hurricane"], pokeball: "cherishball" },
 		],
 	},
 	dhelmise: {
@@ -79638,7 +79638,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "8M", "7M"],
 		},
 		encounters: [
-			{generation: 7, level: 41},
+			{ generation: 7, level: 41 },
 		],
 	},
 	kommoototem: {
@@ -79725,7 +79725,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["7M"],
 		},
 		eventData: [
-			{generation: 7, level: 50, perfectIVs: 3, moves: ["workup", "screech", "irondefense", "dragonclaw"], pokeball: "pokeball"},
+			{ generation: 7, level: 50, perfectIVs: 3, moves: ["workup", "screech", "irondefense", "dragonclaw"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -79807,10 +79807,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M"],
 		},
 		eventData: [
-			{generation: 7, level: 60, moves: ["naturesmadness", "discharge", "agility", "electroball"]},
-			{generation: 7, level: 60, shiny: true, nature: "Timid", moves: ["naturesmadness", "discharge", "agility", "electroball"], pokeball: "cherishball"},
-			{generation: 7, level: 60, shiny: true, moves: ["thunderbolt", "dazzlinggleam", "voltswitch", "naturesmadness"], pokeball: "cherishball"},
-			{generation: 8, level: 70, shiny: 1, moves: ["thunderbolt", "quickattack", "bravebird", "taunt"]},
+			{ generation: 7, level: 60, moves: ["naturesmadness", "discharge", "agility", "electroball"] },
+			{ generation: 7, level: 60, shiny: true, nature: "Timid", moves: ["naturesmadness", "discharge", "agility", "electroball"], pokeball: "cherishball" },
+			{ generation: 7, level: 60, shiny: true, moves: ["thunderbolt", "dazzlinggleam", "voltswitch", "naturesmadness"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, shiny: 1, moves: ["thunderbolt", "quickattack", "bravebird", "taunt"] },
 		],
 		eventOnly: true,
 	},
@@ -79889,9 +79889,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wonderroom: ["8M", "7T"],
 		},
 		eventData: [
-			{generation: 7, level: 60, moves: ["naturesmadness", "extrasensory", "flatter", "moonblast"]},
-			{generation: 7, level: 60, shiny: true, moves: ["naturesmadness", "extrasensory", "flatter", "moonblast"], pokeball: "cherishball"},
-			{generation: 8, level: 70, shiny: 1, moves: ["psychic", "playrough", "magicroom", "charm"]},
+			{ generation: 7, level: 60, moves: ["naturesmadness", "extrasensory", "flatter", "moonblast"] },
+			{ generation: 7, level: 60, shiny: true, moves: ["naturesmadness", "extrasensory", "flatter", "moonblast"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, shiny: 1, moves: ["psychic", "playrough", "magicroom", "charm"] },
 		],
 		eventOnly: true,
 	},
@@ -79980,9 +79980,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "8L45", "7T", "7L48", "7S0", "7S1"],
 		},
 		eventData: [
-			{generation: 7, level: 60, moves: ["naturesmadness", "zenheadbutt", "megahorn", "skullbash"]},
-			{generation: 7, level: 60, shiny: true, moves: ["naturesmadness", "zenheadbutt", "megahorn", "skullbash"], pokeball: "cherishball"},
-			{generation: 8, level: 70, shiny: 1, moves: ["superpower", "megahorn", "woodhammer", "scaryface"]},
+			{ generation: 7, level: 60, moves: ["naturesmadness", "zenheadbutt", "megahorn", "skullbash"] },
+			{ generation: 7, level: 60, shiny: true, moves: ["naturesmadness", "zenheadbutt", "megahorn", "skullbash"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, shiny: 1, moves: ["superpower", "megahorn", "woodhammer", "scaryface"] },
 		],
 		eventOnly: true,
 	},
@@ -80061,9 +80061,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wonderroom: ["8M", "7T"],
 		},
 		eventData: [
-			{generation: 7, level: 60, moves: ["naturesmadness", "muddywater", "aquaring", "hydropump"]},
-			{generation: 7, level: 60, shiny: true, moves: ["naturesmadness", "muddywater", "aquaring", "hydropump"], pokeball: "cherishball"},
-			{generation: 8, level: 70, shiny: 1, moves: ["whirlpool", "waterpulse", "brine", "moonblast"]},
+			{ generation: 7, level: 60, moves: ["naturesmadness", "muddywater", "aquaring", "hydropump"] },
+			{ generation: 7, level: 60, shiny: true, moves: ["naturesmadness", "muddywater", "aquaring", "hydropump"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, shiny: 1, moves: ["whirlpool", "waterpulse", "brine", "moonblast"] },
 		],
 		eventOnly: true,
 	},
@@ -80073,8 +80073,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			teleport: ["9L1", "8L1", "8S1", "7L23"],
 		},
 		eventData: [
-			{generation: 7, level: 5, moves: ["splash"]},
-			{generation: 8, level: 5, moves: ["splash", "teleport"], pokeball: "pokeball"},
+			{ generation: 7, level: 5, moves: ["splash"] },
+			{ generation: 8, level: 5, moves: ["splash", "teleport"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -80175,11 +80175,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L21", "8M", "8L21", "8S3", "7T", "7L19", "7S0", "7S1", "7S2"],
 		},
 		eventData: [
-			{generation: 7, level: 55, moves: ["sunsteelstrike", "cosmicpower", "crunch", "zenheadbutt"]},
-			{generation: 7, level: 60, moves: ["sunsteelstrike", "cosmicpower", "crunch", "zenheadbutt"]},
-			{generation: 7, level: 60, shiny: true, moves: ["sunsteelstrike", "zenheadbutt", "nobleroar", "morningsun"], pokeball: "cherishball"},
-			{generation: 8, level: 70, shiny: 1, moves: ["zenheadbutt", "firespin", "irontail", "nobleroar"]},
-			{generation: 9, level: 70, moves: ["flareblitz", "solarbeam", "wildcharge", "metalburst"]},
+			{ generation: 7, level: 55, moves: ["sunsteelstrike", "cosmicpower", "crunch", "zenheadbutt"] },
+			{ generation: 7, level: 60, moves: ["sunsteelstrike", "cosmicpower", "crunch", "zenheadbutt"] },
+			{ generation: 7, level: 60, shiny: true, moves: ["sunsteelstrike", "zenheadbutt", "nobleroar", "morningsun"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, shiny: 1, moves: ["zenheadbutt", "firespin", "irontail", "nobleroar"] },
+			{ generation: 9, level: 70, moves: ["flareblitz", "solarbeam", "wildcharge", "metalburst"] },
 		],
 	},
 	lunala: {
@@ -80271,11 +80271,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M"],
 		},
 		eventData: [
-			{generation: 7, level: 55, moves: ["moongeistbeam", "cosmicpower", "nightdaze", "shadowball"]},
-			{generation: 7, level: 60, moves: ["moongeistbeam", "cosmicpower", "nightdaze", "shadowball"]},
-			{generation: 7, level: 60, shiny: true, moves: ["moongeistbeam", "psyshock", "moonblast", "moonlight"], pokeball: "cherishball"},
-			{generation: 8, level: 70, shiny: 1, moves: ["shadowball", "moonblast", "magiccoat", "swift"]},
-			{generation: 9, level: 70, moves: ["dreameater", "phantomforce", "moonblast", "psychic"]},
+			{ generation: 7, level: 55, moves: ["moongeistbeam", "cosmicpower", "nightdaze", "shadowball"] },
+			{ generation: 7, level: 60, moves: ["moongeistbeam", "cosmicpower", "nightdaze", "shadowball"] },
+			{ generation: 7, level: 60, shiny: true, moves: ["moongeistbeam", "psyshock", "moonblast", "moonlight"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, shiny: 1, moves: ["shadowball", "moonblast", "magiccoat", "swift"] },
+			{ generation: 9, level: 70, moves: ["dreameater", "phantomforce", "moonblast", "psychic"] },
 		],
 	},
 	nihilego: {
@@ -80354,9 +80354,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T"],
 		},
 		eventData: [
-			{generation: 7, level: 55, moves: ["powergem", "mirrorcoat", "acidspray", "venomdrench"]},
-			{generation: 7, level: 60, shiny: 1, moves: ["powergem", "acidspray", "stealthrock", "mirrorcoat"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["wonderroom", "sludgewave", "brutalswing", "acidspray"]},
+			{ generation: 7, level: 55, moves: ["powergem", "mirrorcoat", "acidspray", "venomdrench"] },
+			{ generation: 7, level: 60, shiny: 1, moves: ["powergem", "acidspray", "stealthrock", "mirrorcoat"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["wonderroom", "sludgewave", "brutalswing", "acidspray"] },
 		],
 		eventOnly: true,
 	},
@@ -80429,9 +80429,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M"],
 		},
 		eventData: [
-			{generation: 7, level: 65, moves: ["counter", "hammerarm", "lunge", "dynamicpunch"]},
-			{generation: 7, level: 60, shiny: 1, moves: ["counter", "hammerarm", "lunge", "dynamicpunch"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["poweruppunch", "taunt", "leechlife", "dynamicpunch"]},
+			{ generation: 7, level: 65, moves: ["counter", "hammerarm", "lunge", "dynamicpunch"] },
+			{ generation: 7, level: 60, shiny: 1, moves: ["counter", "hammerarm", "lunge", "dynamicpunch"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["poweruppunch", "taunt", "leechlife", "dynamicpunch"] },
 		],
 		eventOnly: true,
 	},
@@ -80505,9 +80505,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			uturn: ["8M", "7M"],
 		},
 		eventData: [
-			{generation: 7, level: 60, moves: ["triplekick", "lunge", "bugbuzz", "mefirst"]},
-			{generation: 7, level: 60, shiny: 1, moves: ["triplekick", "lunge", "bugbuzz", "mefirst"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["highjumpkick", "swift", "throatchop", "lunge"]},
+			{ generation: 7, level: 60, moves: ["triplekick", "lunge", "bugbuzz", "mefirst"] },
+			{ generation: 7, level: 60, shiny: 1, moves: ["triplekick", "lunge", "bugbuzz", "mefirst"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["highjumpkick", "swift", "throatchop", "lunge"] },
 		],
 		eventOnly: true,
 	},
@@ -80573,9 +80573,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["8L70", "7L73"],
 		},
 		eventData: [
-			{generation: 7, level: 65, moves: ["hypnosis", "discharge", "electricterrain", "powerwhip"]},
-			{generation: 7, level: 60, shiny: 1, moves: ["hypnosis", "discharge", "electricterrain", "powerwhip"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["powerwhip", "discharge", "eerieimpulse", "brutalswing"]},
+			{ generation: 7, level: 65, moves: ["hypnosis", "discharge", "electricterrain", "powerwhip"] },
+			{ generation: 7, level: 60, shiny: 1, moves: ["hypnosis", "discharge", "electricterrain", "powerwhip"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["powerwhip", "discharge", "eerieimpulse", "brutalswing"] },
 		],
 		eventOnly: true,
 	},
@@ -80648,9 +80648,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T"],
 		},
 		eventData: [
-			{generation: 7, level: 65, moves: ["autotomize", "seedbomb", "skullbash", "irondefense"]},
-			{generation: 7, level: 60, shiny: 1, moves: ["autotomize", "seedbomb", "skullbash", "irondefense"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["leechseed", "smackdown", "gyroball", "earthquake"]},
+			{ generation: 7, level: 65, moves: ["autotomize", "seedbomb", "skullbash", "irondefense"] },
+			{ generation: 7, level: 60, shiny: 1, moves: ["autotomize", "seedbomb", "skullbash", "irondefense"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["leechseed", "smackdown", "gyroball", "earthquake"] },
 		],
 		eventOnly: true,
 	},
@@ -80703,9 +80703,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["8M", "7M", "7L47", "7S0", "7S1"],
 		},
 		eventData: [
-			{generation: 7, level: 60, moves: ["leafblade", "xscissor", "detect", "airslash"]},
-			{generation: 7, level: 60, shiny: 1, moves: ["leafblade", "xscissor", "detect", "airslash"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["vacuumwave", "aircutter", "leafblade", "swordsdance"]},
+			{ generation: 7, level: 60, moves: ["leafblade", "xscissor", "detect", "airslash"] },
+			{ generation: 7, level: 60, shiny: 1, moves: ["leafblade", "xscissor", "detect", "airslash"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["vacuumwave", "aircutter", "leafblade", "swordsdance"] },
 		],
 		eventOnly: true,
 	},
@@ -80789,9 +80789,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wringout: ["7L67", "7S0"],
 		},
 		eventData: [
-			{generation: 7, level: 70, moves: ["thrash", "gastroacid", "heavyslam", "wringout"]},
-			{generation: 7, level: 60, shiny: 1, moves: ["hammerarm", "thrash", "gastroacid", "heavyslam"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["dragonrush", "stompingtantrum", "brutalswing", "megapunch"]},
+			{ generation: 7, level: 70, moves: ["thrash", "gastroacid", "heavyslam", "wringout"] },
+			{ generation: 7, level: 60, shiny: 1, moves: ["hammerarm", "thrash", "gastroacid", "heavyslam"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["dragonrush", "stompingtantrum", "brutalswing", "megapunch"] },
 		],
 		eventOnly: true,
 	},
@@ -80889,11 +80889,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "8M", "7M"],
 		},
 		eventData: [
-			{generation: 7, level: 75, moves: ["stealthrock", "irondefense", "wringout", "prismaticlaser"]},
-			{generation: 7, level: 65, moves: ["photongeyser", "irondefense", "powergem", "nightslash"]},
-			{generation: 7, level: 75, shiny: true, moves: ["lightscreen", "substitute", "moonlight"], pokeball: "cherishball"},
-			{generation: 8, level: 70, shiny: 1, moves: ["psychocut", "chargebeam", "powergem", "autotomize"]},
-			{generation: 9, level: 70, moves: ["powergem", "irondefense", "rockblast", "storedpower"]},
+			{ generation: 7, level: 75, moves: ["stealthrock", "irondefense", "wringout", "prismaticlaser"] },
+			{ generation: 7, level: 65, moves: ["photongeyser", "irondefense", "powergem", "nightslash"] },
+			{ generation: 7, level: 75, shiny: true, moves: ["lightscreen", "substitute", "moonlight"], pokeball: "cherishball" },
+			{ generation: 8, level: 70, shiny: 1, moves: ["psychocut", "chargebeam", "powergem", "autotomize"] },
+			{ generation: 9, level: 70, moves: ["powergem", "irondefense", "rockblast", "storedpower"] },
 		],
 		eventOnly: true,
 	},
@@ -81023,7 +81023,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M", "7T"],
 		},
 		eventData: [
-			{generation: 7, level: 50, moves: ["fleurcannon", "flashcannon", "luckychant", "helpinghand"], pokeball: "cherishball"},
+			{ generation: 7, level: 50, moves: ["fleurcannon", "flashcannon", "luckychant", "helpinghand"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -81114,7 +81114,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M"],
 		},
 		eventData: [
-			{generation: 8, level: 50, nature: "Mild", ivs: {hp: 31, atk: 30, def: 30, spa: 31, spd: 31, spe: 0}, moves: ["fleurcannon", "flashcannon", "defensecurl", "rest"], pokeball: "cherishball"},
+			{ generation: 8, level: 50, nature: "Mild", ivs: { hp: 31, atk: 30, def: 30, spa: 31, spd: 31, spe: 0 }, moves: ["fleurcannon", "flashcannon", "defensecurl", "rest"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -81206,8 +81206,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T"],
 		},
 		eventData: [
-			{generation: 7, level: 50, moves: ["spectralthief", "closecombat", "forcepalm", "shadowball"], pokeball: "cherishball"},
-			{generation: 8, level: 60, moves: ["spectralthief", "drainpunch", "forcepalm", "shadowsneak"], pokeball: "cherishball"},
+			{ generation: 7, level: 50, moves: ["spectralthief", "closecombat", "forcepalm", "shadowball"], pokeball: "cherishball" },
+			{ generation: 8, level: 60, moves: ["spectralthief", "drainpunch", "forcepalm", "shadowsneak"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -81252,9 +81252,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			venoshock: ["8M", "8L28", "7M", "7L13"],
 		},
 		eventData: [
-			{generation: 7, level: 40, shiny: 1, perfectIVs: 3, moves: ["charm", "venomdrench", "nastyplot", "poisonjab"], pokeball: "pokeball"},
-			{generation: 7, level: 40, shiny: true, nature: "Modest", perfectIVs: 3, moves: ["venomdrench", "nastyplot", "poisonjab", "dragonpulse"], pokeball: "cherishball"},
-			{generation: 8, level: 20, moves: ["helpinghand", "acid", "furyattack", "fellstinger"], pokeball: "beastball"},
+			{ generation: 7, level: 40, shiny: 1, perfectIVs: 3, moves: ["charm", "venomdrench", "nastyplot", "poisonjab"], pokeball: "pokeball" },
+			{ generation: 7, level: 40, shiny: true, nature: "Modest", perfectIVs: 3, moves: ["venomdrench", "nastyplot", "poisonjab", "dragonpulse"], pokeball: "cherishball" },
+			{ generation: 8, level: 20, moves: ["helpinghand", "acid", "furyattack", "fellstinger"], pokeball: "beastball" },
 		],
 		eventOnly: true,
 	},
@@ -81409,8 +81409,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T"],
 		},
 		eventData: [
-			{generation: 7, level: 60, shiny: 1, moves: ["irondefense", "ironhead", "rockblast", "wideguard"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["rockslide", "doubleedge", "brutalswing", "autotomize"]},
+			{ generation: 7, level: 60, shiny: 1, moves: ["irondefense", "ironhead", "rockblast", "wideguard"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["rockslide", "doubleedge", "brutalswing", "autotomize"] },
 		],
 		eventOnly: true,
 	},
@@ -81484,8 +81484,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "8S1"],
 		},
 		eventData: [
-			{generation: 7, level: 60, shiny: 1, moves: ["fireblast", "shadowball", "trick", "mindblown"]},
-			{generation: 8, level: 70, shiny: 1, moves: ["shadowclaw", "taunt", "fireblast", "zenheadbutt"]},
+			{ generation: 7, level: 60, shiny: 1, moves: ["fireblast", "shadowball", "trick", "mindblown"] },
+			{ generation: 8, level: 70, shiny: 1, moves: ["shadowclaw", "taunt", "fireblast", "zenheadbutt"] },
 		],
 		eventOnly: true,
 	},
@@ -81576,8 +81576,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M"],
 		},
 		eventData: [
-			{generation: 7, level: 50, moves: ["plasmafists", "thunderpunch", "closecombat", "thunder"], pokeball: "cherishball"},
-			{generation: 8, level: 100, shiny: true, nature: "Hasty", ivs: {hp: 31, atk: 31, def: 30, spa: 31, spd: 31, spe: 31}, moves: ["plasmafists", "closecombat", "blazekick", "outrage"], pokeball: "cherishball"},
+			{ generation: 7, level: 50, moves: ["plasmafists", "thunderpunch", "closecombat", "thunder"], pokeball: "cherishball" },
+			{ generation: 8, level: 100, shiny: true, nature: "Hasty", ivs: { hp: 31, atk: 31, def: 30, spa: 31, spd: 31, spe: 31 }, moves: ["plasmafists", "closecombat", "blazekick", "outrage"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -81605,7 +81605,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			toxic: ["8V", "7M"],
 		},
 		eventData: [
-			{generation: 9, level: 50, shiny: true, nature: "Adamant", moves: ["headbutt", "acidarmor", "thunderwave", "flashcannon"], ivs: {hp: 31, atk: 31, def: 31, spa: 20, spd: 20, spe: 20}, pokeball: "cherishball"}
+			{ generation: 9, level: 50, shiny: true, nature: "Adamant", moves: ["headbutt", "acidarmor", "thunderwave", "flashcannon"], ivs: { hp: 31, atk: 31, def: 31, spa: 20, spd: 20, spe: 20 }, pokeball: "cherishball" }
 		]
 	},
 	melmetal: {
@@ -81659,7 +81659,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			toxic: ["8V", "7M"],
 		},
 		eventData: [
-			{generation: 8, level: 100, nature: "Brave", ivs: {hp: 31, atk: 31, def: 31, spa: 31, spd: 31, spe: 0}, moves: ["doubleironbash", "hyperbeam", "dynamicpunch", "thunderpunch"], pokeball: "cherishball"},
+			{ generation: 8, level: 100, nature: "Brave", ivs: { hp: 31, atk: 31, def: 31, spa: 31, spd: 31, spe: 0 }, moves: ["doubleironbash", "hyperbeam", "dynamicpunch", "thunderpunch"], pokeball: "cherishball" },
 		],
 	},
 	grookey: {
@@ -83687,7 +83687,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			terablast: ["9M"],
 		},
 		eventData: [
-			{generation: 8, level: 1, isHidden: true, moves: ["nuzzle", "growl", "flail", "acid"], pokeball: "luxuryball"},
+			{ generation: 8, level: 1, isHidden: true, moves: ["nuzzle", "growl", "flail", "acid"], pokeball: "luxuryball" },
 		],
 	},
 	toxtricity: {
@@ -83774,7 +83774,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wildcharge: ["9M", "8M"],
 		},
 		eventData: [
-			{generation: 8, level: 50, shiny: true, nature: "Rash", abilities: ["punkrock"], moves: ["overdrive", "sludgewave", "boomburst", "risingvoltage"], pokeball: "cherishball"},
+			{ generation: 8, level: 50, shiny: true, nature: "Rash", abilities: ["punkrock"], moves: ["overdrive", "sludgewave", "boomburst", "risingvoltage"], pokeball: "cherishball" },
 		],
 	},
 	toxtricitylowkey: {
@@ -84150,7 +84150,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			withdraw: ["9L1"],
 		},
 		eventData: [
-			{generation: 8, level: 50, isHidden: true, moves: ["memento", "metronome", "aromatherapy", "celebrate"], pokeball: "cherishball"},
+			{ generation: 8, level: 50, isHidden: true, moves: ["memento", "metronome", "aromatherapy", "celebrate"], pokeball: "cherishball" },
 		],
 	},
 	polteageist: {
@@ -84578,7 +84578,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wonderroom: ["8M"],
 		},
 		eventData: [
-			{generation: 9, level: 50, nature: "Calm", shiny: true, abilities: ["prankster"], ivs: {hp: 31, atk: 0, def: 31, spa: 31, spd: 31, spe: 31}, moves: ["thunderwave", "spiritbreak", "reflect", "lightscreen"], pokeball: "cherishball"},
+			{ generation: 9, level: 50, nature: "Calm", shiny: true, abilities: ["prankster"], ivs: { hp: 31, atk: 0, def: 31, spa: 31, spd: 31, spe: 31 }, moves: ["thunderwave", "spiritbreak", "reflect", "lightscreen"], pokeball: "cherishball" },
 		],
 	},
 	milcery: {
@@ -84613,7 +84613,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			terablast: ["9M"],
 		},
 		eventData: [
-			{generation: 8, level: 5, nature: "Hardy", isHidden: true, moves: ["celebrate", "lastresort", "entrainment", "attract"], pokeball: "cherishball"},
+			{ generation: 8, level: 5, nature: "Hardy", isHidden: true, moves: ["celebrate", "lastresort", "entrainment", "attract"], pokeball: "cherishball" },
 		],
 	},
 	alcremie: {
@@ -85123,7 +85123,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M"],
 		},
 		eventData: [
-			{generation: 9, level: 75, shiny: 1, perfectIVs: 4, moves: ["psychic", "hypervoice", "shadowball", "trickroom"]},
+			{ generation: 9, level: 75, shiny: 1, perfectIVs: 4, moves: ["psychic", "hypervoice", "shadowball", "trickroom"] },
 		],
 	},
 	morpeko: {
@@ -85395,7 +85395,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wildcharge: ["8M"],
 		},
 		eventData: [
-			{generation: 8, level: 10, shiny: 1, perfectIVs: 3, moves: ["tackle", "thundershock", "charge"], pokeball: "pokeball"},
+			{ generation: 8, level: 10, shiny: 1, perfectIVs: 3, moves: ["tackle", "thundershock", "charge"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -85457,7 +85457,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wildcharge: ["8M"],
 		},
 		eventData: [
-			{generation: 8, level: 10, shiny: 1, perfectIVs: 3, moves: ["powdersnow", "thundershock", "charge"], pokeball: "pokeball"},
+			{ generation: 8, level: 10, shiny: 1, perfectIVs: 3, moves: ["powdersnow", "thundershock", "charge"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -85515,8 +85515,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M"],
 		},
 		eventData: [
-			{generation: 8, level: 10, shiny: 1, perfectIVs: 3, moves: ["tackle", "watergun", "protect"], pokeball: "pokeball"},
-			{generation: 8, level: 80, nature: "Naive", abilities: ["strongjaw"], ivs: {hp: 30, atk: 31, def: 31, spa: 30, spd: 30, spe: 31}, moves: ["fishiousrend", "dragonrush", "icefang", "watergun"], pokeball: "pokeball"},
+			{ generation: 8, level: 10, shiny: 1, perfectIVs: 3, moves: ["tackle", "watergun", "protect"], pokeball: "pokeball" },
+			{ generation: 8, level: 80, nature: "Naive", abilities: ["strongjaw"], ivs: { hp: 30, atk: 31, def: 31, spa: 30, spd: 30, spe: 31 }, moves: ["fishiousrend", "dragonrush", "icefang", "watergun"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -85569,7 +85569,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M"],
 		},
 		eventData: [
-			{generation: 8, level: 10, shiny: 1, perfectIVs: 3, moves: ["powdersnow", "watergun", "protect"], pokeball: "pokeball"},
+			{ generation: 8, level: 10, shiny: 1, perfectIVs: 3, moves: ["powdersnow", "watergun", "protect"], pokeball: "pokeball" },
 		],
 		eventOnly: true,
 	},
@@ -85805,7 +85805,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["9M", "8M"],
 		},
 		eventData: [
-			{generation: 9, level: 50, gender: "M", nature: "Jolly", perfectIVs: 6, abilities: ["clearbody"], moves: ["dragondarts", "phantomforce", "uturn", "terablast"], pokeball: "cherishball"},
+			{ generation: 9, level: 50, gender: "M", nature: "Jolly", perfectIVs: 6, abilities: ["clearbody"], moves: ["dragondarts", "phantomforce", "uturn", "terablast"], pokeball: "cherishball" },
 		],
 	},
 	zacian: {
@@ -85875,8 +85875,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M"],
 		},
 		eventData: [
-			{generation: 8, level: 70, perfectIVs: 3, moves: ["sacredsword", "swordsdance", "ironhead", "crunch"]},
-			{generation: 8, level: 100, shiny: true, nature: "Adamant", ivs: {hp: 31, atk: 31, def: 31, spa: 30, spd: 31, spe: 31}, moves: ["ironhead", "playrough", "swordsdance", "sacredsword"], pokeball: "cherishball"},
+			{ generation: 8, level: 70, perfectIVs: 3, moves: ["sacredsword", "swordsdance", "ironhead", "crunch"] },
+			{ generation: 8, level: 100, shiny: true, nature: "Adamant", ivs: { hp: 31, atk: 31, def: 31, spa: 30, spd: 31, spe: 31 }, moves: ["ironhead", "playrough", "swordsdance", "sacredsword"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -85958,8 +85958,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M"],
 		},
 		eventData: [
-			{generation: 8, level: 70, perfectIVs: 3, moves: ["slash", "crunch", "ironhead", "irondefense"]},
-			{generation: 8, level: 100, shiny: true, nature: "Adamant", ivs: {hp: 31, atk: 31, def: 31, spa: 30, spd: 31, spe: 31}, moves: ["ironhead", "closecombat", "irondefense", "wideguard"], pokeball: "cherishball"},
+			{ generation: 8, level: 70, perfectIVs: 3, moves: ["slash", "crunch", "ironhead", "irondefense"] },
+			{ generation: 8, level: 100, shiny: true, nature: "Adamant", ivs: { hp: 31, atk: 31, def: 31, spa: 30, spd: 31, spe: 31 }, moves: ["ironhead", "closecombat", "irondefense", "wideguard"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -86026,8 +86026,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			venoshock: ["9M", "9L16", "8M", "8L16"],
 		},
 		eventData: [
-			{generation: 8, level: 60, perfectIVs: 3, moves: ["crosspoison", "dragonpulse", "flamethrower", "dynamaxcannon"]},
-			{generation: 8, level: 100, shiny: true, nature: "Timid", perfectIVs: 6, moves: ["eternabeam", "dynamaxcannon", "sludgebomb", "flamethrower"], pokeball: "cherishball"},
+			{ generation: 8, level: 60, perfectIVs: 3, moves: ["crosspoison", "dragonpulse", "flamethrower", "dynamaxcannon"] },
+			{ generation: 8, level: 100, shiny: true, nature: "Timid", perfectIVs: 6, moves: ["eternabeam", "dynamaxcannon", "sludgebomb", "flamethrower"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -86083,8 +86083,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M"],
 		},
 		eventData: [
-			{generation: 8, level: 10, perfectIVs: 3, moves: ["rocksmash", "leer", "endure", "focusenergy"]},
-			{generation: 9, level: 30, moves: ["detect", "brickbreak", "headbutt", "scaryface"]},
+			{ generation: 8, level: 10, perfectIVs: 3, moves: ["rocksmash", "leer", "endure", "focusenergy"] },
+			{ generation: 9, level: 30, moves: ["detect", "brickbreak", "headbutt", "scaryface"] },
 		],
 		eventOnly: true,
 	},
@@ -86329,8 +86329,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			vinewhip: ["9L12", "8L12"],
 		},
 		eventData: [
-			{generation: 8, level: 60, nature: "Sassy", moves: ["closecombat", "powerwhip", "swagger", "snarl"], pokeball: "cherishball"},
-			{generation: 9, level: 50, nature: "Quirky", moves: ["scaryface", "grassknot", "bite", "uturn"], pokeball: "cherishball"},
+			{ generation: 8, level: 60, nature: "Sassy", moves: ["closecombat", "powerwhip", "swagger", "snarl"], pokeball: "cherishball" },
+			{ generation: 9, level: 50, nature: "Quirky", moves: ["scaryface", "grassknot", "bite", "uturn"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -86420,7 +86420,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			vinewhip: ["9L12", "8L12"],
 		},
 		eventData: [
-			{generation: 8, level: 70, nature: "Adamant", moves: ["junglehealing", "hammerarm", "powerwhip", "energyball"], pokeball: "cherishball"},
+			{ generation: 8, level: 70, nature: "Adamant", moves: ["junglehealing", "hammerarm", "powerwhip", "energyball"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -86475,7 +86475,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["9L66", "8L66", "8S0"],
 		},
 		eventData: [
-			{generation: 8, level: 70, shiny: 1, moves: ["thundercage", "thrash", "lockon", "zapcannon"]},
+			{ generation: 8, level: 70, shiny: 1, moves: ["thundercage", "thrash", "lockon", "zapcannon"] },
 		],
 		eventOnly: true,
 	},
@@ -86526,7 +86526,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			visegrip: ["9L1", "8L1"],
 		},
 		eventData: [
-			{generation: 8, level: 70, shiny: 1, moves: ["dragonenergy", "dragonclaw", "hammerarm", "laserfocus"]},
+			{ generation: 8, level: 70, shiny: 1, moves: ["dragonenergy", "dragonclaw", "hammerarm", "laserfocus"] },
 		],
 		eventOnly: true,
 	},
@@ -86589,8 +86589,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 8, level: 75, moves: ["taunt", "doubleedge", "swordsdance", "iciclecrash"]},
-			{generation: 9, level: 70, moves: ["doubleedge", "taunt", "thrash", "irondefense"]},
+			{ generation: 8, level: 75, moves: ["taunt", "doubleedge", "swordsdance", "iciclecrash"] },
+			{ generation: 9, level: 70, moves: ["doubleedge", "taunt", "thrash", "irondefense"] },
 		],
 		eventOnly: true,
 	},
@@ -86648,8 +86648,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["9M", "8M"],
 		},
 		eventData: [
-			{generation: 8, level: 75, moves: ["thrash", "doubleedge", "disable", "nastyplot"]},
-			{generation: 9, level: 70, moves: ["doubleedge", "disable", "thrash", "agility"]},
+			{ generation: 8, level: 75, moves: ["thrash", "doubleedge", "disable", "nastyplot"] },
+			{ generation: 9, level: 70, moves: ["doubleedge", "disable", "thrash", "agility"] },
 		],
 		eventOnly: true,
 	},
@@ -86726,7 +86726,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M"],
 		},
 		eventData: [
-			{generation: 8, level: 80, moves: ["psychic", "gigadrain"]},
+			{ generation: 8, level: 80, moves: ["psychic", "gigadrain"] },
 		],
 		eventOnly: true,
 	},
@@ -86842,7 +86842,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M"],
 		},
 		eventData: [
-			{generation: 8, level: 80, moves: ["glaciallance", "psychic", "irondefense", "gigadrain"]},
+			{ generation: 8, level: 80, moves: ["glaciallance", "psychic", "irondefense", "gigadrain"] },
 		],
 		eventOnly: true,
 	},
@@ -86948,7 +86948,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "8M"],
 		},
 		eventData: [
-			{generation: 8, level: 80, moves: ["astralbarrage", "psychic", "agility", "gigadrain"]},
+			{ generation: 8, level: 80, moves: ["astralbarrage", "psychic", "agility", "gigadrain"] },
 		],
 		eventOnly: true,
 	},
@@ -87007,8 +87007,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 8, level: 70, perfectIVs: 3, moves: ["extrasensory", "crunch", "moonblast", "springtidestorm"], source: "gen8legends"},
-			{generation: 9, level: 50, shiny: true, nature: "Naive", ivs: {hp: 20, atk: 31, def: 20, spa: 31, spd: 20, spe: 31}, moves: ["drainingkiss", "extrasensory", "moonblast"], pokeball: "cherishball"},
+			{ generation: 8, level: 70, perfectIVs: 3, moves: ["extrasensory", "crunch", "moonblast", "springtidestorm"], source: "gen8legends" },
+			{ generation: 9, level: 50, shiny: true, nature: "Naive", ivs: { hp: 20, atk: 31, def: 20, spa: 31, spd: 20, spe: 31 }, moves: ["drainingkiss", "extrasensory", "moonblast"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -87065,7 +87065,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			worryseed: ["9L25"],
 		},
 		eventData: [
-			{generation: 9, level: 5, gender: "F", nature: "Quirky", ivs: {hp: 20, atk: 20, def: 20, spa: 20, spd: 29, spe: 20}, moves: ["scratch", "leafage"], pokeball: "pokeball"},
+			{ generation: 9, level: 5, gender: "F", nature: "Quirky", ivs: { hp: 20, atk: 20, def: 20, spa: 20, spd: 29, spe: 20 }, moves: ["scratch", "leafage"], pokeball: "pokeball" },
 		],
 	},
 	floragato: {
@@ -87244,7 +87244,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 5, gender: "M", nature: "Hardy", ivs: {hp: 30, atk: 20, def: 20, spa: 20, spd: 20, spe: 20}, moves: ["tackle", "ember"], pokeball: "pokeball"},
+			{ generation: 9, level: 5, gender: "M", nature: "Hardy", ivs: { hp: 30, atk: 20, def: 20, spa: 20, spd: 20, spe: 20 }, moves: ["tackle", "ember"], pokeball: "pokeball" },
 		],
 	},
 	crocalor: {
@@ -87406,7 +87406,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["9L7"],
 		},
 		eventData: [
-			{generation: 9, level: 5, gender: "M", nature: "Serious", ivs: {hp: 20, atk: 20, def: 20, spa: 29, spd: 20, spe: 20}, moves: ["pound", "watergun"], pokeball: "pokeball"},
+			{ generation: 9, level: 5, gender: "M", nature: "Serious", ivs: { hp: 20, atk: 20, def: 20, spa: 29, spd: 20, spe: 20 }, moves: ["pound", "watergun"], pokeball: "pokeball" },
 		],
 	},
 	quaxwell: {
@@ -87570,7 +87570,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 15, gender: "M", isHidden: true, moves: ["terablast", "mudshot", "covet", "dig"], pokeball: "cherishball"},
+			{ generation: 9, level: 15, gender: "M", isHidden: true, moves: ["terablast", "mudshot", "covet", "dig"], pokeball: "cherishball" },
 		],
 	},
 	oinkologne: {
@@ -88587,7 +88587,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 50, gender: "F", nature: "Adamant", ivs: {hp: 31, atk: 31, def: 31, spa: 17, spd: 31, spe: 31}, moves: ["jetpunch", "wavecrash", "haze", "protect"], pokeball: "cherishball"},
+			{ generation: 9, level: 50, gender: "F", nature: "Adamant", ivs: { hp: 31, atk: 31, def: 31, spa: 17, spd: 31, spe: 31 }, moves: ["jetpunch", "wavecrash", "haze", "protect"], pokeball: "cherishball" },
 		],
 	},
 	smoliv: {
@@ -89015,7 +89015,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 50, gender: "F", nature: "Naughty", abilities: ["clearbody"], ivs: {hp: 20, atk: 31, def: 20, spa: 20, spd: 20, spe: 20}, moves: ["ironhead", "swagger", "poisonjab", "terablast"], pokeball: "healball"},
+			{ generation: 9, level: 50, gender: "F", nature: "Naughty", abilities: ["clearbody"], ivs: { hp: 20, atk: 31, def: 20, spa: 20, spd: 20, spe: 20 }, moves: ["ironhead", "swagger", "poisonjab", "terablast"], pokeball: "healball" },
 		],
 	},
 	orthworm: {
@@ -89067,7 +89067,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wrap: ["9L1", "9S0"],
 		},
 		eventData: [
-			{generation: 9, level: 29, gender: "M", nature: "Quirky", ivs: {hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30}, moves: ["irontail", "headbutt", "wrap", "sandstorm"]},
+			{ generation: 9, level: 29, gender: "M", nature: "Quirky", ivs: { hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30 }, moves: ["irontail", "headbutt", "wrap", "sandstorm"] },
 		],
 	},
 	tandemaus: {
@@ -89124,7 +89124,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			waterpulse: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 5, isHidden: true, moves: ["celebrate", "terablast", "babydolleyes", "echoedvoice"], pokeball: "cherishball"},
+			{ generation: 9, level: 5, isHidden: true, moves: ["celebrate", "terablast", "babydolleyes", "echoedvoice"], pokeball: "cherishball" },
 		],
 	},
 	maushold: {
@@ -89283,7 +89283,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			waterpulse: ["9M"],
 		},
 		eventData: [
-			{generation: 9, moves: ["bodyslam", "amnesia", "icespinner", "doubleedge"]},
+			{ generation: 9, moves: ["bodyslam", "amnesia", "icespinner", "doubleedge"] },
 		],
 	},
 	frigibax: {
@@ -89422,7 +89422,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 54, moves: ["glaiverush", "scaleshot", "iciclespear", "iceshard"], pokeball: "cherishball"},
+			{ generation: 9, level: 54, moves: ["glaiverush", "scaleshot", "iciclespear", "iceshard"], pokeball: "cherishball" },
 		],
 	},
 	tatsugiri: {
@@ -89465,7 +89465,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 57, gender: "M", nature: "Quiet", ivs: {hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30}, moves: ["muddywater", "icywind", "taunt", "dragonpulse"]},
+			{ generation: 9, level: 57, gender: "M", nature: "Quiet", ivs: { hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30 }, moves: ["muddywater", "icywind", "taunt", "dragonpulse"] },
 		],
 	},
 	tatsugiristretchy: {
@@ -89476,7 +89476,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			muddywater: ["9S0"],
 		},
 		eventData: [
-			{generation: 9, level: 50, moves: ["dracometeor", "muddywater", "helpinghand", "celebrate"], pokeball: "cherishball"},
+			{ generation: 9, level: 50, moves: ["dracometeor", "muddywater", "helpinghand", "celebrate"], pokeball: "cherishball" },
 		],
 	},
 	cyclizar: {
@@ -89593,7 +89593,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wish: ["9E"],
 		},
 		eventData: [
-			{generation: 9, level: 5, moves: ["thundershock", "growl", "terablast", "celebrate"], pokeball: "cherishball"},
+			{ generation: 9, level: 5, moves: ["thundershock", "growl", "terablast", "celebrate"], pokeball: "cherishball" },
 		],
 	},
 	pawmo: {
@@ -89728,7 +89728,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wildcharge: ["9M", "9L1"],
 		},
 		eventData: [
-			{generation: 9, level: 20, gender: "F", nature: "Jolly", abilities: ["voltabsorb"], ivs: {hp: 20, atk: 20, def: 20, spa: 20, spd: 20, spe: 31}, moves: ["doubleshock", "discharge", "quickattack", "nuzzle"], pokeball: "cherishball"},
+			{ generation: 9, level: 20, gender: "F", nature: "Jolly", abilities: ["voltabsorb"], ivs: { hp: 20, atk: 20, def: 20, spa: 20, spd: 20, spe: 31 }, moves: ["doubleshock", "discharge", "quickattack", "nuzzle"], pokeball: "cherishball" },
 		],
 	},
 	wattrel: {
@@ -89897,7 +89897,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wingattack: ["9L1", "9S0"],
 		},
 		eventData: [
-			{generation: 9, level: 20, gender: "F", nature: "Jolly", ivs: {hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30}, isHidden: true, moves: ["rockthrow", "wingattack", "pluck", "torment"]},
+			{ generation: 9, level: 20, gender: "F", nature: "Jolly", ivs: { hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30 }, isHidden: true, moves: ["rockthrow", "wingattack", "pluck", "torment"] },
 		],
 	},
 	squawkabilly: {
@@ -90068,7 +90068,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "9L29"],
 		},
 		eventData: [
-			{generation: 9, level: 16, gender: "F", nature: "Gentle", ivs: {hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30}, abilities: ["angershell"], moves: ["visegrip", "rocksmash", "block", "rocktomb"]},
+			{ generation: 9, level: 16, gender: "F", nature: "Gentle", ivs: { hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30 }, abilities: ["angershell"], moves: ["visegrip", "rocksmash", "block", "rocktomb"] },
 		],
 	},
 	nacli: {
@@ -90221,7 +90221,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 50, gender: "M", nature: "Careful", ivs: {hp: 31, atk: 31, def: 31, spa: 22, spd: 31, spe: 31}, moves: ["saltcure", "recover", "wideguard", "protect"], pokeball: "cherishball"},
+			{ generation: 9, level: 50, gender: "M", nature: "Careful", ivs: { hp: 31, atk: 31, def: 31, spa: 22, spd: 31, spe: 31 }, moves: ["saltcure", "recover", "wideguard", "protect"], pokeball: "cherishball" },
 		],
 	},
 	glimmet: {
@@ -90489,7 +90489,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			yawn: ["9E"],
 		},
 		eventData: [
-			{generation: 9, level: 5, moves: ["playrough", "charm", "lick", "tailwhip"], pokeball: "cherishball"},
+			{ generation: 9, level: 5, moves: ["playrough", "charm", "lick", "tailwhip"], pokeball: "cherishball" },
 		],
 	},
 	dachsbun: {
@@ -90761,9 +90761,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			thief: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 5, moves: ["astonish", "tackle"]},
-			{generation: 9, level: 75, shiny: 1, perfectIVs: 4, moves: ["takedown", "shadowball", "hex", "powergem"]},
-			{generation: 9, level: 20, nature: "Timid", ivs: {hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 31}, moves: ["astonish", "tackle"], pokeball: "cherishball"},
+			{ generation: 9, level: 5, moves: ["astonish", "tackle"] },
+			{ generation: 9, level: 75, shiny: 1, perfectIVs: 4, moves: ["takedown", "shadowball", "hex", "powergem"] },
+			{ generation: 9, level: 20, nature: "Timid", ivs: { hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 31 }, moves: ["astonish", "tackle"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -90878,8 +90878,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 45, nature: "Naughty", ivs: {hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30}, moves: ["rapidspin", "brickbreak", "knockoff", "stompingtantrum"]},
-			{generation: 9, level: 57, shiny: 1, moves: ["stompingtantrum", "knockoff", "earthquake", "gigaimpact"]},
+			{ generation: 9, level: 45, nature: "Naughty", ivs: { hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30 }, moves: ["rapidspin", "brickbreak", "knockoff", "stompingtantrum"] },
+			{ generation: 9, level: 57, shiny: 1, moves: ["stompingtantrum", "knockoff", "earthquake", "gigaimpact"] },
 		],
 		eventOnly: true,
 	},
@@ -90938,7 +90938,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 52, shiny: 1, moves: ["thrash", "gigadrain", "clearsmog", "payback"]},
+			{ generation: 9, level: 52, shiny: 1, moves: ["thrash", "gigadrain", "clearsmog", "payback"] },
 		],
 		eventOnly: true,
 	},
@@ -91000,7 +91000,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["9L84"],
 		},
 		eventData: [
-			{generation: 9, level: 52, shiny: 1, moves: ["screech", "heavyslam", "metalsound", "triattack"]},
+			{ generation: 9, level: 52, shiny: 1, moves: ["screech", "heavyslam", "metalsound", "triattack"] },
 		],
 		eventOnly: true,
 	},
@@ -91088,7 +91088,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 52, shiny: 1, moves: ["playrough", "hypervoice", "bodyslam", "rest"]},
+			{ generation: 9, level: 52, shiny: 1, moves: ["playrough", "hypervoice", "bodyslam", "rest"] },
 		],
 		eventOnly: true,
 	},
@@ -91145,9 +91145,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wish: ["9L28", "9S0"],
 		},
 		eventData: [
-			{generation: 9, level: 52, shiny: 1, moves: ["shadowball", "mysticalfire", "wish", "dazzlinggleam"]},
-			{generation: 9, level: 75, shiny: 1, perfectIVs: 4, moves: ["shadowball", "moonblast", "powergem", "icywind"]},
-			{generation: 9, level: 50, nature: "Timid", ivs: {hp: 31, atk: 0, def: 31, spa: 31, spd: 31, spe: 31}, moves: ["shadowball", "dazzlinggleam", "moonblast", "thunderbolt"], pokeball: "cherishball"},
+			{ generation: 9, level: 52, shiny: 1, moves: ["shadowball", "mysticalfire", "wish", "dazzlinggleam"] },
+			{ generation: 9, level: 75, shiny: 1, perfectIVs: 4, moves: ["shadowball", "moonblast", "powergem", "icywind"] },
+			{ generation: 9, level: 50, nature: "Timid", ivs: { hp: 31, atk: 0, def: 31, spa: 31, spd: 31, spe: 31 }, moves: ["shadowball", "dazzlinggleam", "moonblast", "thunderbolt"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -91212,7 +91212,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 52, shiny: 1, moves: ["morningsun", "lunge", "superpower", "lowsweep"]},
+			{ generation: 9, level: 52, shiny: 1, moves: ["morningsun", "lunge", "superpower", "lowsweep"] },
 		],
 		eventOnly: true,
 	},
@@ -91288,8 +91288,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9L35", "9S0"],
 		},
 		eventData: [
-			{generation: 9, level: 52, shiny: 1, moves: ["zenheadbutt", "flamethrower", "nightslash", "dragonclaw"]},
-			{generation: 9, level: 75, perfectIVs: 3, moves: ["nightslash", "dragondance", "dragonrush", "fly"], pokeball: "friendball"},
+			{ generation: 9, level: 52, shiny: 1, moves: ["zenheadbutt", "flamethrower", "nightslash", "dragonclaw"] },
+			{ generation: 9, level: 75, perfectIVs: 3, moves: ["nightslash", "dragondance", "dragonrush", "fly"], pokeball: "friendball" },
 		],
 		eventOnly: true,
 	},
@@ -91349,8 +91349,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 45, nature: "Naughty", ivs: {hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30}, moves: ["rapidspin", "ironhead", "knockoff", "stompingtantrum"]},
-			{generation: 9, level: 57, shiny: 1, moves: ["knockoff", "earthquake", "heavyslam", "stompingtantrum"]},
+			{ generation: 9, level: 45, nature: "Naughty", ivs: { hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30 }, moves: ["rapidspin", "ironhead", "knockoff", "stompingtantrum"] },
+			{ generation: 9, level: 57, shiny: 1, moves: ["knockoff", "earthquake", "heavyslam", "stompingtantrum"] },
 		],
 	},
 	ironmoth: {
@@ -91409,7 +91409,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlwind: ["9L1"],
 		},
 		eventData: [
-			{generation: 9, level: 52, shiny: 1, moves: ["screech", "discharge", "sludgewave", "lunge"]},
+			{ generation: 9, level: 52, shiny: 1, moves: ["screech", "discharge", "sludgewave", "lunge"] },
 		],
 		eventOnly: true,
 	},
@@ -91473,8 +91473,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wildcharge: ["9M", "9L56", "9S1"],
 		},
 		eventData: [
-			{generation: 9, level: 52, shiny: 1, moves: ["forcepalm", "seismictoss", "charge", "slam"]},
-			{generation: 9, level: 50, nature: "Adamant", perfectIVs: 6, moves: ["drainpunch", "voltswitch", "wildcharge", "fakeout"], pokeball: "cherishball"},
+			{ generation: 9, level: 52, shiny: 1, moves: ["forcepalm", "seismictoss", "charge", "slam"] },
+			{ generation: 9, level: 50, nature: "Adamant", perfectIVs: 6, moves: ["drainpunch", "voltswitch", "wildcharge", "fakeout"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -91538,7 +91538,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 52, shiny: 1, moves: ["snarl", "crunch", "hypervoice", "dragonbreath"]},
+			{ generation: 9, level: 52, shiny: 1, moves: ["snarl", "crunch", "hypervoice", "dragonbreath"] },
 		],
 		eventOnly: true,
 	},
@@ -91622,7 +91622,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wildcharge: ["9M", "9L56"],
 		},
 		eventData: [
-			{generation: 9, level: 52, shiny: 1, moves: ["charge", "rockslide", "sandstorm", "bite"]},
+			{ generation: 9, level: 52, shiny: 1, moves: ["charge", "rockslide", "sandstorm", "bite"] },
 		],
 		eventOnly: true,
 	},
@@ -91671,7 +91671,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["9M", "9L14"],
 		},
 		eventData: [
-			{generation: 9, level: 52, shiny: 1, moves: ["drillpeck", "helpinghand", "freezedry", "flipturn"]},
+			{ generation: 9, level: 52, shiny: 1, moves: ["drillpeck", "helpinghand", "freezedry", "flipturn"] },
 		],
 		eventOnly: true,
 	},
@@ -91759,8 +91759,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 52, shiny: 1, moves: ["psychocut", "nightslash", "leafblade", "dazzlinggleam"]},
-			{generation: 9, level: 75, perfectIVs: 3, moves: ["leafblade", "moonblast", "closecombat", "knockoff"], pokeball: "friendball"},
+			{ generation: 9, level: 52, shiny: 1, moves: ["psychocut", "nightslash", "leafblade", "dazzlinggleam"] },
+			{ generation: 9, level: 75, perfectIVs: 3, moves: ["leafblade", "moonblast", "closecombat", "knockoff"], pokeball: "friendball" },
 		],
 		eventOnly: true,
 	},
@@ -91814,8 +91814,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 60, moves: ["stompingtantrum", "ruination", "throatchop", "rockslide"]},
-			{generation: 9, level: 75, shiny: true, nature: "Impish", ivs: {hp: 31, atk: 31, def: 31, spa: 20, spd: 31, spe: 31}, moves: ["stompingtantrum", "stoneedge", "snarl", "heavyslam"], pokeball: "cherishball"},
+			{ generation: 9, level: 60, moves: ["stompingtantrum", "ruination", "throatchop", "rockslide"] },
+			{ generation: 9, level: 75, shiny: true, nature: "Impish", ivs: { hp: 31, atk: 31, def: 31, spa: 20, spd: 31, spe: 31 }, moves: ["stompingtantrum", "stoneedge", "snarl", "heavyslam"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -91868,8 +91868,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			throatchop: ["9M", "9L70"],
 		},
 		eventData: [
-			{generation: 9, level: 60, moves: ["iciclecrash", "ruination", "suckerpunch", "sacredsword"]},
-			{generation: 9, level: 75, shiny: true, nature: "Adamant", ivs: {hp: 31, atk: 31, def: 31, spa: 20, spd: 31, spe: 31}, moves: ["iciclecrash", "crunch", "sacredsword", "iceshard"], pokeball: "cherishball"},
+			{ generation: 9, level: 60, moves: ["iciclecrash", "ruination", "suckerpunch", "sacredsword"] },
+			{ generation: 9, level: 75, shiny: true, nature: "Adamant", ivs: { hp: 31, atk: 31, def: 31, spa: 20, spd: 31, spe: 31 }, moves: ["iciclecrash", "crunch", "sacredsword", "iceshard"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -91929,8 +91929,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 60, moves: ["gigadrain", "ruination", "foulplay", "powerwhip"]},
-			{generation: 9, level: 75, shiny: true, nature: "Calm", ivs: {hp: 31, atk: 20, def: 31, spa: 31, spd: 31, spe: 31}, moves: ["gigadrain", "darkpulse", "snarl", "pollenpuff"], pokeball: "cherishball"},
+			{ generation: 9, level: 60, moves: ["gigadrain", "ruination", "foulplay", "powerwhip"] },
+			{ generation: 9, level: 75, shiny: true, nature: "Calm", ivs: { hp: 31, atk: 20, def: 31, spa: 31, spd: 31, spe: 31 }, moves: ["gigadrain", "darkpulse", "snarl", "pollenpuff"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -91984,8 +91984,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 60, moves: ["lavaplume", "ruination", "bounce", "swagger"]},
-			{generation: 9, level: 75, shiny: true, nature: "Modest", ivs: {hp: 31, atk: 20, def: 31, spa: 31, spd: 31, spe: 31}, moves: ["heatwave", "darkpulse", "snarl", "flamethrower"], pokeball: "cherishball"},
+			{ generation: 9, level: 60, moves: ["lavaplume", "ruination", "bounce", "swagger"] },
+			{ generation: 9, level: 75, shiny: true, nature: "Modest", ivs: { hp: 31, atk: 20, def: 31, spa: 31, spd: 31, spe: 31 }, moves: ["heatwave", "darkpulse", "snarl", "flamethrower"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -92065,9 +92065,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 68, nature: "Quirky", ivs: {hp: 31, atk: 31, def: 28, spa: 31, spd: 28, spe: 31}, moves: ["flamethrower", "collisioncourse", "endure", "terablast"], pokeball: "pokeball"},
-			{generation: 9, level: 72, nature: "Adamant", ivs: {hp: 25, atk: 31, def: 25, spa: 31, spd: 25, spe: 31}, moves: ["gigaimpact", "bulkup", "collisioncourse", "flamethrower"]},
-			{generation: 9, level: 100, shiny: true, nature: "Adamant", ivs: {hp: 31, atk: 31, def: 31, spa: 20, spd: 31, spe: 31}, moves: ["collisioncourse", "closecombat", "flareblitz", "gigaimpact"], pokeball: "cherishball"},
+			{ generation: 9, level: 68, nature: "Quirky", ivs: { hp: 31, atk: 31, def: 28, spa: 31, spd: 28, spe: 31 }, moves: ["flamethrower", "collisioncourse", "endure", "terablast"], pokeball: "pokeball" },
+			{ generation: 9, level: 72, nature: "Adamant", ivs: { hp: 25, atk: 31, def: 25, spa: 31, spd: 25, spe: 31 }, moves: ["gigaimpact", "bulkup", "collisioncourse", "flamethrower"] },
+			{ generation: 9, level: 100, shiny: true, nature: "Adamant", ivs: { hp: 31, atk: 31, def: 31, spa: 20, spd: 31, spe: 31 }, moves: ["collisioncourse", "closecombat", "flareblitz", "gigaimpact"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -92131,9 +92131,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 68, nature: "Quirky", ivs: {hp: 31, atk: 31, def: 28, spa: 31, spd: 28, spe: 31}, moves: ["powergem", "electrodrift", "endure", "terablast"], pokeball: "pokeball"},
-			{generation: 9, level: 72, nature: "Modest", ivs: {hp: 25, atk: 31, def: 25, spa: 31, spd: 25, spe: 31}, moves: ["hyperbeam", "charge", "electrodrift", "powergem"]},
-			{generation: 9, level: 100, shiny: true, nature: "Modest", ivs: {hp: 31, atk: 20, def: 31, spa: 31, spd: 31, spe: 31}, moves: ["electrodrift", "thunder", "overheat", "hyperbeam"], pokeball: "cherishball"},
+			{ generation: 9, level: 68, nature: "Quirky", ivs: { hp: 31, atk: 31, def: 28, spa: 31, spd: 28, spe: 31 }, moves: ["powergem", "electrodrift", "endure", "terablast"], pokeball: "pokeball" },
+			{ generation: 9, level: 72, nature: "Modest", ivs: { hp: 25, atk: 31, def: 25, spa: 31, spd: 25, spe: 31 }, moves: ["hyperbeam", "charge", "electrodrift", "powergem"] },
+			{ generation: 9, level: 100, shiny: true, nature: "Modest", ivs: { hp: 31, atk: 20, def: 31, spa: 31, spd: 31, spe: 31 }, moves: ["electrodrift", "thunder", "overheat", "hyperbeam"], pokeball: "cherishball" },
 		],
 		eventOnly: true,
 	},
@@ -92322,7 +92322,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["9M", "9L16"],
 		},
 		eventData: [
-			{generation: 9, level: 5, moves: ["ember", "astonish", "terablast", "celebrate"], pokeball: "cherishball"},
+			{ generation: 9, level: 5, moves: ["ember", "astonish", "terablast", "celebrate"], pokeball: "cherishball" },
 		],
 	},
 	armarouge: {
@@ -92512,7 +92512,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wrap: ["9L1"],
 		},
 		eventData: [
-			{generation: 9, level: 50, moves: ["celebrate", "gigadrain", "magicalleaf", "spikes"], pokeball: "cherishball"},
+			{ generation: 9, level: 50, moves: ["celebrate", "gigadrain", "magicalleaf", "spikes"], pokeball: "cherishball" },
 		],
 	},
 	toedscruel: {
@@ -92632,7 +92632,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 75, perfectIVs: 3, moves: ["hydrosteam", "dragonpulse", "nobleroar", "flamethrower"]},
+			{ generation: 9, level: 75, perfectIVs: 3, moves: ["hydrosteam", "dragonpulse", "nobleroar", "flamethrower"] },
 		],
 		eventOnly: true,
 	},
@@ -92697,7 +92697,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 75, perfectIVs: 3, moves: ["psyblade", "leafblade", "megahorn", "swordsdance"]},
+			{ generation: 9, level: 75, perfectIVs: 3, moves: ["psyblade", "leafblade", "megahorn", "swordsdance"] },
 		],
 		eventOnly: true,
 	},
@@ -92989,7 +92989,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			uproar: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 70, moves: ["superpower", "crunch", "brutalswing", "poisonjab"]},
+			{ generation: 9, level: 70, moves: ["superpower", "crunch", "brutalswing", "poisonjab"] },
 		],
 		eventOnly: true,
 	},
@@ -93053,7 +93053,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			venoshock: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 70, moves: ["futuresight", "nastyplot", "sludgewave", "psychic"]},
+			{ generation: 9, level: 70, moves: ["futuresight", "nastyplot", "sludgewave", "psychic"] },
 		],
 		eventOnly: true,
 	},
@@ -93124,7 +93124,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wingattack: ["9L24"],
 		},
 		eventData: [
-			{generation: 9, level: 70, moves: ["roost", "flatter", "swagger", "beatup"]},
+			{ generation: 9, level: 70, moves: ["roost", "flatter", "swagger", "beatup"] },
 		],
 		eventOnly: true,
 	},
@@ -93194,8 +93194,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 20, nature: "Lonely", ivs: {hp: 31, atk: 31, def: 20, spa: 20, spd: 20, spe: 31}, moves: ["ivycudgel", "slam", "growth", "vinewhip"]},
-			{generation: 9, level: 70, nature: "Lonely", ivs: {hp: 31, atk: 31, def: 20, spa: 20, spd: 20, spe: 31}, moves: ["ivycudgel", "lowkick", "slam", "grassyterrain"]},
+			{ generation: 9, level: 20, nature: "Lonely", ivs: { hp: 31, atk: 31, def: 20, spa: 20, spd: 20, spe: 31 }, moves: ["ivycudgel", "slam", "growth", "vinewhip"] },
+			{ generation: 9, level: 70, nature: "Lonely", ivs: { hp: 31, atk: 31, def: 20, spa: 20, spd: 20, spe: 31 }, moves: ["ivycudgel", "lowkick", "slam", "grassyterrain"] },
 		],
 		eventOnly: true,
 	},
@@ -93393,7 +93393,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			weatherball: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 75, ivs: {hp: 20, atk: 20, def: 20, spa: 20, spd: 20, spe: 20}, moves: ["lavaplume", "fireblast", "dragonrush", "burningbulwark"]},
+			{ generation: 9, level: 75, ivs: { hp: 20, atk: 20, def: 20, spa: 20, spd: 20, spe: 20 }, moves: ["lavaplume", "fireblast", "dragonrush", "burningbulwark"] },
 		],
 		eventOnly: true,
 	},
@@ -93456,7 +93456,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["9L77"],
 		},
 		eventData: [
-			{generation: 9, level: 75, ivs: {hp: 20, atk: 20, def: 20, spa: 20, spd: 20, spe: 20}, moves: ["dragonpulse", "risingvoltage", "dragonhammer", "thunderclap"]},
+			{ generation: 9, level: 75, ivs: { hp: 20, atk: 20, def: 20, spa: 20, spd: 20, spe: 20 }, moves: ["dragonpulse", "risingvoltage", "dragonhammer", "thunderclap"] },
 		],
 		eventOnly: true,
 	},
@@ -93513,7 +93513,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 75, ivs: {hp: 20, atk: 20, def: 20, spa: 20, spd: 20, spe: 20}, moves: ["megahorn", "swordsdance", "mightycleave", "sacredsword"]},
+			{ generation: 9, level: 75, ivs: { hp: 20, atk: 20, def: 20, spa: 20, spd: 20, spe: 20 }, moves: ["megahorn", "swordsdance", "mightycleave", "sacredsword"] },
 		],
 		eventOnly: true,
 	},
@@ -93570,7 +93570,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 75, ivs: {hp: 20, atk: 20, def: 20, spa: 20, spd: 20, spe: 20}, moves: ["voltswitch", "futuresight", "tachyoncutter", "sacredsword"]},
+			{ generation: 9, level: 75, ivs: { hp: 20, atk: 20, def: 20, spa: 20, spd: 20, spe: 20 }, moves: ["voltswitch", "futuresight", "tachyoncutter", "sacredsword"] },
 		],
 		eventOnly: true,
 	},
@@ -93637,7 +93637,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9S0"],
 		},
 		eventData: [
-			{generation: 9, level: 85, gender: "M", nature: "Hardy", ivs: {hp: 31, atk: 15, def: 31, spa: 31, spd: 31, spe: 31}, moves: ["terastarstorm", "zenheadbutt", "earthpower", "waterpulse"]},
+			{ generation: 9, level: 85, gender: "M", nature: "Hardy", ivs: { hp: 31, atk: 15, def: 31, spa: 31, spd: 31, spe: 31 }, moves: ["terastarstorm", "zenheadbutt", "earthpower", "waterpulse"] },
 		],
 		eventOnly: true,
 	},
@@ -93680,7 +93680,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			withdraw: ["9L8"],
 		},
 		eventData: [
-			{generation: 9, level: 88, nature: "Timid", moves: ["nastyplot", "toxic", "malignantchain", "shadowball"]},
+			{ generation: 9, level: 88, nature: "Timid", moves: ["nastyplot", "toxic", "malignantchain", "shadowball"] },
 		],
 		eventOnly: true,
 	},
@@ -95672,7 +95672,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wildcharge: ["9M", "9L45", "8M", "8L45", "7M", "7L53"],
 		},
 		eventData: [
-			{generation: 9, level: 50, moves: ["surf", "thunderbolt", "icebeam", "heartswap"], pokeball: "pokeball"},
+			{ generation: 9, level: 50, moves: ["surf", "thunderbolt", "icebeam", "heartswap"], pokeball: "pokeball" },
 		],
 	},
 	voodoll: {
@@ -96107,7 +96107,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			worryseed: ["7T"],
 		},
 		eventData: [
-			{generation: 9, level: 1, shiny: 1, moves: ["sketch"]},
+			{ generation: 9, level: 1, shiny: 1, moves: ["sketch"] },
 		],
 	},
 	necturna: {
@@ -97641,7 +97641,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			yawn: ["9L1", "8L1", "7L9", "6L9"],
 		},
 		eventData: [
-			{generation: 6, level: 16, abilities: ["naturalcure"], moves: ["celebrate", "holdhands", "fly", "metronome"], pokeball: "cherishball"},
+			{ generation: 6, level: 16, abilities: ["naturalcure"], moves: ["celebrate", "holdhands", "fly", "metronome"], pokeball: "cherishball" },
 		],
 	},
 	pajantom: {
@@ -98126,7 +98126,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["9L72", "8L72", "7L57"],
 		},
 		eventData: [
-			{generation: 7, level: 50, moves: ["celebrate", "hornleech", "wildcharge", "metronome"], pokeball: "cherishball"},
+			{ generation: 7, level: 50, moves: ["celebrate", "hornleech", "wildcharge", "metronome"], pokeball: "cherishball" },
 		],
 	},
 	smogecko: {
@@ -98372,7 +98372,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M"],
 		},
 		eventData: [
-			{generation: 7, level: 50, moves: ["celebrate", "eruption", "magnitude", "camouflage"], pokeball: "cherishball"},
+			{ generation: 7, level: 50, moves: ["celebrate", "eruption", "magnitude", "camouflage"], pokeball: "cherishball" },
 		],
 	},
 	swirlpool: {
@@ -98640,7 +98640,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "8M"],
 		},
 		eventData: [
-			{generation: 7, level: 50, moves: ["celebrate", "liquidation", "leechlife", "metronome"], pokeball: "cherishball"},
+			{ generation: 7, level: 50, moves: ["celebrate", "liquidation", "leechlife", "metronome"], pokeball: "cherishball" },
 		],
 	},
 	justyke: {
@@ -98779,7 +98779,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M"],
 		},
 		eventData: [
-			{generation: 9, level: 50, moves: ["doomdesire", "flashcannon", "earthpower", "rapidspin"], pokeball: "pokeball"},
+			{ generation: 9, level: 50, moves: ["doomdesire", "flashcannon", "earthpower", "rapidspin"], pokeball: "pokeball" },
 		],
 	},
 	solotl: {
@@ -99143,7 +99143,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wideguard: ["9L50", "8L50"],
 		},
 		eventData: [
-			{generation: 8, level: 50, moves: ["recover", "calmmind", "darkpulse", "belch"], pokeball: "cherishball"},
+			{ generation: 8, level: 50, moves: ["recover", "calmmind", "darkpulse", "belch"], pokeball: "cherishball" },
 		],
 	},
 	venomicon: {
@@ -99533,7 +99533,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			endure: ["9M"],
 			facade: ["9M"],
 			gigaimpact: ["9M"],
-			haze: ["9M","9L40"],
+			haze: ["9M", "9L40"],
 			healingwish: ["9E"],
 			heavyslam: ["9M"],
 			helpinghand: ["9M"],
@@ -99767,7 +99767,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			venoshock: ["9M"],
 		},
 		eventData: [
-			{generation: 9, level: 50, shiny: true, abilities: ["armortail"], moves: ["celebrate", "dragontail", "sludgebomb", "dragondance"], pokeball: "cherishball"},
+			{ generation: 9, level: 50, shiny: true, abilities: ["armortail"], moves: ["celebrate", "dragontail", "sludgebomb", "dragondance"], pokeball: "cherishball" },
 		],
 	},
 	shox: {
@@ -99919,115 +99919,115 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	},
 	pokestarsmeargle: {
 		eventData: [
-			{generation: 5, level: 60, gender: "M", abilities: ["owntempo"], moves: ["mindreader", "guillotine", "tailwhip", "gastroacid"]},
-			{generation: 5, level: 30, gender: "M", abilities: ["owntempo"], moves: ["outrage", "magiccoat"]},
-			{generation: 5, level: 99, gender: "M", abilities: ["owntempo"], moves: ["nastyplot", "sheercold", "attract", "shadowball"]},
+			{ generation: 5, level: 60, gender: "M", abilities: ["owntempo"], moves: ["mindreader", "guillotine", "tailwhip", "gastroacid"] },
+			{ generation: 5, level: 30, gender: "M", abilities: ["owntempo"], moves: ["outrage", "magiccoat"] },
+			{ generation: 5, level: 99, gender: "M", abilities: ["owntempo"], moves: ["nastyplot", "sheercold", "attract", "shadowball"] },
 		],
 	},
 	pokestarufo: {
 		eventData: [
-			{generation: 5, level: 38, moves: ["bubblebeam", "counter", "recover", "signalbeam"]},
+			{ generation: 5, level: 38, moves: ["bubblebeam", "counter", "recover", "signalbeam"] },
 		],
 	},
 	pokestarufo2: {
 		eventData: [
-			{generation: 5, level: 47, moves: ["darkpulse", "flamethrower", "hyperbeam", "icebeam"]},
+			{ generation: 5, level: 47, moves: ["darkpulse", "flamethrower", "hyperbeam", "icebeam"] },
 		],
 	},
 	pokestarbrycenman: {
 		eventData: [
-			{generation: 5, level: 56, moves: ["icebeam", "nightshade", "psychic", "uturn"]},
+			{ generation: 5, level: 56, moves: ["icebeam", "nightshade", "psychic", "uturn"] },
 		],
 	},
 	pokestarmt: {
 		eventData: [
-			{generation: 5, level: 63, moves: ["earthquake", "ironhead", "spark", "surf"]},
+			{ generation: 5, level: 63, moves: ["earthquake", "ironhead", "spark", "surf"] },
 		],
 	},
 	pokestarmt2: {
 		eventData: [
-			{generation: 5, level: 72, moves: ["dragonpulse", "flamethrower", "metalburst", "thunderbolt"]},
+			{ generation: 5, level: 72, moves: ["dragonpulse", "flamethrower", "metalburst", "thunderbolt"] },
 		],
 	},
 	pokestartransport: {
 		eventData: [
-			{generation: 5, level: 20, moves: ["clearsmog", "flameburst", "discharge"]},
-			{generation: 5, level: 50, moves: ["iciclecrash", "overheat", "signalbeam"]},
+			{ generation: 5, level: 20, moves: ["clearsmog", "flameburst", "discharge"] },
+			{ generation: 5, level: 50, moves: ["iciclecrash", "overheat", "signalbeam"] },
 		],
 	},
 	pokestargiant: {
 		eventData: [
-			{generation: 5, level: 99, moves: ["crushgrip", "focuspunch", "growl", "rage"]},
+			{ generation: 5, level: 99, moves: ["crushgrip", "focuspunch", "growl", "rage"] },
 		],
 	},
 	pokestargiant2: {
 		eventData: [
-			{generation: 5, level: 99, moves: ["crushgrip", "doubleslap", "teeterdance", "stomp"]},
+			{ generation: 5, level: 99, moves: ["crushgrip", "doubleslap", "teeterdance", "stomp"] },
 		],
 	},
 	pokestarhumanoid: {
 		eventData: [
-			{generation: 5, level: 20, gender: "M", moves: ["scratch", "shadowclaw", "acid"]},
-			{generation: 5, level: 30, gender: "M", moves: ["darkpulse", "shadowclaw", "slash"]},
-			{generation: 5, level: 20, gender: "F", moves: ["acid", "nightslash"]},
-			{generation: 5, level: 20, gender: "M", moves: ["acid", "doubleedge"]},
-			{generation: 5, level: 20, gender: "F", moves: ["acid", "rockslide"]},
-			{generation: 5, level: 20, gender: "M", moves: ["acid", "thunderpunch"]},
-			{generation: 5, level: 20, gender: "F", moves: ["acid", "icepunch"]},
-			{generation: 5, level: 40, gender: "F", moves: ["explosion", "selfdestruct"]},
-			{generation: 5, level: 40, gender: "F", moves: ["shadowclaw", "scratch"]},
-			{generation: 5, level: 40, gender: "M", moves: ["nightslash", "scratch"]},
-			{generation: 5, level: 40, gender: "M", moves: ["doubleedge", "scratch"]},
-			{generation: 5, level: 40, gender: "F", moves: ["rockslide", "scratch"]},
+			{ generation: 5, level: 20, gender: "M", moves: ["scratch", "shadowclaw", "acid"] },
+			{ generation: 5, level: 30, gender: "M", moves: ["darkpulse", "shadowclaw", "slash"] },
+			{ generation: 5, level: 20, gender: "F", moves: ["acid", "nightslash"] },
+			{ generation: 5, level: 20, gender: "M", moves: ["acid", "doubleedge"] },
+			{ generation: 5, level: 20, gender: "F", moves: ["acid", "rockslide"] },
+			{ generation: 5, level: 20, gender: "M", moves: ["acid", "thunderpunch"] },
+			{ generation: 5, level: 20, gender: "F", moves: ["acid", "icepunch"] },
+			{ generation: 5, level: 40, gender: "F", moves: ["explosion", "selfdestruct"] },
+			{ generation: 5, level: 40, gender: "F", moves: ["shadowclaw", "scratch"] },
+			{ generation: 5, level: 40, gender: "M", moves: ["nightslash", "scratch"] },
+			{ generation: 5, level: 40, gender: "M", moves: ["doubleedge", "scratch"] },
+			{ generation: 5, level: 40, gender: "F", moves: ["rockslide", "scratch"] },
 		],
 	},
 	pokestarmonster: {
 		eventData: [
-			{generation: 5, level: 50, moves: ["darkpulse", "confusion"]},
+			{ generation: 5, level: 50, moves: ["darkpulse", "confusion"] },
 		],
 	},
 	pokestarf00: {
 		eventData: [
-			{generation: 5, level: 10, moves: ["teeterdance", "growl", "flail", "chatter"]},
-			{generation: 5, level: 58, moves: ["needlearm", "headsmash", "headbutt", "defensecurl"]},
-			{generation: 5, level: 60, moves: ["hammerarm", "perishsong", "ironhead", "thrash"]},
+			{ generation: 5, level: 10, moves: ["teeterdance", "growl", "flail", "chatter"] },
+			{ generation: 5, level: 58, moves: ["needlearm", "headsmash", "headbutt", "defensecurl"] },
+			{ generation: 5, level: 60, moves: ["hammerarm", "perishsong", "ironhead", "thrash"] },
 		],
 	},
 	pokestarf002: {
 		eventData: [
-			{generation: 5, level: 52, moves: ["flareblitz", "ironhead", "psychic", "wildcharge"]},
+			{ generation: 5, level: 52, moves: ["flareblitz", "ironhead", "psychic", "wildcharge"] },
 		],
 	},
 	pokestarspirit: {
 		eventData: [
-			{generation: 5, level: 99, moves: ["crunch", "dualchop", "slackoff", "swordsdance"]},
+			{ generation: 5, level: 99, moves: ["crunch", "dualchop", "slackoff", "swordsdance"] },
 		],
 	},
 	pokestarblackdoor: {
 		eventData: [
-			{generation: 5, level: 53, moves: ["luckychant", "amnesia", "ingrain", "rest"]},
-			{generation: 5, level: 70, moves: ["batonpass", "counter", "flamecharge", "toxic"]},
+			{ generation: 5, level: 53, moves: ["luckychant", "amnesia", "ingrain", "rest"] },
+			{ generation: 5, level: 70, moves: ["batonpass", "counter", "flamecharge", "toxic"] },
 		],
 	},
 	pokestarwhitedoor: {
 		eventData: [
-			{generation: 5, level: 7, moves: ["batonpass", "inferno", "mirrorcoat", "toxic"]},
+			{ generation: 5, level: 7, moves: ["batonpass", "inferno", "mirrorcoat", "toxic"] },
 		],
 	},
 	pokestarblackbelt: {
 		eventData: [
-			{generation: 5, level: 30, moves: ["focuspunch", "machpunch", "taunt"]},
-			{generation: 5, level: 40, moves: ["machpunch", "hammerarm", "jumpkick"]},
+			{ generation: 5, level: 30, moves: ["focuspunch", "machpunch", "taunt"] },
+			{ generation: 5, level: 40, moves: ["machpunch", "hammerarm", "jumpkick"] },
 		],
 	},
 	pokestargiantpropo2: {
 		eventData: [
-			{generation: 5, level: 99, moves: ["crushgrip", "doubleslap", "teeterdance", "stomp"]},
+			{ generation: 5, level: 99, moves: ["crushgrip", "doubleslap", "teeterdance", "stomp"] },
 		],
 	},
 	pokestarufopropu2: {
 		eventData: [
-			{generation: 5, level: 47, moves: ["darkpulse", "flamethrower", "hyperbeam", "icebeam"]},
+			{ generation: 5, level: 47, moves: ["darkpulse", "flamethrower", "hyperbeam", "icebeam"] },
 		],
 	},
 };
